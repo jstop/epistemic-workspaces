@@ -1,0 +1,103 @@
+[
+  {
+    "conclusion": "b2291c453926cccca84245ad7d9c6abf4b3914d1dbe4409add7f5f844000a5a4",
+    "premises": [
+      "fe836eb6a64644003e4f25592fc04520ba4e9307009ae3d0b72c12a20ef38106",
+      "249749f508e178d3d9712fd6d91176fa6baea36fb94cc575ba86ba98721b1586"
+    ],
+    "pattern": "induction",
+    "label": "Convergence from inferentialism and speech act theory: both major frameworks of normative language require persistent identifiable agents as a structural precondition, not merely a pragmatic convenience",
+    "confidence": {
+      "level": 0.84,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Distributed and collective authorship as counterexample: phenomena like wiki-discourse, open-source commit histories, collective statements, and oral traditions in pre-literate societies show that normative speech can function without binding utterances to single persistent agents. A Wikipedia article carries epistemic commitments (citations, verifiability norms) without any identifiable individual author standing behind it. Legal precedent binds future courts without requiring the original judges to 'answer for' their rulings personally. These cases suggest that accountability can be structural or institutional rather than agentive, undermining the claim that individual addressable identity is constitutively required.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1777518866.381543,
+    "id": "44b5038a7a25fb8b37e29cfa5de71d99342e7ce31ff0a473bd401963b3cc1bc1"
+  },
+  {
+    "conclusion": "e6588ba50fbc5857d8123e50ce5466ca180ebb507ff5e3c3fa8f45618332928f",
+    "premises": [
+      "bf97833870f227773e66cee1887d7d353d7de3c7c0d6ad19c099cc0e11705932",
+      "e7ff6b54c63d83af396fc19eb9eff24dab57ecb3c24f641879a2b051f73edd9a"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If communicative rationality requires challengeable participants (Habermas), and addressability/persistence are the minimal conditions for being challengeable, then commitment is impossible without addressable agents",
+    "confidence": {
+      "level": 0.79,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1777518877.1016169,
+    "id": "d3dc8240fe9166fdcf92d0593c76f975ef29a6c7cf22b88091d0ef4674a1967b"
+  },
+  {
+    "conclusion": "a5099cfcd664095aa331f8a188fb854aeac9c0f749bb6087b49b6a46ce1132d9",
+    "premises": [
+      "4e2a48344225c77dc58b56dae805ea0a726e2dc05e749b73a0039ec9b665068d",
+      "e6588ba50fbc5857d8123e50ce5466ca180ebb507ff5e3c3fa8f45618332928f"
+    ],
+    "pattern": "abduction",
+    "label": "Best explanation of anonymous discourse degradation: when identity is structurally absent, discourse loses its normative character because commitment becomes impossible \u2014 confirming the counterfactual prediction of the thesis",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1777518883.7297149,
+    "id": "4618bee91375d3cce33cc80517eb56bbdaaf508a1b302dfc6e3077734bcdb108"
+  },
+  {
+    "conclusion": "ebbc8eef535e8a429440e35f608fb53f076e7354e6e7da6dbe6b4a12abe79d3c",
+    "premises": [
+      "b2291c453926cccca84245ad7d9c6abf4b3914d1dbe4409add7f5f844000a5a4",
+      "e6588ba50fbc5857d8123e50ce5466ca180ebb507ff5e3c3fa8f45618332928f",
+      "a5099cfcd664095aa331f8a188fb854aeac9c0f749bb6087b49b6a46ce1132d9",
+      "6a7a796157a5fd038d30ad03014369fb3db1084622d41b9bcffd6f4b9b84f61f",
+      "e7ff6b54c63d83af396fc19eb9eff24dab57ecb3c24f641879a2b051f73edd9a"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Master argument: if normative speech requires binding to persistent agents (sub-claim 1), and without such agents commitment is impossible (sub-claim 2), and removal of identity collapses discourse into mere events (sub-claim 5), and this requirement is structural rather than substantive (sub-claim 3) with addressability and persistence as its minimal conditions (sub-claim 4), then identity is a constitutive precondition of accountable discourse",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The Foucauldian/post-structuralist challenge: discourse may be constituted not by individual agents but by subject-positions within power structures. On this view, 'identity' is an effect of discourse rather than its precondition \u2014 the arrow of constitution runs the other way. Speakers do not pre-exist the discursive formations that produce them. If so, the thesis commits a foundationalist error by treating identity as prior to the practice it allegedly enables. The normative force of speech may derive from institutional and structural positions rather than from persistent individual agents.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1777518894.571848,
+    "id": "86f98b5bcb3d394c3495153a2c91836116778b0bbf8d9f12727042166e8a3df5"
+  }
+]

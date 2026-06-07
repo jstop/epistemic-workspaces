@@ -1,0 +1,139 @@
+[
+  {
+    "conclusion": "54bb6f1688288f98ad12682197331f2e7848bf84d8f9a54f22bfb5aa77349146",
+    "premises": [
+      "ef77cd240336dd9032643f4ad7b0c14079f018e8d6f1ada07a5bdc93881405aa",
+      "a2d3bf3ec01f7fe21cb06ea36bfd37b3848525f7fabb55937ed1c8b39113356c"
+    ],
+    "pattern": "induction",
+    "label": "Ostrom's empirical design principles plus Axelrod's experimental cooperation findings jointly establish that structural properties (monitoring, reciprocity, graduated sanctions, nested governance) sustain cooperation without central enforcement",
+    "confidence": {
+      "level": 0.88,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774926748.375335,
+    "id": "5e667d9d359a9b494984585ff3da13a2316a931512d8e9b182e8621499a9693f"
+  },
+  {
+    "conclusion": "28e2224a7931e6ce059a3d5ae2246543d820d1609979ca0bec8244df87c5a1b9",
+    "premises": [
+      "6cc388a0c5ed042f6b28cdb48f4560e7e61a55c9d0f52a20d6a7e7518c104664"
+    ],
+    "pattern": "abduction",
+    "label": "The DigiNotar failure is best explained by the absence of commons-style governance mechanisms \u2014 the system lacked mutual monitoring, separated accountability, and adversarial resilience, revealing that credential systems face the decentralized cooperation problem",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774926751.3765042,
+    "id": "ed97914dd74cb8315890338681e8e950ecf0c0bce1c4afc30a2bdd03320c2ad9"
+  },
+  {
+    "conclusion": "1c4bb87641bd2f11a2f8cc6e2b5a6bc0c32628ffd4835c7aa046bf72205648db",
+    "premises": [
+      "16c313f1e61c36f77e374453009b6fe1fa7bc2f9405d5ad26a7de60af4e3c850"
+    ],
+    "pattern": "induction",
+    "label": "The independent convergence of W3C VC and ToIP governance frameworks toward commons-like patterns (separating governance from issuance, mutual audit, selective disclosure, adversarial design) provides inductive evidence that the six named patterns map onto real credential-system mechanisms",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774926754.245983,
+    "id": "82ff76fd875b3b8b8269113510d03688146c0f723f16efa67cee8de108e664bd"
+  },
+  {
+    "conclusion": "c69925d213c4aa874198b198ba048379dc28bb642e4d36236890ebd7b3561437",
+    "premises": [
+      "54bb6f1688288f98ad12682197331f2e7848bf84d8f9a54f22bfb5aa77349146",
+      "28e2224a7931e6ce059a3d5ae2246543d820d1609979ca0bec8244df87c5a1b9"
+    ],
+    "pattern": "analogy",
+    "label": "If commons governance requires structural properties to sustain cooperation without central enforcement, and credential-issuing systems face the same cooperation-without-enforcement challenge, then both domains share the same fundamental structural problem",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The structural isomorphism claim may be too coarse-grained. Physical commons involve rivalrous, subtractable resources with slow feedback loops and geographically bounded participants, whereas digital credential systems involve non-rivalrous trust assertions, near-instant propagation, and globally distributed participants. These differences in temporality, rivalrousness, and boundedness may mean the two domains share only surface-level similarity \u2014 the cooperation-without-enforcement framing abstracts away precisely the features that determine which governance mechanisms actually work. If the analogy operates at the wrong level of abstraction, the inferred isomorphism does not support pattern transfer.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774926759.617406,
+    "id": "ff29ecd8d7f7acfdcf65290d1fb7f08b8cdb48f21dcb0a3f24f99d895556a6cd"
+  },
+  {
+    "conclusion": "36383bbb6ce99a06b5ee3cfd5bf597440eadc3aec6064a092f3803f79282cd8a",
+    "premises": [
+      "c69925d213c4aa874198b198ba048379dc28bb642e4d36236890ebd7b3561437"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If two domains share the same fundamental structural challenge, then design patterns solving that challenge in one domain are valid candidates for transfer to the other \u2014 structural isomorphism warrants solution reuse beyond mere metaphor",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774926764.084636,
+    "id": "edd450dba37f04da7c36528b8c4169bb758d148d4f2a7954616f76c1d197eb34"
+  },
+  {
+    "conclusion": "93eae389ea275f75b9b71ef45f450cc0fe545079d519c02e866c8aa7245e9d47",
+    "premises": [
+      "36383bbb6ce99a06b5ee3cfd5bf597440eadc3aec6064a092f3803f79282cd8a",
+      "1c4bb87641bd2f11a2f8cc6e2b5a6bc0c32628ffd4835c7aa046bf72205648db"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Since structural isomorphism warrants pattern transfer, and the six named patterns demonstrably map onto concrete credential-system mechanisms, the Ostrom-Axelrod design patterns are directly applicable to digital identity infrastructure",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Even if the six patterns are structurally applicable, they may be necessary but insufficient for digital identity governance. Physical commons governance succeeds partly due to social mechanisms absent in digital contexts: face-to-face communication, thick social trust, community-scale reputation, and cultural norms developed over generations. Digital credential systems may require additional patterns not found in Ostrom or Axelrod \u2014 such as cryptographic enforcement, automated compliance checking, or regulatory backstops (e.g., eIDAS 2.0) \u2014 that substitute for the social substrate commons governance relies on. The thesis's claim of \"direct applicability\" may therefore overstate what structural pattern transfer alone can achieve.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774926769.056751,
+    "id": "7c663750ec5de5c840bc68d1c3b9338976d9f40f73cc695d8fd1ccf6e05aff53"
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "conclusion": "28fa8feddcc3fa71962333113061cffdeba9b767b4d590c5923a41ba7a6ac8ff",
+    "premises": [
+      "58fac831c5593669a6780c58a34a855ee737f6b3f83d8a1d46f68643bf6bb5c7",
+      "5fbdde80e023fdb15a9695f887551513b053ac4203f4011aad424f2ae8fa3d88"
+    ],
+    "pattern": "induction",
+    "label": "Vertical trust termination is structurally inescapable: the M\u00fcnchhausen trilemma shows it fails in principle, and PKI root CA compromises show it fails in practice",
+    "confidence": {
+      "level": 0.84,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780278917.298892,
+    "id": "7217a9f3fb223157aec5bd33df0aebaec134cf211020b01fbf27d581d67e2fee"
+  },
+  {
+    "conclusion": "cc9b451660194257f56ed12173b7b791d126a0bb28c12de3eb7a4bf471849ded",
+    "premises": [
+      "7340003efaade85bceafad30d37bbc5584c3c013c31bc133f9047fcc25cb670c"
+    ],
+    "pattern": "abduction",
+    "label": "KERI's own architecture deliberately separates cryptographic verifiability from trust establishment, confirming that its designers recognize crypto cannot constitute the trust floor",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780278919.72793,
+    "id": "812160026481cee1d34e914ccb4704dbaf4a15765558922c832f10f9d58eabb8"
+  },
+  {
+    "conclusion": "eff1166356fc70b9fb37dcf1981beaf7300f9e56661453564c2923c32f3888e6",
+    "premises": [
+      "88ebb7c97dd00904cb03d2295f72032d975ec0492e88e5d2e8089f893177ff22",
+      "cc9b451660194257f56ed12173b7b791d126a0bb28c12de3eb7a4bf471849ded"
+    ],
+    "pattern": "analogy",
+    "label": "Certificate Transparency demonstrates that publicly auditable, append-only structures successfully constrain authority behavior; analogously, KERI's KEL/witness structures can bind Osmio's conduct \u2014 but only if crypto serves the binding role, not the trust role",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780278923.511549,
+    "id": "dfb5815eec9226ed90af2e968dfa50d2f42296010258ebafd396e2d23ed0c943"
+  },
+  {
+    "conclusion": "059fe25bde55699fad41f99007314637e93aca7e56fb9bc036093821b895ea06",
+    "premises": [
+      "88ebb7c97dd00904cb03d2295f72032d975ec0492e88e5d2e8089f893177ff22",
+      "28fa8feddcc3fa71962333113061cffdeba9b767b4d590c5923a41ba7a6ac8ff"
+    ],
+    "pattern": "causal",
+    "label": "Since vertical trust termination fails, detection of defection must come from somewhere outside the authority hierarchy; CT's success shows this requires an independent, diverse community of monitors \u2014 the vigilance cannot be delegated upward",
+    "confidence": {
+      "level": 0.76,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Community vigilance suffers from well-documented collective-action failures: free-riding (everyone assumes someone else is monitoring), attention fatigue (sustained vigilance degrades over years), and oligopolistic capture (the \"independent\" monitors consolidate into a small club with shared interests). Certificate Transparency itself illustrates this \u2014 in practice, CT log monitoring is dominated by a handful of large browser vendors and security firms, not a genuinely diverse independent community. If the horizontal floor requires a kind of sustained, distributed attention that empirically tends to collapse into de facto oligopoly, then horizontal trust termination may degrade into a disguised vertical structure, undermining the thesis's core distinction.",
+        "status": "answered",
+        "response": "The collective-action defeater assumes the null institutional case \u2014 atomized actors with symmetric, small stakes and no governing institutions \u2014 and only under those conditions is free-riding decisive. Two things break that assumption. First, an empirical existence proof: vigilance-commons that monitor authorities demonstrably sustain in the wild \u2014 Certificate Transparency log monitoring (RFC 6962), reproducible-builds verification, and coordinated open-source CVE disclosure are all public-good detection regimes that have persisted and caught real misbehavior, which is impossible if collective-action failure were inescapable rather than merely the default. Second, the theory the defeater leans on (Olson) also supplies the escape: in a *privileged group* with asymmetric stakes, the large stakeholders provide the public good even when small ones free-ride (\"exploitation of the great by the small\"), and relying parties on a root authority are exactly such a group \u2014 institutions whose entire operation depends on correct enrollments have concentrated, individualized incentives to run their own watchers regardless of what smaller parties do. Ostrom's design principles then specify the conditions that convert sporadic monitoring into sustained provision: clearly defined boundaries over who the relying/monitoring parties are, monitors accountable to the community, graduated sanctions for a defecting authority, and \u2014 critically \u2014 polycentric nesting so monitoring is distributed across semi-independent nodes rather than centralized. Crucially, this rebuttal does NOT restore vigilance unconditionally: it converts \"the community will watch\" into \"the community will sustainably watch where Olson-privileged stakes and Ostrom design conditions hold,\" which is a defensible necessary-and-sufficient refinement rather than an unconditional claim. The defeater is therefore answered for the *conditioned* claim but should leave the thesis explicitly qualified by those design conditions."
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780278926.863679,
+    "id": "1076d898ec8b6229331723f72f88f827fef1691747a1a923e5a7dd8f3c6807b1"
+  },
+  {
+    "conclusion": "03c5dc2199b0223c7ec0626f83ff75649475bf3bc19fca8677b323c934506ace",
+    "premises": [
+      "28fa8feddcc3fa71962333113061cffdeba9b767b4d590c5923a41ba7a6ac8ff",
+      "cc9b451660194257f56ed12173b7b791d126a0bb28c12de3eb7a4bf471849ded",
+      "059fe25bde55699fad41f99007314637e93aca7e56fb9bc036093821b895ea06"
+    ],
+    "pattern": "abduction",
+    "label": "The best explanation for why the three sub-problems (root witnessing, honeypot shrinkage, charter trust) resist vertical solutions is that they all bottom out in the same structural requirement: horizontal cross-checking by independent parties",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780278930.186626,
+    "id": "930d58e6ce3b6593c2330cc1009faaaaca0f015856da3070088a561f0a6ed5f9"
+  },
+  {
+    "conclusion": "3fab74822367d4c8a2fc49424c6ca4505630e9c52b95b07d7af6282c4bff4b0f",
+    "premises": [
+      "28fa8feddcc3fa71962333113061cffdeba9b767b4d590c5923a41ba7a6ac8ff",
+      "cc9b451660194257f56ed12173b7b791d126a0bb28c12de3eb7a4bf471849ded",
+      "eff1166356fc70b9fb37dcf1981beaf7300f9e56661453564c2923c32f3888e6",
+      "059fe25bde55699fad41f99007314637e93aca7e56fb9bc036093821b895ea06",
+      "03c5dc2199b0223c7ec0626f83ff75649475bf3bc19fca8677b323c934506ace"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If vertical termination fails, and crypto only enables detection, then trust must terminate in the conjunction of binding structures (making defection visible) and community vigilance (making someone actually look); the convergence of all three hard sub-problems on this same floor confirms it is the irreducible foundation",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The thesis may understate the role of economic and institutional incentives as a distinct trust-termination modality. In practice, systems like bond-posting, insurance, and legal liability create \"skin in the game\" that aligns authority behavior with relying-party interests without requiring either a higher authority or continuous community vigilance. If incentive alignment can substitute for vigilance in a significant class of defection scenarios, then the thesis's bipartite floor (structures + vigilance) may be unnecessarily restrictive \u2014 a third leg (aligned incentives) could bear substantial load, and the horizontal/vertical dichotomy may be a false exhaustion of the design space.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780278942.3613389,
+    "id": "a01336cfa8c9f90b3282e8b43ffba96a918e7350e1f8f187cf54e749d5fd245d"
+  }
+]

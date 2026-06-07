@@ -1,0 +1,58 @@
+[
+  {
+    "title": "UN General Assembly Resolution Disproportion",
+    "description": "Between 2015-2024, the UN General Assembly passed more resolutions condemning Israel than all other countries combined, despite Israel being a small state whose conflicts account for a fraction of global casualties. This statistical disproportion is consistent with a monocausal attribution pattern where one actor is treated as the primary explanatory variable for regional instability, disproportionate to its actual causal weight.",
+    "evidence_type": "statistical",
+    "source": "UN Watch annual tracking reports; UN General Assembly resolution archives",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227305.81875,
+    "id": "9df3f16e04d82b3e75349f375a66de104837a7623680576bd75cada5d86da7c2"
+  },
+  {
+    "title": "Ideological Heterogeneity of Anti-Zionist Coalition",
+    "description": "The anti-Zionist coalition includes actors with mutually incompatible positive programs: the Islamic Republic of Iran (theocratic Shia governance), secular Arab nationalists (Ba'athism), Western progressive movements (intersectional social justice), and far-right movements (white ethnonationalism, e.g., Richard Spencer's early praise for Israel as an ethnostate model turned criticism). These groups share no positive political vision and often violently oppose each other on every axis except opposition to Zionism, suggesting the framework's unity is purely attributional.",
+    "evidence_type": "observation",
+    "source": "Comparative analysis of anti-Zionist discourse across political movements; Wistrich, R. (2012) 'From Ambivalence to Betrayal: The Left, the Jews, and Israel'",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227312.126512,
+    "id": "5c73ad85b06518ff933d2cae998acd2bac980149b23e2c9a86f9c93cc1a06931"
+  },
+  {
+    "title": "Arab Spring Predictive Failure",
+    "description": "The 2011 Arab Spring uprisings were driven by internal grievances \u2014 corruption, unemployment, authoritarianism \u2014 with no meaningful causal link to Israel. Anti-Zionist frameworks, which had long posited that regional instability was principally a function of the Israeli-Palestinian conflict, largely failed to predict, explain, or even coherently narrate these events. The Syrian civil war (500,000+ dead), Libyan collapse, and Egyptian revolution were orthogonal to the Israel variable, exposing the predictive bankruptcy of Israel-centric causal models.",
+    "evidence_type": "observation",
+    "source": "Lynch, M. (2012) 'The Arab Uprising'; Gelvin, J. (2015) 'The Arab Uprisings: What Everyone Needs to Know'",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227317.70908,
+    "id": "2bd2a43b3287a68f554098aa7ba213905b62eb893b8d40821f3bcf0e5448488e"
+  },
+  {
+    "title": "Cognitive Bias Literature on Monocausal Attribution",
+    "description": "Social psychology research on fundamental attribution error, scapegoat theory, and conspiratorial ideation demonstrates that humans systematically over-attribute complex outcomes to single agents, especially out-group agents. These attribution patterns persist because they reduce cognitive load, provide emotional closure, and strengthen in-group solidarity \u2014 functional benefits unrelated to accuracy. The pattern maps onto anti-Zionist discourse where structurally complex geopolitical phenomena are routinely attributed to Zionist agency.",
+    "evidence_type": "document",
+    "source": "Heider, F. (1958) 'The Psychology of Interpersonal Relations'; Sunstein & Vermeule (2009) 'Conspiracy Theories'; Glick (2005) on scapegoating dynamics",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227321.89946,
+    "id": "572eb919054f4ca32689b5f981d69fb38bfa7177436250408aa92fde205fd0d7"
+  }
+]

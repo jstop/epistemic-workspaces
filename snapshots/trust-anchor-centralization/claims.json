@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "trustworthy-identity-infrastructure",
+    "predicate": "requires",
+    "object": "governed-central-authority-with-pluralistic-ecosystem",
+    "confidence": {
+      "level": 0.68,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "1e97dd7f952c06e7c8adf051ed2f87f2be9b565120b60d524c64ce78c9467839",
+      "04102bafda2443ef454574fb40e9166e9ed87f4ba9291817b9e90bfc4f8cb9dd",
+      "d41f9804bcd569136fc8946b5b1ce97354d08bcdc51a7a9d1b77ace8143d064f"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Trustworthy identity infrastructure for digital commons requires a governed central authority as the trust anchor; full decentralization of this function destroys the basis for trust, but the ecosystem of commons can and should be pluralistic \u2014 multiple competing trust authorities serving different communities, each internally governed but not subordinate to a single global authority.",
+    "created_at": 1774216023.1933818,
+    "id": "57e3dec077ab828ae6d24c916b7a38cec43f90f0166ec8acd8bdeba1eb6787a7"
+  },
+  {
+    "subject": "trust",
+    "predicate": "requires",
+    "object": "accountable-institutional-anchor",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Trust in identity systems is not a purely technical property but a social one \u2014 it requires an identifiable, accountable institution that can be held responsible for issuance, revocation, and dispute resolution. Without such an anchor, trust reduces to ungrounded cryptographic assertion.",
+    "created_at": 1774216023.194761,
+    "id": "91c6ae4e1782affc46ad746d899f2efe3b731d832b0a3223f3859363357baa94"
+  },
+  {
+    "subject": "full-decentralization",
+    "predicate": "destroys",
+    "object": "basis-for-identity-trust",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Fully decentralized identity systems (e.g., purely self-sovereign models with no authoritative registries) suffer from unsolvable problems of Sybil resistance, key recovery, and meaningful attestation, making them unsuitable as sole trust infrastructure for commons governance.",
+    "created_at": 1774216023.1954062,
+    "id": "37dc2904798c0d1aa0a06ecdb99fe2641a85db17c5ecb5d45db139757f3e410d"
+  },
+  {
+    "subject": "pluralistic-authority-ecosystem",
+    "predicate": "is-preferable-to",
+    "object": "single-global-authority",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "A plurality of competing, community-governed trust authorities better respects cultural diversity, jurisdictional differences, and the principle of subsidiarity than a monolithic global identity authority, while still preserving the benefits of institutional trust anchoring.",
+    "created_at": 1774216023.197231,
+    "id": "48cb1f4ea67d8b6c580cdecf4a7773ff0ccec89a9f08afd6a958d15bf31ac3c1"
+  },
+  {
+    "subject": "internal-governance",
+    "predicate": "enables",
+    "object": "legitimacy-of-trust-authority",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Each trust authority derives its legitimacy from transparent, participatory internal governance mechanisms (charters, elections, audits), not from top-down delegation. This mirrors how existing trust anchors (e.g., national CAs, domain registrars, cooperative federations) actually operate.",
+    "created_at": 1774216023.197803,
+    "id": "ab0439c78957a4e26c02be24d7f7249c85d3ed83d7eb7fa26c5303b9b72693cc"
+  },
+  {
+    "subject": "digital-commons",
+    "predicate": "depend-on",
+    "object": "reliable-identity-for-governance",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Digital commons \u2014 shared resources like open-source repositories, knowledge bases, and data cooperatives \u2014 require reliable identity to manage contributions, enforce norms, allocate access rights, and prevent abuse. Identity is foundational infrastructure, not optional.",
+    "created_at": 1774216023.198573,
+    "id": "cc23247e491eb0bf7d06e52826e313d5a24b76eec7d6ed5bf49ba58be45a0b6d"
+  },
+  {
+    "subject": "social-trust",
+    "predicate": "cannot-be-reduced-to",
+    "object": "cryptographic-verification",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes that trust is fundamentally a social and institutional property, not merely a mathematical one. If advances in zero-knowledge proofs, reputation systems, or AI-based behavioral analysis could provide trust guarantees without institutional backing, the need for governed authorities would weaken substantially. This is the deepest philosophical assumption in the argument.",
+    "created_at": 1774216023.209306,
+    "id": "1e97dd7f952c06e7c8adf051ed2f87f2be9b565120b60d524c64ce78c9467839"
+  },
+  {
+    "subject": "interoperability",
+    "predicate": "is-achievable-between",
+    "object": "independent-trust-authorities",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The pluralistic model assumes that multiple independent trust authorities can achieve sufficient interoperability for cross-community collaboration in digital commons. If balkanization makes cross-authority identity recognition practically impossible, the pluralistic model collapses toward either a single authority or unusable fragmentation. This is an unsolved coordination problem.",
+    "created_at": 1774216023.210351,
+    "id": "04102bafda2443ef454574fb40e9166e9ed87f4ba9291817b9e90bfc4f8cb9dd"
+  },
+  {
+    "subject": "community-governance",
+    "predicate": "resists",
+    "object": "capture-and-corruption",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The argument assumes that internal governance of trust authorities can remain legitimate and accountable over time. If governed authorities inevitably tend toward capture by powerful actors, rent-seeking, or bureaucratic ossification, the advantage over decentralized systems is diminished. Historical evidence is mixed \u2014 some institutions maintain integrity, others are captured.",
+    "created_at": 1774216023.211263,
+    "id": "d41f9804bcd569136fc8946b5b1ce97354d08bcdc51a7a9d1b77ace8143d064f"
+  }
+]

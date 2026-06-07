@@ -1,0 +1,102 @@
+[
+  {
+    "conclusion": "1bc91123e43b9a362e400654d56680ca8b0899668919ba45ea5105e2bfa78139",
+    "premises": [
+      "8fe024e7ce2c82998b44c9d5d288677ec5f39d070021992965727d79d697143a",
+      "0075b6e1c4a233c064aab02fee9505440959e1d4ece027dcc0d0aeaa2d8a4fed",
+      "95c26bf17966d6f7958493490c4cdaf8f99cb7dca761e778ace598febdb6848a"
+    ],
+    "pattern": "induction",
+    "label": "Monocausal frameworks generally attract low-information populations; anti-Zionism fits this pattern by analogy with other populist single-villain models",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229123.864255,
+    "id": "6a8a4538c3d09249ecfc574598fa9bc95036fdefbaa2d1744f013167e1675c16"
+  },
+  {
+    "conclusion": "4df0b00aacf822766519ebf780a260ac0582935041dfad958222080edd09f2d4",
+    "premises": [
+      "1bc91123e43b9a362e400654d56680ca8b0899668919ba45ea5105e2bfa78139",
+      "f1431917d86ba7337a34e81113e4102046d9351b4c2c4b191c21d43743f0fc50"
+    ],
+    "pattern": "abduction",
+    "label": "Best explanation of the correlation between anti-Zionist intensity and low foreign-policy literacy is that ignorance precedes adoption, not the reverse",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Bidirectional causation / feedback loop: Even if unsophistication precedes initial adoption, anti-Zionism may then actively degrade analytical capacity by providing a totalizing lens that crowds out competing hypotheses. The correlation data cannot distinguish a one-way causal arrow from a reinforcing spiral. Once adopted, the framework may function as an epistemic trap \u2014 making it harder to encounter or integrate disconfirming information \u2014 meaning anti-Zionism could be both symptom AND cause simultaneously, undermining the thesis's clean causal directionality claim.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229126.63012,
+    "id": "6abb52de38f4f77a43269c232595c08525f1cbed246d2a23b98bbe4c5db83efc"
+  },
+  {
+    "conclusion": "908dc2ed0b467228f7433cde18202fc7bd4a10e20c3ced69d4cd88410e0f31dd",
+    "premises": [
+      "bd0993d6c6ac168015aa83037ec08a74f0e74f20421c12db2484d20d2990ea61",
+      "8fe024e7ce2c82998b44c9d5d288677ec5f39d070021992965727d79d697143a"
+    ],
+    "pattern": "causal",
+    "label": "If anti-Zionism provides moral closure that attracts the already-unsophisticated, it is selecting for pre-existing deficits rather than creating new ones",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229128.6360362,
+    "id": "e49744f7e25d449fb09251a28a2ce3dce3e616d98c0d3d6980d2e087eec65c25"
+  },
+  {
+    "conclusion": "ab98212acdfd7ff76a0ec7e3ee26f9aed711cd2db74eef013d5e9ca5b202896b",
+    "premises": [
+      "4df0b00aacf822766519ebf780a260ac0582935041dfad958222080edd09f2d4",
+      "908dc2ed0b467228f7433cde18202fc7bd4a10e20c3ced69d4cd88410e0f31dd",
+      "1bc91123e43b9a362e400654d56680ca8b0899668919ba45ea5105e2bfa78139"
+    ],
+    "pattern": "abduction",
+    "label": "Convergence: if unsophistication precedes adoption, adoption doesn't degrade good thinkers, and anti-Zionism functions as an attribution engine, then anti-Zionism is best understood as symptom rather than cause",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Sophisticated anti-Zionists as direct counterevidence: Significant numbers of geopolitically literate actors \u2014 area specialists, IR scholars, veteran diplomats, journalists with deep regional expertise \u2014 hold anti-Zionist positions arrived at through detailed analysis rather than ignorance. If anti-Zionism were primarily a symptom of unsophistication, we would not expect this population to exist at the scale it does. Their existence suggests the thesis overgeneralizes from the most visible (activist/populist) instantiations of anti-Zionism to the category as a whole, committing a composition fallacy.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229137.1632562,
+    "id": "60d7c7a26f40c307c4adf726e1997a576fff766dd4656127c62c01370ed43847"
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "subject": "keri-trust-termination",
+    "predicate": "rests-only-on",
+    "object": "horizontal-distributed-cross-checking",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "26aead9716aafd063fd89bb5cfdb8ab0c647a56bb498959d7ff7238101ea20ad",
+      "4238e1eb844247a2a2ab2a0dfb44df07e2824753fedf2d355ab2273c1a243c1c",
+      "36f3a94f69e30dd7d3f3a221275a6b0f7a9deb7fc88231a11a13a097bf1b0204"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "In a KERI-based identity system fronted by a \"duly constituted\" authority like Osmio, trust in the root cannot rest on cryptography, on an apex authority, or on the charter's grant of status; it terminates only in (a) verifiable structures that bind the authority's conduct so it cannot silently defect, and (b) the ongoing vigilance of an independent, diverse community of relying parties. The cryptography's role is strictly to make self-binding checkable and defection detectable \u2014 it cannot manufacture the independence or the vigilance, which are political rather than mathematical facts. The three hardest sub-problems \u2014 who witnesses the authority's own root, how to shrink the de-anonymization honeypot, and why anyone should trust the charter \u2014 all converge on this same floor, because each attempt to terminate the trust regress vertically (in a higher authority) fails and can only terminate horizontally (in distributed, independent cross-checking).",
+    "created_at": 1780278844.748811,
+    "id": "3fab74822367d4c8a2fc49424c6ca4505630e9c52b95b07d7af6282c4bff4b0f"
+  },
+  {
+    "subject": "vertical-trust-termination",
+    "predicate": "fails-for",
+    "object": "root-authority-trust",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Any attempt to terminate the trust regress by appealing upward to a higher authority (apex authority, charter grant, cryptographic proof alone) produces an infinite regress or circular justification. There is no vertical anchor that does not itself require trust.",
+    "created_at": 1780278850.897579,
+    "id": "28fa8feddcc3fa71962333113061cffdeba9b767b4d590c5923a41ba7a6ac8ff"
+  },
+  {
+    "subject": "cryptography",
+    "predicate": "enables-but-cannot-constitute",
+    "object": "trust-foundation",
+    "confidence": {
+      "level": 0.88,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Cryptography (KERI's KELs, witnesses, threshold structures) makes self-binding checkable and defection detectable, but cannot manufacture the independence or vigilance of relying parties. These are political/social facts, not mathematical ones. Crypto is necessary but insufficient.",
+    "created_at": 1780278853.7131588,
+    "id": "cc9b451660194257f56ed12173b7b791d126a0bb28c12de3eb7a4bf471849ded"
+  },
+  {
+    "subject": "verifiable-binding-structures",
+    "predicate": "are-necessary-component-of",
+    "object": "trust-termination",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Trust terminates partly in verifiable structures that bind the authority's conduct so it cannot silently defect. These structures (key event logs, witness networks, threshold signatures) create an auditable trail that constrains the authority's behavior in publicly checkable ways.",
+    "created_at": 1780278856.6064792,
+    "id": "eff1166356fc70b9fb37dcf1981beaf7300f9e56661453564c2923c32f3888e6"
+  },
+  {
+    "subject": "independent-community-vigilance",
+    "predicate": "is-necessary-component-of",
+    "object": "trust-termination",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Trust terminates partly in the ongoing vigilance of an independent, diverse community of relying parties who actively cross-check the authority's behavior. This vigilance is a political fact \u2014 it requires actual human organizational effort, diversity of interest, and sustained attention that no protocol can guarantee.",
+    "created_at": 1780278859.4310982,
+    "id": "059fe25bde55699fad41f99007314637e93aca7e56fb9bc036093821b895ea06"
+  },
+  {
+    "subject": "three-hardest-subproblems",
+    "predicate": "converge-on",
+    "object": "horizontal-trust-floor",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The three hardest sub-problems \u2014 (1) who witnesses the authority's own root, (2) how to shrink the de-anonymization honeypot, and (3) why anyone should trust the charter \u2014 all converge on the same horizontal floor: distributed, independent cross-checking. Each is unsolvable by vertical appeal and requires the same social-structural foundation.",
+    "created_at": 1780278861.8702972,
+    "id": "03c5dc2199b0223c7ec0626f83ff75649475bf3bc19fca8677b323c934506ace"
+  },
+  {
+    "subject": "independent-diverse-community",
+    "predicate": "can-be-sustained",
+    "object": "long-term",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: a sufficiently independent, diverse, and motivated community of relying parties will actually exist and sustain its vigilance over time. This is an empirical bet \u2014 communities suffer from free-rider problems, attention fatigue, capture, and consolidation. The thesis depends on this being achievable, but it is far from guaranteed.",
+    "created_at": 1780278949.056962,
+    "id": "26aead9716aafd063fd89bb5cfdb8ab0c647a56bb498959d7ff7238101ea20ad"
+  },
+  {
+    "subject": "defection",
+    "predicate": "is-always-detectable-via",
+    "object": "cryptographic-structures",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the cryptographic binding structures (KELs, witness receipts, thresholds) are sufficient to make ALL relevant forms of authority defection detectable. There may be modes of defection \u2014 e.g., selective enforcement, coerced but formally valid operations, social-engineering the witness set \u2014 that leave no cryptographic trace.",
+    "created_at": 1780278952.506888,
+    "id": "4238e1eb844247a2a2ab2a0dfb44df07e2824753fedf2d355ab2273c1a243c1c"
+  },
+  {
+    "subject": "horizontal-and-vertical",
+    "predicate": "are-exhaustive-categories-of",
+    "object": "trust-termination",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the horizontal/vertical dichotomy is exhaustive \u2014 that trust termination must be either in a higher authority (vertical) or in distributed cross-checking (horizontal). There may be other modalities: e.g., trust grounded in repeated interaction and reputation, or in aligned economic incentives (skin-in-the-game), which fit neither pole cleanly.",
+    "created_at": 1780278956.3639328,
+    "id": "36f3a94f69e30dd7d3f3a221275a6b0f7a9deb7fc88231a11a13a097bf1b0204"
+  }
+]

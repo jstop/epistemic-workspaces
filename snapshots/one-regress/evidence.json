@@ -1,0 +1,58 @@
+[
+  {
+    "title": "W3C DID Core Specification and Verifiable Credentials Standard",
+    "description": "The W3C Decentralized Identifiers (DID) v1.0 specification (2022) and Verifiable Credentials Data Model establish a technical standard for self-certifying identifiers that are created, owned, and controlled by the subject without reliance on a centralized registry. Credentials issued against DIDs can be cryptographically verified by any party with the public key, without callback to the issuer. Multiple implementations exist (did:key, did:web, did:ion).",
+    "evidence_type": "document",
+    "source": "W3C, DID Core 1.0 (2022); W3C, Verifiable Credentials Data Model v1.1 (2022)",
+    "reliability": 0.9,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780015993.127983,
+    "id": "abfeea7167f6daa3b00154233017ef2c4683491560c43f3b55b0254d3368f6f0"
+  },
+  {
+    "title": "UNHCR Estimated 4.4 Million Stateless Persons Worldwide",
+    "description": "UNHCR reports approximately 4.4 million stateless persons globally (2023 figures), many of whom lack any state-issued identity document. Humanitarian organizations (UNHCR, ICRC, IRC) already issue de facto identity documents to refugees and stateless persons that some relying parties accept. This demonstrates both the scale of the need and existing precedent for non-state identity attestation being honored by institutional actors.",
+    "evidence_type": "statistical",
+    "source": "UNHCR Global Trends Report 2023; UNHCR #IBelong Campaign data",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780015997.4881961,
+    "id": "3968fc832973a0cdbf8aebc17478adc8585123f78c7935a9a11e18604add0cbb"
+  },
+  {
+    "title": "Platform Concentration in Internet Governance Precedents",
+    "description": "Historical evidence from DNS (ICANN), certificate authorities (browser root stores), and social media platforms shows that even nominally multi-stakeholder governance structures tend toward concentration. ICANN, despite commons-like design, has faced capture concerns. The Let's Encrypt CA now issues >50% of all TLS certificates. However, the email ecosystem and the fediverse (ActivityPub) demonstrate that protocol-level interoperability can sustain meaningful pluralism for decades, even if imperfectly.",
+    "evidence_type": "observation",
+    "source": "Mueller, Networks and States (2010); DeNardis, The Global War for Internet Governance (2014); Let's Encrypt statistics 2024; Fediverse observer data",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780016003.826632,
+    "id": "4825308d2e4127f1e6a1105a9fd78162f67d7de1b70e17fa4776b2a3b422df22"
+  },
+  {
+    "title": "Proof-of-Humanity and Web-of-Trust Vouching Systems Field Experience",
+    "description": "Projects like Proof of Humanity (Kleros), BrightID, Idena, and Gitcoin Passport have deployed vouching-based and biometric-uniqueness systems to Sybil-resistant identity. Proof of Humanity registered ~20,000 verified humans by 2023. These systems demonstrate technical feasibility of non-state uniqueness attestation but also reveal challenges: low adoption, governance disputes (PoH fork), and vulnerability to coordinated vouching attacks at the margins.",
+    "evidence_type": "observation",
+    "source": "Proof of Humanity registry data (2023); BrightID documentation; Gitcoin Passport technical reports; Kleros governance post-mortems",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780016008.980923,
+    "id": "a1538a7c2bacba63cca228b1e0170193eade93465116a3d178792c9abd053fa1"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "conclusion": "b4e06daddd7b47ff7fc43b8b1befd8fd3a74139effb1f798a8050df9e57818ca",
+    "premises": [
+      "69dbb5484b08f27b634f2e8a85460b95001c06644c3672d0befe897a04604fbd",
+      "114745c7ea1527e8657b59ce9305aa2f7232e24ca684415f46f79abf8f6ea179"
+    ],
+    "pattern": "induction",
+    "label": "Breach evidence across centralized, federated, and decentralized systems inductively supports the claim that no deployed paradigm has eliminated the accountability gap",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774925812.904355,
+    "id": "af5f81f40591496027f92d43c6d84ad87eba5d15242a868d50f44e13f97b1659"
+  },
+  {
+    "conclusion": "4938e6471b57398ab8f8cd60e094becd7f02fbc4644a8b4f0677a590433354b4",
+    "premises": [
+      "b4e06daddd7b47ff7fc43b8b1befd8fd3a74139effb1f798a8050df9e57818ca",
+      "114745c7ea1527e8657b59ce9305aa2f7232e24ca684415f46f79abf8f6ea179"
+    ],
+    "pattern": "abduction",
+    "label": "The best explanation for why the gap persists despite radical architectural shifts is that each paradigm redistributes \u2014 rather than eliminates \u2014 the vulnerability surface",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774925815.226499,
+    "id": "dafd26b78900afc52a7e30600c7b7f6092944175d8b9f85752d34be474289151"
+  },
+  {
+    "conclusion": "526955966b3ac15f908f0bd3bad2df4f833fca24213fc6910f35a6a5d114495a",
+    "premises": [
+      "3a06f78142b3cc66bfc3a890f254eb70888728ced709869b14f3ba21b3939572"
+    ],
+    "pattern": "abduction",
+    "label": "Formal verification's model-boundary problem explains why even mathematically grounded cryptographic techniques narrow the gap without closing it \u2014 the unverified institutional residue persists",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774925817.438821,
+    "id": "c0b79d9cc10410daeeb0fc3fcf3f1cc2cfddb7155549b2cf3a316f19fe2408a8"
+  },
+  {
+    "conclusion": "d9d5405978a139cad871f8aef25e215bfcfa9772a6d6207880af66efc4af8de3",
+    "premises": [
+      "b4e06daddd7b47ff7fc43b8b1befd8fd3a74139effb1f798a8050df9e57818ca",
+      "4938e6471b57398ab8f8cd60e094becd7f02fbc4644a8b4f0677a590433354b4",
+      "0f869403952008d01ebf2e0800932a33efc31ffad1f503dc915d163868fec1f6"
+    ],
+    "pattern": "induction",
+    "label": "The convergence of no-paradigm-eliminated-it, redistribution-not-elimination, and the statistical plateau of technical investment against breach rates inductively establishes that the asymmetry has consistently reasserted itself",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774925820.351692,
+    "id": "2bc4a3c7563d4cc261e30088a9d47983cfd1032089f21373d3854538fe754b3d"
+  },
+  {
+    "conclusion": "1a1b84dff5f1768ad108dbc7c8c1843280b96cc2a8930430b2f16187640fc901",
+    "premises": [
+      "d9d5405978a139cad871f8aef25e215bfcfa9772a6d6207880af66efc4af8de3",
+      "526955966b3ac15f908f0bd3bad2df4f833fca24213fc6910f35a6a5d114495a"
+    ],
+    "pattern": "induction",
+    "label": "The persistent reassertion of asymmetry across paradigms combined with the inherent limits of even advanced cryptographic techniques converges on the thesis: the gap is deeply structural and resistant to purely technical closure",
+    "confidence": {
+      "level": 0.76,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The inductive inference from past paradigm failures to structural permanence may commit a fallacy of induction over a small, non-representative sample. We have observed only three major architectural generations (centralized, federated, decentralized) \u2014 arguably too few data points to distinguish a genuinely structural invariant from a contingent pattern that happens to have held so far. A qualitatively novel paradigm (e.g., one grounded in verifiable computation that eliminates the need for institutional trust entirely by making all state transitions publicly auditable on a formally verified substrate) might break the pattern in ways that extrapolation from three cases cannot anticipate. The inference pattern itself \u2014 not the premises \u2014 may be unreliable here.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774925822.833359,
+    "id": "468f16eb1c43655ffcf69d7d4e192325f8ec5b52b1af1b474fb22c66a04db5ae"
+  },
+  {
+    "conclusion": "3713f232d86668931ca108a102f268c9bfd8337045e83dac60427f4ea3bc90ed",
+    "premises": [
+      "1a1b84dff5f1768ad108dbc7c8c1843280b96cc2a8930430b2f16187640fc901",
+      "0f869403952008d01ebf2e0800932a33efc31ffad1f503dc915d163868fec1f6"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If the gap is structural and the consequences of falsely assuming closure are severe (evidenced by the statistical pattern), then the prudent response is governance that makes corruption visible plus institutional vigilance",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The normative conclusion \u2014 that governance transparency and institutional vigilance are the 'most prudent' response \u2014 may itself embed a status-quo bias that underweights the opportunity cost of not pursuing aggressive technical closure. If governance-focused approaches create a false sense of managed risk that reduces investment in genuinely gap-closing technical research (e.g., fully homomorphic encryption for identity operations, or decentralized autonomous governance with on-chain accountability), the 'prudent' posture could become self-fulfilling prophecy: the gap remains structural precisely because we stopped trying to engineer around it. The precautionary framing may be correct in expected-value terms, but it could also be the mechanism by which the structural claim perpetuates itself.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774925825.131605,
+    "id": "84f3b98ceec2ab873630927fb8b4d188faac97258e4ad8cb512ce61f26a7323e"
+  }
+]

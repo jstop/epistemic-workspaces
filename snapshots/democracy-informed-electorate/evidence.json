@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Voter ignorance research by Somin and Caplan",
+    "description": "Political scientists Ilya Somin and Bryan Caplan have documented extensive voter ignorance about basic political facts, candidate positions, and policy consequences, and have shown correlations between ignorance and suboptimal policy preferences",
+    "evidence_type": "statistical",
+    "source": "Somin, I. (2013) 'Democracy and Political Ignorance'; Caplan, B. (2007) 'The Myth of the Rational Voter'",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774141707.941181,
+    "id": "2f8ab9a176c37a3b644f8255afbe254a447c6f42b7f1d54b7214d024ffda3299"
+  },
+  {
+    "title": "Deliberative polling experiments by Fishkin",
+    "description": "James Fishkin's deliberative polling experiments show that when citizens are given balanced information and opportunity for structured discussion, their policy preferences shift significantly and become more consistent and coherent, suggesting that information materially changes democratic outcomes",
+    "evidence_type": "experiment",
+    "source": "Fishkin, J. (2009) 'When the People Speak: Deliberative Democracy and Public Consultation'",
+    "reliability": 0.78,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774141707.9424949,
+    "id": "30f692090d2e6be4b4d0b93bf020bcb3451bb6ecd5c948b8e21364041e6099c3"
+  },
+  {
+    "title": "Press freedom and governance quality correlations",
+    "description": "Cross-national studies show statistically significant correlations between press freedom indices and measures of democratic governance quality, rule of law, and reduced corruption",
+    "evidence_type": "statistical",
+    "source": "Reporters Without Borders Press Freedom Index correlated with World Bank Governance Indicators; Brunetti & Weder (2003)",
+    "reliability": 0.65,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774141707.9437308,
+    "id": "6e4c2a5b9aac5baee929741103155fbf8c49164f0d24e059a0824e50f45461d3"
+  },
+  {
+    "title": "Founders' emphasis on education and informed citizenry",
+    "description": "Major democratic theorists from Jefferson to Mill to Dewey explicitly argued that democratic governance depends on an educated and informed public. Jefferson famously stated that an informed citizenry is the most important safeguard of democracy.",
+    "evidence_type": "document",
+    "source": "Jefferson's letters; Mill, J.S. 'Considerations on Representative Government' (1861); Dewey, J. 'Democracy and Education' (1916)",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774141707.94466,
+    "id": "805e0f813f9645201ff753888d070f115beb6de934743f083729b0007779a8ba"
+  },
+  {
+    "title": "Formal argumentation platforms as scalability mechanism",
+    "description": "Participatory epistemic infrastructure using QBAF-based formal argumentation, verified identity (Osmio PKI), and decentralized knowledge persistence (OriginTrail DKG) could make informed deliberation achievable at scale by structuring disagreement formally rather than requiring each voter to independently research every issue. Evidence from ORBIS EU pilots and Fishkin's deliberative polling suggests structured deliberation produces more informed preferences even in large populations.",
+    "evidence_type": "document",
+    "source": "ORBIS Project (Horizon Europe Grant 101094765); Fishkin deliberative polling; ArgLLMs (Freedman et al., AAAI 2025); FAKB (2026)",
+    "reliability": 0.6,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775603350.314625,
+    "id": "947739993e4519f9cf89285a06093db5a4eae963dad5c99df9d76eeffc225ad8"
+  },
+  {
+    "title": "QBAF combination dissolves the aggregation vs knowledge dichotomy",
+    "description": "Multi-agent QBAF combination research (February 2026) demonstrates that individual agent knowledge and collective aggregation are not opposed when mediated by formal argumentation. Different agents bring specific evidence as QBAFs which are combined into a single more robust QBAF through semantic similarity measurement and view merging. The combined framework preserves individual reasoning chains while producing collective judgment. This dissolves the assumption that individual knowledge and collective aggregation are alternatives \u2014 with the right infrastructure, aggregation IS the mechanism by which individual knowledge becomes collective.",
+    "evidence_type": "document",
+    "source": "Multi-agent QBAF combination framework (2026); ArgEval global contestability (Toni et al., March 2026)",
+    "reliability": 0.65,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775603602.9597921,
+    "id": "bb05ad91c45bb0601a277779e491893cedc1c2de640a581cb62843d2760da4d3"
+  },
+  {
+    "title": "Cross-tradition convergence on democratic legitimacy as aim",
+    "description": "Democratic theory from Rawls through Habermas to contemporary deliberative democrats (Dryzek, Mansbridge, Young) converges on the claim that democracy's legitimacy derives from the quality of the process by which collective decisions are made, not merely from majority preference aggregation. Even minimalist democratic theorists like Schumpeter and Przeworski, who reject thick normative accounts, still ground democracy's value in accountability mechanisms that require some baseline of responsive governance. The assumption that democracy aims at legitimate and responsive governance is shared across nearly all major democratic theory traditions, differing only in how thick or thin that legitimacy requirement is.",
+    "evidence_type": "testimony",
+    "source": "Rawls, Political Liberalism (1993); Habermas, Between Facts and Norms (1996); Dryzek, Deliberative Democracy and Beyond (2000); Przeworski, Democracy and the Limits of Self-Government (2010)",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775603611.663869,
+    "id": "530b8e7d5b84b569e34fb85352cad14c4bd92ea8179c537a22590228a1533ec7"
+  }
+]

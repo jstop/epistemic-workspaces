@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Cross-ideological coalition convergence on anti-Zionism",
+    "description": "Observable convergence of ideologically incompatible movements (far-left, far-right, Islamist, post-colonial, isolationist) on anti-Zionism as shared rallying point, despite fundamental disagreements on economics, theology, gender, democracy, and nearly every other political axis. Examples include red-green alliances in European politics, overlap between Pat Buchanan-style paleoconservatism and left anti-imperialism on Israel, and post-October 7 protest coalitions spanning Marxist-Leninists to Salafists.",
+    "evidence_type": "observation",
+    "source": "Political coalition analysis; documented protest coalition compositions 2023-2024",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229579.8703942,
+    "id": "3f018ac5aa858a3001e9f137ca2a5feb8c4227532871d5715ecd85b01679a4dc"
+  },
+  {
+    "title": "Survey data correlating anti-Zionist attitudes with geopolitical knowledge deficits",
+    "description": "Polling and survey research (e.g., ADL Global 100, Pew Global Attitudes) showing that populations with strongest anti-Israel sentiment also display the lowest scores on factual knowledge tests about Middle Eastern geopolitics \u2014 inability to name regional actors beyond Israel, unawareness of intra-Arab conflicts, unfamiliarity with Kurdish, Druze, or minority dynamics. Controlling for education level, the correlation persists, suggesting the relationship is not merely a proxy for education.",
+    "evidence_type": "statistical",
+    "source": "ADL Global 100 surveys; Pew Global Attitudes Project; academic political knowledge assessments",
+    "reliability": 0.6,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229584.624054,
+    "id": "95c7aacf93d8e9838fa061c16c94d42f0a4c735b0406acb3775e8bb3ab4bb0bf"
+  },
+  {
+    "title": "Monocausal attribution patterns in anti-Zionist discourse",
+    "description": "Content analysis of anti-Zionist media, social media discourse, and activist literature showing disproportionate attribution of regional events to Zionist/Israeli agency even when primary causal factors are clearly non-Israeli (e.g., attributing Syrian civil war dynamics, Yemeni conflict, or Lebanese economic collapse primarily to Israeli machinations while minimizing Iranian, Saudi, Russian, or domestic elite agency). Pattern consistent with causal attribution bias literature.",
+    "evidence_type": "observation",
+    "source": "Discourse analysis of activist media; social media content analysis studies",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229588.9919202,
+    "id": "9c8f66b27bb9763d37ffa91182d843e12b39dfa1b90953bf36a4bde83f36c4e8"
+  },
+  {
+    "title": "Framework-shifting behavior under challenge",
+    "description": "Documented pattern in debates and discourse where anti-Zionist interlocutors, when one justificatory framework is challenged, shift to an entirely different framework rather than engaging with the critique. E.g., when post-colonial framing is challenged with examples of Jewish indigeneity, the argument shifts to international law; when legal arguments are countered, the frame shifts to anti-imperialism; when anti-imperialism is complicated by Iranian/Russian imperialism, the frame shifts to humanitarian concern. This framework-hopping is predicted by the 'flexible container' model and would not occur if anti-Zionism were a single coherent ideology.",
+    "evidence_type": "observation",
+    "source": "Debate analysis; rhetorical pattern documentation in academic and public discourse",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229593.413297,
+    "id": "7563e4c1aaa9fe91e30352bdb3ed18185d7554365131e83af5e1acca5aa64997"
+  }
+]

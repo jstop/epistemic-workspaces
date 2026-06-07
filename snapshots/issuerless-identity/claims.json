@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "hardware-attested-physical-existence",
+    "predicate": "can-serve-as",
+    "object": "probabilistic-evidentiary-personhood-signal",
+    "confidence": {
+      "level": 0.62,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "a21ea0b8242149ff82a591507789acd2ea85d2566c3e2c0fc1a1e45c737c07e1",
+      "8e5dfc212cf758987975e27404e876e253bae4b028defa0d75da41d36751907a",
+      "d32cef63a659ee7a65e8ffb69901429bddc2ed79427460029916b805efc033ea"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Hardware-attested physical existence (via C2PA camera signing and TEE-secured biometric vaults) can serve as a probabilistic evidentiary signal\u2014rather than a definitive proof\u2014of personhood that reduces certain dependencies on traditional government-issued identity credentials, provided that: (1) it operates within a broader trust ecosystem that subjects device manufacturers to independent audit, transparency obligations, and anti-concentration safeguards, given that the current TEE market oligopoly risks reconcentrating rather than distributing trust; (2) it gains explicit recognition from legal frameworks that define its admissible scope and failure-mode liabilities; and (3) it incorporates layered security architectures that account for the empirical reality of TEE compromise. It functions not as a substitute for institutional identity issuance, but as a supplementary mechanism that shifts\u2014though does not necessarily democratize\u2014the locus of trust, and whose reliability remains contingent on unproven assumptions about supply-chain integrity, biometric uniqueness at global scale, and meaningful user control over attested identity data.",
+    "created_at": 1774593639.053926,
+    "id": "859c1ed72b76cece693dc103b6b85cf4a30c52441f05c73617a4b7ce6b8941f2"
+  },
+  {
+    "subject": "C2PA-and-TEE-attestation",
+    "predicate": "provides",
+    "object": "cryptographic-binding-of-physical-events-to-device-identity",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "C2PA camera signing and TEE-secured biometric vaults create a cryptographic chain linking a captured physical event (e.g., a live biometric) to an attested hardware identity, producing a tamper-evident evidentiary artifact that is stronger than pure software assertions but weaker than institutional verification.",
+    "created_at": 1774593639.0556889,
+    "id": "9fcb7179091dcf4891424d15f97a2c640a86d0494130b4c3d4b277327b690a4f"
+  },
+  {
+    "subject": "TEE-market-oligopoly",
+    "predicate": "risks-reconcentrating",
+    "object": "trust-in-few-manufacturers",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The TEE market is dominated by a small number of silicon vendors (Intel SGX/TDX, ARM TrustZone, Apple Secure Enclave, Qualcomm SPU). Without independent audit, transparency obligations, and anti-concentration safeguards, replacing government-issued credential dependency with hardware attestation merely shifts the trust bottleneck to an even less accountable oligopoly rather than distributing trust.",
+    "created_at": 1774593639.056792,
+    "id": "e6bf8df36a0e09a8a943c224934088d211a7317bc785e9fdeefa3a1af4665c1c"
+  },
+  {
+    "subject": "legal-framework-recognition",
+    "predicate": "is-prerequisite-for",
+    "object": "actionable-evidentiary-status",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "For hardware-attested personhood signals to function in real-world contexts\u2014civil proceedings, financial onboarding, age verification\u2014legal frameworks must explicitly define their admissible scope, evidentiary weight, failure-mode liabilities, and the allocation of responsibility when attestation is wrong or compromised.",
+    "created_at": 1774593639.057465,
+    "id": "d4f3705635e244f4e80bea5cdea8307adcb0f1f9dc0124e27e6f931960fa7b3e"
+  },
+  {
+    "subject": "layered-security-architectures",
+    "predicate": "are-required-to-mitigate",
+    "object": "empirically-demonstrated-TEE-vulnerabilities",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "TEEs have been repeatedly compromised (Foreshadow/L1TF against SGX, TrustZone bypass exploits, side-channel attacks). A system relying solely on a single TEE boundary for personhood attestation is fragile; layered defenses\u2014hardware diversity, attestation freshness checks, anomaly detection, multi-device corroboration\u2014are necessary to maintain probabilistic assurance.",
+    "created_at": 1774593639.058614,
+    "id": "a479fe6f4eb979ec21652450407ffb6fc4711d3ee6e20c85b61af01a00232f5f"
+  },
+  {
+    "subject": "hardware-attestation",
+    "predicate": "supplements-rather-than-substitutes",
+    "object": "institutional-identity-issuance",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Hardware attestation establishes that a physical entity with certain biometric features interacted with a specific device at a specific time. It cannot, by design, establish civil identity, legal capacity, citizenship, or the social-relational attributes that institutional identity credentials encode. It is therefore structurally complementary, not a replacement.",
+    "created_at": 1774593639.059476,
+    "id": "39147f602dec96de62d22867d4e608b702207e97dd18c0456e4ae67b759160d2"
+  },
+  {
+    "subject": "device-supply-chain",
+    "predicate": "maintains",
+    "object": "uncompromised-hardware-integrity",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The entire attestation model assumes that devices leaving manufacturer facilities have not been tampered with, and that firmware signing keys have not been exfiltrated. If supply-chain integrity fails\u2014through state-level interdiction, insider threats, or compromised fabrication\u2014then attestation outputs are untrustworthy at the root, and no amount of layered architecture can compensate. This assumption is particularly fragile given documented hardware supply-chain attacks (e.g., Bloomberg's contested Supermicro reporting, NSA ANT catalog).",
+    "created_at": 1774593639.06897,
+    "id": "a21ea0b8242149ff82a591507789acd2ea85d2566c3e2c0fc1a1e45c737c07e1"
+  },
+  {
+    "subject": "biometric-features",
+    "predicate": "are-sufficiently-unique-at",
+    "object": "global-population-scale",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The system assumes that biometric modalities used (face, fingerprint, iris) provide sufficient entropy to distinguish among ~8 billion individuals with acceptably low false match rates. If biometric collision rates exceed tolerable thresholds\u2014or if adversarial presentation attacks (deepfake masks, synthetic fingerprints) defeat liveness detection\u2014then the 'physical existence' signal becomes unreliable. This is an empirical assumption that has not been validated at full global scale.",
+    "created_at": 1774593639.069969,
+    "id": "8e5dfc212cf758987975e27404e876e253bae4b028defa0d75da41d36751907a"
+  },
+  {
+    "subject": "users",
+    "predicate": "retain-meaningful-control-over",
+    "object": "their-attested-identity-data",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes users can exercise genuine agency over when, how, and to whom their hardware-attested personhood signals are presented. If platform incentives, regulatory mandates, or dark patterns effectively coerce continuous attestation, then user control is illusory and the system becomes a surveillance infrastructure rather than a privacy-enhancing one. This assumption is normative and depends on UI design, legal protections, and power dynamics between users and relying parties.",
+    "created_at": 1774593639.0710049,
+    "id": "d32cef63a659ee7a65e8ffb69901429bddc2ed79427460029916b805efc033ea"
+  }
+]

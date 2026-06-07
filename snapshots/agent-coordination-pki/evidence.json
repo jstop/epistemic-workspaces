@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Sybil attacks in open peer-to-peer systems",
+    "description": "Douceur (2002) demonstrated that in open systems without a central identity authority, Sybil attacks\u2014where a single adversary creates many pseudonymous identities\u2014are fundamentally unavoidable unless identity is anchored to a scarce resource. Cryptographic key binding to verified identities or proof-of-work are the primary known mitigations.",
+    "evidence_type": "document",
+    "source": "Douceur, J.R. (2002). 'The Sybil Attack.' IPTPS.",
+    "reliability": 0.88,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774153162.983135,
+    "id": "a6b4a2f29d0a85a9695c7f5904d99c1e7996e9dbbff39d327b0925152b0a4ead"
+  },
+  {
+    "title": "Blockchain and DID-based accountability in multi-agent systems",
+    "description": "Recent research on decentralized multi-agent coordination (e.g., using W3C DIDs and Verifiable Credentials) has shown that cryptographically anchored identities enable agents to present verifiable claims about their capabilities, history, and delegated authority, providing accountability primitives that pure token-staking or rating systems cannot replicate when agents can be adversarial.",
+    "evidence_type": "document",
+    "source": "W3C Decentralized Identifiers (DIDs) v1.0 Specification; Davie et al. (2019); various multi-agent DID pilot studies.",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774153162.9840891,
+    "id": "b96b7ce375d8429cc74bd3f40550dfcb463c40ec1c62ab764b389faa5e07aa55"
+  },
+  {
+    "title": "Reputation laundering in online marketplaces",
+    "description": "Empirical studies of eBay, Amazon, and darknet marketplaces show that sellers routinely abandon low-reputation accounts and create new ones (reputation laundering), or purchase established accounts. This demonstrates that reputation systems without strong identity binding degrade under adversarial pressure.",
+    "evidence_type": "statistical",
+    "source": "Soud et al. (2020), various empirical marketplace studies; Christin (2013) on Silk Road.",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774153162.985204,
+    "id": "ea64741dd89d5934f88ecb2739ba1d6930307fd353eb9fd18273ed2464139cd3"
+  },
+  {
+    "title": "TLS/PKI infrastructure underpinning internet trust",
+    "description": "The global TLS/PKI infrastructure, despite well-known weaknesses (certificate authority compromises, certificate mis-issuance), has proven to be an essential and largely irreplaceable trust layer for internet communication. No purely reputation-based alternative has supplanted it for authenticating server identity at scale.",
+    "evidence_type": "observation",
+    "source": "General observation; CA/Browser Forum Baseline Requirements; Let's Encrypt statistics.",
+    "reliability": 0.82,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774153162.986292,
+    "id": "0875eafccd1c6f13c1fed5bfe820a47bc7dd4f956b4f89afd1de6e962bf4a2fd"
+  },
+  {
+    "title": "Axelrod's shadow of the future requires persistent identity",
+    "description": "In Axelrod's iterated prisoner's dilemma tournaments, cooperation emerges only when players expect repeated future interactions with identifiable counterparts. The 'shadow of the future' \u2014 the probability-weighted expectation of future encounters \u2014 is the primary driver of cooperative equilibria. This requires that agents can identify each other across interactions. If identity is cheap to discard (no cryptographic binding), the shadow of the future collapses: defectors simply re-enter under new identities, and tit-for-tat and other reciprocity strategies cannot function. Reputation and economic stake mechanisms implicitly depend on this identity persistence.",
+    "evidence_type": "document",
+    "source": "Axelrod, R. (1984). The Evolution of Cooperation. Basic Books. Ch. 3-4 on the shadow of the future.",
+    "reliability": 0.9,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774156591.360095,
+    "id": "df46b409c05ac5fa46b13fe84a33f667c43e4f2a3d8f5a6a9c0d8003d65f4520"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Ostrom's commons governance findings",
+    "description": "Elinor Ostrom's empirical research on common-pool resource management demonstrated that communities can overcome coordination failures through institutional design \u2014 including monitoring, graduated sanctions, and conflict-resolution mechanisms \u2014 that builds trust and shifts effective payoff structures, even among parties with partially conflicting interests. Her work on polycentric governance showed that locally adapted institutions outperformed both centralized control and unregulated open access.",
+    "evidence_type": "observation",
+    "source": "Ostrom, E. (1990). Governing the Commons. Cambridge University Press; Ostrom, E. (2010). Beyond Markets and States: Polycentric Governance of Complex Economic Systems. American Economic Review.",
+    "reliability": 0.88,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774137286.881461,
+    "id": "3a705ccf418dd464554525fb60e905ddb4ca073af89a19ff432c9b705afdeebb"
+  },
+  {
+    "title": "Domain-specific reputation and identity system successes",
+    "description": "Empirical evidence from eBay's reputation system, credit registries (e.g., credit bureaus reducing adverse selection in lending markets), escrow services, and platform reputation systems demonstrates that identity verification and reputational stakes can enable cooperation among strangers in specific domains. These systems have measurably reduced transaction costs and expanded trade, though each operates within bounded institutional contexts.",
+    "evidence_type": "statistical",
+    "source": "Resnick, P. et al. (2006). The value of reputation on eBay. Experimental Economics; Djankov, S. et al. (2007). Private credit in 129 countries. Journal of Financial Economics.",
+    "reliability": 0.82,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774137286.8833861,
+    "id": "b0828f64046d01be5d60765f4a4f9997340b8072c30927eafbea10cb7edb222c"
+  },
+  {
+    "title": "Surveillance creep in large-scale identity systems",
+    "description": "India's Aadhaar system, initially designed for welfare delivery and financial inclusion, has been progressively linked to an expanding array of services and surveillance functions, illustrating how large-scale identity infrastructure is subject to scope creep and capture dynamics. Despite constitutional court interventions limiting some uses, the system's integration into daily life has made opting out practically difficult, demonstrating how network effects can render nominally voluntary systems functionally coercive.",
+    "evidence_type": "observation",
+    "source": "Khera, R. (2019). Dissent on Aadhaar. Orient BlackSwan; Abraham, S. & Raghavan, N. (2021). Aadhaar and the promise of digital governance. Economic & Political Weekly.",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774137286.8848262,
+    "id": "d3a3d1b8e1e28c20988e841aac584843b3a13113233dd5bcaeb230518411fe8a"
+  },
+  {
+    "title": "Scalability gap between local and global institutions",
+    "description": "Meta-analyses of cooperation research show that mechanisms effective at local or domain-specific scales (reputation, repeated interaction, community monitoring) face well-documented degradation at larger scales. Dunbar's number research, studies of institutional trust decay with organizational size, and the difficulty of international treaty enforcement all suggest that scaling trust-building infrastructure involves qualitative, not merely quantitative, challenges.",
+    "evidence_type": "statistical",
+    "source": "Dunbar, R. (2010). How Many Friends Does One Person Need?; Henrich, J. (2016). The Secret of Our Success; Keohane, R. (1984). After Hegemony.",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774137286.886004,
+    "id": "37c5b22236ecbd6e2205d516f0ec1359e1809b7891f2f4efc57921ea7d4a5996"
+  },
+  {
+    "title": "Osmio enrollment ceremony",
+    "description": "Osmio's enrollment ceremony provides a decentralized, cross-boundary identity verification mechanism where identity is established through a structured in-person ritual without requiring centralized infrastructure. This bridges the gap between local social capital and global identity systems.",
+    "evidence_type": "observation",
+    "source": "Osmio PKI documentation",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774155020.646364,
+    "id": "627e015a723e80a1c1d31b3d9f6ed1c5b98a8056ab1d3e91e64d88dec28e786a"
+  }
+]

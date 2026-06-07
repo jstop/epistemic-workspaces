@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Web PKI federated CA model",
+    "description": "The Web PKI system operates with hundreds of certificate authorities, each internally governed, subject to audit requirements (WebTrust, ETSI), and included in browser trust stores via independent root programs (Mozilla, Google, Apple). No single global CA exists, yet the system provides workable trust through pluralistic authority with governance standards. This demonstrates the viability of multiple competing trust anchors.",
+    "evidence_type": "observation",
+    "source": "Mozilla Root Store Policy; CA/Browser Forum Baseline Requirements",
+    "reliability": 0.82,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774216023.199841,
+    "id": "f92245d3939c167e50deaeadc845c16cd990cdeaf1b9c615877418f67d4ab6cb"
+  },
+  {
+    "title": "Failures of pure self-sovereign identity pilots",
+    "description": "Multiple SSI pilots (e.g., early Sovrin Network struggles, uPort deprecation, limited adoption of purely DID-based systems) have demonstrated that without institutional issuers willing to attest credentials, self-sovereign identity degenerates into self-asserted claims that no relying party trusts. The Sovrin Foundation itself required a governed board to manage the ledger.",
+    "evidence_type": "observation",
+    "source": "Sovrin Foundation financial difficulties (2020); Windley, P. 'The Sovrin Foundation' report; uPort sunset announcement",
+    "reliability": 0.72,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774216023.201254,
+    "id": "89be6e8db61e3f08c3c8a67413e5f1137d32d9921253c39aa749b0012dc630b8"
+  },
+  {
+    "title": "Ostrom's polycentric governance research",
+    "description": "Elinor Ostrom's Nobel Prize-winning research on commons governance demonstrated that successful commons management typically involves nested, polycentric institutional arrangements \u2014 neither purely centralized nor purely decentralized \u2014 with locally accountable governance bodies managing shared resources.",
+    "evidence_type": "document",
+    "source": "Ostrom, E. (1990). Governing the Commons. Cambridge University Press; Ostrom, E. (2010). 'Polycentric systems for coping with collective action and global environmental change.'",
+    "reliability": 0.88,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774216023.2023702,
+    "id": "8bf5368a4ec028a534c918e3260edd9b6bccfed4811fb116ee12d022c1a3958b"
+  },
+  {
+    "title": "Sybil attack prevalence in permissionless systems",
+    "description": "Statistical analyses of blockchain and decentralized social networks consistently show that systems without identity authority are vulnerable to Sybil attacks. Empirical studies of DAO governance show that token-based identity leads to plutocratic capture, while permissionless pseudonymous systems face manipulation by coordinated fake identities.",
+    "evidence_type": "statistical",
+    "source": "Douceur, J. (2002). 'The Sybil Attack'; various DAO post-mortems including Beanstalk governance attack (2022)",
+    "reliability": 0.78,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774216023.203149,
+    "id": "7579d126b18e2bdbc6a6d2f11bd628e109f7763fffd2ad9ddc0313b1a0a9de91"
+  }
+]

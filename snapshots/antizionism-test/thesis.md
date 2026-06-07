@@ -1,0 +1,1 @@
+Anti-Zionism functions primarily as a causal attribution engine rather than a coherent political position, uniquely delegitimizing Israel's existence as a political project and producing poor geopolitical reasoning in countries that adopt it as an organizing principle.

@@ -1,0 +1,164 @@
+[
+  {
+    "subject": "anti-zionism",
+    "predicate": "functions-as",
+    "object": "causal-attribution-engine-not-coherent-geopolitical-position",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism, as it functions in practice, operates primarily as a causal attribution engine rather than a coherent geopolitical position \u2014 it substitutes moral clarity for strategic thinking, serves as a flexible container for unrelated ideological grievances, and produces systematically worse geopolitical reasoning in countries and movements that adopt it as an organizing principle.",
+    "created_at": 1776227721.2617989,
+    "id": "e18a42c4a2c44e891c7949a334da487f8b0ff4211f559bc3846cc063705a6e3a"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "substitutes",
+    "object": "moral-clarity-for-strategic-thinking",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism provides a morally simplified framework (oppressor/oppressed binary) that displaces cost-benefit strategic analysis, leading adopters to prioritize symbolic moral positioning over pragmatic geopolitical calculation.",
+    "created_at": 1776227726.792759,
+    "id": "795616ab5c01c4850fb33f80f250448771aa3e2c7de6567c2e923697d21c8621"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "serves-as",
+    "object": "flexible-container-for-unrelated-grievances",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism functions as an ideological attractor that absorbs and unifies disparate grievances \u2014 anti-imperialism, anti-capitalism, decolonialism, anti-Americanism \u2014 providing a single causal node onto which structurally unrelated complaints can be projected.",
+    "created_at": 1776227729.6640582,
+    "id": "d42f55f60250fbab479ff3c7d17e366682134e06c7ad7329819ef46b8568aa33"
+  },
+  {
+    "subject": "anti-zionist-adopters",
+    "predicate": "produce",
+    "object": "systematically-worse-geopolitical-outcomes",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Countries and movements that adopt anti-Zionism as an organizing principle demonstrably produce worse geopolitical reasoning \u2014 misallocating diplomatic capital, misjudging alliances, and failing to advance their own stated interests \u2014 compared to actors that treat Israel/Palestine as one issue among many.",
+    "created_at": 1776227732.947103,
+    "id": "48634d3662295c68febd99815f04e4ee7aefeb3c40e0833b76c41b7ff7e6c36c"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "lacks",
+    "object": "internal-coherence-as-geopolitical-framework",
+    "confidence": {
+      "level": 0.68,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism does not produce consistent policy prescriptions across its adherents: it ranges from one-state advocacy to eliminationism to mere diplomatic opposition, suggesting it functions not as a geopolitical position but as an identity marker or coalition signal.",
+    "created_at": 1776227736.316253,
+    "id": "2eaff0a00835c5a957c17ea9cb5112b38bb5d089ad41ee538dcc764c87b064d6"
+  },
+  {
+    "subject": "causal-attribution-engines",
+    "predicate": "degrade",
+    "object": "analytical-reasoning-quality",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Monocausal explanatory frameworks \u2014 where a single actor or force is treated as the root cause of many disparate problems \u2014 systematically degrade analytical reasoning by reducing complex multi-variable situations to a single causal chain, a well-documented pattern in cognitive science and political psychology.",
+    "created_at": 1776227739.250932,
+    "id": "bd53db605920830ce53feaae88acc86bb307cce075bb1bd91c2ce1e086b87d14"
+  }
+]

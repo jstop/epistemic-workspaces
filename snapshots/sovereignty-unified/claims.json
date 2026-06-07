@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "layered-biometric-zkp-identity-protocol",
+    "predicate": "constitutes",
+    "object": "speculative-research-direction-not-defensible-design",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "370e151ae48fe9efd243a4424200cb1b9b77cd3d9da016c554917e08329ac0cc",
+      "d82123a359f15029649237a192722e2b9f3e51003772daacfe1aa2f64923f128",
+      "e965e805832bf995eb682eb79ebea3cab5de38acd62fa4ba95cee4792aea893c"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "A layered protocol combining hardware-attested biometric existence (e.g., C2PA camera signing), TEE-secured personal data vaults with zero-knowledge proof generation, and cryptographic deduplication mechanisms for unique personhood \u2014 governed by a participatory body that defines identity quality standards and certifies vault implementations \u2014 represents a structurally interesting but currently speculative approach toward distributed-trust identity that could mitigate certain concentration risks found in issuerless protocols and institutional certificate authorities, provided its architectural layers achieve genuinely independent failure modes rather than masking shared supply-chain dependencies. This conditional promise is significantly constrained by at least four unresolved challenges: (1) the feasibility of error-tolerant biometric matching within zero-knowledge circuits at population scale, given that biometric template stability and non-forgeability over a human lifespan remain undemonstrated; (2) the risk that apparent trust distribution is illusory when TEE attestation and camera signing chains converge on a small number of hardware vendors whose attestation keys may be compromised through collusion or compulsion; (3) the untested viability of a certification-without-operation governance model for high-stakes identity decisions, since historical precedents such as WebPKI audit failures suggest that certifying security properties one cannot independently verify tends toward rubber-stamping, and since the analogy to interoperability standards bodies like IETF is inapt given the fundamentally different verifiability of the properties at stake; and (4) the possibility that zero-knowledge privacy guarantees degrade under real-world metadata leakage. Its aspirational capacity to serve displaced and stateless populations (estimated at over 120 million persons) introduces additional dependencies on hardware accessibility and enrollment infrastructure that remain unaddressed and may prove as exclusionary as the systems this architecture seeks to replace. Until these conditions are met \u2014 particularly supply-chain independence, governance legitimacy without operational authority, and population-scale biometric ZKP feasibility \u2014 the architecture should be understood as a research direction rather than a defensible design proposal.",
+    "created_at": 1774595806.992107,
+    "id": "5a0ef2141cef1b6c1e8fe1acdaa681cb17943260ebe444587d0000dffc8c1e01"
+  },
+  {
+    "subject": "biometric-matching-in-zkp-circuits",
+    "predicate": "lacks-demonstrated-feasibility-at",
+    "object": "population-scale-with-error-tolerance",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Error-tolerant biometric matching within zero-knowledge circuits at population scale has not been demonstrated. Biometric template stability and non-forgeability over a human lifespan remain unproven. Fuzzy matching inside ZK circuits introduces computational overhead and cryptographic complexity that current implementations have not resolved for billions of users.",
+    "created_at": 1774595806.993671,
+    "id": "a064c47dfd18537f1124454f59649adb0882cca8f8595ed272206a49b0fe37a2"
+  },
+  {
+    "subject": "tee-and-camera-signing-attestation-chains",
+    "predicate": "converge-on",
+    "object": "small-number-of-hardware-vendors",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Apparent trust distribution may be illusory when TEE attestation roots and C2PA camera signing chains depend on a small number of hardware vendors (Intel, ARM, Qualcomm, etc.) whose attestation keys could be compromised through collusion, compulsion, or supply-chain attacks. This creates a shared-dependency failure mode that undermines the architecture's claim to independent trust layers.",
+    "created_at": 1774595806.994323,
+    "id": "1759cf963c00655005b83865497a403749203cc30f9afb486aa34a1a03f9c8d4"
+  },
+  {
+    "subject": "certification-without-operation-governance",
+    "predicate": "tends-toward",
+    "object": "rubber-stamping-for-unverifiable-properties",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Historical precedents such as WebPKI audit failures demonstrate that certifying security properties one cannot independently verify tends toward rubber-stamping. The analogy to interoperability standards bodies like IETF is inapt because identity security properties (e.g., TEE integrity, biometric non-forgeability) are fundamentally less verifiable through external audit than protocol interoperability.",
+    "created_at": 1774595806.9948401,
+    "id": "1656d69a5f04804ef2ced5c7185cb3da6c60b70c2e01533b4c4ea2606435ca82"
+  },
+  {
+    "subject": "zkp-privacy-guarantees",
+    "predicate": "degrade-under",
+    "object": "real-world-metadata-leakage",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Zero-knowledge proofs guarantee mathematical privacy for the proven statement, but real-world deployments leak metadata through timing, network patterns, proof request frequency, correlatable presentation contexts, and interaction graphs. These side channels can substantially erode the privacy properties the architecture claims to provide.",
+    "created_at": 1774595806.995338,
+    "id": "648f8de086495d225fba027a3f272774a6923ee581f20a6150b462b438be5899"
+  },
+  {
+    "subject": "displaced-stateless-population-serving-capacity",
+    "predicate": "depends-on",
+    "object": "unaddressed-hardware-and-enrollment-infrastructure",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The architecture's aspirational capacity to serve 120+ million displaced and stateless persons introduces dependencies on hardware accessibility (TEE-equipped devices, C2PA cameras) and enrollment infrastructure that remain unaddressed. These access barriers may prove as exclusionary as the centralized identity systems this architecture seeks to replace.",
+    "created_at": 1774595806.995784,
+    "id": "c3c8b71b59ba4892b01f52a241f07a18068a3128fe64f6e754357ebc37b61050"
+  },
+  {
+    "subject": "architectural-layer-independence",
+    "predicate": "is-prerequisite-for",
+    "object": "distributed-trust-claims",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes that genuinely independent failure modes across architectural layers are a necessary condition for the protocol to deliver on its distributed-trust promise. If partial independence (e.g., correlated but not identical failure modes) were sufficient to substantially improve on existing systems, the architecture might be defensible even with some shared dependencies. The binary framing of independence vs. convergence may obscure a spectrum of meaningful trust distribution.",
+    "created_at": 1774595807.003694,
+    "id": "370e151ae48fe9efd243a4424200cb1b9b77cd3d9da016c554917e08329ac0cc"
+  },
+  {
+    "subject": "current-cryptographic-limitations",
+    "predicate": "persist-through",
+    "object": "relevant-deployment-timeline",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes that current ZKP circuit performance and biometric template technology represent durable constraints rather than engineering problems solvable within a relevant timeframe. Breakthroughs in folding schemes, hardware acceleration for ZK provers, or novel biometric representation methods could shift feasibility. If Moore's-law-equivalent improvements apply to ZK proving systems, population-scale biometric ZKP could become feasible within 5-10 years, which would undermine the strongest technical objection.",
+    "created_at": 1774595807.0044448,
+    "id": "d82123a359f15029649237a192722e2b9f3e51003772daacfe1aa2f64923f128"
+  },
+  {
+    "subject": "webpki-governance-analogy",
+    "predicate": "is-applicable-to",
+    "object": "identity-vault-certification",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes the WebPKI audit model is the most relevant precedent for certification-without-operation governance. If the proposed participatory body adopted substantially different mechanisms \u2014 such as adversarial red-teaming, continuous automated testing, or transparent reproducible builds \u2014 it might avoid the specific failure modes of WebPKI auditing. The analogy could be inapt if the governance design incorporates lessons from PKI failures rather than repeating them.",
+    "created_at": 1774595807.0052102,
+    "id": "e965e805832bf995eb682eb79ebea3cab5de38acd62fa4ba95cee4792aea893c"
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "conclusion": "91c6ae4e1782affc46ad746d899f2efe3b731d832b0a3223f3859363357baa94",
+    "premises": [
+      "89be6e8db61e3f08c3c8a67413e5f1137d32d9921253c39aa749b0012dc630b8",
+      "7579d126b18e2bdbc6a6d2f11bd628e109f7763fffd2ad9ddc0313b1a0a9de91"
+    ],
+    "pattern": "induction",
+    "label": "Observed failures of trustless identity demonstrate need for institutional anchors",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774216023.204006,
+    "id": "e367b51ad0eafd7ddf82a646103b531787d3c1b367e52283072aca3c6eed80d0"
+  },
+  {
+    "conclusion": "37dc2904798c0d1aa0a06ecdb99fe2641a85db17c5ecb5d45db139757f3e410d",
+    "premises": [
+      "91c6ae4e1782affc46ad746d899f2efe3b731d832b0a3223f3859363357baa94",
+      "7579d126b18e2bdbc6a6d2f11bd628e109f7763fffd2ad9ddc0313b1a0a9de91",
+      "89be6e8db61e3f08c3c8a67413e5f1137d32d9921253c39aa749b0012dc630b8"
+    ],
+    "pattern": "causal",
+    "label": "Without accountable authority, Sybil and attestation problems become unsolvable",
+    "confidence": {
+      "level": 0.63,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Emerging decentralized identity primitives may solve the Sybil problem without central authority. Proof-of-personhood protocols (e.g., Worldcoin's iris scanning, Gitcoin Passport's composable stamps, social graph-based verification) attempt to establish unique humanness without a traditional trust authority. If these mature, the claim that full decentralization 'destroys' the basis for trust may be too strong \u2014 it may merely make trust harder to establish, not impossible. The confidence gap between decentralized and centralized approaches may narrow.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774216023.2049222,
+    "id": "a5f81f268fc4d73f27399c2d03ff502476c48281621106727053b81868d300ef"
+  },
+  {
+    "conclusion": "48cb1f4ea67d8b6c580cdecf4a7773ff0ccec89a9f08afd6a958d15bf31ac3c1",
+    "premises": [
+      "8bf5368a4ec028a534c918e3260edd9b6bccfed4811fb116ee12d022c1a3958b",
+      "f92245d3939c167e50deaeadc845c16cd990cdeaf1b9c615877418f67d4ab6cb",
+      "ab0439c78957a4e26c02be24d7f7249c85d3ed83d7eb7fa26c5303b9b72693cc"
+    ],
+    "pattern": "analogy",
+    "label": "Polycentric governance models and federated CA precedent support pluralistic trust",
+    "confidence": {
+      "level": 0.74,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774216023.206003,
+    "id": "a2b0568d34ac72f4bde00559c7fd5d9cff19eac5b7ef6e5600aed3d3c70796d4"
+  },
+  {
+    "conclusion": "ab0439c78957a4e26c02be24d7f7249c85d3ed83d7eb7fa26c5303b9b72693cc",
+    "premises": [
+      "8bf5368a4ec028a534c918e3260edd9b6bccfed4811fb116ee12d022c1a3958b",
+      "f92245d3939c167e50deaeadc845c16cd990cdeaf1b9c615877418f67d4ab6cb"
+    ],
+    "pattern": "induction",
+    "label": "Existing trust authorities derive legitimacy from governance, not global mandate",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774216023.2069561,
+    "id": "36244c9078a92a0917719ace5bed466754454c15f340c21ec73f5978d5adcfdf"
+  },
+  {
+    "conclusion": "57e3dec077ab828ae6d24c916b7a38cec43f90f0166ec8acd8bdeba1eb6787a7",
+    "premises": [
+      "cc23247e491eb0bf7d06e52826e313d5a24b76eec7d6ed5bf49ba58be45a0b6d",
+      "91c6ae4e1782affc46ad746d899f2efe3b731d832b0a3223f3859363357baa94",
+      "37dc2904798c0d1aa0a06ecdb99fe2641a85db17c5ecb5d45db139757f3e410d",
+      "48cb1f4ea67d8b6c580cdecf4a7773ff0ccec89a9f08afd6a958d15bf31ac3c1",
+      "ab0439c78957a4e26c02be24d7f7249c85d3ed83d7eb7fa26c5303b9b72693cc"
+    ],
+    "pattern": "abduction",
+    "label": "Best explanation for trustworthy commons identity: governed authorities in pluralistic ecosystem",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The pluralistic authority model may be unstable equilibrium: competitive dynamics, network effects, and power asymmetries tend to produce consolidation toward monopoly or oligopoly (as seen with the dominance of a few CAs like Let's Encrypt and DigiCert, or the concentration of DNS authority). The thesis's normative preference for plurality may not survive contact with market and political reality, making the prescription aspirational rather than architecturally achievable. The argument from analogy to Web PKI may actually demonstrate convergence toward concentration, not sustained pluralism.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774216023.207955,
+    "id": "302844d9d81af3122447bb63da857809355faeb72935b4d4f312b48baff645c7"
+  }
+]

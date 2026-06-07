@@ -1,0 +1,143 @@
+[
+  {
+    "conclusion": "80f92f18ff80d6b1bddaf73c96e942114deddab7c0a8a46082142004034c9cd9",
+    "premises": [
+      "9df3f16e04d82b3e75349f375a66de104837a7623680576bd75cada5d86da7c2",
+      "572eb919054f4ca32689b5f981d69fb38bfa7177436250408aa92fde205fd0d7"
+    ],
+    "pattern": "induction",
+    "label": "The statistical disproportion in institutional attention (UN resolutions) combined with cognitive science on monocausal attribution establishes that anti-Zionist discourse exhibits the structural signature of a monocausal attribution pattern.",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Israel receives disproportionate attention not because of attribution bias but because of its unique geopolitical position: the largest recipient of US foreign aid, a nuclear-armed state occupying territory of another people, and a conflict with religious significance to billions. The disproportion in attention may be rationally justified by the disproportion in geopolitical leverage, not cognitive bias.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227935.4697511,
+    "id": "f3bff7d7d42ed0575bea0f251984f3ffb193793756b48cd1226fac4b10c7687b"
+  },
+  {
+    "conclusion": "08ef0b59a53c7d94a1f00f05206d61490850be05852193c3f8502eaf3a87d9e4",
+    "premises": [
+      "5c73ad85b06518ff933d2cae998acd2bac980149b23e2c9a86f9c93cc1a06931"
+    ],
+    "pattern": "abduction",
+    "label": "The best explanation for why mutually incompatible ideological movements converge on anti-Zionism -- despite sharing no positive program -- is that anti-Zionism functions as a shared attribution target rather than a coherent political ideology.",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227935.4708018,
+    "id": "25a1c75448218fc4728cfb4c5b059ffc723a06132ffde6237563375800176310"
+  },
+  {
+    "conclusion": "929cc9df8047f1130858c2bd840c0bf338579ee6c0841b0f452a3dc664e6e565",
+    "premises": [
+      "2bd2a43b3287a68f554098aa7ba213905b62eb893b8d40821f3bcf0e5448488e"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If a causal framework is analytically sound, it should predict or explain major regional events. Anti-Zionist frameworks failed to predict the Arab Spring and cannot explain major conflicts orthogonal to Israel. Therefore, anti-Zionist causal models produce systematic predictive failures.",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227935.471815,
+    "id": "0c9fdb1a09a0d212b478ba85a70518d85f1b4dc620f50729f4677b5a10b78169"
+  },
+  {
+    "conclusion": "d0e8b1f5f8623305c6125d229481b3794596e94fc30ad8e5047ab73e0f465c49",
+    "premises": [
+      "572eb919054f4ca32689b5f981d69fb38bfa7177436250408aa92fde205fd0d7",
+      "929cc9df8047f1130858c2bd840c0bf338579ee6c0841b0f452a3dc664e6e565"
+    ],
+    "pattern": "abduction",
+    "label": "Given that anti-Zionism persists despite demonstrated predictive failure, the best explanation is that it provides psychological-functional benefits (cognitive closure, coalitional solidarity) independent of analytical accuracy -- as predicted by the attribution-engine model from social psychology.",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227935.472821,
+    "id": "78ced08d5e25ae9efed40ca563d857b50d1709ab22c41409336a414d56504afe"
+  },
+  {
+    "conclusion": "602041186461e1a245449d39b9b34b2cc80ca20dfd29462a7fcf79df034b3947",
+    "premises": [
+      "80f92f18ff80d6b1bddaf73c96e942114deddab7c0a8a46082142004034c9cd9",
+      "d0e8b1f5f8623305c6125d229481b3794596e94fc30ad8e5047ab73e0f465c49"
+    ],
+    "pattern": "induction",
+    "label": "A framework that exhibits monocausal attribution and is sustained by psychological closure rather than accuracy will resist falsification -- counter-evidence is absorbed into the attribution schema rather than prompting revision.",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227935.473828,
+    "id": "ee507b5e4bb68cfa89ea28fde97ebd939494e8f1487551be16f9a79f339304ed"
+  },
+  {
+    "conclusion": "a9d9dc1a2138e8f7a9398fef246e633850d6c4e8d8d87699fe02691adb689c36",
+    "premises": [
+      "80f92f18ff80d6b1bddaf73c96e942114deddab7c0a8a46082142004034c9cd9",
+      "08ef0b59a53c7d94a1f00f05206d61490850be05852193c3f8502eaf3a87d9e4",
+      "929cc9df8047f1130858c2bd840c0bf338579ee6c0841b0f452a3dc664e6e565",
+      "d0e8b1f5f8623305c6125d229481b3794596e94fc30ad8e5047ab73e0f465c49",
+      "602041186461e1a245449d39b9b34b2cc80ca20dfd29462a7fcf79df034b3947"
+    ],
+    "pattern": "abduction",
+    "label": "Anti-Zionism is best explained as a causal attribution engine rather than a coherent political position because it (1) exhibits monocausal reasoning, (2) lacks ideological coherence, (3) produces systematic predictive failures, (4) persists through psychological rather than analytical mechanisms, and (5) resists falsification.",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Anti-Zionism may be a legitimate political critique of ethnonationalism applied specifically to the Israeli case, analogous to anti-apartheid movements. The fact that diverse groups oppose a specific state project does not make their position incoherent or attributional -- diverse groups also opposed apartheid South Africa without sharing a positive program. The thesis may confuse political opposition with cognitive bias.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227935.474833,
+    "id": "e7cb1f841d468e38c862c0a882c40e214663a57f8e0dcac15a88cdd88bf5c074"
+  }
+]

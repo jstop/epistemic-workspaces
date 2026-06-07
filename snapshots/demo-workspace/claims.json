@@ -1,0 +1,521 @@
+[
+  {
+    "subject": "coordination-failures",
+    "predicate": "are-caused-by",
+    "object": "epistemic-fragmentation",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Core thesis: most coordination failures aren't preference disagreements but breakdowns in shared epistemic infrastructure",
+    "created_at": 1773372416.840214,
+    "id": "2df430706503bd5cfd384aa294bbe53d28caae61f91bc5c5ccb7c07fd7d93b96"
+  },
+  {
+    "subject": "identity-infrastructure",
+    "predicate": "is-prerequisite-for",
+    "object": "trust-networks",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "You can't build trust without knowing who you're trusting",
+    "created_at": 1773372416.840571,
+    "id": "aa001000bd15a359b0551e4258c743675786792c069612ae84dcebb4e4de4750"
+  },
+  {
+    "subject": "epistemic-coordination",
+    "predicate": "requires",
+    "object": "shared-verifiable-facts",
+    "confidence": {
+      "level": 0.95,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Coordination requires common ground; common ground requires shared facts",
+    "created_at": 1773372416.840915,
+    "id": "dbd96baa5208d267e610db17187660b246503d2d313da63333bcdfb03a73c74c"
+  },
+  {
+    "subject": "captured-identity-systems",
+    "predicate": "prevent",
+    "object": "voluntary-coordination",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "When identity is controlled by platforms, coordination is limited to what platforms allow",
+    "created_at": 1773372416.841207,
+    "id": "1053e6837ab8e6ef688ddaaf97241d96c729ed2172ec2af52605e23fa6a139ea"
+  },
+  {
+    "subject": "PKI-based-identity",
+    "predicate": "enables",
+    "object": "accountable-anonymity",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Osmio's architecture: verify identity cryptographically without exposing it",
+    "created_at": 1773372416.841551,
+    "id": "f3b4dbca0bac351cce5d5007182d317534702be84b6085eb6d528f6b96826d3f"
+  },
+  {
+    "subject": "communities",
+    "predicate": "should-be-able-to",
+    "object": "fork-epistemic-foundations",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Like forking code \u2014 if a community disagrees about foundational assumptions, they should be able to fork and maintain their own branch",
+    "created_at": 1773372416.8418791,
+    "id": "fe65123d1a85a012f95a55fa3b9b3bd083f5bb042bbcbbb42dfe16e3edce3df8"
+  },
+  {
+    "subject": "decentralized-knowledge-graphs",
+    "predicate": "can-serve-as",
+    "object": "epistemic-infrastructure",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "OriginTrail DKG as a possible substrate for knowledge asset verification",
+    "created_at": 1773372416.8422241,
+    "id": "b9ccf7800128895c9ac460951929ff11fe865edd587044fc91a2008ae13b5642"
+  },
+  {
+    "subject": "large-language-models",
+    "predicate": "are",
+    "object": "fundamentally-stochastic-parrots-that-cannot-reason.",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "fec8f7b4f61509a994ed12b0c93a16839adfe32dbf668381bf6c85146ddb4780"
+    ],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Large language models are fundamentally stochastic parrots that cannot reason.",
+    "created_at": 1773375148.140012,
+    "id": "8326915789dc42fd535976abe62c4873542bedc40e87eb688507082bec07c901"
+  },
+  {
+    "subject": "llms-fail-systematically-on-novel-problems-that",
+    "predicate": "require",
+    "object": "multi-step-logical-deduction-outside-their-training-distribution.",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "LLMs fail systematically on novel problems that require multi-step logical deduction outside their training distribution.",
+    "created_at": 1773375188.846976,
+    "id": "db311b53092f6a71abdceae07f77da655d00a0bfba432b2b550325aabcf59fd1"
+  },
+  {
+    "subject": "human-reasoning",
+    "predicate": "is",
+    "object": "fundamentally-different-from-pattern-matching-and-statistical-correlation",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumption: Human reasoning is fundamentally different from pattern matching and statistical correlation",
+    "created_at": 1773375246.6133919,
+    "id": "fec8f7b4f61509a994ed12b0c93a16839adfe32dbf668381bf6c85146ddb4780"
+  },
+  {
+    "subject": "identity-infrastructure",
+    "predicate": "enables",
+    "object": "civilizational-scale-coordination",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "b5db93b5b4482b0374c64af6d2db766948ae8d3dd511c7ed677d3d932337b9dd",
+      "ce8872c590a50c7ff4e691fc9739e5e1c75a38cc3a0a0b1898590418e3630457",
+      "16ba58914c9fd68b8985f619cca90625b06c97c9a4024425a76ddc2c7dbf0e3b"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "A globally accessible identity system built on capture-resistant architecture creates the structural precondition for non-zero-sum coordination at civilizational scale",
+    "created_at": 1773385122.831164,
+    "id": "6dbb22f50c00d4bb36e7f46cc5ec9a95216f2c86f6df11967a25ece032c47afb"
+  },
+  {
+    "subject": "coordination-failures",
+    "predicate": "stem-from",
+    "object": "structural-incentives",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Coordination failures are fundamentally structural, rooted in zero-sum conditions where actors respond to incentives that reward defection regardless of their values or information",
+    "created_at": 1773385122.833984,
+    "id": "6d7189210751fd814ee762cc11402d60a332f61a1f2fff6d70fac6298d9f4c81"
+  },
+  {
+    "subject": "shared-infrastructure",
+    "predicate": "transforms",
+    "object": "zero-sum-dynamics",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Shared infrastructure that creates mutual stake can transition zero-sum to non-zero-sum dynamics, creating possibility space for coordination",
+    "created_at": 1773385122.835506,
+    "id": "1483074c0e659b3a0c36dbeda9a344ad0b7ac83c0cab8d6383d89e840ddbceee"
+  },
+  {
+    "subject": "infrastructure-without-safeguards",
+    "predicate": "enables",
+    "object": "elite-capture",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Infrastructure with opaque governance and coerced participation consolidates rather than distributes control, as demonstrated by financial systems and social platforms",
+    "created_at": 1773385122.836787,
+    "id": "53129ea995f2523cb2bc7fdde6cf75596fa9e3ea5098c62caa2aaef8debe94e6"
+  },
+  {
+    "subject": "identity",
+    "predicate": "underlies",
+    "object": "coordination-mechanisms",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Identity is the foundational infrastructure layer because it is a prerequisite for every form of human coordination",
+    "created_at": 1773385122.838068,
+    "id": "bc7adeed0e590065c132a825d31364536fdcd0a329fe97e2d44717d9977019d6"
+  },
+  {
+    "subject": "social-capital",
+    "predicate": "fails-beyond",
+    "object": "community-boundaries",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Social capital enables coordination within communities but breaks down across jurisdictional and cultural boundaries where face-to-face reputation is unavailable",
+    "created_at": 1773385122.839427,
+    "id": "79cd78d2f863e3aa372b76258788586cd2869cd85ef5f3cc3fd41164168e74f0"
+  },
+  {
+    "subject": "human-coordination",
+    "predicate": "requires",
+    "object": "persistent-identity",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes that meaningful coordination cannot occur between truly anonymous parties. If wrong, decentralized anonymous systems might suffice for coordination.",
+    "created_at": 1773385122.852722,
+    "id": "b5db93b5b4482b0374c64af6d2db766948ae8d3dd511c7ed677d3d932337b9dd"
+  },
+  {
+    "subject": "capture-resistant-design",
+    "predicate": "remains",
+    "object": "technically-feasible",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes cryptographic and governance mechanisms can durably resist state and corporate capture. If wrong, all infrastructure eventually becomes extractive.",
+    "created_at": 1773385122.854124,
+    "id": "ce8872c590a50c7ff4e691fc9739e5e1c75a38cc3a0a0b1898590418e3630457"
+  },
+  {
+    "subject": "coordination-problems",
+    "predicate": "have",
+    "object": "structural-solutions",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes that changing incentive structures can overcome coordination failures. If wrong, cultural or psychological factors may be more fundamental barriers.",
+    "created_at": 1773385122.8553221,
+    "id": "16ba58914c9fd68b8985f619cca90625b06c97c9a4024425a76ddc2c7dbf0e3b"
+  }
+]

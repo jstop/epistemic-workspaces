@@ -1,0 +1,58 @@
+[
+  {
+    "title": "UN General Assembly Resolution Asymmetry",
+    "description": "Between 2015-2024, the UN General Assembly passed more resolutions condemning Israel than all other countries combined. States with large-scale atrocities (Syria, China/Xinjiang, North Korea) received a fraction of the attention. This asymmetry in institutional focus is consistent with a causal attribution pattern where Israel is treated as the privileged explanatory variable for regional instability.",
+    "evidence_type": "statistical",
+    "source": "UN Watch annual reports; UNGA resolution databases",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227236.8099542,
+    "id": "4312f7099bd652f9c79265a4a2e38a6aa18db01c7412f4e7477f45e26744f973"
+  },
+  {
+    "title": "Iran's Post-1979 Strategic Misallocation",
+    "description": "After the 1979 revolution, Iran adopted anti-Zionism as a constitutional organizing principle. Subsequent decades show systematic strategic misallocation: funding Hezbollah and Hamas at enormous cost while domestic infrastructure deteriorated, framing internal dissent as Zionist-linked, and misreading regional dynamics (e.g., the Arab Spring) through an Israel-centric lens. Iran's geopolitical position arguably weakened relative to what realist analysis would have predicted for a state of its resources.",
+    "evidence_type": "observation",
+    "source": "Takeyh, R. 'Guardians of the Revolution'; Sadjadpour, K. 'Reading Khamenei'; IISS Strategic Surveys",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227242.3689349,
+    "id": "c7e9bf9ba707095624d77a3b8dbf38fa5a9b053bd17069d0ebb875c0e5154183"
+  },
+  {
+    "title": "Comparative Ethno-National State Formation",
+    "description": "Multiple states founded on ethno-national or ethno-religious principles in the same era as Israel (Pakistan 1947, Turkey post-1923 population exchanges, post-colonial African states with ethnic foundations) involved comparable or greater population displacement and ethnic privileging. None face a mainstream political movement dedicated to denying their right to exist as political entities. This asymmetry is difficult to explain from consistent anti-colonial or anti-ethno-nationalist principles alone.",
+    "evidence_type": "document",
+    "source": "Comparative political science literature; Kaufmann, 'Possible and Impossible Solutions to Ethnic Civil Wars'; Abulof, 'The Mortality and Morality of Nations'",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227248.066545,
+    "id": "877678e6c7659b25a2e4b82ee01ec7ce4237bc9afac0dd0c18f2ce9efa646ac9"
+  },
+  {
+    "title": "Soviet Zionology as Causal Attribution Template",
+    "description": "The Soviet 'Zionology' apparatus (1960s-1980s) explicitly developed anti-Zionism as a framework attributing global capitalist exploitation, Western imperialism, and even internal Soviet problems to Zionist networks. Works like Kichko's 'Judaism Without Embellishment' and the 1983 Anti-Zionist Committee of the Soviet Public illustrate how anti-Zionism was engineered as a causal attribution engine \u2014 a structured template for routing explanations of diverse phenomena through a single cause.",
+    "evidence_type": "document",
+    "source": "Korey, W. 'Russian Antisemitism, Pamyat, and the Demonology of Zionism'; Pinkus, B. 'The Soviet Government and the Jews'",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227252.75937,
+    "id": "913a0b27c5cf277cb5f95f16da266d261f9959b41cccafdd162cfe56bf156a86"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Anonymous forum discourse quality studies",
+    "description": "Empirical research on online platforms (e.g., 4chan vs. persistent-identity forums) consistently shows that anonymous or ephemeral-identity spaces exhibit higher rates of argument repetition, lower rates of concession, and reduced convergence on shared conclusions. Kilner & Hoadley (2005) and later studies on Reddit pseudonymity vs. full anonymity corroborate the pattern.",
+    "evidence_type": "statistical",
+    "source": "Comparative studies of discourse quality across anonymous vs. pseudonymous online platforms (meta-review)",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775841753.987056,
+    "id": "c02e60a798f6bcbf9f548db4c3e4ca51cc73b63a808dfa1f635c32e99afafc3d"
+  },
+  {
+    "title": "Walton's commitment-store model of dialogue",
+    "description": "Douglas Walton's formal dialogue theory posits that productive argumentation requires a 'commitment store' \u2014 a running record of propositions each participant has asserted or conceded. Persistent identity is the natural binding key for commitment stores; without it, the store cannot be attributed and commitments become unenforceable, collapsing the dialogue structure.",
+    "evidence_type": "document",
+    "source": "Walton, D. (1984). Logical Dialogue-Games and Fallacies; Walton & Krabbe (1995) Commitment in Dialogue",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775841756.7693539,
+    "id": "a1778756e493ac629e923acb9edd1206357a9eef81efe4fb8adfb218c1707a68"
+  },
+  {
+    "title": "Reputation systems and epistemic improvement",
+    "description": "Platforms with persistent reputation systems (Stack Exchange, academic citation networks) show measurably higher rates of error correction and knowledge convergence than platforms without. Reputation acts as a proxy for accumulated dialectical track record, incentivizing participants to maintain consistency and respond to defeaters rather than abandon and restart positions.",
+    "evidence_type": "observation",
+    "source": "Studies on Stack Exchange quality metrics; Mamykina et al. (2011) Design lessons from Stack Overflow; citation network analyses",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775841760.2156758,
+    "id": "ef6198a49ce6115643961d1b871e1eaa5e709ad44098188e1e1a85dcec080227"
+  },
+  {
+    "title": "Historical example: Scientific societies and persistent membership",
+    "description": "The epistemic productivity of early scientific societies (Royal Society, Acad\u00e9mie des Sciences) depended heavily on persistent membership where individuals' prior claims could be recalled and challenged. Disputes like Newton-Leibniz or the oxygen theory controversy progressed precisely because participants' identities persisted, allowing arguments to accumulate and defeaters to stick across years of correspondence.",
+    "evidence_type": "testimony",
+    "source": "Shapin & Schaffer (1985) Leviathan and the Air-Pump; historical accounts of Royal Society proceedings",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775841764.037475,
+    "id": "352bc61c77ecb1c20bb9522cdc06d2c490eb39d64694596ef8283c7710a58bda"
+  }
+]

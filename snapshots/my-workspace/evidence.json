@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Financial System Capture",
+    "description": "Central banking systems and payment networks have historically concentrated power in opaque institutions despite initially serving coordination functions",
+    "evidence_type": "observation",
+    "source": "Historical analysis of central banking development",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386117.650146,
+    "id": "2616db984a68823891ccb5d98dab3560abe11f1c575c33e9ff7a7940e24025ac"
+  },
+  {
+    "title": "Social Platform Centralization",
+    "description": "Platforms like Facebook and Twitter began as coordination tools but evolved into centralized control systems with opaque algorithmic governance",
+    "evidence_type": "observation",
+    "source": "Platform evolution studies",
+    "reliability": 0.9,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386117.651265,
+    "id": "ab256213542ea4f5eb8dd6b3f989d7e0870b9f985da0de47c8f38ead26de7b90"
+  },
+  {
+    "title": "Cross-Cultural Trade Breakdown",
+    "description": "International commerce requires extensive legal and institutional frameworks to substitute for absent social trust mechanisms",
+    "evidence_type": "statistical",
+    "source": "International trade institution research",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386117.652373,
+    "id": "73133a6147dc02d45c9ab5c5f776450b7f4fb2d443709f02f145ddc9b7af35a2"
+  },
+  {
+    "title": "Game Theory Research",
+    "description": "Experimental evidence shows cooperation rates decline significantly in anonymous, one-shot interactions compared to repeated games with identity",
+    "evidence_type": "experiment",
+    "source": "Behavioral economics literature",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386117.653572,
+    "id": "d4a3f2c84af73f96236274c6071d4ecca11165329bad31b367093a966978c694"
+  },
+  {
+    "title": "Prisoner's Dilemma Experiments",
+    "description": "Laboratory studies showing that actors consistently defect in one-shot games even when mutual cooperation would yield better outcomes, demonstrating how structural incentives override individual preferences",
+    "evidence_type": "experiment",
+    "source": "Axelrod, R. (1984). The Evolution of Cooperation",
+    "reliability": 0.9,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386611.6563652,
+    "id": "e44afc9fec01012f5e7350ebbf94760fe9b526292bc9d785999fe700d06eb17c"
+  },
+  {
+    "title": "Platform Capture Examples",
+    "description": "Historical analysis of how Facebook, Twitter, and financial institutions initially promised decentralization but evolved toward centralized control through opaque algorithmic governance and network effects",
+    "evidence_type": "observation",
+    "source": "Zuboff, S. (2019). The Age of Surveillance Capitalism",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386611.659167,
+    "id": "014725c762f917a86ffc7dbc74105a5dac9c43828402cde2d01d0499eb84ab60"
+  },
+  {
+    "title": "Cross-Border Trade Statistics",
+    "description": "Economic data showing significantly higher transaction costs and lower cooperation rates in international compared to domestic trade, correlating with absence of shared reputation systems",
+    "evidence_type": "statistical",
+    "source": "World Trade Organization annual reports",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386611.6608489,
+    "id": "abc17e226834bcd2464269f653b945120c9312515ae5bca89125097f6a3e16ae"
+  },
+  {
+    "title": "Estonia's e-Residency Program",
+    "description": "Case study of how digital identity infrastructure enabled new forms of cross-border business cooperation and reduced transaction costs for international entrepreneurs",
+    "evidence_type": "observation",
+    "source": "Estonian e-Residency program data (2014-present)",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386611.662495,
+    "id": "9ffe09216f72668c7213510fc95dcb8b73a8bfbab27635b9752ad9df85c83010"
+  },
+  {
+    "title": "Systematic failures on ARC dataset",
+    "description": "Large language models show poor performance on the Abstraction and Reasoning Corpus, which tests novel pattern recognition and logical reasoning without relying on memorized knowledge",
+    "evidence_type": "experiment",
+    "source": "Chollet (2019) and subsequent LLM evaluations on ARC",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773388479.535158,
+    "id": "03165391ac2df7b38407569a9dc09f3113311f991f26151bb20dd96b8b824e9d"
+  },
+  {
+    "title": "Causal reasoning benchmark failures",
+    "description": "Studies show LLMs struggle with counterfactual reasoning, causal identification, and distinguishing correlation from causation in scenarios not well-represented in training data",
+    "evidence_type": "experiment",
+    "source": "K\u0131c\u0131man et al. (2023) on causal reasoning in LLMs",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773388479.5364852,
+    "id": "b5562c6f3638d450a9a44eea8708d52caa9c258d055a0362f151da02d413dbb4"
+  },
+  {
+    "title": "Transformer architecture analysis",
+    "description": "The transformer architecture underlying LLMs performs next-token prediction based on attention patterns over training sequences, without explicit symbolic reasoning mechanisms",
+    "evidence_type": "document",
+    "source": "Vaswani et al. (2017) and architectural analyses",
+    "reliability": 0.9,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773388479.537754,
+    "id": "d1da55844cf2937c90196c68b0a86e97d9383a06d7a98ad036ab28207e7d1b0a"
+  },
+  {
+    "title": "Adversarial prompt brittleness",
+    "description": "LLMs show systematic failures when prompts are modified in ways that shouldn't affect reasoning but change statistical patterns, suggesting dependence on surface correlations",
+    "evidence_type": "experiment",
+    "source": "Various adversarial evaluation studies 2022-2023",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773388479.539096,
+    "id": "e4e34528bca2fba24c4a06ffa64174f718816301e405989a363fec002b54e2a0"
+  }
+]

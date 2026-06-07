@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "anti-zionism",
+    "predicate": "is-symptom-not-cause-of",
+    "object": "geopolitical-unsophistication",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "d7d645f6355a54465a81be9cde16fb64d467064df2eb0268cc1f5d3058ceee30",
+      "7256596e69c4306335e50bba67d2c8c9f4d7f9654a66e1f4e2517ffc017eb0be",
+      "2a0c417e9c8e1a4c8aa6500d96b3b5f40c327214745a2153e7681933ea9edcb0"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism functions as a causal attribution engine for populations and movements that lack strategic exposure \u2014 it's a symptom of geopolitical unsophistication, not necessarily its cause. The causal arrow may run the other direction: bad geopolitical thinking produces anti-Zionism as a convenient moral framework, rather than anti-Zionism degrading otherwise good thinking.",
+    "created_at": 1776229039.4334998,
+    "id": "ab98212acdfd7ff76a0ec7e3ee26f9aed711cd2db74eef013d5e9ca5b202896b"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "functions-as",
+    "object": "causal-attribution-engine",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism provides a ready-made explanatory framework that assigns causal responsibility for complex geopolitical outcomes to a single actor (Israel/Zionism), reducing cognitive load for those without deep strategic knowledge.",
+    "created_at": 1776229078.9159942,
+    "id": "1bc91123e43b9a362e400654d56680ca8b0899668919ba45ea5105e2bfa78139"
+  },
+  {
+    "subject": "geopolitical-unsophistication",
+    "predicate": "causally-precedes",
+    "object": "adoption-of-anti-zionism",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The causal arrow runs from pre-existing lack of strategic exposure toward adoption of anti-Zionism as a convenient moral framework, not the reverse. People with poor geopolitical models seek simplifying frameworks.",
+    "created_at": 1776229081.775924,
+    "id": "4df0b00aacf822766519ebf780a260ac0582935041dfad958222080edd09f2d4"
+  },
+  {
+    "subject": "monocausal-moral-frameworks",
+    "predicate": "attract",
+    "object": "strategically-unexposed-populations",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Populations and movements lacking strategic exposure are disproportionately drawn to monocausal explanatory frameworks that assign clear moral valence \u2014 anti-Zionism is one instance of a broader pattern visible in populist movements generally.",
+    "created_at": 1776229084.6435862,
+    "id": "8fe024e7ce2c82998b44c9d5d288677ec5f39d070021992965727d79d697143a"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "does-not-degrade",
+    "object": "otherwise-good-geopolitical-thinking",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis claims anti-Zionism does not take people who previously had sophisticated geopolitical models and make them worse thinkers. Rather, adoption correlates with pre-existing analytical deficits. This is the weakest sub-claim \u2014 bidirectional causation is plausible.",
+    "created_at": 1776229087.564105,
+    "id": "908dc2ed0b467228f7433cde18202fc7bd4a10e20c3ced69d4cd88410e0f31dd"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "provides",
+    "object": "convenient-moral-closure",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism offers moral closure \u2014 a clear villain, a clear victim, a clear prescription \u2014 which is psychologically attractive precisely because genuine geopolitical analysis resists such closure. It functions as an off-ramp from ambiguity.",
+    "created_at": 1776229090.315268,
+    "id": "bd0993d6c6ac168015aa83037ec08a74f0e74f20421c12db2484d20d2990ea61"
+  },
+  {
+    "subject": "causal-direction",
+    "predicate": "is-identifiable-in",
+    "object": "ideology-adoption-processes",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes that causal direction between ideological adoption and cognitive capacity is empirically distinguishable \u2014 that we can separate 'ignorance causes framework adoption' from 'framework adoption causes ignorance.' In practice, feedback loops may make this distinction intractable.",
+    "created_at": 1776229182.072167,
+    "id": "d7d645f6355a54465a81be9cde16fb64d467064df2eb0268cc1f5d3058ceee30"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "is-a-coherent-single",
+    "object": "ideological-category",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes anti-Zionism is a sufficiently unified phenomenon to analyze as one thing. In reality, it spans secular leftist critique, Islamist rejection, ultra-Orthodox theological dissent, and post-colonial theory \u2014 these may have radically different epistemic profiles and causal origins.",
+    "created_at": 1776229185.456068,
+    "id": "7256596e69c4306335e50bba67d2c8c9f4d7f9654a66e1f4e2517ffc017eb0be"
+  },
+  {
+    "subject": "geopolitical-sophistication",
+    "predicate": "is-measurable-independently-of",
+    "object": "ideological-commitments",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes there exists a neutral measure of 'geopolitical sophistication' that doesn't itself encode ideological priors. Critics would argue that what counts as 'sophisticated' geopolitical analysis is contested and may smuggle in pro-status-quo assumptions.",
+    "created_at": 1776229187.7693372,
+    "id": "2a0c417e9c8e1a4c8aa6500d96b3b5f40c327214745a2153e7681933ea9edcb0"
+  }
+]

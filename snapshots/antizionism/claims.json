@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "anti-zionism",
+    "predicate": "functions-as",
+    "object": "causal-attribution-engine-not-coherent-position",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "f22f965e836f7780da4162cb9f3301d0def0a5d1449047d7a25f5e2509ad36bf",
+      "00069177c55f6e2f52b8d5669622c93c3de4a2a6d4bb7a533b32e28b82af0c43",
+      "981a39365056c3a7ef0e4a41a4422e0e764ab2d64137a5cec4cf53e9ee029c8e"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism operates as a causal attribution engine that produces poor geopolitical reasoning rather than functioning as a coherent political position.",
+    "created_at": 1776227279.2328231,
+    "id": "a9d9dc1a2138e8f7a9398fef246e633850d6c4e8d8d87699fe02691adb689c36"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "exhibits",
+    "object": "monocausal-attribution-pattern",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionist discourse systematically attributes a disproportionate range of regional and global problems to a single actor (Israel/Zionism), displaying the hallmarks of monocausal reasoning \u2014 a known cognitive bias where complex, multi-causal phenomena are reduced to a single explanatory variable.",
+    "created_at": 1776227285.4419808,
+    "id": "80f92f18ff80d6b1bddaf73c96e942114deddab7c0a8a46082142004034c9cd9"
+  },
+  {
+    "subject": "anti-zionist-frameworks",
+    "predicate": "lack",
+    "object": "internal-coherence-as-political-ideology",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism lacks the internal consistency expected of a coherent political position: it unites actors with mutually exclusive end-states (theocratic Islamism, secular pan-Arabism, Western progressivism, far-right ethnonationalism) whose only shared commitment is negation of Zionism, suggesting it is held together by a common attribution target rather than shared positive principles.",
+    "created_at": 1776227289.767638,
+    "id": "08ef0b59a53c7d94a1f00f05206d61490850be05852193c3f8502eaf3a87d9e4"
+  },
+  {
+    "subject": "anti-zionist-reasoning",
+    "predicate": "produces",
+    "object": "systematic-predictive-failures",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "If anti-Zionism were sound geopolitical analysis, its causal model should generate accurate predictions. Instead, it systematically fails to predict or explain major regional developments that are orthogonal to Israel \u2014 e.g., the Arab Spring, the Syrian civil war's internal dynamics, the Saudi-Iran rivalry, intra-Gulf disputes, the Yemeni civil war \u2014 because its causal model is anchored to the wrong variable.",
+    "created_at": 1776227294.0014122,
+    "id": "929cc9df8047f1130858c2bd840c0bf338579ee6c0841b0f452a3dc664e6e565"
+  },
+  {
+    "subject": "causal-attribution-engine",
+    "predicate": "provides",
+    "object": "psychological-closure-over-analytical-accuracy",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The attribution-engine model explains anti-Zionism's persistence despite predictive failure: monocausal attribution provides cognitive closure, emotional satisfaction, and coalition coherence \u2014 functional benefits that are independent of analytical accuracy, analogous to other conspiratorial or scapegoating frameworks in the history of ideas.",
+    "created_at": 1776227296.8456252,
+    "id": "d0e8b1f5f8623305c6125d229481b3794596e94fc30ad8e5047ab73e0f465c49"
+  },
+  {
+    "subject": "anti-zionist-discourse",
+    "predicate": "resists",
+    "object": "falsification-and-updating",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionist causal claims display a pattern of unfalsifiability: when Israel acts, it confirms Zionist aggression; when Israel does not act, hidden Zionist influence is invoked. Counter-evidence is absorbed rather than processed, a hallmark of attribution engines rather than analytical frameworks open to revision.",
+    "created_at": 1776227300.0697799,
+    "id": "602041186461e1a245449d39b9b34b2cc80ca20dfd29462a7fcf79df034b3947"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "is-sufficiently-unified-to-analyze-as",
+    "object": "single-discourse",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumption: Anti-Zionism is a sufficiently unified discourse that it can be meaningfully analyzed as a single phenomenon, rather than being an umbrella term covering genuinely distinct political positions that merely share a label.",
+    "created_at": 1776227935.4758399,
+    "id": "f22f965e836f7780da4162cb9f3301d0def0a5d1449047d7a25f5e2509ad36bf"
+  },
+  {
+    "subject": "predictive-accuracy",
+    "predicate": "is-appropriate-standard-for",
+    "object": "evaluating-political-frameworks",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumption: Predictive accuracy is the right epistemic standard for evaluating political frameworks. Some would argue political positions serve identity, solidarity, or moral functions that cannot be reduced to prediction, making the \"attribution engine\" framing a category error.",
+    "created_at": 1776227935.47685,
+    "id": "00069177c55f6e2f52b8d5669622c93c3de4a2a6d4bb7a533b32e28b82af0c43"
+  },
+  {
+    "subject": "cognitive-bias-models",
+    "predicate": "transfer-from-individual-to",
+    "object": "group-discourse-level",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumption: Cognitive biases identified at the individual level (fundamental attribution error, monocausal reasoning) can be meaningfully applied to group-level discourse and political movements. This cross-level transfer is debated in social epistemology.",
+    "created_at": 1776227935.477855,
+    "id": "981a39365056c3a7ef0e4a41a4422e0e764ab2d64137a5cec4cf53e9ee029c8e"
+  }
+]

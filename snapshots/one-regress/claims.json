@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "commons-governed-uniqueness-registry-plus-plural-vouching",
+    "predicate": "can-confer-portable-unique-human-credential-and-convert-trust-root",
+    "object": "stateless-persons-and-capture-resistant-identity-infrastructure",
+    "confidence": {
+      "level": 0.3,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "d562b56853a1ed4384c57ad2c377e2318af377160d8e793698c19e4518d0bc28",
+      "89af0e149b04f211cf2690654516195510fe2cad2795eb4764fe0ee53bb7de66",
+      "d859d9aa105958ab3ae04062e0b2766c7573c4cec4f4b2ba495955f4003c8c17"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Layered on self-certifying identifiers, an accountable, commons-governed uniqueness registry plus plural constituted vouching authorities can do two things: (a) confer a technically valid, portable \"unique-human\" credential on stateless people whom no state will vouch for; and (b) convert the trust root from a hidden, single-party chokepoint into one whose capture is expensive and publicly visible rather than cheap and silent. This holds only conditionally \u2014 it requires at least one anchor relying party willing to honor the credential, and it requires the uniqueness registry to resist network-effect re-concentration toward a single dominant operator. The design explicitly does NOT claim to make capture impossible, to guarantee institutional acceptance, or to function where a state physically denies enrollment access.\n[30%] Adjusted down from 62% to reflect the conceded conjunction penalty. The thesis is a five-link chain (portable credential \u00d7 plural vouching \u00d7 capture-conversion \u00d7 re-concentration resistance \u00d7 anchor adoption), and the links are entangled rather than independent. Pure product \u2248 0.07; allowing partial mitigation and correlation among links, ~0.30 is a defensible honest figure \u2014 clearly below 50%, gated by the two weakest links (network-effect re-concentration ~45%, anchor adoption ~58%). Status remains defeated; this records the realistic strength rather than the averaged one.",
+    "created_at": 1780015963.157898,
+    "id": "93165e1b1f50d56e8d375ca2f73f5ca3b13f9aef0a2d5db4b87abd953ca08994"
+  },
+  {
+    "subject": "self-certifying-identifiers",
+    "predicate": "enable",
+    "object": "portable-credential-without-state-issuer",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Self-certifying identifiers (DIDs, cryptographic key pairs) allow a person to hold and present a credential that is verifiable without callback to the issuing authority. This removes the hard dependency on a single state-run identity provider and makes the credential portable across jurisdictions and systems.",
+    "created_at": 1780015969.174772,
+    "id": "46f2e8d8f4cd8576c0ee57c4701ce4e9113f7e107032669aea8ded0ddbe90f9e"
+  },
+  {
+    "subject": "plural-constituted-vouching-authorities",
+    "predicate": "can-substitute-for",
+    "object": "state-identity-attestation-for-stateless-persons",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "When no state will vouch for a person (stateless populations, refugees in hostile jurisdictions), a plurality of independent vouching authorities \u2014 community organizations, NGOs, diaspora networks, biometric uniqueness checks \u2014 can collectively produce an attestation of unique personhood that is functionally equivalent for relying parties. This is empirically testable by whether any relying party actually accepts such credentials.",
+    "created_at": 1780015973.86241,
+    "id": "7847688fecb402ba8b088a7a041e84a3ff6c92e7ad8a5fe298aec7cee21a6869"
+  },
+  {
+    "subject": "commons-governance-of-uniqueness-registry",
+    "predicate": "makes-capture",
+    "object": "expensive-and-publicly-visible",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "A commons-governed registry (multi-stakeholder board, open-source protocol, transparent audit logs) structurally raises the cost of capture compared to a hidden single-party chokepoint. Capture requires corrupting multiple independent parties simultaneously and doing so in a way that is observable by the community. This converts the failure mode from silent to noisy, though it does not make capture impossible.",
+    "created_at": 1780015977.644872,
+    "id": "f029741f9b69ded7219fce42aa1db80cf7e8411803645642a607869ca33a8b5f"
+  },
+  {
+    "subject": "uniqueness-registry",
+    "predicate": "can-resist",
+    "object": "network-effect-re-concentration",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis conditionally requires that the uniqueness registry resists natural network-effect dynamics that tend to concentrate platforms toward a single dominant operator. This is the weakest sub-claim: platform economics strongly favor winner-take-all dynamics, and resisting re-concentration requires sustained institutional and protocol-level countermeasures (fork rights, data portability, interoperability mandates).",
+    "created_at": 1780015981.036159,
+    "id": "7883a64b485c3c023e98461295d745902016eb5c37da8ce923365b2878e03b32"
+  },
+  {
+    "subject": "at-least-one-anchor-relying-party",
+    "predicate": "must-honor",
+    "object": "non-state-unique-human-credential",
+    "confidence": {
+      "level": 0.58,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The credential is technically valid but socially inert without at least one anchor relying party (a bank, an aid agency, a municipal government) willing to accept it. This is a bootstrap problem: relying parties may wait for adoption signals, while adoption requires relying parties. The thesis honestly acknowledges this as a precondition rather than claiming it is automatically satisfied.",
+    "created_at": 1780015984.2508118,
+    "id": "b2e0c4d8074d66563035aa31c5cea05b0fbb3af744787045a96f80cd24e69770"
+  },
+  {
+    "subject": "biometric-or-social-uniqueness-checks",
+    "predicate": "are-sufficiently-accurate-to-prevent",
+    "object": "sybil-attacks-at-scale",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The entire architecture assumes the uniqueness registry can actually detect and prevent duplicate enrollments (Sybil attacks) with sufficient accuracy. If biometric methods fail for certain populations (e.g., manual laborers with worn fingerprints, populations with limited biometric training data) or social vouching is gameable by coordinated groups, the 'unique-human' credential loses its core guarantee. This is an open empirical question with mixed evidence from existing deployments.",
+    "created_at": 1780016046.970164,
+    "id": "d562b56853a1ed4384c57ad2c377e2318af377160d8e793698c19e4518d0bc28"
+  },
+  {
+    "subject": "cryptographic-key-management",
+    "predicate": "is-feasible-for",
+    "object": "marginalized-populations-without-reliable-devices",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Self-certifying identifiers require the holder to manage cryptographic keys. Stateless persons, refugees, and marginalized populations may lack reliable access to personal devices, secure storage, or technical literacy. Key loss means identity loss. This is a deep usability assumption that the thesis does not address \u2014 the entire DID/VC layer presupposes device access and key custody capability.",
+    "created_at": 1780016051.279377,
+    "id": "89af0e149b04f211cf2690654516195510fe2cad2795eb4764fe0ee53bb7de66"
+  },
+  {
+    "subject": "commons-governance-participants",
+    "predicate": "will-sustain-engagement-against",
+    "object": "well-resourced-capture-attempts-over-time",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes that the volunteer/stakeholder community governing the commons registry will remain vigilant and engaged over long time horizons, even as the system becomes boring infrastructure. Capture attempts often succeed not through dramatic takeover but through attrition \u2014 governance fatigue, declining participation, and gradual entrenchment of insiders. This is a normative bet on sustained civic commitment.",
+    "created_at": 1780016055.16396,
+    "id": "d859d9aa105958ab3ae04062e0b2766c7573c4cec4f4b2ba495955f4003c8c17"
+  }
+]

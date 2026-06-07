@@ -1,0 +1,203 @@
+[
+  {
+    "conclusion": "8a31fbcf1bf88e5bbaa7e6e9918a4e0b9f0bc5489d432b7604c125af20ac0d38",
+    "premises": [
+      "805e0f813f9645201ff753888d070f115beb6de934743f083729b0007779a8ba"
+    ],
+    "pattern": "testimony",
+    "label": "Democratic theorists ground legitimacy in meaningful informed consent",
+    "confidence": {
+      "level": 0.68,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774141707.946603,
+    "id": "c0e3309a0802f9f155bbcebae49c7d080f972c01f71ef06c8c448f335b70f77d"
+  },
+  {
+    "conclusion": "73b53f2b85b62235ddad415148ffc46bcbc4d7c8a1d74588f190dc632df4332b",
+    "premises": [
+      "2f8ab9a176c37a3b644f8255afbe254a447c6f42b7f1d54b7214d024ffda3299",
+      "30f692090d2e6be4b4d0b93bf020bcb3451bb6ecd5c948b8e21364041e6099c3"
+    ],
+    "pattern": "induction",
+    "label": "Empirical research shows uninformed voters produce misaligned outcomes and information changes preferences",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Epistocratic critique turned on its head: if the research showing voter ignorance is so severe and persistent, one might conclude not that democracy requires an informed electorate but rather that democracy functions tolerably well despite an uninformed electorate\u2014as evidenced by the relative stability and prosperity of many democracies with demonstrably ignorant electorates. The empirical record may actually rebut the claim that uninformed voters systematically produce bad outcomes, since democracies outperform non-democracies on many metrics despite pervasive voter ignorance.",
+        "status": "answered",
+        "response": "The epistocratic critique is valid as far as it goes \u2014 the evidence base for voter ignorance IS contested, and Somin/Caplan's framing has been challenged by Landemore and others who argue that cognitive diversity in large groups can outperform individual expertise. But this defeater actually strengthens rather than weakens the case for participatory epistemic infrastructure. Here's why: if we cannot confidently determine from outside whether voters are \"informed enough,\" then the solution cannot be epistocratic gatekeeping (who watches the gatekeepers?). Instead, the solution is to make the reasoning process itself transparent and contestable \u2014 which is precisely what formal argumentation frameworks do. A QBAF doesn't require a prior judgment about who is informed; it makes the structure of everyone's reasoning visible so that weak arguments are exposed by the framework's own semantics, not by an authority's assessment. The contestedness of the evidence base is an argument FOR structured deliberation infrastructure, not against the informed electorate thesis."
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774141707.9475489,
+    "id": "8655d34bb67ccd8f15a58451b50f5484cbf8ab0a8cae234c802c32a8a413f26d"
+  },
+  {
+    "conclusion": "e3c8464be96e9a786c2f39ad9e70596f631447450532be67a1c1f4562d889718",
+    "premises": [
+      "6e4c2a5b9aac5baee929741103155fbf8c49164f0d24e059a0824e50f45461d3",
+      "2f8ab9a176c37a3b644f8255afbe254a447c6f42b7f1d54b7214d024ffda3299"
+    ],
+    "pattern": "causal",
+    "label": "Information access enables accountability; its absence correlates with governance failures",
+    "confidence": {
+      "level": 0.67,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774141707.9485261,
+    "id": "daf804c96df32b5f2a229e0d3cfb9c412490ba06285e0c2e54422504f03e4995"
+  },
+  {
+    "conclusion": "57877f50ff7456ee21320346f86a96d2a63526cffefc11f482381054ca9a12e1",
+    "premises": [
+      "6e4c2a5b9aac5baee929741103155fbf8c49164f0d24e059a0824e50f45461d3",
+      "805e0f813f9645201ff753888d070f115beb6de934743f083729b0007779a8ba"
+    ],
+    "pattern": "induction",
+    "label": "Historical pattern links information access to democratic quality",
+    "confidence": {
+      "level": 0.58,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774141707.949495,
+    "id": "4b50e7409cee5fdb6b85d7bbec1f176f4128c1f73787372c795196bec147ca3d"
+  },
+  {
+    "conclusion": "266dbe158781c22aa562ba831470cfe8c459c2b98e52b39cd868174387e42abd",
+    "premises": [
+      "8a31fbcf1bf88e5bbaa7e6e9918a4e0b9f0bc5489d432b7604c125af20ac0d38",
+      "73b53f2b85b62235ddad415148ffc46bcbc4d7c8a1d74588f190dc632df4332b",
+      "d694c2a8307175a0204fc215ad73e0e8a476d41d4c4059c57b64c37000320833",
+      "e3c8464be96e9a786c2f39ad9e70596f631447450532be67a1c1f4562d889718"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Core convergent argument: legitimacy, outcomes, deliberation, and accountability all require an informed electorate",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The 'miracle of aggregation' and rational shortcuts thesis: Lupia, Popkin, and others argue that voters use heuristics (party cues, endorsements, social signals) that allow them to vote as if they were informed, even when individually ignorant. If these shortcuts work reliably, democracy may not require an informed electorate in any thick sense\u2014it may only require a well-structured information environment with reliable cue-givers. This undercuts the link between the premises about information and the conclusion about democratic requirements.",
+        "status": "answered",
+        "response": "The miracle of aggregation thesis assumes unstructured aggregation (voting, polling). But the objection weakens significantly when aggregation is done through formal argumentation frameworks (QBAFs) where: (1) arguments have explicit support/attack structure visible to all participants, (2) participants are verified unique humans via PKI-based identity (preventing Sybil attacks on aggregation), and (3) the reasoning is persisted in a decentralized knowledge graph for contestability. Under these conditions, aggregation and individual knowledge aren't opposed \u2014 the infrastructure enables both simultaneously. The rational shortcuts Lupia and Popkin describe become formally structured heuristics rather than ad hoc cognitive biases."
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774141707.9508202,
+    "id": "422e8817412c5fc789669200a844a8d13bc2bb2a4eab8b2c58c724962f8672fb"
+  },
+  {
+    "conclusion": "266dbe158781c22aa562ba831470cfe8c459c2b98e52b39cd868174387e42abd",
+    "premises": [
+      "57877f50ff7456ee21320346f86a96d2a63526cffefc11f482381054ca9a12e1",
+      "6e4c2a5b9aac5baee929741103155fbf8c49164f0d24e059a0824e50f45461d3"
+    ],
+    "pattern": "induction",
+    "label": "Historical and comparative evidence inductively supports the thesis",
+    "confidence": {
+      "level": 0.58,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774141707.951922,
+    "id": "d20fa08b98fee1f73946605ac6b5587a002097b98912675f4eaf4d0719616986"
+  },
+  {
+    "conclusion": "0b4459c7fb1fd1c10a57d5833c90b5ae29120cc5a8775b5e94444b4c562ec78b",
+    "premises": [
+      "947739993e4519f9cf89285a06093db5a4eae963dad5c99df9d76eeffc225ad8"
+    ],
+    "pattern": "abduction",
+    "label": "Evidence: Formal argumentation platforms as scalability mechanism",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775603350.3207738,
+    "id": "ac70b6a26845316f610c56c0006b5db2d478e63dcda5cff420827ccfebe08d93"
+  },
+  {
+    "conclusion": "dc89eff4db1ae72de615236af819c35560771dce477704fcfefd122d008bf973",
+    "premises": [
+      "bb05ad91c45bb0601a277779e491893cedc1c2de640a581cb62843d2760da4d3"
+    ],
+    "pattern": "abduction",
+    "label": "Evidence: QBAF combination dissolves the aggregation vs knowledge dichotomy",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775603602.9625862,
+    "id": "1ddabf014a7a82ae63e9efd2cfcc92587f10b23c1da1cc83338346b5a717eec5"
+  },
+  {
+    "conclusion": "4d4b04f27987f7bac87422ed5508ea9a776d7ca85fe3932724656ce99f356f10",
+    "premises": [
+      "530b8e7d5b84b569e34fb85352cad14c4bd92ea8179c537a22590228a1533ec7"
+    ],
+    "pattern": "testimony",
+    "label": "Evidence: Cross-tradition convergence on democratic legitimacy as aim",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775603611.666233,
+    "id": "a7b4de7bc450d13da393d21136e4dcb49acb07e6a36fcbd8ac74c50dd66b16d0"
+  }
+]

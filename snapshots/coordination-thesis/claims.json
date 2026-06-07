@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "global-identity-infrastructure",
+    "predicate": "requires-incremental-validation-before",
+    "object": "civilizational-scale-deployment",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "bd90647cf05045408ce87c9ceb3fc3e8720c077f80d4b76fedf47e825136e6d2",
+      "9c78e929797897f2855957dd8444819fceb626f8cbcb00698a79f3bf6087ff25",
+      "19431337a46d6eaeaa210d05a612ede4c6e2e3961eb19c05db5c77666ec05d0b"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Coordination failures arise from a mixture of structural conflicts (zero-sum incentive landscapes, power asymmetries) and trust or identification deficits, with the relative weight varying substantially across domains \u2014 and infrastructure interventions that address trust components can, as Ostrom and others have shown, sometimes shift effective payoff structures even where underlying interests partly conflict. Where coordination failures do stem significantly from trust and identification deficits, shared infrastructure \u2014 including identity systems enabling counterparty verification and reputational stakes \u2014 may create possibility spaces for non-zero-sum dynamics, though this mechanism remains underspecified and its scalability beyond domain-specific applications (such as escrow, credit registries, and platform reputation systems) to a globally integrated identity layer is empirically undemonstrated. A globally accessible identity system emphasizing accountable anonymity could, in principle, create structural preconditions for broader coordination, but this proposal faces three serious challenges whose severity remains uncertain: first, that capture resistance may degrade as the system's value increases, and a captured global identity system could prove worse than the coordination failures it aimed to address; second, that the separability of identity verification from surveillance and control at scale remains an undemonstrated design aspiration rather than an established principle, though partial approximations may prove workable; third, that cultural and institutional differences may impede the interoperability and voluntary adoption such a system requires, particularly where network effects risk rendering nominally voluntary participation functionally coercive. These challenges, combined with the asymmetric risk profile in the global-system case specifically, suggest that proponents of a unified capture-resistant global identity infrastructure bear a substantial \u2014 though not uniquely unprecedented \u2014 burden to demonstrate feasibility, separability from surveillance, and a net-positive risk profile through rigorous incremental validation (including regional and domain-specific deployments) before any integration at civilizational scale, while acknowledging that some degree of learning-through-deployment is unavoidable for complex sociotechnical systems and that the costs of unresolved coordination failures also warrant serious weight in the overall risk calculus.",
+    "created_at": 1774137286.866868,
+    "id": "0620f6abb7203f86a54636985fe6948f7a7a904ce725bff80c8e3b0833ab2ba8"
+  },
+  {
+    "subject": "coordination-failures",
+    "predicate": "arise-from-mixture-of",
+    "object": "structural-conflicts-and-trust-deficits",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Coordination failures stem from both zero-sum incentive landscapes and power asymmetries (structural) as well as trust and identification deficits, with the relative weight varying substantially across domains.",
+    "created_at": 1774137286.872946,
+    "id": "970d4fed29a02abb07a9534700bbd46520328ce4f6172cf44ae2d21e1de48425"
+  },
+  {
+    "subject": "trust-addressing-infrastructure",
+    "predicate": "can-shift",
+    "object": "effective-payoff-structures",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "As demonstrated by Ostrom and others, infrastructure interventions that address trust components can sometimes shift effective payoff structures even where underlying interests partly conflict, creating possibility spaces for non-zero-sum dynamics.",
+    "created_at": 1774137286.874829,
+    "id": "2c926286953116d72ffbe59ed936af5b66c54c60771f9075ca774fcb26e92750"
+  },
+  {
+    "subject": "identity-systems-with-accountable-anonymity",
+    "predicate": "could-create",
+    "object": "structural-preconditions-for-coordination",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Identity systems enabling counterparty verification and reputational stakes may create possibility spaces for broader coordination, though the mechanism remains underspecified and scalability beyond domain-specific applications to a global layer is empirically undemonstrated.",
+    "created_at": 1774137286.8767638,
+    "id": "6457ca9fcf68368af635a5b452e56285b52f274fb76d9f40b64e02a0e56f11ed"
+  },
+  {
+    "subject": "global-identity-system",
+    "predicate": "faces-three-serious",
+    "object": "challenges-of-uncertain-severity",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Three challenges: (1) capture resistance may degrade as system value increases, and a captured system could be worse than the coordination failures it addresses; (2) separability of identity verification from surveillance at scale is undemonstrated; (3) cultural and institutional differences may impede interoperability, and network effects risk making voluntary participation functionally coercive.",
+    "created_at": 1774137286.8783529,
+    "id": "af982d4aa41eef39cf971f9decff2b6f1c42b0de8d922faf20fbff54ad967f81"
+  },
+  {
+    "subject": "risk-calculus",
+    "predicate": "must-weigh",
+    "object": "deployment-risks-against-coordination-failure-costs",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The asymmetric risk profile of the global-system case, combined with the unavoidability of some learning-through-deployment for complex sociotechnical systems and the serious costs of unresolved coordination failures, demands that proponents bear a substantial burden of proof through incremental validation while the overall risk calculus remains genuinely two-sided.",
+    "created_at": 1774137286.880178,
+    "id": "37214fd69d4784889448be9216098a98bf69d582672715425de96cdf0d121cbf"
+  },
+  {
+    "subject": "identity-verification",
+    "predicate": "is-technically-separable-from",
+    "object": "comprehensive-surveillance",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes that accountable anonymity is at least partially achievable as a design property \u2014 that identity verification can be architecturally separated from surveillance and control. If this separability is fundamentally impossible at scale (not merely undemonstrated), then the entire proposal collapses: there is no design space to validate incrementally, and the thesis's moderate optimism is misplaced.",
+    "created_at": 1774137286.8961349,
+    "id": "bd90647cf05045408ce87c9ceb3fc3e8720c077f80d4b76fedf47e825136e6d2"
+  },
+  {
+    "subject": "coordination-failure-costs",
+    "predicate": "are-sufficiently-large-to-justify",
+    "object": "risk-of-novel-infrastructure",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes that the costs of unresolved coordination failures (climate change, arms races, pandemic response, etc.) are severe enough to make exploring risky infrastructure solutions rational rather than reckless. If coordination failures are less costly than assumed, or if alternative solutions exist that don't require identity infrastructure, the burden-of-proof argument loses much of its force.",
+    "created_at": 1774137286.897444,
+    "id": "9c78e929797897f2855957dd8444819fceb626f8cbcb00698a79f3bf6087ff25"
+  },
+  {
+    "subject": "incremental-validation",
+    "predicate": "provides-meaningful-evidence-about",
+    "object": "global-scale-dynamics",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes that regional and domain-specific deployments can generate informative evidence about how a globally integrated system would behave. If global-scale dynamics (capture risk, network effects, geopolitical competition) are emergent properties that cannot be reliably predicted from smaller-scale experiments, then incremental validation may provide false confidence. This is a deep epistemological assumption about the predictability of complex sociotechnical systems.",
+    "created_at": 1774137286.898955,
+    "id": "19431337a46d6eaeaa210d05a612ede4c6e2e3961eb19c05db5c77666ec05d0b"
+  }
+]

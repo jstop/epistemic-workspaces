@@ -1,0 +1,113 @@
+[
+  {
+    "title": "World ID: orb iris -> AMPC dedup; user-held; ZK; much open. BUT corporate root (",
+    "description": "World ID: orb iris -> AMPC dedup; user-held; ZK; much open. BUT corporate root (BVI); privacy-by-policy; regulatory action.",
+    "evidence_type": "observation",
+    "source": "https://world.org/world-id",
+    "reliability": 0.7,
+    "provenance": null,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780061931.710003,
+    "id": "EV_worldid"
+  },
+  {
+    "title": "KERI: self-certifying identifier; no authority/ledger; witnesses. Solves identif",
+    "description": "KERI: self-certifying identifier; no authority/ledger; witnesses. Solves identifier control; punts uniqueness.",
+    "evidence_type": "observation",
+    "source": "https://arxiv.org/abs/1907.02143",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12525,
+      "url": "https://arxiv.org/abs/1907.02143",
+      "quote": "KERI is based on self-certifying identifiers bound to their own key state, requiring no trusted registry or shared ledger.",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780061931.710006,
+    "id": "EV_keri"
+  },
+  {
+    "title": "Proof of Humanity: social vouching + Kleros court; deanonymizing. BrightID: foun",
+    "description": "Proof of Humanity: social vouching + Kleros court; deanonymizing. BrightID: founder-seeded web of trust.",
+    "evidence_type": "observation",
+    "source": "https://www.proofofhumanity.id",
+    "reliability": 0.7,
+    "provenance": null,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780061931.710007,
+    "id": "EV_poh"
+  },
+  {
+    "title": "Gov wallets: personhood rooted in citizenship; only for citizens; excludes the s",
+    "description": "Gov wallets: personhood rooted in citizenship; only for citizens; excludes the stateless. vLEI roots in GLEIF.",
+    "evidence_type": "observation",
+    "source": "eIDAS/EUDI references",
+    "reliability": 0.7,
+    "provenance": null,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780061931.7100081,
+    "id": "EV_gov"
+  },
+  {
+    "title": "~4.4M+ stateless people; documentation barriers; the population existing systems",
+    "description": "~4.4M+ stateless people; documentation barriers; the population existing systems exclude.",
+    "evidence_type": "observation",
+    "source": "UNHCR Global Trends; ISI",
+    "reliability": 0.7,
+    "provenance": null,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780061931.7100081,
+    "id": "EV_unhcr"
+  },
+  {
+    "title": "Eight design principles for durable commons.",
+    "description": "Eight design principles for durable commons.",
+    "evidence_type": "observation",
+    "source": "Ostrom, Governing the Commons (1990)",
+    "reliability": 0.7,
+    "provenance": null,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780061931.710009,
+    "id": "EV_ostrom"
+  },
+  {
+    "title": "No ideal form of proof of personhood; robust systems combine methods.",
+    "description": "No ideal form of proof of personhood; robust systems combine methods.",
+    "evidence_type": "observation",
+    "source": "Buterin; MIT-OpenAI Personhood Credentials",
+    "reliability": 0.7,
+    "provenance": null,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780061931.71001,
+    "id": "EV_vitalik"
+  }
+]

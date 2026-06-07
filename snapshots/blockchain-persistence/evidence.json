@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Platform content manipulation incidents",
+    "description": "Documented cases of social media platforms silently editing, shadow-banning, or reordering user content without notification. E.g., Reddit CEO editing user comments in the database (2016), Facebook's opaque News Feed algorithm changes affecting political discourse, and Twitter/X's retroactive content policy enforcement altering visibility of public threads.",
+    "evidence_type": "observation",
+    "source": "Multiple investigative journalism reports and platform whistleblower disclosures (2016-2024)",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775620675.848182,
+    "id": "d88fb752d8be5cadb79a6bbb35570052bc1e5185a434ffa8e327d8d52b82eff2"
+  },
+  {
+    "title": "Cryptographic properties of hash-chain structures",
+    "description": "Blockchain's Merkle-tree and hash-chain architecture ensures that altering any historical record changes the hash of all subsequent blocks, making tampering detectable by any node holding a copy. This is a well-established result in computer science (Merkle 1979, Nakamoto 2008).",
+    "evidence_type": "document",
+    "source": "Merkle (1979) 'A Certified Digital Signature'; Nakamoto (2008) Bitcoin whitepaper; standard cryptographic literature",
+    "reliability": 0.95,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775620679.148951,
+    "id": "fa91816d74cb4e49fd414e4b5452fdabfb84b06e19a5093f1028fc6f660dc9de"
+  },
+  {
+    "title": "Habermasian discourse ethics on procedural integrity",
+    "description": "J\u00fcrgen Habermas's theory of communicative action holds that legitimate democratic deliberation requires an 'ideal speech situation' where participants have equal access to shared arguments and no party can covertly manipulate the discourse structure. Alteration of the argument record violates these conditions.",
+    "evidence_type": "document",
+    "source": "Habermas, J. (1981) 'The Theory of Communicative Action'; Habermas (1996) 'Between Facts and Norms'",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775620682.432255,
+    "id": "853ac6cb7127be3499727ad036875a490ec59fa5dadee5c2a6a30ecbf2f82ce2"
+  },
+  {
+    "title": "Certificate Transparency as a non-blockchain tamper-evident log",
+    "description": "Google's Certificate Transparency (CT) project uses append-only Merkle trees (without blockchain consensus) to create publicly auditable logs of TLS certificates. CT demonstrates that tamper-evident logging is achievable without full blockchain infrastructure, though it relies on a small set of trusted log operators.",
+    "evidence_type": "observation",
+    "source": "RFC 6962; Google Certificate Transparency project documentation; Laurie et al. (2013)",
+    "reliability": 0.9,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775620686.588068,
+    "id": "ccd400984b1d44f675572df7135ad7f249c47acf22595ba41a66ef11dd486718"
+  },
+  {
+    "title": "Certificate Transparency logs as production-grade tamper-evident infrastructure",
+    "description": "Certificate Transparency (RFC 6962) has operated at global scale since 2013, processing billions of certificate entries across multiple independent log operators (Google, Cloudflare, DigiCert, Sectigo). CT logs use the same Merkle tree structure as blockchain but without consensus mechanisms, token economics, or energy expenditure. They provide cryptographic proof of inclusion and consistency, are monitored by independent auditors, and are already integrated into the PKI ecosystem that Osmio operates within as a Certificate Authority. Google's Trillian project generalizes CT logs to arbitrary data, making them directly applicable to argument graph persistence. This is not theoretical \u2014 it is production infrastructure processing more data than any blockchain.",
+    "evidence_type": "document",
+    "source": "RFC 6962 (Certificate Transparency); Google Trillian; CT log operator ecosystem (2013-present)",
+    "reliability": 0.9,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775620828.811871,
+    "id": "6ea93ad667c3c020cd75ba42b3d1d044e37a929b481672cc15d89ee2ed8571b3"
+  }
+]

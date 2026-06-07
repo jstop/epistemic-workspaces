@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "anti-zionism",
+    "predicate": "is-symptom-of",
+    "object": "geopolitical-unsophistication",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "db1a0bfbb32db2c8d40653c86ceeb4d06a224cd5d5102e5cbbea0c21b6ae4eab",
+      "a3e7aba03b71ac659de663a2597fd462ebe8af2d875580326cdc7642e8a2b717",
+      "caa340f5251fee7c719a685ea56b9c83678c9d6899652bbacb26ce83f98760c1"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism functions as a causal attribution engine for populations and movements that lack strategic exposure \u2014 it's a symptom of geopolitical unsophistication, not necessarily its cause. The causal arrow may run the other direction: bad geopolitical thinking produces anti-Zionism as a convenient moral framework, rather than anti-Zionism degrading otherwise good thinking.",
+    "created_at": 1776228883.55667,
+    "id": "3c305343311a965c23ccaa63beb8a147faabcd168cebd9b5f760c9f574c50508"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "functions-as",
+    "object": "causal-attribution-engine",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism provides a ready-made explanatory framework that attributes complex geopolitical outcomes to a single identifiable actor (Israel/Zionism), reducing cognitive load for those without deep strategic literacy. It functions as a heuristic that substitutes for genuine causal analysis.",
+    "created_at": 1776228889.813986,
+    "id": "51dc1b275fe0f5e8c0ba0cb45ecb617cfab49976876b7e3064c215b386f70bfd"
+  },
+  {
+    "subject": "geopolitical-unsophistication",
+    "predicate": "causally-precedes",
+    "object": "anti-zionist-adoption",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The causal arrow runs from pre-existing poor geopolitical reasoning toward adoption of anti-Zionism, not the reverse. Populations with low strategic exposure are drawn to anti-Zionism because it offers moral clarity without requiring regional expertise. The framework is selected for its simplicity, not its explanatory power.",
+    "created_at": 1776228892.7353039,
+    "id": "f7b1a371689f05c5ad8c93a115b1234e6c82de79b05e7e3344444804a2e5886b"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "provides",
+    "object": "convenient-moral-framework",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism supplies a morally legible narrative (oppressor vs. oppressed) that maps onto pre-existing progressive moral categories. Its convenience lies in collapsing a multi-actor, multi-century conflict into a binary moral schema that requires no specialist knowledge to deploy.",
+    "created_at": 1776228896.125078,
+    "id": "afb4e992f70813e72dccc9cc3f098d8488e200033c6735fcc6ec9e270d047278"
+  },
+  {
+    "subject": "populations-lacking-strategic-exposure",
+    "predicate": "preferentially-adopt",
+    "object": "monocausal-geopolitical-frameworks",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Groups without direct strategic, diplomatic, or military exposure to a region tend to adopt simplified causal models. This is a general cognitive tendency \u2014 not specific to anti-Zionism \u2014 observable across many geopolitical domains (e.g., \"oil explains everything\" narratives about the Middle East).",
+    "created_at": 1776228899.400834,
+    "id": "3d0240d9c5321d33fe2b4e00d1268c1e1e2d89005c8d0d9f345d93b2aac93822"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "does-not-degrade",
+    "object": "otherwise-good-geopolitical-thinking",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis's strongest sub-claim: anti-Zionism is not an intellectual toxin that corrupts previously sound analysis, but rather a downstream output of already-degraded analytical capacity. If true, combating anti-Zionism directly is treating symptoms rather than causes.",
+    "created_at": 1776228902.4704158,
+    "id": "0e136625c5f226c922a7d4bdf8d39fba538ab3b529ead5bb19efe44c47815b79"
+  },
+  {
+    "subject": "causal-direction",
+    "predicate": "is-identifiable-in",
+    "object": "ideology-adoption-processes",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumption: It is possible to meaningfully isolate a causal direction between ideological framework adoption and analytical capacity. In reality, feedback loops may make the symptom/cause distinction underdetermined \u2014 anti-Zionism may both reflect AND reinforce poor analysis, making the thesis's clean causal arrow an oversimplification.",
+    "created_at": 1776228964.927567,
+    "id": "db1a0bfbb32db2c8d40653c86ceeb4d06a224cd5d5102e5cbbea0c21b6ae4eab"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "is-analytically-separable-from",
+    "object": "legitimate-criticism-of-israel",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumption: The thesis presupposes that 'anti-Zionism' names a coherent analytical category distinguishable from legitimate criticism of Israeli policy. If the boundary is blurry, the thesis risks classifying sophisticated criticism as unsophisticated by definitional fiat \u2014 loading the conclusion into the category label.",
+    "created_at": 1776228968.21139,
+    "id": "a3e7aba03b71ac659de663a2597fd462ebe8af2d875580326cdc7642e8a2b717"
+  },
+  {
+    "subject": "geopolitical-sophistication",
+    "predicate": "is-measurable-independently-of",
+    "object": "position-on-zionism",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumption: There exists a neutral metric of 'geopolitical sophistication' that does not circularly define sophistication as agreement with a particular position on Zionism. Without such a metric, the thesis is unfalsifiable \u2014 anyone anti-Zionist is by definition unsophisticated, which is a tautology.",
+    "created_at": 1776228970.875445,
+    "id": "caa340f5251fee7c719a685ea56b9c83678c9d6899652bbacb26ce83f98760c1"
+  }
+]

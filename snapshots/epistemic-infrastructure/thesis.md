@@ -1,0 +1,1 @@
+AI alignment is fundamentally an epistemological problem — the infrastructure for transparent, auditable reasoning matters more than behavioral compliance, and both humans and AI agents benefit from externalized epistemic rigor.

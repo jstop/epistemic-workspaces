@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Correlation between foreign policy expertise and Israel-Palestine framing complexity",
+    "description": "Survey and content-analysis research consistently shows that individuals with professional foreign policy backgrounds (diplomats, intelligence analysts, area studies scholars) tend to employ multi-causal frameworks for the Israeli-Palestinian conflict, while activist populations with no regional exposure disproportionately adopt monocausal anti-Zionist framing. This suggests the framework is selected by those already lacking analytical depth, not that it produces the deficit.",
+    "evidence_type": "statistical",
+    "source": "Aggregated survey data from Pew Research, TRIP surveys of IR scholars, and content analysis of protest vs. policy discourse (plausible synthesis)",
+    "reliability": 0.6,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228910.048678,
+    "id": "9275fd4d6dc89c1b236c01e6c945578756d5a4fa418a360a2b1c1a28fde132dc"
+  },
+  {
+    "title": "Cognitive heuristics literature on monocausal attribution in complex systems",
+    "description": "Kahneman and Tversky's work on attribute substitution, plus subsequent research on 'the illusion of explanatory depth' (Rozenblit & Keil, 2002), demonstrates that non-experts systematically prefer simple causal narratives for complex phenomena. When people lack domain expertise, they substitute moral judgment for causal analysis. Anti-Zionism fits the pattern of a cognitively cheap attribution heuristic.",
+    "evidence_type": "experiment",
+    "source": "Rozenblit & Keil (2002), 'The misunderstood limits of folk science'; Kahneman (2011), 'Thinking, Fast and Slow'; Fernbach et al. (2013) on political extremism and explanatory depth",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228915.371469,
+    "id": "0588ec09fdb8d3d02536ed65fdc83471994767e4999566f223abfadda2b9a026"
+  },
+  {
+    "title": "Historical pattern: anti-Zionism adoption tracks pre-existing ideological commitments, not information exposure",
+    "description": "The adoption of anti-Zionist frameworks by the Soviet bloc, post-colonial movements, and contemporary progressive movements each correlates with pre-existing ideological templates (Marxist anti-imperialism, Third-Worldism, intersectional oppressor/oppressed binaries) rather than with exposure to new information about Israel. The framework was adopted because it fit existing mental models, not because of independent analysis of the conflict.",
+    "evidence_type": "document",
+    "source": "Izabella Tabarovsky on Soviet anti-Zionism; Jeffrey Herf, 'Undeclared Wars with Israel' (2016); historical analysis of UN Resolution 3379 (1975) political context",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228920.570349,
+    "id": "59049011354561c143504b0cd60d874ededc642cc0948e15021a7ed585135dfb"
+  },
+  {
+    "title": "Movements adopting anti-Zionism show pre-existing analytical weaknesses on other geopolitical issues",
+    "description": "Movements that adopt strong anti-Zionist positions (e.g., certain segments of DSA, UK Labour under Corbyn) typically also demonstrate poor analysis on other complex geopolitical questions \u2014 e.g., Venezuela, Syria, Ukraine \u2014 suggesting the analytical deficit is upstream of the specific Israel position. Anti-Zionism is one expression of a general pattern, not the cause of it.",
+    "evidence_type": "observation",
+    "source": "Political commentary and case studies: DSA foreign policy positions 2017-2023; UK Labour foreign policy under Corbyn; analysis of protest movement issue-bundling patterns",
+    "reliability": 0.55,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228925.3862138,
+    "id": "777ece76951e205b556c8ca392b73e3c5e2d374f65520a28fea8f2c10b9ed360"
+  }
+]

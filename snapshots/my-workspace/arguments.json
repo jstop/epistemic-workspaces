@@ -1,0 +1,297 @@
+[
+  {
+    "conclusion": "18e33eeefe700ef37c689421d71866a3117f117cf92397aecb83ec4450b4e666",
+    "premises": [
+      "469e1add462c774bf339be4dafe071f32cf28b382d35d6b8f09b3c5171a3ec66",
+      "438e3bb71d7527ced198db1afe67eade400606c2e90ef6c42f6240020ec8ee88",
+      "fc3ff58e8fd78a7835c52895a38d92a011f4953c6cf0232be89aec10191d748b"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Identity infrastructure enables global coordination",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Cultural and institutional differences may prevent any global coordination system from achieving meaningful adoption across civilizational boundaries",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386117.655018,
+    "id": "fbea86593303749dc472d3dc00a569ee3d383eed454045848a895de1c2fb635a"
+  },
+  {
+    "conclusion": "469e1add462c774bf339be4dafe071f32cf28b382d35d6b8f09b3c5171a3ec66",
+    "premises": [
+      "2616db984a68823891ccb5d98dab3560abe11f1c575c33e9ff7a7940e24025ac",
+      "ab256213542ea4f5eb8dd6b3f989d7e0870b9f985da0de47c8f38ead26de7b90"
+    ],
+    "pattern": "induction",
+    "label": "Infrastructure creates coordination potential",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386117.656297,
+    "id": "caa8eba05043a5a1d837feb1e99e8747045caa005588f63e975371fb6cc0fb5f"
+  },
+  {
+    "conclusion": "a95f401bf9d0d61949a3e0d88a50905a5653044474c3832367f69d6f68e5b51b",
+    "premises": [
+      "2616db984a68823891ccb5d98dab3560abe11f1c575c33e9ff7a7940e24025ac",
+      "ab256213542ea4f5eb8dd6b3f989d7e0870b9f985da0de47c8f38ead26de7b90"
+    ],
+    "pattern": "abduction",
+    "label": "Opacity enables capture",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "State actors and large corporations have historically found ways to capture or coopt even technically decentralized systems through regulatory pressure and resource concentration",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386117.657482,
+    "id": "f23a684d20e98bfb9e7e77c2f00376d13dc95d155b7bea6350c1c9e83eb76155"
+  },
+  {
+    "conclusion": "fc3ff58e8fd78a7835c52895a38d92a011f4953c6cf0232be89aec10191d748b",
+    "premises": [
+      "73133a6147dc02d45c9ab5c5f776450b7f4fb2d443709f02f145ddc9b7af35a2",
+      "d4a3f2c84af73f96236274c6071d4ecca11165329bad31b367093a966978c694"
+    ],
+    "pattern": "causal",
+    "label": "Social capital has scale limits",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386117.658596,
+    "id": "f10de734fd5034e0937eb958028470e45998aab8050ac749b9d897d31917efc5"
+  },
+  {
+    "conclusion": "748fce82b7beaf4226f79cc8caaef16fc937a1fab86c86c7bcb7120129b2bf00",
+    "premises": [
+      "e44afc9fec01012f5e7350ebbf94760fe9b526292bc9d785999fe700d06eb17c"
+    ],
+    "pattern": "induction",
+    "label": "Experimental evidence demonstrates structural incentive effects",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386611.664223,
+    "id": "0b0d8e3d99296650b6632f3f014c6702d22b37bf70f93ef7e362254463c7d52d"
+  },
+  {
+    "conclusion": "58fd80c30444a76e6300c1767fc0b3eae0c5be8d609fc3234ecd2d09ba6499f3",
+    "premises": [
+      "014725c762f917a86ffc7dbc74105a5dac9c43828402cde2d01d0499eb84ab60"
+    ],
+    "pattern": "induction",
+    "label": "Historical pattern shows infrastructure capture tendency",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386611.665844,
+    "id": "1121052e5612f47a15eda150bfe51331fe9c0f3f4f6aae885f24af47cdd19701"
+  },
+  {
+    "conclusion": "05ff483000916997c9ba9f454e4bde33e2a265ae389fc4e7d572693d1d3fb1ba",
+    "premises": [
+      "abc17e226834bcd2464269f653b945120c9312515ae5bca89125097f6a3e16ae"
+    ],
+    "pattern": "causal",
+    "label": "Statistical correlation supports social capital boundary limitations",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386611.667685,
+    "id": "7b0d51c8766bced1d543dba5e6b03907d9d0b86291da84e9654ebc30ed6bfe5b"
+  },
+  {
+    "conclusion": "672ddbaed16a32beaf1ca2c5e9af3a37aabcd5731c3d4c24ec53880e70a086bf",
+    "premises": [
+      "748fce82b7beaf4226f79cc8caaef16fc937a1fab86c86c7bcb7120129b2bf00",
+      "852ee67674a476f8d29b16eddd76a2120b1674c562b5e4d99c3b8609313ae278",
+      "58fd80c30444a76e6300c1767fc0b3eae0c5be8d609fc3234ecd2d09ba6499f3",
+      "8df9151166ac5f997998cd8680e95deb0193a4b9f7f3f7c4818708a9821d7ce1",
+      "05ff483000916997c9ba9f454e4bde33e2a265ae389fc4e7d572693d1d3fb1ba",
+      "9ffe09216f72668c7213510fc95dcb8b73a8bfbab27635b9752ad9df85c83010"
+    ],
+    "pattern": "abduction",
+    "label": "Convergent evidence suggests capture-resistant identity systems as coordination solution",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undermining",
+        "description": "Cultural relativism challenge: Different civilizations may have fundamentally incompatible concepts of identity, privacy, and legitimate authority, making any 'global' identity system inherently biased toward Western technological paradigms",
+        "status": "active",
+        "response": null
+      },
+      {
+        "type": "rebutting",
+        "description": "Technical feasibility challenge: Truly capture-resistant systems may be impossible at scale due to the trilemma between decentralization, security, and usability - making the proposed solution practically unachievable",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773386611.669448,
+    "id": "91a27555281636ea8303fc6b7d0cf3de05bbc14bc007de09bdd94126c1f9fcc2"
+  },
+  {
+    "conclusion": "8e12f13d39d789c98fb29ea471f6c6d3700fb1d54334ff7ee331dee263cf5dbf",
+    "premises": [
+      "d1da55844cf2937c90196c68b0a86e97d9383a06d7a98ad036ab28207e7d1b0a"
+    ],
+    "pattern": "abduction",
+    "label": "Architectural basis for pattern matching",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773388479.5403929,
+    "id": "704359eab73e27245e023ce6ff028644d5233863a3b35aa73ee4cdc550cbcebd"
+  },
+  {
+    "conclusion": "6d44e7c8eb40d6d371f8bf2e854674793aef3f18f0e82cf3dc795f0ef1552aa0",
+    "premises": [
+      "e4e34528bca2fba24c4a06ffa64174f718816301e405989a363fec002b54e2a0"
+    ],
+    "pattern": "abduction",
+    "label": "Brittleness indicates simulation not understanding",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773388479.541635,
+    "id": "facc18028275c0bc362e7e0c0f01e8728ea523d54bd03b5715b1568a276ac969"
+  },
+  {
+    "conclusion": "dbdbbc57b5c9f09c6fd06f6bea37b3dcad7248d9ed36ffe10e784f1932e7bbfb",
+    "premises": [
+      "03165391ac2df7b38407569a9dc09f3113311f991f26151bb20dd96b8b824e9d",
+      "b5562c6f3638d450a9a44eea8708d52caa9c258d055a0362f151da02d413dbb4"
+    ],
+    "pattern": "induction",
+    "label": "Empirical evidence of novel problem failures",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undermining",
+        "description": "Current LLMs may fail on novel problems due to insufficient scale or training methodology rather than fundamental limitations of the approach",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773388479.5429702,
+    "id": "5212250da56639dd89a3df1607914b9b0a2e566e1fca2fade3d17567a078149d"
+  },
+  {
+    "conclusion": "6c8f622920fe01c90b5285ea60925a88ac57032c9b3e79718cfbb67c5080b4ea",
+    "premises": [
+      "8e12f13d39d789c98fb29ea471f6c6d3700fb1d54334ff7ee331dee263cf5dbf",
+      "6d44e7c8eb40d6d371f8bf2e854674793aef3f18f0e82cf3dc795f0ef1552aa0",
+      "dbdbbc57b5c9f09c6fd06f6bea37b3dcad7248d9ed36ffe10e784f1932e7bbfb",
+      "98e4ea19c282dda55890b0209570789fffd62f6886ad75f59085c06621cbf089"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Pattern matching cannot achieve genuine reasoning",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Emergentist counter-argument: reasoning might emerge from sufficiently complex pattern matching at scale, making the distinction between 'genuine' and 'simulated' reasoning meaningless",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773388479.544248,
+    "id": "2fb8a707090dec1af196ef4bc2416b73e92b65fd91ec6da0b113f9f9b418ec5b"
+  }
+]

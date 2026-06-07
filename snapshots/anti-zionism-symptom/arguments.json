@@ -1,0 +1,123 @@
+[
+  {
+    "conclusion": "51dc1b275fe0f5e8c0ba0cb45ecb617cfab49976876b7e3064c215b386f70bfd",
+    "premises": [
+      "0588ec09fdb8d3d02536ed65fdc83471994767e4999566f223abfadda2b9a026",
+      "3d0240d9c5321d33fe2b4e00d1268c1e1e2d89005c8d0d9f345d93b2aac93822"
+    ],
+    "pattern": "abduction",
+    "label": "Cognitive heuristics + monocausal preference \u2192 anti-Zionism as attribution engine",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228940.7434418,
+    "id": "212c3ecb6a9ae0c684cf340417f6d8bd08d469c8a2c7fc0f0aee4bdd7593dc5e"
+  },
+  {
+    "conclusion": "f7b1a371689f05c5ad8c93a115b1234e6c82de79b05e7e3344444804a2e5886b",
+    "premises": [
+      "59049011354561c143504b0cd60d874ededc642cc0948e15021a7ed585135dfb",
+      "9275fd4d6dc89c1b236c01e6c945578756d5a4fa418a360a2b1c1a28fde132dc"
+    ],
+    "pattern": "induction",
+    "label": "Historical adoption patterns + expertise correlation \u2192 causal direction runs from unsophistication to anti-Zionism",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Sophisticated anti-Zionist counterexamples: Several intellectually rigorous traditions of anti-Zionism exist \u2014 including those articulated by area-studies scholars, Israeli historians (Ilan Papp\u00e9, early Benny Morris), post-colonial theorists with deep regional expertise (Joseph Massad, Rashid Khalidi), and Jewish philosophical traditions (Judith Butler's work on political Zionism). These figures cannot plausibly be characterized as geopolitically unsophisticated. Their anti-Zionism emerges from extensive engagement with primary sources, not from cognitive shortcuts. If anti-Zionism is compatible with deep expertise, then the thesis overgeneralizes from the activist-popularization layer to the intellectual tradition as a whole, committing a composition fallacy.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228944.513116,
+    "id": "41a86d869565420d39df2e2a5fa6ef104b96567560689d1346e8c428512dd55c"
+  },
+  {
+    "conclusion": "afb4e992f70813e72dccc9cc3f098d8488e200033c6735fcc6ec9e270d047278",
+    "premises": [
+      "51dc1b275fe0f5e8c0ba0cb45ecb617cfab49976876b7e3064c215b386f70bfd",
+      "59049011354561c143504b0cd60d874ededc642cc0948e15021a7ed585135dfb"
+    ],
+    "pattern": "abduction",
+    "label": "Attribution engine role + ideological template-matching \u2192 moral convenience explains adoption",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228948.751371,
+    "id": "ed70395e8071aa63906e7fc479e25a6c97a61c194585086f6b33cebcd63b9d3a"
+  },
+  {
+    "conclusion": "0e136625c5f226c922a7d4bdf8d39fba538ab3b529ead5bb19efe44c47815b79",
+    "premises": [
+      "777ece76951e205b556c8ca392b73e3c5e2d374f65520a28fea8f2c10b9ed360",
+      "f7b1a371689f05c5ad8c93a115b1234e6c82de79b05e7e3344444804a2e5886b"
+    ],
+    "pattern": "induction",
+    "label": "Cross-issue analytical failures + causal precedence \u2192 anti-Zionism is downstream, not corrupting",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228952.787401,
+    "id": "194e39519d9425894bc693d0825064d0149cb2ce2165b325ed0d314aa63e4cdb"
+  },
+  {
+    "conclusion": "3c305343311a965c23ccaa63beb8a147faabcd168cebd9b5f760c9f574c50508",
+    "premises": [
+      "51dc1b275fe0f5e8c0ba0cb45ecb617cfab49976876b7e3064c215b386f70bfd",
+      "f7b1a371689f05c5ad8c93a115b1234e6c82de79b05e7e3344444804a2e5886b",
+      "afb4e992f70813e72dccc9cc3f098d8488e200033c6735fcc6ec9e270d047278",
+      "0e136625c5f226c922a7d4bdf8d39fba538ab3b529ead5bb19efe44c47815b79"
+    ],
+    "pattern": "abduction",
+    "label": "Full convergence: attribution engine + causal direction + moral convenience + non-degradation \u2192 anti-Zionism is symptom not cause",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Bidirectional causation defeater: The thesis assumes a clean one-way causal arrow (bad thinking \u2192 anti-Zionism), but ideological frameworks and analytical capacity likely co-constitute each other in feedback loops. Anti-Zionism may begin as a symptom but then actively narrow the analytical repertoire available to its adopters \u2014 filtering out disconfirming information, creating social costs for nuance, and structuring attention toward confirming evidence. If so, the symptom/cause distinction collapses into mutual reinforcement, and the thesis's core causal claim is underdetermined by the available evidence. The strongest version of this defeater: even if the initial adoption is downstream of unsophistication, the framework's maintenance and intensification may be genuinely causally upstream of further analytical degradation.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228960.6619132,
+    "id": "405cce0417be3202083ef468632a6b082ecfd4444e23d0552425289827aecb5b"
+  }
+]

@@ -1,0 +1,1322 @@
+[
+  {
+    "subject": "Proof of work achieves Sybil resistance by substituting cost (energy) for identity.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Proof of work achieves Sybil resistance by substituting cost (energy) for identity.",
+    "created_at": 1780059226.4182389,
+    "id": "R1"
+  },
+  {
+    "subject": "An epistemic analog of PoW works only where an oracle exists; judgment domains have none.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "An epistemic analog of PoW works only where an oracle exists; judgment domains have none.",
+    "created_at": 1780059226.418247,
+    "id": "R2"
+  },
+  {
+    "subject": "Alignment enters at direction-choice, which is normative and bites where work impacts people.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Alignment enters at direction-choice, which is normative and bites where work impacts people.",
+    "created_at": 1780059226.41825,
+    "id": "R3"
+  },
+  {
+    "subject": "Useful epistemic work needs a legitimate direction-setter.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Useful epistemic work needs a legitimate direction-setter.",
+    "created_at": 1780059226.418251,
+    "id": "R4"
+  },
+  {
+    "subject": "The three problems (Sybil, vouching, direction) are ONE regress in three costumes.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.3,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "superseded",
+    "killed_by": "O_sep",
+    "notes": "The three problems (Sybil, vouching, direction) are ONE regress in three costumes.",
+    "created_at": 1780059226.418253,
+    "id": "C1"
+  },
+  {
+    "subject": "Every mechanism merely chooses where to terminate the regress.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Every mechanism merely chooses where to terminate the regress.",
+    "created_at": 1780059226.4182541,
+    "id": "C2"
+  },
+  {
+    "subject": "PoW is what you build when you've given up on legitimacy.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.25,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "superseded",
+    "killed_by": "O_straw",
+    "notes": "PoW is what you build when you've given up on legitimacy.",
+    "created_at": 1780059226.418257,
+    "id": "C3"
+  },
+  {
+    "subject": "A public authority DOMINATES proof of work.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.2,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "defeated",
+    "killed_by": "O_neutrality",
+    "notes": "A public authority DOMINATES proof of work.",
+    "created_at": 1780059226.418258,
+    "id": "C4"
+  },
+  {
+    "subject": "Duly constituted by whom, accountable to whom?",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Duly constituted by whom, accountable to whom?",
+    "created_at": 1780059226.418259,
+    "id": "C5"
+  },
+  {
+    "subject": "Legitimacy is a vouching graph.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.3,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "defeated",
+    "killed_by": "O_circular",
+    "notes": "Legitimacy is a vouching graph.",
+    "created_at": 1780059226.4182599,
+    "id": "C6"
+  },
+  {
+    "subject": "Osmio is a protocol for duly CONSTITUTING accountable public authorities.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Osmio is a protocol for duly CONSTITUTING accountable public authorities.",
+    "created_at": 1780059226.418261,
+    "id": "C7"
+  },
+  {
+    "subject": "The decisive question: legitimate enough to serve people who never signed on \u2014 the stateless.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "The decisive question: legitimate enough to serve people who never signed on \u2014 the stateless.",
+    "created_at": 1780059226.418263,
+    "id": "C8"
+  },
+  {
+    "subject": "Separability refutes 'one regress': PoW solves Sybil while ignoring vouching and direction.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Separability refutes 'one regress': PoW solves Sybil while ignoring vouching and direction.",
+    "created_at": 1780059226.4182642,
+    "id": "O_sep"
+  },
+  {
+    "subject": "Honest form: three DISTINCT problems that share a shape and often co-occur.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Honest form: three DISTINCT problems that share a shape and often co-occur.",
+    "created_at": 1780059226.418265,
+    "id": "C1b"
+  },
+  {
+    "subject": "'Given up on legitimacy' is a strawman: PoW TRADED legitimacy for credible neutrality.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "live",
+    "killed_by": null,
+    "notes": "'Given up on legitimacy' is a strawman: PoW TRADED legitimacy for credible neutrality.",
+    "created_at": 1780059226.418266,
+    "id": "O_straw"
+  },
+  {
+    "subject": "PoW's real product is credible neutrality + censorship resistance, sustained as an equilibrium.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "PoW's real product is credible neutrality + censorship resistance, sustained as an equilibrium.",
+    "created_at": 1780059226.4182668,
+    "id": "C3b"
+  },
+  {
+    "subject": "An authority that can issue personhood can deny it. Reintroduces the chokepoint PoW removes.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "live",
+    "killed_by": null,
+    "notes": "An authority that can issue personhood can deny it. Reintroduces the chokepoint PoW removes.",
+    "created_at": 1780059226.418269,
+    "id": "O_neutrality"
+  },
+  {
+    "subject": "Relocate, not eliminate, the chokepoint: a user-held credential means only visible REVOKE.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Relocate, not eliminate, the chokepoint: a user-held credential means only visible REVOKE.",
+    "created_at": 1780059226.4182699,
+    "id": "C4b"
+  },
+  {
+    "subject": "'Legitimacy is a vouching graph' is circular and unstable (bank runs).",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "live",
+    "killed_by": null,
+    "notes": "'Legitimacy is a vouching graph' is circular and unstable (bank runs).",
+    "created_at": 1780059226.418271,
+    "id": "O_circular"
+  },
+  {
+    "subject": "Frontier reframe: uniqueness vs censorship-resistance tradeoff axis.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.3,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "superseded",
+    "killed_by": "O_conflate",
+    "notes": "Frontier reframe: uniqueness vs censorship-resistance tradeoff axis.",
+    "created_at": 1780059226.418272,
+    "id": "E3"
+  },
+  {
+    "subject": "Patch: the three costumes are co-present in personhood, jointly absent in transfer.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.25,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "superseded",
+    "killed_by": "O_direction",
+    "notes": "Patch: the three costumes are co-present in personhood, jointly absent in transfer.",
+    "created_at": 1780059226.418273,
+    "id": "E4"
+  },
+  {
+    "subject": "The frontier conflated uniqueness with authority-issued uniqueness. Real axis is centralization.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "live",
+    "killed_by": null,
+    "notes": "The frontier conflated uniqueness with authority-issued uniqueness. Real axis is centralization.",
+    "created_at": 1780059226.4182742,
+    "id": "O_conflate"
+  },
+  {
+    "subject": "False: pure-PoW chains have direction problems (block-size wars, the DAO fork).",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "live",
+    "killed_by": null,
+    "notes": "False: pure-PoW chains have direction problems (block-size wars, the DAO fork).",
+    "created_at": 1780059226.418276,
+    "id": "O_direction"
+  },
+  {
+    "subject": "META: a recurring failure mode of reaching for false elegance, breaking the same way each time.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "live",
+    "killed_by": null,
+    "notes": "META: a recurring failure mode of reaching for false elegance, breaking the same way each time.",
+    "created_at": 1780059226.418277,
+    "id": "META"
+  },
+  {
+    "subject": "The organizing axis: trust root EXPLICIT & ACCOUNTABLE or HIDDEN & UNACCOUNTABLE?",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "The organizing axis: trust root EXPLICIT & ACCOUNTABLE or HIDDEN & UNACCOUNTABLE?",
+    "created_at": 1780059226.418278,
+    "id": "F_axis"
+  },
+  {
+    "subject": "The real competitor is decentralized proof-of-personhood / SSI, not PoW.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "The real competitor is decentralized proof-of-personhood / SSI, not PoW.",
+    "created_at": 1780059226.41828,
+    "id": "F_competitor"
+  },
+  {
+    "subject": "Decentralized PoP does not escape the trust root, it HIDES it. So: explicit vs hidden.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Decentralized PoP does not escape the trust root, it HIDES it. So: explicit vs hidden.",
+    "created_at": 1780059226.418281,
+    "id": "F_steelman"
+  },
+  {
+    "subject": "Everyone who solves uniqueness has an authority at the root. The Missing Layer is faked, not absent.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Everyone who solves uniqueness has an authority at the root. The Missing Layer is faked, not absent.",
+    "created_at": 1780059226.418284,
+    "id": "G_finding"
+  },
+  {
+    "subject": "Compose with KERI, don't compete.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Compose with KERI, don't compete.",
+    "created_at": 1780059226.4182851,
+    "id": "G_compose"
+  },
+  {
+    "subject": "Three-layer architecture: L1 KERI / L2 uniqueness registry commons / L3 plural vouching.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Three-layer architecture: L1 KERI / L2 uniqueness registry commons / L3 plural vouching.",
+    "created_at": 1780059226.418286,
+    "id": "H_layers"
+  },
+  {
+    "subject": "Conferral for the stateless: biometric -> KERI id + commons attestation -> NGO vouching.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Conferral for the stateless: biometric -> KERI id + commons attestation -> NGO vouching.",
+    "created_at": 1780059226.418287,
+    "id": "H_conferral"
+  },
+  {
+    "subject": "KERI key-event logs make revocation non-silent; plural attestation allows re-attestation except at L2.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "KERI key-event logs make revocation non-silent; plural attestation allows re-attestation except at L2.",
+    "created_at": 1780059226.4182882,
+    "id": "H_revoke"
+  },
+  {
+    "subject": "L2 is the irreducible chokepoint: one shared namespace, cannot be pluralized \u2014 govern as commons.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "L2 is the irreducible chokepoint: one shared namespace, cannot be pluralized \u2014 govern as commons.",
+    "created_at": 1780059226.418289,
+    "id": "I_commons"
+  },
+  {
+    "subject": "Ostrom's principles map to mechanisms; load-bearing: transparency log, separated appeal, cross-jurisdiction quorum.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Ostrom's principles map to mechanisms; load-bearing: transparency log, separated appeal, cross-jurisdiction quorum.",
+    "created_at": 1780059226.41829,
+    "id": "I_ostrom"
+  },
+  {
+    "subject": "Backbone: threshold MPC dedup + ZK proofs + unlinkable usage.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "live",
+    "killed_by": null,
+    "notes": "Backbone: threshold MPC dedup + ZK proofs + unlinkable usage.",
+    "created_at": 1780059226.4182909,
+    "id": "I_backbone"
+  },
+  {
+    "subject": "COOKED THESIS: the design does not eliminate the chokepoint \u2014 it CONVERTS it to an accountable commons.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "thesis",
+    "status": "live",
+    "killed_by": null,
+    "notes": "COOKED THESIS: the design does not eliminate the chokepoint \u2014 it CONVERTS it to an accountable commons.",
+    "created_at": 1780059226.418292,
+    "id": "I_claim"
+  },
+  {
+    "subject": "Threshold capture: a cartel or coercing state breaks uniqueness \u2014 the registry's 51%. Conceded.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "conceded",
+    "killed_by": null,
+    "notes": "Threshold capture: a cartel or coercing state breaks uniqueness \u2014 the registry's 51%. Conceded.",
+    "created_at": 1780059226.418296,
+    "id": "O_threshold"
+  },
+  {
+    "subject": "Physical access denial: governance cannot reach someone a state isolates. Conceded as universal.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "conceded",
+    "killed_by": null,
+    "notes": "Physical access denial: governance cannot reach someone a state isolates. Conceded as universal.",
+    "created_at": 1780059226.418297,
+    "id": "O_access"
+  },
+  {
+    "subject": "Founding legitimacy: who seats the first assembly is not self-legitimating; only adoption cures it.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "open",
+    "killed_by": null,
+    "notes": "Founding legitimacy: who seats the first assembly is not self-legitimating; only adoption cures it.",
+    "created_at": 1780059226.418298,
+    "id": "O_founding"
+  },
+  {
+    "subject": "'Accountable anonymity' is split logged pseudonymity, not true anonymity.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "concession",
+    "status": "conceded",
+    "killed_by": null,
+    "notes": "'Accountable anonymity' is split logged pseudonymity, not true anonymity.",
+    "created_at": 1780059226.418299,
+    "id": "O_anon"
+  },
+  {
+    "subject": "Network-effect re-concentration: identity is a coordination good prone to winner-take-all. STRUCTURAL.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "open",
+    "killed_by": null,
+    "notes": "Network-effect re-concentration: identity is a coordination good prone to winner-take-all. STRUCTURAL.",
+    "created_at": 1780059226.4183,
+    "id": "O_network"
+  },
+  {
+    "subject": "Demand-side bootstrap: a credential is worth only what relying parties honor; at cold start none do.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "open",
+    "killed_by": null,
+    "notes": "Demand-side bootstrap: a credential is worth only what relying parties honor; at cold start none do.",
+    "created_at": 1780059226.4183009,
+    "id": "O_bootstrap"
+  },
+  {
+    "subject": "Conjunction penalty: entangled links; confidence is the PRODUCT (~0.07), not the average (62%).",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "conceded",
+    "killed_by": null,
+    "notes": "Conjunction penalty: entangled links; confidence is the PRODUCT (~0.07), not the average (62%).",
+    "created_at": 1780059226.418302,
+    "id": "O_conjunction"
+  },
+  {
+    "subject": "Redundancy: open ZK PoP may already deliver the advantage. Partially rebutted via constituted institutions.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": "rebutted",
+    "killed_by": null,
+    "notes": "Redundancy: open ZK PoP may already deliver the advantage. Partially rebutted via constituted institutions.",
+    "created_at": 1780059226.418304,
+    "id": "O_redundant"
+  }
+]

@@ -1,0 +1,1 @@
+Quantified cognition — systematically capturing, processing, and analyzing one's own attention and cognitive activity through screen capture and AI summarization — produces meaningful insights that passive time-tracking alone cannot.

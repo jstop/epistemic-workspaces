@@ -1,0 +1,164 @@
+[
+  {
+    "subject": "anti-zionism",
+    "predicate": "functions-as",
+    "object": "causal-attribution-engine-not-coherent-political-position",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism functions primarily as a causal attribution engine rather than a coherent political position, uniquely delegitimizing Israel's existence as a political project and producing poor geopolitical reasoning in countries that adopt it as an organizing principle.",
+    "created_at": 1776227204.508014,
+    "id": "2bbafa6b04433083bcc128868d1ce40e63699eff70ef66dc607b165e3ff276d9"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "attributes-causation-to",
+    "object": "israel-for-disproportionate-range-of-harms",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionist frameworks systematically route causal explanations for regional and global problems through Israel/Zionism, attributing to it an outsized causal role relative to other actors \u2014 functioning less like a political critique and more like a causal attribution schema.",
+    "created_at": 1776227211.0775218,
+    "id": "55f3f765f6d31f60bb30bfd9e9633f86307ab5d3a5b227a065370f3c002a2ab2"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "uniquely-delegitimizes",
+    "object": "israel-among-ethno-national-projects",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism singles out Israel's founding as a political project for existential delegitimization in a way not applied to comparable ethno-national states (e.g., Pakistan, Turkey, many post-colonial states with ethnic foundations). This asymmetry suggests the framework is not derived from consistent principles of political philosophy.",
+    "created_at": 1776227214.7973802,
+    "id": "4ef7a9d13450e3c084065ae65d1097168d0f31d1b0ba911dd22a1a6e62dc9eae"
+  },
+  {
+    "subject": "anti-zionist-organizing-principle",
+    "predicate": "produces",
+    "object": "poor-geopolitical-reasoning",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Countries or political movements that adopt anti-Zionism as an organizing principle (e.g., post-1979 Iran, certain Soviet-aligned states, some pan-Arabist regimes) tend to produce systematically distorted geopolitical analyses \u2014 misidentifying threats, misallocating resources, and failing to address domestic governance failures by externalizing blame.",
+    "created_at": 1776227218.267374,
+    "id": "02022bf3cdbfa2cb8e9351ee7da4c99c7c418463b52f61f8359bf9c9d7f4c218"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "lacks",
+    "object": "internal-coherence-as-political-theory",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism does not maintain consistent application of its stated principles (self-determination, anti-colonialism, anti-ethno-nationalism) across comparable cases. Its proponents frequently endorse or ignore national movements with structurally identical features, suggesting the framework's coherence derives from its target rather than its principles.",
+    "created_at": 1776227221.546056,
+    "id": "c4ab851a492ffe3decd67d83d5e7fef33d80b1cb07f7cb0ba2fc43a23fb52eb4"
+  },
+  {
+    "subject": "causal-attribution-engines",
+    "predicate": "exhibit",
+    "object": "characteristic-epistemic-pathologies",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Causal attribution engines \u2014 frameworks that route explanations for diverse phenomena through a single privileged cause \u2014 exhibit predictable epistemic failures: unfalsifiability, confirmation bias, scope creep (expanding the set of effects attributed to the cause), and resistance to counter-evidence. Anti-Zionism displays all of these features.",
+    "created_at": 1776227224.6484601,
+    "id": "8ad4f977f837d3e71c1b944a66201f1c3d8721260fe1fa1261c36fd60bfc26f4"
+  }
+]

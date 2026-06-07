@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Monocausal attribution bias in low-information populations",
+    "description": "Research in political psychology (e.g., Tetlock's expert political judgment work) shows that low-information actors default to \"hedgehog\" thinking \u2014 single-cause explanatory models \u2014 while high-information actors (\"foxes\") maintain multi-causal frameworks. Anti-Zionism maps onto the hedgehog archetype: one root cause explains a wide range of Middle Eastern and global outcomes.",
+    "evidence_type": "statistical",
+    "source": "Tetlock, P. (2005). Expert Political Judgment; related survey data on foreign policy knowledge and Israel-Palestine opinion correlates",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229097.880793,
+    "id": "0075b6e1c4a233c064aab02fee9505440959e1d4ece027dcc0d0aeaa2d8a4fed"
+  },
+  {
+    "title": "Campus anti-Zionism correlates with low foreign-policy literacy",
+    "description": "Survey and polling data (e.g., Pew, Gallup, campus-specific surveys) suggest that intensity of anti-Zionist conviction among Western activist populations inversely correlates with ability to identify basic geopolitical facts (e.g., naming parties to regional conflicts, identifying map locations, distinguishing Sunni/Shia dynamics). This is consistent with the thesis that anti-Zionism attracts the strategically unexposed rather than creating unsophistication.",
+    "evidence_type": "statistical",
+    "source": "Pew Research Center polling on Middle East knowledge; Gallup foreign affairs literacy surveys; various campus survey instruments 2015-2024",
+    "reliability": 0.6,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229102.11319,
+    "id": "f1431917d86ba7337a34e81113e4102046d9351b4c2c4b191c21d43743f0fc50"
+  },
+  {
+    "title": "Analogous monocausal frameworks in other domains",
+    "description": "The pattern of unsophisticated populations adopting single-villain explanatory models is not unique to anti-Zionism. Anti-globalization movements blame \"the WTO,\" right-wing populisms blame immigrants, conspiracy movements blame shadowy elites. In each case, the monocausal framework is adopted by those who lack domain expertise, suggesting the causal direction runs from ignorance to framework adoption, not vice versa.",
+    "evidence_type": "observation",
+    "source": "Comparative analysis of populist movements; Mudde (2004) on populist ideology; Hofstadter (1964) on paranoid style in politics",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229106.821714,
+    "id": "95c26bf17966d6f7958493490c4cdaf8f99cb7dca761e778ace598febdb6848a"
+  },
+  {
+    "title": "Sophisticated anti-Zionist actors exist as counterexamples",
+    "description": "Some geopolitically sophisticated actors \u2014 certain international relations scholars, diplomats, regional specialists \u2014 hold anti-Zionist positions derived from detailed analysis rather than ignorance. This partially undermines the universality of the thesis, though the thesis claims to describe population-level tendencies rather than individual cases.",
+    "evidence_type": "observation",
+    "source": "Academic literature in critical IR theory; statements by experienced diplomats and area specialists",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229109.940334,
+    "id": "74352b1fc7dfa9810ac6bf22515ca8a3af3719423f54c60f725fd59380c99ac6"
+  }
+]

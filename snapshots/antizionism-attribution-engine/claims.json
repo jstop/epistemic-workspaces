@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "anti-zionism",
+    "predicate": "functions-as",
+    "object": "epistemic-trap-via-causal-attribution-engine",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "e3c670e3d6b77ad037ad8aa2b431f2a32b6e33fa24b68815d5812ff11374e6e0",
+      "b013e36bbb05715a76d2c604830388efda4bd220ced64b24fd0717cfd0632c20",
+      "9a3564ac181d78331ef7ed627e7936c2180a68bc4d61479f27b935190b36bf84"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism functions as a causal attribution engine that correlates with and reinforces geopolitical unsophistication through a feedback loop \u2014 it attracts populations lacking strategic exposure by offering monocausal moral clarity, then degrades their analytical capacity further by providing a totalizing lens that crowds out competing hypotheses. The causal direction is bidirectional: bad geopolitical thinking makes anti-Zionism attractive, and anti-Zionism makes geopolitical thinking worse. It is not a coherent single ideology but a flexible container into which multiple unrelated frameworks (post-colonial theory, Islamist theology, left solidarity politics, right-wing isolationism, European guilt displacement) pour their content \u2014 and this flexibility is precisely what makes it function as an epistemic trap rather than a correctable analytical error.",
+    "created_at": 1776229553.068882,
+    "id": "79cfe30425f1f3f9edbde097484ba212677e536366cd7c2e935d699ba1e6ed7f"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "offers",
+    "object": "monocausal-moral-clarity-attracting-unsophisticated-audiences",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism attracts populations lacking strategic exposure by offering monocausal moral clarity \u2014 a single explanatory variable (Zionist agency) that simplifies complex geopolitical dynamics into a clear moral narrative. This is the intake mechanism of the feedback loop.",
+    "created_at": 1776229559.997953,
+    "id": "9e7095a99b29f8eb7f74c7bd133b7f6ab69fc8e3131062854871ee4b90a6ca93"
+  },
+  {
+    "subject": "anti-zionist-framing",
+    "predicate": "degrades",
+    "object": "analytical-capacity-via-totalizing-lens",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Once adopted, anti-Zionist framing provides a totalizing lens that crowds out competing hypotheses. Adherents become less likely to consider alternative causal explanations for Middle Eastern events (sectarian dynamics, resource competition, great-power rivalry, intra-Arab politics) because the Zionist-causation frame already provides satisfying closure.",
+    "created_at": 1776229563.347275,
+    "id": "0267b642fc35bf1ddc7231abc8d7fe1484b227ad50a8831c5f3a6ad286d2ab3c"
+  },
+  {
+    "subject": "causal-direction",
+    "predicate": "is",
+    "object": "bidirectional-between-unsophistication-and-anti-zionism",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The causal direction is bidirectional: geopolitical unsophistication makes anti-Zionism attractive (selection effect), and anti-Zionism degrades geopolitical thinking further (treatment effect). This distinguishes the thesis from a simpler claim that anti-Zionism merely correlates with ignorance.",
+    "created_at": 1776229565.837046,
+    "id": "7f9f3612d0222bb48906b0edd8d7de3525698af8ce60923ee3469627b3c619e2"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "is",
+    "object": "flexible-container-not-coherent-ideology",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism is not a coherent single ideology but a flexible container into which multiple unrelated frameworks pour their content: post-colonial theory, Islamist theology, left solidarity politics, right-wing isolationism, European guilt displacement. These frameworks contradict each other on nearly every other issue.",
+    "created_at": 1776229568.115362,
+    "id": "0b0179cb2cd1eeb30756553c99101666e01b691a95103386eee54e94a31ba181"
+  },
+  {
+    "subject": "ideological-flexibility",
+    "predicate": "makes",
+    "object": "anti-zionism-uncorrectable-epistemic-trap",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The flexibility of anti-Zionism as a container is precisely what makes it function as an epistemic trap rather than a correctable analytical error. Because it is not a single falsifiable proposition but a coalition of frameworks sharing only a negative target, refuting any one framework leaves the others intact, and adherents can shift between justificatory frameworks without acknowledging contradiction.",
+    "created_at": 1776229571.0165179,
+    "id": "ef86a27eb4b611577275d24efe17d8037a60390519168e59bc6cbde88b5163df"
+  },
+  {
+    "subject": "monocausal-framing",
+    "predicate": "is-unique-to",
+    "object": "anti-zionism-vs-other-political-movements",
+    "confidence": {
+      "level": 0.4,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "ASSUMPTION: The thesis assumes that anti-Zionism's monocausal attribution pattern is distinctive rather than generic. Many political movements offer monocausal narratives (anti-capitalism blaming capital, ethno-nationalism blaming immigrants, etc.). If monocausal framing is a general property of populist mobilization, then anti-Zionism may not be specially pathological \u2014 it may simply be one instance of a universal pattern, weakening the claim that it functions as a uniquely potent epistemic trap.",
+    "created_at": 1776229645.8169641,
+    "id": "e3c670e3d6b77ad037ad8aa2b431f2a32b6e33fa24b68815d5812ff11374e6e0"
+  },
+  {
+    "subject": "geopolitical-sophistication",
+    "predicate": "is",
+    "object": "measurable-and-independent-of-anti-zionism",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "ASSUMPTION: The thesis assumes 'geopolitical sophistication' can be operationalized as an independent variable measurable apart from one's stance on Zionism. But if the measure of sophistication is itself defined partly by agreement with the thesis-holder's geopolitical priors (e.g., treating pro-Israel realism as 'sophisticated'), the argument risks circularity \u2014 defining unsophistication as disagreement with the conclusion.",
+    "created_at": 1776229649.8061938,
+    "id": "b013e36bbb05715a76d2c604830388efda4bd220ced64b24fd0717cfd0632c20"
+  },
+  {
+    "subject": "framework-flexibility",
+    "predicate": "entails",
+    "object": "epistemic-trap-rather-than-coalition-politics",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "ASSUMPTION: The thesis assumes that ideological flexibility (multiple frameworks converging on one target) is evidence of an epistemic trap. An alternative interpretation is that this is simply normal coalition politics \u2014 diverse groups cooperating on a shared policy goal without epistemic pathology, the way pro-trade coalitions unite libertarians, corporate interests, and development economists. The trap interpretation requires the additional assumption that the convergence distorts rather than merely aggregates the constituent frameworks.",
+    "created_at": 1776229654.006059,
+    "id": "9a3564ac181d78331ef7ed627e7936c2180a68bc4d61479f27b935190b36bf84"
+  }
+]

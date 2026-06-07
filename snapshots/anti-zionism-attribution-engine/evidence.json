@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Soviet/Arab Cold War Anti-Zionism and Strategic Miscalculation",
+    "description": "The Soviet Union's adoption of anti-Zionism as a core ideological commitment from the 1960s onward led to systematic strategic miscalculations in the Middle East: backing losing coalitions in 1967 and 1973, alienating potential partners (e.g., Israel was initially socialist-aligned), and failing to secure durable influence in the region despite massive resource expenditure. Soviet analysts who identified Israel as the root problem consistently misread regional dynamics driven by intra-Arab rivalries, sectarianism, and oil politics.",
+    "evidence_type": "document",
+    "source": "Cold War historiography; Galia Golan, 'Soviet Policies in the Middle East' (1990); Yaacov Ro'i, 'The Limits to Power' (2006)",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227747.9044669,
+    "id": "e7dd6342b7b1ba26f13c379cd0c14fd3095e9265900004c58966b6984f645ecb"
+  },
+  {
+    "title": "Intersectional Coalition Convergence on Anti-Zionism Post-2014",
+    "description": "Since approximately 2014, Western progressive movements have increasingly converged on anti-Zionism as a coalition signal linking Black Lives Matter, climate justice, Indigenous rights, queer liberation, and anti-capitalism \u2014 despite these movements having no inherent structural connection to Israeli-Palestinian politics. The 2016 Movement for Black Lives platform explicitly included anti-Zionist language; climate protests routinely feature Palestinian flags; academic boycott movements frame Israel as uniquely central to global oppression. This pattern of grievance absorption is consistent with the thesis that anti-Zionism functions as a flexible ideological container.",
+    "evidence_type": "observation",
+    "source": "Movement for Black Lives 2016 platform; journalistic documentation of protest coalitions (2014-2025); academic analysis of intersectionality and Palestine solidarity",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227753.5962849,
+    "id": "e9abe3dc1b7d1f1d2d0e0ab164f23f3cda919e8e03d58af6a1d72ae5c8d3aac4"
+  },
+  {
+    "title": "Cognitive Science of Monocausal Attribution Bias",
+    "description": "Research in cognitive psychology demonstrates that monocausal explanatory frameworks \u2014 attributing complex outcomes to single causes \u2014 produce predictable reasoning errors: confirmation bias intensification, failure to update on disconfirming evidence, and overestimation of the causal agent's power. Studies on conspiracy ideation (Brotherton et al., 2013; van Prooijen & Douglas, 2017) show that monocausal frameworks resist empirical correction and tend to expand their explanatory scope over time, absorbing new phenomena into the existing causal narrative.",
+    "evidence_type": "experiment",
+    "source": "Brotherton, French & Pickering (2013) 'Measuring Belief in Conspiracy Theories'; van Prooijen & Douglas (2017) 'Conspiracy Theories as Part of History'; Tetlock (2005) 'Expert Political Judgment'",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227758.869526,
+    "id": "f4463aa3635515724609bac72a2ee29bf6ce5f477aa5d1c970add92f5590eb2f"
+  },
+  {
+    "title": "Comparative Outcomes: Anti-Zionist vs. Pragmatic Arab States",
+    "description": "States that organized foreign policy around anti-Zionism (Syria, Iraq under Saddam, Libya under Gaddafi, Iran) have generally produced worse outcomes for their own populations and less regional influence than states that adopted pragmatic stances toward Israel (Jordan, Egypt post-1979, UAE, Bahrain). The Abraham Accords signatories have gained tangible diplomatic, economic, and security benefits, while rejectionist states have experienced civil wars, sanctions regimes, and diplomatic isolation \u2014 outcomes at least partly attributable to strategic distortions produced by anti-Zionist organizing principles.",
+    "evidence_type": "statistical",
+    "source": "Comparative analysis of MENA state outcomes; World Bank development indicators; diplomatic history of Abraham Accords (2020)",
+    "reliability": 0.65,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776227764.535201,
+    "id": "fe40c20da48f5902dd0a3152ac5a2c9742b589cb3a93f439bf63da11b87db634"
+  }
+]

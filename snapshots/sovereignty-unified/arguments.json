@@ -1,0 +1,141 @@
+[
+  {
+    "conclusion": "a064c47dfd18537f1124454f59649adb0882cca8f8595ed272206a49b0fe37a2",
+    "premises": [
+      "ad38204118c1f856bdbfa824c66cfa7997ae8a4807947a430cf773a58e5b2e77"
+    ],
+    "pattern": "induction",
+    "label": "Current ZKP circuit benchmarks and absence of large-scale demonstrations support infeasibility claim",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774595806.9992352,
+    "id": "9ff08d6e608053663a619556dd27a6c8a6acc719e75199aea7ebdbb486a17aee"
+  },
+  {
+    "conclusion": "1759cf963c00655005b83865497a403749203cc30f9afb486aa34a1a03f9c8d4",
+    "premises": [
+      "6365c21e19f5a98c7aef0a8e1fa2207b61a962006a27eca2e13687ef3f71fba9"
+    ],
+    "pattern": "causal",
+    "label": "Documented TEE compromises and vendor concentration demonstrate shared supply-chain failure modes",
+    "confidence": {
+      "level": 0.83,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The claim that TEE vendor concentration negates distributed trust may overstate the practical risk. While SGX has suffered attacks, attestation key extraction at scale has not been publicly demonstrated, and newer TEE architectures (e.g., ARM CCA, RISC-V Keystone) are expanding the vendor base. Furthermore, the protocol's layered design means TEE compromise alone may be insufficient to break the system if biometric liveness and cryptographic deduplication provide independent checks. The supply-chain convergence argument assumes worst-case vendor collusion but does not account for the reputational and legal deterrents against attestation key disclosure, nor for architectural mitigations such as multi-vendor attestation requirements or threshold schemes across heterogeneous TEE implementations.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774595807.000032,
+    "id": "21179a0ddb2151b47865b45ac785a4cbffa99f862d9fdffdd7427e547c033e9a"
+  },
+  {
+    "conclusion": "1656d69a5f04804ef2ced5c7185cb3da6c60b70c2e01533b4c4ea2606435ca82",
+    "premises": [
+      "8556ff88f75769d5c61862078135568f52bbd450a19053ae78fda3cb9093515f"
+    ],
+    "pattern": "analogy",
+    "label": "WebPKI audit failures as precedent for certification-without-operation governance degradation",
+    "confidence": {
+      "level": 0.68,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774595807.001004,
+    "id": "761d692468fb1c2b84faadfca15183a4d9647eb83bc95f33ee4299366913dabd"
+  },
+  {
+    "conclusion": "648f8de086495d225fba027a3f272774a6923ee581f20a6150b462b438be5899",
+    "premises": [
+      "c7efd8384ec3adc50009765ff8db2d4673db9dc069e32c163c9e98fbb03c9902"
+    ],
+    "pattern": "induction",
+    "label": "Pattern of metadata leakage in deployed privacy systems generalizes to identity ZKP context",
+    "confidence": {
+      "level": 0.74,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774595807.001896,
+    "id": "b5ceb808b1543b32eee9d07c0f4b73f81249308e7a2fc977e4659df80150c9f7"
+  },
+  {
+    "conclusion": "5a0ef2141cef1b6c1e8fe1acdaa681cb17943260ebe444587d0000dffc8c1e01",
+    "premises": [
+      "a064c47dfd18537f1124454f59649adb0882cca8f8595ed272206a49b0fe37a2",
+      "1759cf963c00655005b83865497a403749203cc30f9afb486aa34a1a03f9c8d4",
+      "1656d69a5f04804ef2ced5c7185cb3da6c60b70c2e01533b4c4ea2606435ca82",
+      "648f8de086495d225fba027a3f272774a6923ee581f20a6150b462b438be5899",
+      "c3c8b71b59ba4892b01f52a241f07a18068a3128fe64f6e754357ebc37b61050"
+    ],
+    "pattern": "abduction",
+    "label": "Convergence of four unresolved challenges plus exclusionary access barriers best explains classification as research direction rather than defensible design",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The argument treats the four challenges as jointly sufficient to classify the architecture as merely speculative, but this may set an inappropriately high bar. All novel security architectures face unresolved challenges at the proposal stage. If the standard for a 'defensible design proposal' requires resolution of all identified risks, then virtually no ambitious cryptographic system would qualify at the design phase. The architecture might be defensible as a design proposal precisely because it makes its assumptions and failure conditions explicit, which is itself a form of intellectual maturity absent from many deployed identity systems. The thesis may conflate 'unresolved challenges exist' with 'the approach is not yet worth pursuing as a design.'",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774595807.002489,
+    "id": "fa53ec211579bdfb820fe966ef5871d01fdbc5d361dce312fe9eab0fe8c91c08"
+  },
+  {
+    "conclusion": "5a0ef2141cef1b6c1e8fe1acdaa681cb17943260ebe444587d0000dffc8c1e01",
+    "premises": [
+      "1759cf963c00655005b83865497a403749203cc30f9afb486aa34a1a03f9c8d4",
+      "a064c47dfd18537f1124454f59649adb0882cca8f8595ed272206a49b0fe37a2"
+    ],
+    "pattern": "causal",
+    "label": "Hardware supply-chain convergence combined with biometric ZKP infeasibility undermines the core architectural claim of independent trust layers",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774595807.003073,
+    "id": "8b635744e32800a6c5b11efdfbb33fe71c5ff4fd5cb7bb94e2dc63f16a3215c5"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Ostrom's Eight Design Principles for Long-Enduring CPR Institutions",
+    "description": "In \"Governing the Commons\" (1990), Ostrom analyzed successful common-pool resource institutions worldwide and identified eight design principles: clearly defined boundaries, congruence between rules and local conditions, collective-choice arrangements, monitoring, graduated sanctions, conflict-resolution mechanisms, minimal recognition of rights to organize, and nested enterprises. These principles empirically correlate with long-term institutional survival without centralized enforcement.",
+    "evidence_type": "document",
+    "source": "Ostrom, E. (1990). Governing the Commons: The Evolution of Institutions for Collective Action. Cambridge University Press.",
+    "reliability": 0.92,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774926717.8192189,
+    "id": "ef77cd240336dd9032643f4ad7b0c14079f018e8d6f1ada07a5bdc93881405aa"
+  },
+  {
+    "title": "Axelrod's Iterated Cooperation Tournament Results",
+    "description": "Axelrod's computer tournaments and subsequent analysis in \"The Evolution of Cooperation\" (1984) demonstrated that in iterated prisoner's dilemma settings, strategies based on reciprocity (especially tit-for-tat) sustain cooperation among self-interested agents without central authority. Key findings: cooperation emerges from the shadow of the future, reputation effects, and the capacity for retaliation \u2014 all structural features rather than exogenous enforcement.",
+    "evidence_type": "experiment",
+    "source": "Axelrod, R. (1984). The Evolution of Cooperation. Basic Books.",
+    "reliability": 0.88,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774926720.8670158,
+    "id": "a2d3bf3ec01f7fe21cb06ea36bfd37b3848525f7fabb55937ed1c8b39113356c"
+  },
+  {
+    "title": "DigiNotar CA Compromise and PKI Governance Failure",
+    "description": "The 2011 DigiNotar breach demonstrated how a single defecting participant in a credential-issuing system (a certificate authority issuing fraudulent SSL certificates for google.com and other domains) could undermine the entire PKI ecosystem. The incident revealed the absence of effective mutual monitoring, the conflation of standard-holding with operation, and the lack of adversarial resilience \u2014 precisely the governance gaps the six patterns address. The subsequent decertification by browser vendors was an ad hoc, centralized response that the system's design did not anticipate.",
+    "evidence_type": "observation",
+    "source": "Fox-IT (2012). Black Tulip: Report of the investigation into the DigiNotar Certificate Authority breach. Dutch Government report.",
+    "reliability": 0.9,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774926726.031647,
+    "id": "6cc388a0c5ed042f6b28cdb48f4560e7e61a55c9d0f52a20d6a7e7518c104664"
+  },
+  {
+    "title": "W3C Verifiable Credentials and Trust Framework Governance Patterns",
+    "description": "The W3C Verifiable Credentials ecosystem and associated trust frameworks (e.g., TRAIN, ToIP Governance Stack) are explicitly adopting governance patterns that mirror commons governance: separating governance authorities from credential issuers, requiring mutual audit obligations, layering accountability through selective disclosure and ZKPs, and designing for adversarial participants. These emerging systems provide partial empirical confirmation that practitioners independently converge on commons-like patterns when designing decentralized credential governance.",
+    "evidence_type": "document",
+    "source": "W3C Verifiable Credentials Data Model v2.0 (2024); Trust over IP Foundation Governance Architecture Specification v1.0.",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774926731.44688,
+    "id": "16c313f1e61c36f77e374453009b6fe1fa7bc2f9405d5ad26a7de60af4e3c850"
+  }
+]

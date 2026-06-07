@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "deliberative-democracy-infrastructure",
+    "predicate": "requires",
+    "object": "blockchain-based-persistence",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "53465c64c993796a74257b4587293ab3c5a3c909a5bead19a8e09b2b1fb94237",
+      "f9b51a2ff190e3b149e8e7c9a72bd251e40264dfb01b464df12a708036756839",
+      "59af8c5659173ee67a88f35c3f7e1528f3309e2fd854dc89b4ccecc33e58203d"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Deliberative democracy infrastructure requires blockchain-based persistence to ensure argument graphs cannot be silently altered by platform operators",
+    "created_at": 1775620654.717669,
+    "id": "07b1b687b1f41069794b2929bb2cbed16ee886919629de448f2f2f6717bd5586"
+  },
+  {
+    "subject": "argument-graphs",
+    "predicate": "are-vulnerable-to",
+    "object": "silent-alteration-by-operators",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Argument graphs stored on centralized platforms are vulnerable to silent modification, deletion, or reordering by the platform operators who control the underlying database.",
+    "created_at": 1775620659.3376698,
+    "id": "34d951484642b25b6cf1756cb4974c125d85cee56bc227631e63e9f5eea89fd9"
+  },
+  {
+    "subject": "silent-alteration-of-argument-graphs",
+    "predicate": "undermines",
+    "object": "democratic-legitimacy",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "If arguments, evidence, and deliberative structure can be silently altered after the fact, the outcomes of deliberation lose legitimacy because participants cannot trust that the shared reasoning record is authentic.",
+    "created_at": 1775620662.155682,
+    "id": "43b94fac6a4097b60fa12426fa58eb8aca4347a765ad3a7f269a22f3763dac08"
+  },
+  {
+    "subject": "blockchain",
+    "predicate": "provides",
+    "object": "tamper-evident-persistence",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Blockchain's hash-chain structure and distributed consensus make any retroactive alteration of stored records detectable by any participant, providing cryptographic tamper-evidence.",
+    "created_at": 1775620664.247781,
+    "id": "29138f957fc0c2b1e8676d5905c0bcc8f4587bbb0b6e9dcef353cd1f067c7fa8"
+  },
+  {
+    "subject": "tamper-evidence",
+    "predicate": "is-necessary-for",
+    "object": "deliberative-democracy-infrastructure",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Deliberative democracy depends on a shared, trustworthy record of arguments and evidence. Tamper-evidence is a necessary property to maintain participant trust and procedural fairness.",
+    "created_at": 1775620666.4998772,
+    "id": "9f22b58dcaecdb1e36b7fd3c2b0ace655903b5a346f3a9fa24f77d35d5c8e80c"
+  },
+  {
+    "subject": "alternative-persistence-mechanisms",
+    "predicate": "are-insufficient-for",
+    "object": "operator-independent-tamper-evidence",
+    "confidence": {
+      "level": 0.4,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Traditional databases with audit logs, centralized append-only stores, and other non-blockchain mechanisms still ultimately depend on the operator's infrastructure and cannot provide fully operator-independent verifiability. This is the weakest link in the thesis.",
+    "created_at": 1775620669.113724,
+    "id": "ceeec8a246e3c95235ca78f9cea9a467b5803ea46d7c5714f540180ba2117a7e"
+  },
+  {
+    "subject": "platform-operators",
+    "predicate": "have-incentive-to",
+    "object": "alter-argument-graphs",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes platform operators have political, commercial, or reputational incentives to silently alter deliberative records. Plausible given advertising models and political pressure, but not all operators are adversarial \u2014 many may be civic-minded nonprofits.",
+    "created_at": 1775620727.686111,
+    "id": "53465c64c993796a74257b4587293ab3c5a3c909a5bead19a8e09b2b1fb94237"
+  },
+  {
+    "subject": "participants",
+    "predicate": "cannot-independently-verify",
+    "object": "graph-integrity-without-blockchain",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes that without blockchain, ordinary participants have no practical way to verify that the argument graph has not been altered. This ignores possibilities like signed snapshots, third-party auditors, or client-side hashing.",
+    "created_at": 1775620730.551908,
+    "id": "f9b51a2ff190e3b149e8e7c9a72bd251e40264dfb01b464df12a708036756839"
+  },
+  {
+    "subject": "blockchain-costs-and-complexity",
+    "predicate": "are-justified-by",
+    "object": "integrity-guarantees",
+    "confidence": {
+      "level": 0.4,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes the operational costs, energy consumption, latency, and governance complexity of blockchain are a worthwhile tradeoff for the tamper-evidence it provides. This is contested \u2014 the overhead may deter participation and reduce accessibility, which are also democratic values.",
+    "created_at": 1775620733.347373,
+    "id": "59af8c5659173ee67a88f35c3f7e1528f3309e2fd854dc89b4ccecc33e58203d"
+  }
+]

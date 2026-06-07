@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Replication crisis data",
+    "description": "Only 36% of psychology studies replicate (Open Science Collaboration, 2015)",
+    "evidence_type": "statistical",
+    "source": "Open Science Collaboration, Science 349(6251), 2015",
+    "reliability": 0.9,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773372416.84264,
+    "id": "a508ea77853930e5cfdf11a4c4763f1c03dd2c66ab7d74367b6cfa2117fc11f0"
+  },
+  {
+    "title": "Ostrom commons governance",
+    "description": "Elinor Ostrom demonstrated that polycentric governance outperforms both pure market and pure state for commons management",
+    "evidence_type": "document",
+    "source": "Governing the Commons, 1990",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773372416.8430982,
+    "id": "570fa60695c59b7836e055b78c396de140cf4a1e3b88cd4ca5dd93e5b09fbad3"
+  },
+  {
+    "title": "Axelrod cooperation dynamics",
+    "description": "Robert Axelrod's tournament showed cooperation emerges from repeated interaction with known partners (identity \u2192 cooperation)",
+    "evidence_type": "experiment",
+    "source": "The Evolution of Cooperation, 1984",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773372416.843518,
+    "id": "cf053b941d5d1af14f6813814628dddb334f1a61764a647a82c908bd130938b2"
+  },
+  {
+    "title": "Osmio PKI operational history",
+    "description": "Osmio chartered at ITU Geneva 2005, operating PKI-based digital identity infrastructure as digital municipality",
+    "evidence_type": "document",
+    "source": "Osmio organizational documents",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773372416.843945,
+    "id": "df7bcceb97f67dfcbd16568a023703d3cf1c6dfe20172947ecfc5e803b238940"
+  },
+  {
+    "title": "Platform identity capture",
+    "description": "Facebook, Google, Twitter control identity for 4B+ users; deplatforming = identity death in those ecosystems",
+    "evidence_type": "observation",
+    "source": "",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773372416.844409,
+    "id": "3b53fb03f3b8550813f19ee75d5e40fb39318805c63abbb3e5bc10abfdf2f4a8"
+  },
+  {
+    "title": "GSM8K benchmark shows GPT-4 drops from 92% to 34% accuracy\u2026",
+    "description": "GSM8K benchmark shows GPT-4 drops from 92% to 34% accuracy when problems are rephrased with unfamiliar variable names (Dziri et al., 2023)",
+    "evidence_type": "observation",
+    "source": "",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773375236.667134,
+    "id": "c05cb2df646450934e2591681bdd7b43912cd2bd7e7c7ce42f857978074cb065"
+  },
+  {
+    "title": "Platform Capture Examples",
+    "description": "Social media platforms and payment systems initially created shared value but became extractive through opaque algorithmic governance and network lock-in effects",
+    "evidence_type": "observation",
+    "source": "Historical analysis of Facebook, Twitter, PayPal platform evolution",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773385122.840641,
+    "id": "0aee73c77792d22268a606c5f22d79e917d5a2d4e740b7ef1605f38351416a74"
+  },
+  {
+    "title": "Cross-Border Trade Friction",
+    "description": "International commerce requires extensive institutional frameworks (banks, legal systems, identity verification) precisely because social trust mechanisms don't scale across cultural boundaries",
+    "evidence_type": "statistical",
+    "source": "World Bank trade facilitation data, transaction cost studies",
+    "reliability": 0.9,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773385122.8418748,
+    "id": "322bec377a35c70fed03615807b6ee004846f3f191b5bc1430fab2fffc48cbe4"
+  },
+  {
+    "title": "Prisoner's Dilemma Research",
+    "description": "Game theory experiments consistently show defection in one-shot interactions regardless of player preferences, while repeated games with identity tracking enable cooperation",
+    "evidence_type": "experiment",
+    "source": "Axelrod tournaments, behavioral economics literature",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773385122.843161,
+    "id": "fd72bd62f891f2783dcbe19daa4faaf49aa1309acc68a526e2d48cb2785cfd31"
+  },
+  {
+    "title": "Estonia Digital Identity Success",
+    "description": "Estonia's e-Residency program demonstrates how cryptographically verifiable digital identity enables cross-border coordination and economic participation",
+    "evidence_type": "observation",
+    "source": "Estonian e-Governance Academy reports",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773385122.844453,
+    "id": "47eed1a23bf348574a21b721cc23e7d8aa1f4b4c62b3d31167b61ea551bbd228"
+  }
+]

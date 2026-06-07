@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Cross-paradigm breach pattern: Centralized identity custodian failures",
+    "description": "Major breaches of centralized identity systems \u2014 India's Aadhaar biometric database leaks (2017-2018), the U.S. OPM breach (2015, 21.5M records), Estonia's ID card cryptographic vulnerability (2017) \u2014 demonstrate that centralized custodians concentrate vulnerability. Each breach exploited the gap between the system's technical capacity to aggregate data and the institution's actual capacity to secure it.",
+    "evidence_type": "observation",
+    "source": "Documented security incidents in national and enterprise identity systems (NIST, Krebs on Security, academic post-mortems)",
+    "reliability": 0.88,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774925774.772199,
+    "id": "69dbb5484b08f27b634f2e8a85460b95001c06644c3672d0befe897a04604fbd"
+  },
+  {
+    "title": "Federated and decentralized systems shift but preserve the vulnerability surface",
+    "description": "OAuth/SAML federation moved the trust problem to identity providers and token exchange boundaries (e.g., the 2020 SolarWinds SAML golden ticket attack on federated enterprise identity). Decentralized identity (SSI/DID) pushed custody to wallet software and key management, where usability studies show ordinary users routinely fail to protect private keys, and wallet provider compromises re-centralize risk at the software layer.",
+    "evidence_type": "observation",
+    "source": "SolarWinds CISA advisory (2020); Whitten & Tygar 'Why Johnny Can't Encrypt' lineage of usability research; W3C DID Working Group implementation reports",
+    "reliability": 0.82,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774925780.425487,
+    "id": "114745c7ea1527e8657b59ce9305aa2f7232e24ca684415f46f79abf8f6ea179"
+  },
+  {
+    "title": "Limits of formal verification in closing institutional gaps",
+    "description": "Formally verified cryptographic protocols (e.g., the verified TLS implementation miTLS, sel4 microkernel) achieve mathematical guarantees within their model boundaries, but verified systems still depend on unverified institutional processes: key ceremony governance, update deployment policy, legal compliance, and human operational procedures. The gap between model and deployment is itself an instance of the accountability gap.",
+    "evidence_type": "document",
+    "source": "Bhargavan et al. (2017) miTLS verification; Klein et al. (2009) seL4 verification; Bellovin 'Thinking Security' (2015) on the model-reality gap",
+    "reliability": 0.78,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774925785.082304,
+    "id": "3a06f78142b3cc66bfc3a890f254eb70888728ced709869b14f3ba21b3939572"
+  },
+  {
+    "title": "Statistical pattern of governance failure following technical confidence",
+    "description": "Empirical studies of organizational security posture (e.g., Ponemon Institute annual reports, Verizon DBIR) consistently find that organizations with the highest technical security investments still suffer breaches attributable to institutional factors: misconfigured access controls, insider threats, delayed patching due to organizational inertia, and regulatory non-compliance. The correlation between technical investment and breach prevention plateaus \u2014 suggesting a structural floor set by institutional, not technical, constraints.",
+    "evidence_type": "statistical",
+    "source": "Verizon Data Breach Investigations Reports (2015-2024); Ponemon Institute 'Cost of a Data Breach' longitudinal studies",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774925789.144541,
+    "id": "0f869403952008d01ebf2e0800932a33efc31ffad1f503dc915d163868fec1f6"
+  }
+]

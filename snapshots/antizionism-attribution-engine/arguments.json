@@ -1,0 +1,144 @@
+[
+  {
+    "conclusion": "9e7095a99b29f8eb7f74c7bd133b7f6ab69fc8e3131062854871ee4b90a6ca93",
+    "premises": [
+      "95c7aacf93d8e9838fa061c16c94d42f0a4c735b0406acb3775e8bb3ab4bb0bf",
+      "9c8f66b27bb9763d37ffa91182d843e12b39dfa1b90953bf36a4bde83f36c4e8"
+    ],
+    "pattern": "induction",
+    "label": "Knowledge-deficit correlation plus monocausal discourse patterns suggest anti-Zionism attracts and rewards geopolitical simplification",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229606.937828,
+    "id": "622db04526aeeff5acfa352cb48fb33b5300d99ddd46b3aabe671c19cbed923a"
+  },
+  {
+    "conclusion": "0267b642fc35bf1ddc7231abc8d7fe1484b227ad50a8831c5f3a6ad286d2ab3c",
+    "premises": [
+      "9c8f66b27bb9763d37ffa91182d843e12b39dfa1b90953bf36a4bde83f36c4e8"
+    ],
+    "pattern": "causal",
+    "label": "Systematic over-attribution to Israeli agency crowds out competing causal hypotheses, degrading analytical capacity over time",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229611.166087,
+    "id": "5286144a32ff8324e8f2b4a0cddd57d3878f66763544b4b42ceb2ff8cdd4d0e3"
+  },
+  {
+    "conclusion": "0b0179cb2cd1eeb30756553c99101666e01b691a95103386eee54e94a31ba181",
+    "premises": [
+      "3f018ac5aa858a3001e9f137ca2a5feb8c4227532871d5715ecd85b01679a4dc",
+      "7563e4c1aaa9fe91e30352bdb3ed18185d7554365131e83af5e1acca5aa64997"
+    ],
+    "pattern": "abduction",
+    "label": "Cross-ideological convergence plus framework-shifting best explained by anti-Zionism being a flexible container rather than coherent ideology",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229614.7628381,
+    "id": "e04857b833c9c167e5803c11ffb1c7545aaa67a47917250a139708d30d39eee6"
+  },
+  {
+    "conclusion": "7f9f3612d0222bb48906b0edd8d7de3525698af8ce60923ee3469627b3c619e2",
+    "premises": [
+      "9e7095a99b29f8eb7f74c7bd133b7f6ab69fc8e3131062854871ee4b90a6ca93",
+      "0267b642fc35bf1ddc7231abc8d7fe1484b227ad50a8831c5f3a6ad286d2ab3c"
+    ],
+    "pattern": "causal",
+    "label": "If anti-Zionism both attracts the unsophisticated (selection) and degrades capacity further (treatment), the causal loop is bidirectional",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The bidirectional causation claim may be unfalsifiable as stated. Without a natural experiment or instrumental variable separating selection from treatment, the observed correlation between anti-Zionist belief and geopolitical ignorance is equally consistent with pure selection (ignorant people adopt anti-Zionism but it doesn't make them worse) or pure confounding (a third variable like general conspiratorial thinking drives both). The feedback loop is asserted rather than demonstrated, and the thesis provides no mechanism to distinguish its preferred bidirectional model from these simpler alternatives.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229624.731779,
+    "id": "9f17b0d68ef04fde809311879159d5a2c7c7998320018d274b1de55ffae81653"
+  },
+  {
+    "conclusion": "ef86a27eb4b611577275d24efe17d8037a60390519168e59bc6cbde88b5163df",
+    "premises": [
+      "0b0179cb2cd1eeb30756553c99101666e01b691a95103386eee54e94a31ba181",
+      "7563e4c1aaa9fe91e30352bdb3ed18185d7554365131e83af5e1acca5aa64997"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If anti-Zionism is a flexible container, then no single refutation can collapse it \u2014 therefore it functions as an epistemic trap rather than a correctable error",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The 'epistemic trap' conclusion assumes that framework-shifting under challenge is pathological, but in epistemology of science, theoretical pluralism \u2014 maintaining multiple partially-overlapping models \u2014 is often rational rather than irrational (cf. Longino's critical contextual empiricism, Kuhn on paradigm plurality). Anti-Zionism's multi-framework structure could reflect genuine multi-causal criticism of a state from different valid perspectives, each capturing a real dimension (legal, humanitarian, anti-colonial, strategic). The thesis may be pathologizing what is actually methodological triangulation by treating any convergent criticism as evidence of an epistemic trap, which would itself be a form of motivated reasoning \u2014 immunizing Zionism from critique by framing the structure of criticism as the problem rather than engaging its content.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229629.0212889,
+    "id": "4d6c058c12cfc1ac58649d2d9b48f856128326de690dff6ff0c7205952caab43"
+  },
+  {
+    "conclusion": "79cfe30425f1f3f9edbde097484ba212677e536366cd7c2e935d699ba1e6ed7f",
+    "premises": [
+      "9e7095a99b29f8eb7f74c7bd133b7f6ab69fc8e3131062854871ee4b90a6ca93",
+      "0267b642fc35bf1ddc7231abc8d7fe1484b227ad50a8831c5f3a6ad286d2ab3c",
+      "7f9f3612d0222bb48906b0edd8d7de3525698af8ce60923ee3469627b3c619e2",
+      "0b0179cb2cd1eeb30756553c99101666e01b691a95103386eee54e94a31ba181",
+      "ef86a27eb4b611577275d24efe17d8037a60390519168e59bc6cbde88b5163df"
+    ],
+    "pattern": "abduction",
+    "label": "Full synthesis: monocausal attraction + analytical degradation + bidirectional causation + flexible container + uncorrectability = epistemic trap via causal attribution engine",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776229636.833772,
+    "id": "9790f9d9f56e5fb3c50d1b9b836121afe23d746128264b990cc9fe1253dddc24"
+  }
+]

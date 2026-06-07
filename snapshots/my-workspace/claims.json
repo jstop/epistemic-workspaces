@@ -1,0 +1,740 @@
+[
+  {
+    "subject": "identity-infrastructure",
+    "predicate": "enables",
+    "object": "civilizational-coordination",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "6150b618814a893d9fbd92535496276f9dbb7c3bd71c8b148a212eae2ab65300",
+      "d8aa01b777aa759beaebc4138324676161ceece3c3dd7c36cb22de1d1f62e4db",
+      "8fe84ef25674b59c7758e3b804cd70636a0fb35c89f281b9973a63744caafe56"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Coordination failures are fundamentally structural \u2014 rooted in zero-sum conditions where actors respond to incentives that reward defection regardless of their values or information. The transition from zero-sum to non-zero-sum dynamics requires shared infrastructure that creates mutual stake, but infrastructure alone is not sufficient \u2014 it creates the possibility space within which social and political coordination can emerge.\nThis infrastructure is vulnerable to capture. Historical examples \u2014 from financial systems to social platforms \u2014 demonstrate that shared infrastructure with opaque governance and coerced participation consolidates control rather than distributing it. Infrastructure that resists capture requires bounded authority, voluntary participation, transparent operation, and cryptographic accountability.\nIdentity is the foundational infrastructure layer because it is a prerequisite for every form of human coordination. Social capital \u2014 norms, trust, repeated interaction \u2014 enables coordination within communities of proximity, but breaks down across jurisdictional and cultural boundaries where parties cannot rely on face-to-face reputation. Identity infrastructure extends the conditions for trust formation beyond the scale limits of social capital.\nA globally accessible identity system built on capture-resistant architecture \u2014 accountable anonymity rather than either surveillance or pure decentralization \u2014 creates the structural precondition for non-zero-sum coordination at civilizational scale.",
+    "created_at": 1773386117.633355,
+    "id": "18e33eeefe700ef37c689421d71866a3117f117cf92397aecb83ec4450b4e666"
+  },
+  {
+    "subject": "coordination-failures",
+    "predicate": "result-from",
+    "object": "structural-incentives",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Coordination failures are fundamentally structural, rooted in zero-sum conditions where actors respond to incentives that reward defection regardless of their values or information",
+    "created_at": 1773386117.638659,
+    "id": "7a344dc3ed8b45e2749d4006c7fc0ef47f648155f507437f06ddc7b28a2c93dc"
+  },
+  {
+    "subject": "shared-infrastructure",
+    "predicate": "creates",
+    "object": "non-zero-sum-dynamics",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Shared infrastructure creates mutual stake and the possibility space for coordination, though it is not sufficient alone",
+    "created_at": 1773386117.642134,
+    "id": "469e1add462c774bf339be4dafe071f32cf28b382d35d6b8f09b3c5171a3ec66"
+  },
+  {
+    "subject": "opaque-infrastructure",
+    "predicate": "enables",
+    "object": "control-consolidation",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Historical examples show that shared infrastructure with opaque governance and coerced participation consolidates rather than distributes control",
+    "created_at": 1773386117.646053,
+    "id": "a95f401bf9d0d61949a3e0d88a50905a5653044474c3832367f69d6f68e5b51b"
+  },
+  {
+    "subject": "identity",
+    "predicate": "is",
+    "object": "foundational-coordination-layer",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Identity is the foundational infrastructure layer because it is a prerequisite for every form of human coordination",
+    "created_at": 1773386117.647805,
+    "id": "438e3bb71d7527ced198db1afe67eade400606c2e90ef6c42f6240020ec8ee88"
+  },
+  {
+    "subject": "social-capital",
+    "predicate": "fails-at",
+    "object": "cross-boundary-scale",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Social capital enables coordination within communities but breaks down across jurisdictional and cultural boundaries where face-to-face reputation is unavailable",
+    "created_at": 1773386117.6490319,
+    "id": "fc3ff58e8fd78a7835c52895a38d92a011f4953c6cf0232be89aec10191d748b"
+  },
+  {
+    "subject": "human-actors",
+    "predicate": "respond-to",
+    "object": "structural-incentives",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes rational response to incentives dominates values and social norms. If wrong, coordination failures might be more about culture or information than structure",
+    "created_at": 1773386117.6596649,
+    "id": "6150b618814a893d9fbd92535496276f9dbb7c3bd71c8b148a212eae2ab65300"
+  },
+  {
+    "subject": "cryptographic-systems",
+    "predicate": "resist",
+    "object": "institutional-capture",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes technical architecture can meaningfully constrain political power. If wrong, capture-resistant design may be impossible regardless of technical features",
+    "created_at": 1773386117.660772,
+    "id": "d8aa01b777aa759beaebc4138324676161ceece3c3dd7c36cb22de1d1f62e4db"
+  },
+  {
+    "subject": "identity-verification",
+    "predicate": "scales",
+    "object": "globally",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes identity systems can work across diverse political and cultural contexts. If wrong, fragmentation into incompatible systems may be inevitable",
+    "created_at": 1773386117.661979,
+    "id": "8fe84ef25674b59c7758e3b804cd70636a0fb35c89f281b9973a63744caafe56"
+  },
+  {
+    "subject": "capture-resistant-identity-systems",
+    "predicate": "enable",
+    "object": "global-coordination",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "b8be41e4ea74bed1e2d2656d6a6d0f25c1b4be92812349d3a49ba27f62ea1446",
+      "f40ac75a61e328ac60c0dd27f291be46965e38df4919320935150818d2edbfda",
+      "53bd1da33db8e90e18eecd32787b7e9d2a9d64e0d224b65d27594349f2e1d9ad"
+    ],
+    "is_root": true,
+    "previous_version": "18e33eeefe700ef37c689421d71866a3117f117cf92397aecb83ec4450b4e666",
+    "version_meta": {
+      "rationale": "This version acknowledges the significant uncertainties around key assumptions while preserving the core structural argument. It incorporates the main objection about cross-civilizational adoption challenges and uses more cautious language that reflects the limited supporting evidence.",
+      "changes": [
+        {
+          "type": "qualifier",
+          "description": "Changed 'fundamentally structural' to 'often significantly influenced by structural factors' to acknowledge that other factors may also contribute to coordination failures"
+        },
+        {
+          "type": "precision",
+          "description": "Added 'can be facilitated by' and 'may emerge' to reflect uncertainty about the causal mechanisms between infrastructure and coordination dynamics"
+        },
+        {
+          "type": "qualifier",
+          "description": "Changed definitive claims about identity being 'foundational' to 'potentially foundational' and 'may be prerequisites' given the unsupported assumption"
+        },
+        {
+          "type": "acknowledgment",
+          "description": "Explicitly incorporated the objection about cultural and institutional differences limiting cross-civilizational adoption"
+        },
+        {
+          "type": "scope",
+          "description": "Added 'could create important structural preconditions' rather than claiming it definitively 'creates the structural precondition' to reflect the moderate confidence level"
+        }
+      ]
+    },
+    "notes": "Coordination failures are often significantly influenced by structural factors \u2014 particularly zero-sum conditions where actors face incentives that reward defection regardless of their values or information. While the transition from zero-sum to non-zero-sum dynamics can be facilitated by shared infrastructure that creates mutual stake, infrastructure alone is insufficient \u2014 it creates possibility spaces within which social and political coordination may emerge. This infrastructure remains vulnerable to capture, as demonstrated by historical examples from financial systems to social platforms, where opaque governance and coerced participation have consolidated rather than distributed control. Identity systems represent a potentially foundational infrastructure layer for coordination, as they may be prerequisites for many forms of human cooperation. Though social capital enables coordination within communities of proximity, it faces limitations across jurisdictional and cultural boundaries where face-to-face reputation is unavailable. A globally accessible identity system built on capture-resistant architecture \u2014 emphasizing accountable anonymity \u2014 could create important structural preconditions for broader non-zero-sum coordination, though cultural and institutional differences pose significant adoption challenges that may limit effectiveness across civilizational boundaries.",
+    "created_at": 1773386611.63061,
+    "id": "672ddbaed16a32beaf1ca2c5e9af3a37aabcd5731c3d4c24ec53880e70a086bf"
+  },
+  {
+    "subject": "zero-sum-structures",
+    "predicate": "cause",
+    "object": "coordination-failures",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Zero-sum conditions create incentives that reward defection regardless of actors' values or information, leading to systematic coordination failures",
+    "created_at": 1773386611.638999,
+    "id": "748fce82b7beaf4226f79cc8caaef16fc937a1fab86c86c7bcb7120129b2bf00"
+  },
+  {
+    "subject": "shared-infrastructure",
+    "predicate": "enables",
+    "object": "non-zero-sum-transitions",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Shared infrastructure creates mutual stakes that can facilitate transitions from zero-sum to non-zero-sum dynamics, though it only creates possibility spaces rather than guaranteeing coordination",
+    "created_at": 1773386611.6428668,
+    "id": "852ee67674a476f8d29b16eddd76a2120b1674c562b5e4d99c3b8609313ae278"
+  },
+  {
+    "subject": "centralized-infrastructure",
+    "predicate": "suffers-from",
+    "object": "capture-vulnerability",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Historical examples from financial systems to social platforms demonstrate how opaque governance and coerced participation lead to consolidated rather than distributed control",
+    "created_at": 1773386611.6464362,
+    "id": "58fd80c30444a76e6300c1767fc0b3eae0c5be8d609fc3234ecd2d09ba6499f3"
+  },
+  {
+    "subject": "identity-systems",
+    "predicate": "constitute",
+    "object": "foundational-coordination-infrastructure",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Identity systems may be prerequisites for many forms of human cooperation, making them a foundational infrastructure layer for coordination",
+    "created_at": 1773386611.649141,
+    "id": "8df9151166ac5f997998cd8680e95deb0193a4b9f7f3f7c4818708a9821d7ce1"
+  },
+  {
+    "subject": "social-capital",
+    "predicate": "fails-across",
+    "object": "jurisdictional-boundaries",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Social capital enables coordination within communities of proximity but faces limitations across jurisdictional and cultural boundaries where face-to-face reputation is unavailable",
+    "created_at": 1773386611.6514912,
+    "id": "05ff483000916997c9ba9f454e4bde33e2a265ae389fc4e7d572693d1d3fb1ba"
+  },
+  {
+    "subject": "human-cooperation",
+    "predicate": "requires",
+    "object": "identity-verification",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes that most meaningful forms of cooperation require some form of identity verification or accountability. If wrong, identity systems may be less foundational than claimed.",
+    "created_at": 1773386611.671241,
+    "id": "b8be41e4ea74bed1e2d2656d6a6d0f25c1b4be92812349d3a49ba27f62ea1446"
+  },
+  {
+    "subject": "technical-architecture",
+    "predicate": "determines",
+    "object": "governance-outcomes",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes that capture-resistant technical design can meaningfully constrain political and economic capture. If wrong, technical solutions may be insufficient against determined institutional capture.",
+    "created_at": 1773386611.672915,
+    "id": "f40ac75a61e328ac60c0dd27f291be46965e38df4919320935150818d2edbfda"
+  },
+  {
+    "subject": "coordination-problems",
+    "predicate": "stem-from",
+    "object": "structural-incentives",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes coordination failures are primarily structural rather than cultural, psychological, or informational. If wrong, infrastructure solutions may address symptoms rather than causes.",
+    "created_at": 1773386611.6745799,
+    "id": "53bd1da33db8e90e18eecd32787b7e9d2a9d64e0d224b65d27594349f2e1d9ad"
+  },
+  {
+    "subject": "large-language-models",
+    "predicate": "cannot-achieve",
+    "object": "genuine-reasoning",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "1d6b398d2de4f907aeb20e36947c980c66742efb35c927da8b8b8bad56dce227",
+      "a815455bd7d5e8a1eebf476be26f1a6ac8b6033740d58711571b84676a2e5dc7",
+      "5183597121a868f8e11cc49995079afb796fe470e7b6192240c44b1e6c931935"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Large language models are fundamentally pattern matchers that cannot achieve genuine reasoning \u2014 they simulate understanding through statistical correlation but fail systematically on novel problems requiring causal inference.",
+    "created_at": 1773388479.5268211,
+    "id": "6c8f622920fe01c90b5285ea60925a88ac57032c9b3e79718cfbb67c5080b4ea"
+  },
+  {
+    "subject": "large-language-models",
+    "predicate": "operate-as",
+    "object": "pattern-matchers",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "LLMs function by identifying and reproducing statistical patterns in training data rather than engaging in symbolic manipulation or logical inference",
+    "created_at": 1773388479.529838,
+    "id": "8e12f13d39d789c98fb29ea471f6c6d3700fb1d54334ff7ee331dee263cf5dbf"
+  },
+  {
+    "subject": "llm-responses",
+    "predicate": "simulate",
+    "object": "understanding",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "LLMs generate responses that appear intelligent but lack genuine comprehension, merely recombining learned patterns",
+    "created_at": 1773388479.5312169,
+    "id": "6d44e7c8eb40d6d371f8bf2e854674793aef3f18f0e82cf3dc795f0ef1552aa0"
+  },
+  {
+    "subject": "large-language-models",
+    "predicate": "fail-on",
+    "object": "novel-causal-problems",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "When faced with problems requiring causal reasoning that differ substantially from training examples, LLMs perform poorly or make systematic errors",
+    "created_at": 1773388479.532591,
+    "id": "dbdbbc57b5c9f09c6fd06f6bea37b3dcad7248d9ed36ffe10e784f1932e7bbfb"
+  },
+  {
+    "subject": "statistical-correlation",
+    "predicate": "differs-from",
+    "object": "genuine-reasoning",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Statistical pattern matching is categorically different from the logical inference, causal understanding, and novel problem-solving that characterize genuine reasoning",
+    "created_at": 1773388479.5338938,
+    "id": "98e4ea19c282dda55890b0209570789fffd62f6886ad75f59085c06621cbf089"
+  },
+  {
+    "subject": "genuine-reasoning",
+    "predicate": "requires",
+    "object": "causal-understanding",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes that genuine reasoning necessarily involves understanding causal relationships rather than just predictive accuracy. If reasoning could be purely predictive, this thesis weakens significantly",
+    "created_at": 1773388479.5455081,
+    "id": "1d6b398d2de4f907aeb20e36947c980c66742efb35c927da8b8b8bad56dce227"
+  },
+  {
+    "subject": "novel-problems",
+    "predicate": "are-definable",
+    "object": "objectively",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes we can meaningfully distinguish 'novel' problems from variations of training data. If all problems are ultimately pattern matching, the distinction may be illusory",
+    "created_at": 1773388479.546774,
+    "id": "a815455bd7d5e8a1eebf476be26f1a6ac8b6033740d58711571b84676a2e5dc7"
+  },
+  {
+    "subject": "statistical-correlation",
+    "predicate": "cannot-capture",
+    "object": "reasoning",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes statistical methods are fundamentally insufficient for reasoning. If reasoning emerges from sufficiently complex statistical patterns, this assumption fails",
+    "created_at": 1773388479.548214,
+    "id": "5183597121a868f8e11cc49995079afb796fe470e7b6192240c44b1e6c931935"
+  }
+]

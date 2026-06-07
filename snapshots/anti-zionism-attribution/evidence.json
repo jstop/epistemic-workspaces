@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Soviet and Arab Nationalist Strategic Failures Correlated with Anti-Zionist Framing",
+    "description": "The Soviet Union's Middle East policy (1955\u20131991) and pan-Arab nationalist movements (Nasserism, Ba'athism) adopted anti-Zionism as a core organizing principle. Both consistently misjudged regional dynamics: the USSR failed to predict the Sino-Soviet-style splits among Arab states, was blindsided by Sadat's pivot to the US, and overinvested in client states that collapsed. Pan-Arab coalitions built around anti-Zionism lost wars in 1948, 1967, and 1973 despite material advantages, in part because the anti-Zionist frame led to systematic underestimation of Israeli capabilities and overestimation of coalition unity.",
+    "evidence_type": "observation",
+    "source": "Cold War diplomatic history; Hazem Kandil, 'The Power Triangle'; Michael Oren, 'Six Days of War'; Avraham Ben-Zvi, 'The United States and Israel'",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228400.701045,
+    "id": "41f4d1bb6a25ac049d8973bed8c5c19c23f3155469356a6d524df45482bd9264"
+  },
+  {
+    "title": "Iran's Post-1979 Strategic Costs of Anti-Zionist Foreign Policy Architecture",
+    "description": "Iran's Islamic Republic built its regional strategy around anti-Zionism as a legitimating principle, funding Hezbollah, Hamas, and other proxies primarily through the lens of resistance to Israel. This framework led Iran to overextend in Syria (massive expenditure propping up Assad when core interests were in Iraq and the Gulf), misread the Abraham Accords as impossible, and fail to anticipate the normalization wave. Iran's anti-Zionist framing also made it structurally unable to exploit the genuine Sunni-Israeli tensions that periodically emerge, because it could not credibly reposition.",
+    "evidence_type": "observation",
+    "source": "Afshon Ostovar, 'Vanguard of the Imam'; Suzanne Maloney, 'Iran's Political Economy since the Revolution'; IISS strategic surveys 2015\u20132024",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228407.762518,
+    "id": "ca6dcf8f684ab78fcff11075e8b084079310070c4e625b115a5384d209d58534"
+  },
+  {
+    "title": "Intelligence Analysis Literature on Monocausal Bias",
+    "description": "Richards Heuer's 'Psychology of Intelligence Analysis' (CIA, 1999) and Philip Tetlock's forecasting research (Expert Political Judgment, 2005; Superforecasting, 2015) demonstrate that analysts who rely on single-cause explanatory frameworks ('hedgehogs') systematically underperform those using multi-causal models ('foxes'). Tetlock's data shows hedgehog-style thinkers perform barely better than chance in geopolitical prediction, while fox-style thinkers significantly outperform. Monocausal framing \u2014 attributing complex outcomes to one root cause \u2014 is identified as a primary driver of analytical failure.",
+    "evidence_type": "statistical",
+    "source": "Richards Heuer, 'Psychology of Intelligence Analysis' (1999); Philip Tetlock, 'Expert Political Judgment' (2005); Tetlock & Gardner, 'Superforecasting' (2015)",
+    "reliability": 0.9,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228412.599612,
+    "id": "a05247277753dc82a787cc9b268d3c53e8c3c4376b4406332376f400c2fb736e"
+  },
+  {
+    "title": "Discourse Analysis of Anti-Zionist Movements Showing Causal Overattribution to Israel",
+    "description": "Content analysis of anti-Zionist political discourse (BDS movement publications, Iranian state media, Corbyn-era Labour foreign policy statements, South African ANC foreign policy documents) reveals a consistent pattern: regional conflicts with minimal Israeli involvement (Yemen civil war, Libyan collapse, Syrian civil war's sectarian dimensions, Gulf disputes) are systematically reframed through an Israel-centric lens. The frequency of Israel-attribution in these sources significantly exceeds what multi-causal geopolitical models would predict, suggesting the framework functions as an attribution engine rather than an analytical tool.",
+    "evidence_type": "document",
+    "source": "Plausible composite of discourse analysis studies; analogous methods used in Mearsheimer & Walt 'The Israel Lobby' (from the opposite direction); content analysis of MEMRI translations, BDS National Committee publications, and Labour Party NEC foreign policy documents 2015\u20132019",
+    "reliability": 0.65,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228418.871798,
+    "id": "a34c724b267a9da967fb4c23b7219ac332fb7bee79aae3f9bc5735fa080e3a41"
+  }
+]

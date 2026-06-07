@@ -1,0 +1,207 @@
+[
+  {
+    "conclusion": "3f18f7acabe36954ef9a06ef44bae66f28c65388cb90975460a12f59eea1dbac",
+    "premises": [
+      "4aaf7059b6946a44a37d4489685be7cf0ec80acb36cc6f7deee1302e4b9199bb"
+    ],
+    "pattern": "induction",
+    "label": "CA compromise history inductively supports vertical-termination failure",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780280341.8324559,
+    "id": "f5b3a0c2d991657c77ccac4775c6555fa4e0f1bc084c76c447dbd7e9d0239139"
+  },
+  {
+    "conclusion": "ad9d0a0b8c38ac8bf87b6cf49d42b971b59742dd2485397fdfb14fba93d20e80",
+    "premises": [
+      "5bf08e77c6fa22e8f03776c7744b32e4ca6759bfe497d1d938a977c0bc700cd5"
+    ],
+    "pattern": "analogy",
+    "label": "Olson's privileged-group logic applied to KERI relying parties",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780280343.637873,
+    "id": "14ac40bedf00ada1cac7a4a0e97f20651ab5d54ea9b92536018ba569a4f0f46e"
+  },
+  {
+    "conclusion": "771cad78a0674261193e1e9c59a2763af93d5e1e0bd765fa04dcebce77208cc9",
+    "premises": [
+      "37d371781e7cdab662cd2081d90d9bd9ac5dfb9d44ce8d33e1e7273b151bf7fd"
+    ],
+    "pattern": "induction",
+    "label": "CT monitoring concentration as inductive case for natural consolidation",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780280345.582576,
+    "id": "8e91fa4904d48c568598906e1fa06df49214266522a6eed5e38a1d1f6a53cbae"
+  },
+  {
+    "conclusion": "33ebbaaa93f3c6bc3f082e5025925de4699cc01d73419c7972e0611014ff48fb",
+    "premises": [
+      "771cad78a0674261193e1e9c59a2763af93d5e1e0bd765fa04dcebce77208cc9",
+      "1607469abac53f281c2c7ad6b91c88e036834844551bb36f127ab7e7068711fe"
+    ],
+    "pattern": "abduction",
+    "label": "Consolidation problem + Ostrom framework \u2192 design conditions are necessary for plural vigilance",
+    "confidence": {
+      "level": 0.68,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The argument uses Certificate Transparency monitoring concentration as the primary inductive case for the claim that undesigned horizontal monitoring naturally re-concentrates. But CT's concentration may be an artifact of CT's specific institutional design (Google both created and enforced the standard, controlled the dominant browser, and operated most logs) rather than a general tendency of horizontal monitoring systems. Alternative transparency systems \u2014 such as Bitcoin's decentralized mining validation, or the multi-vendor structure of DNSSEC validation \u2014 have not concentrated to the same degree. If CT concentration is a special case driven by Google's market position rather than a general law of monitoring dynamics, the inductive inference from CT to KERI-style systems is undercut: the evidence does not generalize to the conclusion as claimed.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780280348.352771,
+    "id": "6c3fcb512252ef53fa818a003a3b0b271388cf7f9c36dc95fca4a628d7df9b12"
+  },
+  {
+    "conclusion": "9e45c56620ab9a3bafe42ad6484893a4fbe522e9eaae626d004a55e82bdd3792",
+    "premises": [
+      "3f18f7acabe36954ef9a06ef44bae66f28c65388cb90975460a12f59eea1dbac",
+      "3d313717c633dc23d45e1e6990f8461ef36991b72ca22de2435ee085b52498ef",
+      "ad9d0a0b8c38ac8bf87b6cf49d42b971b59742dd2485397fdfb14fba93d20e80",
+      "33ebbaaa93f3c6bc3f082e5025925de4699cc01d73419c7972e0611014ff48fb"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Master argument: vertical fails + three horizontal components jointly necessary \u2192 trust terminates only in their conjunction",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The thesis claims exactly three components are jointly necessary and sufficient for horizontal trust termination, but this trichotomy may be incomplete or mis-partitioned. A rebutting challenge: regulatory-legal enforcement (state action, contract law, liability regimes) may constitute a fourth independent component that the thesis subsumes under \"design conditions\" but which operates through coercive mechanisms fundamentally different from Ostrom-style voluntary governance. If legal enforcement is doing substantial independent work \u2014 as it arguably does in the existing WebPKI through browser vendor de-listing power backed by market dominance \u2014 then the three-component model is descriptively incomplete, and the trust floor rests on factors the thesis does not account for.",
+        "status": "conceded",
+        "response": "Conceded. The thesis overclaimed by asserting EXACTLY three components that are jointly necessary AND sufficient. Sufficiency and completeness are not established \u2014 there may be further necessary components (e.g. the surfaced assumption that KEL integrity is achievable at scale), and we have no closure proof that the list is exhaustive. The defensible claim is the weaker one: these three are each jointly NECESSARY; sufficiency and completeness remain open. The strong-form thesis is correctly dead; the surviving position is the narrowed one."
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780280351.2944949,
+    "id": "3ffb98d97a873216b03a9129a04f5cfec0a97525a31a39112afe16214dc93f6b"
+  },
+  {
+    "conclusion": "ed218fcf818f923cb584df5fd554a1cb90b4fab0a94cc300268642eb1e38dae2",
+    "premises": [
+      "d54f33a2808cc2bf2fff7bb437d51ab813f7787ed00db2a247fa20bb279c05da"
+    ],
+    "pattern": "induction",
+    "label": "Evidence: Self-built trust/comms infrastructure under repression (historical pattern)",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Episodic durability: persecution-driven vigilance is acute but not sustained \u2014 it spikes during a shutdown/crackdown and decays when the threat passes, the population is crushed, or it is exiled and exhausted. It also operates under maximal adversarial pressure (surveillance, resource starvation, an adversary actively working to collapse the trust floor). So the high MAGNITUDE of the existential stake does not license the inference to the SUSTAINED, ongoing monitoring Olson's privileged group requires.",
+        "status": "answered",
+        "response": "Durability holds at the level that matters \u2014 the maintainer-core, not the local population. EFF has operated continuously since July 1990 (35+ years) and the Tor Project since 2006 (with the lineage running to mid-1990s NRL research and 2004 EFF sponsorship), across dozens of separate national crackdown cycles. The episodic spikes are at the persecuted-population level; the institutional core that builds and maintains the tooling is empirically continuous on a multi-decade timescale. So while local vigilance is episodic, the privileged group that provisions the infrastructure is durable \u2014 which is exactly the sustained provision Olson requires."
+      },
+      {
+        "type": "undermining",
+        "description": "Latent group is not a privileged group: a large population each member of which has an existential but individually-uncapacitated stake is, in Olson's own terms, a LATENT group with an intact free-rider problem (let someone else run the risky relay, maintain the code), not a privileged group. The actors who actually build and sustain the infrastructure are a tiny committed core, very often coupled with OUTSIDE capacity (diaspora engineers, rights orgs, the Tor Project) who possess the slack and safety the persecuted lack \u2014 so the premise that the persecuted population itself constitutes the privileged group is false; the real generator is a coupled inside-stakes / outside-capacity structure.",
+        "status": "answered",
+        "response": "This defeater is correct about the persecuted mass and is answered by relocating, not denying, the privileged group. Granted: a large persecuted population with individually-uncapacitated stakes is a latent group with intact free-riding. But the claim's durable form already identifies the privileged group as the transnational maintainer-core \u2014 EFF, the Tor Project, and the broader funded rights-tech ecosystem \u2014 which is precisely a small, resourced subset whose share of the benefit (mission, funding, professional/ideological stake) exceeds its cost of provision, satisfying Olson's privileged-group condition directly. The coupled structure (existential stakes inside crackdown zones + capacity in safe, funded institutions outside) is the mechanism, and the continuity evidence shows that core is real and persistent. The defeater refutes a strawman identification of the group, not the corrected one."
+      },
+      {
+        "type": "rebutting",
+        "description": "Inverse correlation of incentive and capacity: within any single society the drive is highest exactly where the safety/resources to act on it are being destroyed, and absent exactly where conditions are calm enough to build prophylactically (the citizen-municipality null case). You cannot build the lifeboat during the storm, and there is no felt reason to build it in calm weather \u2014 so persecution-as-incentive cannot supply a trust floor for the stable, prosperous polities that would most want it as a precaution, and supplies one to the persecuted only when it is hardest to use. (Note: the transnational-aggregate reformulation in the claim is the intended ANSWER to this, but it is itself only a conjecture pending evidence that a continuous global maintainer community actually persists across local cycles.)",
+        "status": "answered",
+        "response": "Partially answered \u2014 and I'll mark the residue honestly. The inverse correlation is real WITHIN a single society, but the transnational structure breaks it by decoupling incentive-locus from capacity-locus: the incentive arises in persecuted regions while the capacity sits in safe, funded jurisdictions (EFF in San Francisco, Tor Project in the US), and the network bridges the two. The multi-decade continuity evidence shows this decoupling is not hypothetical \u2014 the safe-jurisdiction core has persisted and served crackdown after crackdown. RESIDUE I am not claiming to have closed: this answers provision of general-purpose tooling for the persecuted; it does NOT fully establish that a STABLE, prosperous polity will build its OWN precautionary trust floor before it needs one (the citizen-municipality null case survives for the prophylactic-at-home scenario). So: the defeater is answered for the transnational-tooling claim, and survives, narrowed, only for the purely domestic-prophylactic case."
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780281906.481348,
+    "id": "0d5643276663158d8967db6b8cea419b6120bd5acd71bdd258be2842aa4f6ac9"
+  },
+  {
+    "conclusion": "ad9d0a0b8c38ac8bf87b6cf49d42b971b59742dd2485397fdfb14fba93d20e80",
+    "premises": [
+      "ed218fcf818f923cb584df5fd554a1cb90b4fab0a94cc300268642eb1e38dae2"
+    ],
+    "pattern": "causal",
+    "label": "Persecution-driven existential stakes instantiate the Olson privileged group \u2014 durably, in transnational aggregate \u2014 supplying the spontaneous drive to monitor where commercial stakes do not",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780281917.369859,
+    "id": "84a564da1f32d72e143be080153f6e5ded75e850dc8751e95384c1d1ae3f87a6"
+  },
+  {
+    "conclusion": "ed218fcf818f923cb584df5fd554a1cb90b4fab0a94cc300268642eb1e38dae2",
+    "premises": [
+      "f1305aab0dacea49dabec6adaaeaec94cf3cf69d15ca89fdb5963fea0fbb79b6"
+    ],
+    "pattern": "induction",
+    "label": "Evidence: Multi-decade continuity of transnational rights-tech maintainer-core (EFF 1990\u2013, Tor 2006\u2013)",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780282271.291658,
+    "id": "71515ec000e76a2bee345c41349699863fd6c3dcb7235a0ec3e0642b572d4ea3"
+  }
+]

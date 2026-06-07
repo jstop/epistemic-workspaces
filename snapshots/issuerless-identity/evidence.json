@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Documented TEE side-channel attacks",
+    "description": "Peer-reviewed demonstrations of TEE compromise including the Foreshadow/L1 Terminal Fault attack against Intel SGX (2018), Plundervolt voltage glitching attack (2019), multiple ARM TrustZone exploits documented by Project Zero, and the PACMAN attack against Apple's Pointer Authentication Codes (2022). These establish that TEE security boundaries are empirically breakable, not merely theoretically vulnerable.",
+    "evidence_type": "experiment",
+    "source": "Van Bulck et al., 'Foreshadow: Extracting the Keys to the Intel SGX Kingdom,' USENIX Security 2018; Murdock et al., 'Plundervolt,' IEEE S&P 2020; Ravichandran et al., 'PACMAN,' ISCA 2022",
+    "reliability": 0.9,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774593639.0602748,
+    "id": "8c02e1f9826ddf43ec1652a05036cea464699f4b9f647277560d51354930ab32"
+  },
+  {
+    "title": "C2PA specification and industry adoption",
+    "description": "The Coalition for Content Provenance and Authenticity (C2PA) has published open technical specifications (v1.0 in 2022, v2.0+ ongoing) for embedding cryptographically signed provenance metadata into media files at capture time. Adobe, Microsoft, Nikon, Canon, Leica, Sony, and Qualcomm have joined the initiative. Leica M11-P and Sony Alpha cameras ship with C2PA signing. This demonstrates real-world hardware implementation of content attestation.",
+    "evidence_type": "document",
+    "source": "C2PA Technical Specification v2.0, https://c2pa.org/specifications/; industry press releases from Adobe Content Authenticity Initiative",
+    "reliability": 0.82,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774593639.06097,
+    "id": "6d96a1fb7a6d8f88c87a22c8204d5c286930038e8c5bee85d5dc700be09542d4"
+  },
+  {
+    "title": "TEE market concentration data",
+    "description": "The global TEE-capable processor market is effectively controlled by four entities: Intel (server SGX/TDX), ARM (TrustZone licensed to ~95% of mobile SoC vendors), Apple (Secure Enclave, proprietary), and to a lesser extent AMD (SEV-SNP). ARM's architecture alone underpins over 25 billion shipped chips. No independent, widely-deployed open-source hardware root of trust exists at comparable scale, creating a structural oligopoly in attestation authority.",
+    "evidence_type": "statistical",
+    "source": "ARM Holdings annual reports; Gartner semiconductor market analysis; RISC-V Keystone project status reports indicating limited deployment scale",
+    "reliability": 0.78,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774593639.0617259,
+    "id": "b4f27a769be381d64757e41a329b61799cd05f314d93d388f487d4261460247a"
+  },
+  {
+    "title": "Biometric uniqueness limitations at population scale",
+    "description": "NIST FRVT evaluations show that even top-performing facial recognition algorithms exhibit false match rates that, when applied to populations of billions, produce statistically significant collision rates. Fingerprint systems face similar issues with partial-print matching. The Indian Aadhaar system (1.4B enrolled) has documented deduplication challenges. Identical twins, aging, and injury further complicate biometric uniqueness assumptions at global scale.",
+    "evidence_type": "statistical",
+    "source": "NIST Face Recognition Vendor Test (FRVT) ongoing reports; Aadhaar UIDAI annual reports on duplicate detection; Jain et al., 'Biometric Recognition: An Overview,' 2021",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774593639.062423,
+    "id": "962793fbdf0275e93e34221665a7f47dea43daa5db0abc4fc90d4c42160dd4a8"
+  }
+]

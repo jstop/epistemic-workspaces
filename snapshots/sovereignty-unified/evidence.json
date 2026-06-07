@@ -1,0 +1,58 @@
+[
+  {
+    "title": "ZKP biometric circuit computational limits",
+    "description": "Current zero-knowledge proof systems (Groth16, PLONK, Halo2) face significant overhead when executing fuzzy matching operations. Biometric matching requires approximate comparison (e.g., Hamming distance on iris codes, minutiae matching on fingerprints) which translates to large arithmetic circuits. Published benchmarks for ZK-SNARK circuits performing biometric comparison show proving times in the range of seconds to minutes for single comparisons, making population-scale deduplication (requiring comparison against all enrolled templates or use of approximate nearest-neighbor structures) computationally prohibitive with current technology. Additionally, no peer-reviewed demonstration exists of error-tolerant biometric ZKP matching that maintains both privacy and accuracy at scales beyond tens of thousands of users.",
+    "evidence_type": "observation",
+    "source": "Survey of ZKP biometric literature including works by Bringer et al. (2007), Gomez-Barrero et al. (2017), and performance benchmarks from iden3/circom and Aztec protocol documentation",
+    "reliability": 0.75,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774595806.996712,
+    "id": "ad38204118c1f856bdbfa824c66cfa7997ae8a4807947a430cf773a58e5b2e77"
+  },
+  {
+    "title": "TEE attestation key compromises and vendor concentration",
+    "description": "Intel SGX has suffered multiple demonstrated attacks (Foreshadow/L1TF in 2018, Plundervolt in 2019, SGAxe in 2020) that compromised enclave confidentiality or attestation integrity. ARM TrustZone has seen similar vulnerabilities. The TEE market is dominated by approximately 3-4 vendors globally. Furthermore, national security letters and equivalent legal instruments in manufacturing jurisdictions (US, China, South Korea) could compel disclosure of attestation private keys. The C2PA signing ecosystem similarly depends on a small number of camera sensor and SoC manufacturers. This concentration means that what appears as distributed trust across protocol layers may collapse to a single supply-chain dependency.",
+    "evidence_type": "document",
+    "source": "CVE database entries for SGX vulnerabilities; Van Bulck et al. 'Foreshadow' (USENIX Security 2018); Murdock et al. 'Plundervolt' (IEEE S&P 2020); C2PA technical specification v1.3 trust model documentation",
+    "reliability": 0.88,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774595806.9972968,
+    "id": "6365c21e19f5a98c7aef0a8e1fa2207b61a962006a27eca2e13687ef3f71fba9"
+  },
+  {
+    "title": "WebPKI audit regime failures as governance precedent",
+    "description": "The WebPKI ecosystem provides a well-documented case study of certification-without-operation governance failure. Despite formal audit requirements (WebTrust, ETSI EN 319 411), certificate authorities including DigiNotar (2011), Symantec/VeriSign (2015-2017), and CNNIC (2015) were found to have issued fraudulent or improperly validated certificates over extended periods. Auditors certified compliance with security properties they could not independently verify (key management practices, validation procedures, insider threat controls). Browser vendor intervention \u2014 not governance body oversight \u2014 ultimately enforced accountability, suggesting that certification regimes for non-observable security properties require operational authority or external forcing functions to avoid regulatory capture.",
+    "evidence_type": "document",
+    "source": "Comodo/DigiNotar incident reports; Google Security Blog on Symantec CA distrust (2017); Ryan Sleevi's analysis of CA audit failures; Mozilla CA Certificate Policy evolution documents",
+    "reliability": 0.9,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774595806.998076,
+    "id": "8556ff88f75769d5c61862078135568f52bbd450a19053ae78fda3cb9093515f"
+  },
+  {
+    "title": "Metadata leakage in deployed privacy-preserving systems",
+    "description": "Research on deployed privacy-preserving systems consistently demonstrates metadata leakage undermining formal privacy guarantees. Tor network traffic analysis can deanonymize users through timing correlations. Zcash shielded transactions were shown to be partially deanonymizable through interaction graph analysis (Kappos et al., 2018). Signal's sealed sender protocol leaks metadata through delivery receipts and timing. In identity-specific contexts, the mere pattern of which verifiers request which proof types, combined with temporal and network-level metadata, creates linkability that ZKP unlinkability properties do not address. UNHCR's deployment of biometric identity systems for refugees demonstrated that enrollment metadata itself creates tracking risks.",
+    "evidence_type": "statistical",
+    "source": "Kappos et al. 'An Empirical Analysis of Anonymity in Zcash' (USENIX Security 2018); Greschbach et al. on Tor traffic analysis; UNHCR biometric identity program evaluations; Signal sealed sender security analysis",
+    "reliability": 0.82,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774595806.998573,
+    "id": "c7efd8384ec3adc50009765ff8db2d4673db9dc069e32c163c9e98fbb03c9902"
+  }
+]

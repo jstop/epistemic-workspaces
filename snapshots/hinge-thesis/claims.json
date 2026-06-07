@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "identity",
+    "predicate": "is-constitutive-precondition-of",
+    "object": "accountable-discourse",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "cf5b5e9fb51b497c710f5e6e1f340b256c67125e3a605c33eed662a2cbba8460",
+      "e7b632c2b592dc168c068abb89b469e8d684cfb7ca0746d524755e4bb684025d",
+      "fb95fdff3bb5a558d464cb6e56eee4c26e97de51f3d8d1193cd76299a239174b"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Identity is a constitutive precondition of accountable discourse. The practice of binding utterances to addressable, persistent agents \u2014 agents who can be called by name and expected to answer for what they said \u2014 is what makes normative speech possible. Without such agents, there is no commitment, only acoustic or textual events that resemble commitment. This is a structural claim about what discourse is, not a claim about how thick the identity must be or how it should be implemented.",
+    "created_at": 1777518813.128889,
+    "id": "ebbc8eef535e8a429440e35f608fb53f076e7354e6e7da6dbe6b4a12abe79d3c"
+  },
+  {
+    "subject": "normative-speech",
+    "predicate": "requires",
+    "object": "binding-utterances-to-persistent-agents",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "For speech to carry normative force (promises, assertions, commitments), utterances must be attributable to agents who persist across time and can be held to account. This is the core mechanism the thesis identifies.",
+    "created_at": 1777518818.691912,
+    "id": "b2291c453926cccca84245ad7d9c6abf4b3914d1dbe4409add7f5f844000a5a4"
+  },
+  {
+    "subject": "commitment",
+    "predicate": "is-impossible-without",
+    "object": "addressable-agents",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Without agents who can be called by name and expected to answer, utterances that look like commitments are merely acoustic or textual events that resemble commitment. Commitment requires someone to be committed \u2014 a who that persists.",
+    "created_at": 1777518821.1251168,
+    "id": "e6588ba50fbc5857d8123e50ce5466ca180ebb507ff5e3c3fa8f45618332928f"
+  },
+  {
+    "subject": "identity-requirement",
+    "predicate": "is",
+    "object": "structural-not-substantive",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis claims to be about the structure of discourse itself \u2014 what discourse constitutively is \u2014 rather than prescribing how thick or thin identity must be, or how it should be technically or socially implemented. This is a transcendental-style argument about conditions of possibility.",
+    "created_at": 1777518824.420953,
+    "id": "6a7a796157a5fd038d30ad03014369fb3db1084622d41b9bcffd6f4b9b84f61f"
+  },
+  {
+    "subject": "addressability-and-persistence",
+    "predicate": "are-minimal-conditions-of",
+    "object": "agentive-identity-in-discourse",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis identifies two minimal features of the required identity: (1) addressability \u2014 the agent can be called by name or reference, and (2) persistence \u2014 the agent endures across time such that past utterances remain bound to it. These are the structural minima for accountability.",
+    "created_at": 1777518827.7095199,
+    "id": "e7ff6b54c63d83af396fc19eb9eff24dab57ecb3c24f641879a2b051f73edd9a"
+  },
+  {
+    "subject": "discourse-without-identity",
+    "predicate": "collapses-into",
+    "object": "mere-events",
+    "confidence": {
+      "level": 0.77,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The counterfactual test: if you remove persistent, addressable agents from discourse, what remains is not defective discourse but something categorically different \u2014 acoustic or textual events that merely resemble commitment. The normative dimension vanishes entirely.",
+    "created_at": 1777518829.942097,
+    "id": "a5099cfcd664095aa331f8a188fb854aeac9c0f749bb6087b49b6a46ce1132d9"
+  },
+  {
+    "subject": "normative-and-descriptive-discourse",
+    "predicate": "are-categorically-distinct",
+    "object": "kinds-of-speech",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes a sharp distinction between normative discourse (where commitments are undertaken) and mere descriptive or expressive speech. If all speech is implicitly normative (as some pragmatists argue), the thesis is trivially true. If the line is blurry, the constitutive claim may apply only to a subset of discourse rather than discourse as such.",
+    "created_at": 1777518902.633539,
+    "id": "cf5b5e9fb51b497c710f5e6e1f340b256c67125e3a605c33eed662a2cbba8460"
+  },
+  {
+    "subject": "personal-identity",
+    "predicate": "has-sufficient-continuity-for",
+    "object": "diachronic-accountability",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes that agents can persist through time in a way that makes it meaningful to hold them accountable for past utterances. This presupposes that personal identity has enough continuity \u2014 that the 'same' agent exists at t2 who spoke at t1. Parfit-style arguments about the reducibility or fragmentation of personal identity challenge this assumption directly.",
+    "created_at": 1777518906.67044,
+    "id": "e7b632c2b592dc168c068abb89b469e8d684cfb7ca0746d524755e4bb684025d"
+  },
+  {
+    "subject": "constitutive-rules",
+    "predicate": "are-discoverable-independently-of",
+    "object": "particular-social-practices",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis frames its claim as structural \u2014 about what discourse constitutively is. This assumes that constitutive rules of discourse can be identified through conceptual analysis rather than being merely contingent features of particular historical or cultural speech practices. A Wittgensteinian might object that there is no single essence of 'discourse' to discover.",
+    "created_at": 1777518910.174212,
+    "id": "fb95fdff3bb5a558d464cb6e56eee4c26e97de51f3d8d1193cd76299a239174b"
+  }
+]

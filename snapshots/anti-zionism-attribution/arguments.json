@@ -1,0 +1,121 @@
+[
+  {
+    "conclusion": "ea72bb2b8eb27d3b9fe42048f2b09a0a23b37b5a93a5683d727e5fbbec884e00",
+    "premises": [
+      "a34c724b267a9da967fb4c23b7219ac332fb7bee79aae3f9bc5735fa080e3a41"
+    ],
+    "pattern": "induction",
+    "label": "Discourse evidence shows systematic Israel-overattribution across anti-Zionist movements",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228464.962629,
+    "id": "01cde7a61b64ab1e9bb1bed53a4163111a29282daf066b78fa4d743abb06c65b"
+  },
+  {
+    "conclusion": "fec8b665d61f609fb2d0731b56641e3f323951665bd7ec83449af61a5a59a773",
+    "premises": [
+      "a05247277753dc82a787cc9b268d3c53e8c3c4376b4406332376f400c2fb736e"
+    ],
+    "pattern": "induction",
+    "label": "Tetlock/Heuer research establishes that monocausal frameworks degrade geopolitical prediction",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228467.098434,
+    "id": "e0181f672633361e62ce55f1ec96d889981dfa5f016e76ebcdb5ce47c1f408c9"
+  },
+  {
+    "conclusion": "305889ead0f6fb81030ee6a108e5b8201b0d1df32a7a79d3628e86c3080884fb",
+    "premises": [
+      "41f4d1bb6a25ac049d8973bed8c5c19c23f3155469356a6d524df45482bd9264",
+      "ca6dcf8f684ab78fcff11075e8b084079310070c4e625b115a5384d209d58534"
+    ],
+    "pattern": "induction",
+    "label": "Soviet, pan-Arab, and Iranian cases all show strategic degradation correlated with anti-Zionist organizing",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Confounding variables undercut the causal link: The Soviet Union, pan-Arab states, and Iran all had massive independent reasons for strategic failure \u2014 centralized authoritarian decision-making, resource dependence, information suppression, and superpower opposition. Anti-Zionism may be epiphenomenal to these failures rather than causal. The USSR's Cold War defeat was systemic, not Middle-East-specific. Egypt's strategic pivot under Sadat (abandoning anti-Zionism AND aligning with the US) changed two variables simultaneously, making it impossible to attribute improvement to either alone. Correlation between anti-Zionist organizing and strategic failure may reflect that weakening states reach for ideological scapegoats, reversing the causal arrow.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228469.1370392,
+    "id": "9bea0462917626bc90c5c70384423fdc1c6d93e980ca88b56ad26b3708458a06"
+  },
+  {
+    "conclusion": "305889ead0f6fb81030ee6a108e5b8201b0d1df32a7a79d3628e86c3080884fb",
+    "premises": [
+      "ea72bb2b8eb27d3b9fe42048f2b09a0a23b37b5a93a5683d727e5fbbec884e00",
+      "fec8b665d61f609fb2d0731b56641e3f323951665bd7ec83449af61a5a59a773"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If anti-Zionism is monocausal, and monocausal frameworks degrade analysis, then anti-Zionism degrades analysis",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228479.220402,
+    "id": "6caf9ff2f3781df207081b09d7b82c30c5e0755431cd3163dc222aca4ab090c7"
+  },
+  {
+    "conclusion": "f158cb38fa517673ca50845044391bfef8a71fbd6d3724a7a3cf0f8b572caafb",
+    "premises": [
+      "f981e2ccec61ca22085464fae416bb5fa2c85066b42f7971af85714a4693ba0f",
+      "ea72bb2b8eb27d3b9fe42048f2b09a0a23b37b5a93a5683d727e5fbbec884e00",
+      "305889ead0f6fb81030ee6a108e5b8201b0d1df32a7a79d3628e86c3080884fb",
+      "8f430a433c008ed2d7fa7aa09363eb879688a115191059ac5513526b945e6176"
+    ],
+    "pattern": "abduction",
+    "label": "Best explanation: anti-Zionism's moral substitution, monocausal attribution, incoherence, and track record jointly show it operates as an attribution engine",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The thesis may itself be a monocausal attribution engine: By attributing the analytical failures of diverse movements (Soviet communism, Arab nationalism, Iranian Islamism, Western leftism) to a single shared feature \u2014 anti-Zionism \u2014 the thesis replicates the very epistemic error it diagnoses. Each of these movements had distinct ideological architectures, strategic contexts, and reasons for failure. Collapsing them under the 'anti-Zionism degrades thinking' rubric may substitute an elegant narrative for genuine multi-causal analysis. A steelman anti-Zionist could argue: Israel's regional role IS a significant causal factor (occupation, nuclear monopoly, US alliance), and acknowledging this isn't monocausal \u2014 it's the thesis that straw-mans anti-Zionism as more monolithic than it actually is among sophisticated practitioners.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776228484.1533608,
+    "id": "04cdbe46ebedf7b75ee96126c6d005af50852dd89fab144f6b06b7cf3fae713b"
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "democracy",
+    "predicate": "requires",
+    "object": "informed-electorate",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "4d4b04f27987f7bac87422ed5508ea9a776d7ca85fe3932724656ce99f356f10",
+      "0b4459c7fb1fd1c10a57d5833c90b5ae29120cc5a8775b5e94444b4c562ec78b",
+      "dc89eff4db1ae72de615236af819c35560771dce477704fcfefd122d008bf973"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Democracy requires an informed electorate",
+    "created_at": 1774141707.934016,
+    "id": "266dbe158781c22aa562ba831470cfe8c459c2b98e52b39cd868174387e42abd"
+  },
+  {
+    "subject": "democratic-legitimacy",
+    "predicate": "depends-on",
+    "object": "meaningful-consent",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Democratic legitimacy is grounded in the meaningful consent of the governed, which presupposes that citizens understand what they are consenting to",
+    "created_at": 1774141707.936338,
+    "id": "8a31fbcf1bf88e5bbaa7e6e9918a4e0b9f0bc5489d432b7604c125af20ac0d38"
+  },
+  {
+    "subject": "uninformed-voters",
+    "predicate": "produce",
+    "object": "policy-outcomes-misaligned-with-voter-interests",
+    "confidence": {
+      "level": 0.68,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "When voters lack relevant information, electoral outcomes tend to diverge from voters' own stated interests and values, undermining the responsiveness function of democracy",
+    "created_at": 1774141707.937357,
+    "id": "73b53f2b85b62235ddad415148ffc46bcbc4d7c8a1d74588f190dc632df4332b"
+  },
+  {
+    "subject": "informed-deliberation",
+    "predicate": "is-constitutive-of",
+    "object": "democratic-self-governance",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "On deliberative accounts, democracy is not merely aggregating preferences but a process of reasoned public deliberation, which analytically requires informed participants",
+    "created_at": 1774141707.938289,
+    "id": "d694c2a8307175a0204fc215ad73e0e8a476d41d4c4059c57b64c37000320833"
+  },
+  {
+    "subject": "accountability-mechanisms",
+    "predicate": "fail-without",
+    "object": "voter-knowledge-of-government-actions",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Electoral accountability\u2014the ability to reward or punish incumbents\u2014requires that voters have knowledge of what officeholders have actually done",
+    "created_at": 1774141707.939092,
+    "id": "e3c8464be96e9a786c2f39ad9e70596f631447450532be67a1c1f4562d889718"
+  },
+  {
+    "subject": "democratic-history",
+    "predicate": "shows-correlation-between",
+    "object": "information-access-and-democratic-quality",
+    "confidence": {
+      "level": 0.62,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Historical evidence suggests that expansions of press freedom, public education, and information access have generally corresponded with improvements in democratic governance quality",
+    "created_at": 1774141707.9400032,
+    "id": "57877f50ff7456ee21320346f86a96d2a63526cffefc11f482381054ca9a12e1"
+  },
+  {
+    "subject": "democracy",
+    "predicate": "aims-at",
+    "object": "responsive-and-legitimate-governance",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes democracy's purpose includes producing governance that is responsive to citizen interests and is legitimate. If democracy is understood as merely a peaceful mechanism for elite rotation or conflict resolution, the informational requirement weakens considerably.",
+    "created_at": 1774141707.952807,
+    "id": "4d4b04f27987f7bac87422ed5508ea9a776d7ca85fe3932724656ce99f356f10"
+  },
+  {
+    "subject": "informed-electorate",
+    "predicate": "is-achievable-at",
+    "object": "sufficient-scale",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis implicitly assumes that a meaningfully informed electorate is practically achievable. If voter ignorance is rational and structurally insurmountable (as public choice theorists argue), then the thesis may state a requirement that can never be met, calling into question democracy itself or the framing of the requirement.",
+    "created_at": 1774141707.9536629,
+    "id": "0b4459c7fb1fd1c10a57d5833c90b5ae29120cc5a8775b5e94444b4c562ec78b"
+  },
+  {
+    "subject": "individual-voter-knowledge",
+    "predicate": "cannot-be-replaced-by",
+    "object": "collective-information-aggregation",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes that individual-level information is necessary and that crowd-wisdom effects, heuristics, and information shortcuts cannot adequately substitute for an individually informed electorate. If the 'miracle of aggregation' works, individually uninformed voters might collectively produce informed outcomes.",
+    "created_at": 1774141707.9546251,
+    "id": "dc89eff4db1ae72de615236af819c35560771dce477704fcfefd122d008bf973"
+  }
+]

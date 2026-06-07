@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Root CA compromise history (DigiNotar, CNNIC, Symantec)",
+    "description": "Multiple real-world root CA failures demonstrate that vertical trust termination is empirically fragile. DigiNotar (2011) was fully compromised and used to issue fraudulent certificates for Google domains targeting Iranian dissidents. CNNIC (2015) issued an unauthorized intermediate certificate. Symantec (2017) was progressively distrusted by major browsers after years of mis-issuance. Each case shows that a single apex authority, however credentialed, can be compromised \u2014 and that discovery depended on external horizontal monitoring (e.g., Google's Certificate Transparency pinning detected DigiNotar).",
+    "evidence_type": "observation",
+    "source": "Publicly reported incidents in browser vendor security advisories and industry post-mortems regarding CA trust store removals (DigiNotar 2011, CNNIC 2015, Symantec 2017). Specific documents not consulted directly.",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780280298.437391,
+    "id": "4aaf7059b6946a44a37d4489685be7cf0ec80acb36cc6f7deee1302e4b9199bb"
+  },
+  {
+    "title": "Certificate Transparency monitoring concentration",
+    "description": "In practice, Certificate Transparency (CT) monitoring has concentrated heavily among a small number of large actors, principally Google. Google operates both the dominant CT log infrastructure and the primary enforcement mechanism (Chrome's CT policy). While CT was designed as a distributed transparency system, the monitoring function \u2014 actually checking logs and acting on violations \u2014 consolidated into an oligopoly. This illustrates the thesis's claim that without maintained design conditions, horizontal monitoring naturally re-concentrates into de facto vertical authority.",
+    "evidence_type": "observation",
+    "source": "Industry observations about the structure of CT log operation and enforcement, widely discussed in PKI and web security communities. No specific paper consulted.",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780280303.578252,
+    "id": "37d371781e7cdab662cd2081d90d9bd9ac5dfb9d44ce8d33e1e7273b151bf7fd"
+  },
+  {
+    "title": "Olson's privileged-group logic on collective action",
+    "description": "Mancur Olson's theory of collective action argues that in groups with asymmetric stakes, a \"privileged group\" exists when at least one member's individual benefit from the public good exceeds the full cost of providing it. In such cases, the good will be provided without collective coordination \u2014 the large stakeholder monitors out of self-interest. Applied here: large relying parties whose operations depend on a KERI root authority will monitor it regardless of whether smaller parties free-ride, because the cost of the authority's defection to them exceeds their monitoring costs.",
+    "evidence_type": "document",
+    "source": "Olson's \"The Logic of Collective Action\" (1965) \u2014 theoretical framework applied by analogy. The specific application to KERI identity systems is the thesis author's extension, not Olson's.",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780280310.2807438,
+    "id": "5bf08e77c6fa22e8f03776c7744b32e4ca6759bfe497d1d938a977c0bc700cd5"
+  },
+  {
+    "title": "Ostrom's design principles for commons governance",
+    "description": "Elinor Ostrom's research on governing the commons identified design principles for long-enduring common-pool resource institutions, including clearly defined boundaries, proportional costs/benefits, collective choice arrangements, monitoring by accountable parties, graduated sanctions, and conflict resolution mechanisms. The thesis applies this framework to argue that vigilance over a trust root is a common-pool resource: it is non-excludable (everyone benefits from a trustworthy root) but rivalrous in attention (monitoring effort is finite). Without Ostrom-style institutional design maintaining plural monitors, the commons of vigilance degrades into monopoly.",
+    "evidence_type": "document",
+    "source": "Ostrom's \"Governing the Commons\" (1990) \u2014 theoretical framework. Application to digital trust infrastructure is the thesis author's extension.",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780280317.471829,
+    "id": "1607469abac53f281c2c7ad6b91c88e036834844551bb36f127ab7e7068711fe"
+  },
+  {
+    "title": "Self-built trust/comms infrastructure under repression (historical pattern)",
+    "description": "Recurrent pattern: populations facing state internet shutdowns or surveillance build and maintain decentralized/offline networks driven by existential stakes \u2014 Egypt 2011 (Arab Spring \"kill switch\" \u2192 dial-up/mesh workarounds), Hong Kong 2019 (Bridgefy Bluetooth mesh during protests), Cuba's grassroots SNET street network, Myanmar post-2021 coup, plus Tor's dissident/journalist core and samizdat as the analog precedent. Demonstrates that persecution reliably generates self-provisioned trust infrastructure, supporting the existence of the drive (though not its durability or plurality).",
+    "evidence_type": "observation",
+    "source": "Access Now #KeepItOn internet-shutdown tracker (annual reports); contemporaneous reporting on Egypt 2011, Hong Kong 2019 Bridgefy adoption, Cuba SNET, Myanmar 2021. NOT independently re-verified against primary sources in this session \u2014 flagged asserted.",
+    "reliability": 0.7,
+    "provenance": null,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780281906.4801311,
+    "id": "d54f33a2808cc2bf2fff7bb437d51ab813f7787ed00db2a247fa20bb279c05da"
+  },
+  {
+    "title": "Multi-decade continuity of transnational rights-tech maintainer-core (EFF 1990\u2013, Tor 2006\u2013)",
+    "description": "The transnational rights-tech maintainer-core exhibits multi-decade continuity spanning many separate national crackdown cycles, decoupling incentive-locus from capacity-locus. EFF: founded July 1990 in San Francisco, continuously operating 35+ years. Tor: onion-routing concept at US NRL mid-1990s; network deployed Oct 2002; EFF fiscal sponsorship from 2004; Tor Project Inc. 501(c)(3) founded Dec 22, 2006, continuously operating since, serving journalists/activists/dissidents globally (Arab Spring, Iran, Hong Kong, etc.). These institutions sit in safe, funded jurisdictions (capacity) while serving populations under repression (incentive) \u2014 i.e. the privileged group is the small, resourced maintainer-core, not the persecuted mass, and its persistence is institutional and continuous rather than episodic.",
+    "evidence_type": "document",
+    "source": "EFF founding July 1990: eff.org/about/history; Britannica; Wikipedia. Tor history (NRL 1990s, deployed 2002, EFF sponsorship 2004, Tor Project Inc. founded Dec 22 2006): torproject.org/about/history; en.wikipedia.org/wiki/The_Tor_Project. Verified via web search this session.",
+    "reliability": 0.85,
+    "provenance": null,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780282271.2893791,
+    "id": "f1305aab0dacea49dabec6adaaeaec94cf3cf69d15ca89fdb5963fea0fbb79b6"
+  }
+]

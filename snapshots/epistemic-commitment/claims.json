@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "persistent-identity",
+    "predicate": "substantially-facilitates",
+    "object": "epistemic-resolution-in-public-discourse",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "cb06e36223222d311b9101d3eb8e1e601868e1f33e9f1e07f915ba4db89268b6",
+      "a43c422f56c4c2e244f1252d254dc5ea9ce47ad5464f6e27b702b81d05ceb606",
+      "fb58e356cf9065e0c035d7bc00931e1e288fa36e9846c78b8ab4adf7a55cfef4"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Epistemic resolution \u2014 the capacity for public discourse to converge on justified conclusions \u2014 is substantially facilitated by participants whose identities persist across encounters, because persistent identity provides a primary (though not sole) mechanism by which arguments accumulate across debates, defeaters are tracked, and dialectical progress is preserved. In the absence of robust institutional memory or equivalent structural substitutes, and assuming a baseline of good-faith participation, the loss of persistent identity severely degrades discourse toward repetitive, zero-state exchanges.",
+    "created_at": 1775841715.232081,
+    "id": "cbc9b9876ddf25a4c722b6f936b31759b1a4181b6c040366f127512be8beb310"
+  },
+  {
+    "subject": "persistent-identity",
+    "predicate": "enables",
+    "object": "argument-accumulation-across-debates",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "When participants have persistent identities, their prior arguments, concessions, and commitments carry forward into new encounters. Interlocutors can reference what someone previously claimed, creating a ratchet effect where dialectical ground need not be re-traversed.",
+    "created_at": 1775841724.1487749,
+    "id": "dbd9fd65310c7a6d67221c5d9af6d89256182ee06e1bea37a8b05cd620a035d8"
+  },
+  {
+    "subject": "persistent-identity",
+    "predicate": "enables",
+    "object": "defeater-tracking-across-encounters",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Defeaters (objections, counterexamples, undercutting evidence) raised against a participant's position can be tracked and attributed. This prevents the repeated assertion of already-defeated arguments and forces dialectical evolution rather than repetition.",
+    "created_at": 1775841726.931318,
+    "id": "72f724c1a74897ce7da913edd871b63e837fd192d56036c61be668aecec44f0a"
+  },
+  {
+    "subject": "loss-of-persistent-identity",
+    "predicate": "causes",
+    "object": "degradation-to-zero-state-discourse",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Without persistent identity, each encounter resets to a zero-state where no prior commitments bind participants. This produces repetitive exchanges because previously refuted positions can be reasserted without cost, and convergence becomes structurally impeded.",
+    "created_at": 1775841729.856103,
+    "id": "c403f2e1bd3902dfd0144bf00aa3e2121ddea9461c8f384f02a40f94145c8c6d"
+  },
+  {
+    "subject": "persistent-identity",
+    "predicate": "is-primary-but-not-sole-mechanism-for",
+    "object": "dialectical-progress-preservation",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis hedges that persistent identity is a 'primary though not sole' mechanism. Other mechanisms (institutional memory, written records, moderation structures) can partially substitute, but identity remains the most common and accessible vehicle for preserving dialectical progress in ordinary discourse.",
+    "created_at": 1775841732.668811,
+    "id": "01dffe7396bde3bb0a6ee0370795d5156ec621bdd8799d1b1d72eac138d0cfe4"
+  },
+  {
+    "subject": "absence-of-institutional-memory",
+    "predicate": "is-scope-condition-for",
+    "object": "identity-dependence-of-epistemic-resolution",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis is explicitly conditioned on the absence of robust institutional memory or structural substitutes. Where such substitutes exist (e.g. peer review systems, parliamentary records, wiki-style collaborative knowledge bases), the dependence on personal identity is reduced. The claim is strongest precisely where such infrastructure is weakest.",
+    "created_at": 1775841736.033205,
+    "id": "595778525f2dcb77aa74bf87518be5315e77f8d7688e33957b213b3e8f2bd59d"
+  },
+  {
+    "subject": "discourse-participants",
+    "predicate": "operate-with",
+    "object": "baseline-good-faith",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis explicitly assumes 'a baseline of good-faith participation.' This is non-trivial: if participants are systematically deceptive or strategically manipulative, persistent identity may actually enable more sophisticated bad-faith tactics (e.g., building false credibility to exploit later). The thesis only holds under a cooperation assumption akin to Gricean maxims.",
+    "created_at": 1775841799.753889,
+    "id": "cb06e36223222d311b9101d3eb8e1e601868e1f33e9f1e07f915ba4db89268b6"
+  },
+  {
+    "subject": "epistemic-resolution",
+    "predicate": "is-achievable-goal-of",
+    "object": "public-discourse",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis presupposes that public discourse can, in principle, converge on justified conclusions \u2014 that epistemic resolution is a realistic aim rather than an idealization. Deep disagreement theorists (Fogelin, 1985) argue that on many contested topics, no shared framework exists to adjudicate claims, making convergence structurally impossible regardless of identity persistence.",
+    "created_at": 1775841804.153065,
+    "id": "a43c422f56c4c2e244f1252d254dc5ea9ce47ad5464f6e27b702b81d05ceb606"
+  },
+  {
+    "subject": "identity-persistence",
+    "predicate": "is-not-outweighed-by",
+    "object": "identity-based-epistemic-harms",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes that the epistemic benefits of persistent identity are not outweighed by identity-based epistemic harms \u2014 e.g., ad hominem dismissal, reputational gatekeeping, chilling effects on minority viewpoints, or groupthink reinforced by social pressure. If persistent identity introduces more bias than it removes confusion, the net effect on epistemic resolution could be negative.",
+    "created_at": 1775841807.150988,
+    "id": "fb58e356cf9065e0c035d7bc00931e1e288fa36e9846c78b8ab4adf7a55cfef4"
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "conclusion": "dbd9fd65310c7a6d67221c5d9af6d89256182ee06e1bea37a8b05cd620a035d8",
+    "premises": [
+      "a1778756e493ac629e923acb9edd1206357a9eef81efe4fb8adfb218c1707a68",
+      "352bc61c77ecb1c20bb9522cdc06d2c490eb39d64694596ef8283c7710a58bda"
+    ],
+    "pattern": "abduction",
+    "label": "Commitment-store theory and historical cases jointly explain why persistent identity enables argument accumulation",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775841773.12037,
+    "id": "d5bc3bf19d1fb34d6b6eaceec4af76afe85b371740b30dde65205c6c7179bcbf"
+  },
+  {
+    "conclusion": "72f724c1a74897ce7da913edd871b63e837fd192d56036c61be668aecec44f0a",
+    "premises": [
+      "a1778756e493ac629e923acb9edd1206357a9eef81efe4fb8adfb218c1707a68",
+      "ef6198a49ce6115643961d1b871e1eaa5e709ad44098188e1e1a85dcec080227"
+    ],
+    "pattern": "causal",
+    "label": "Commitment stores require identity-binding; reputation systems demonstrate defeater-tracking works via persistent identity",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775841775.371566,
+    "id": "4f1d0bb2225c4113dae366176d6df1e85e3d8ba059caabf078a37dbb87dd33be"
+  },
+  {
+    "conclusion": "c403f2e1bd3902dfd0144bf00aa3e2121ddea9461c8f384f02a40f94145c8c6d",
+    "premises": [
+      "c02e60a798f6bcbf9f548db4c3e4ca51cc73b63a808dfa1f635c32e99afafc3d",
+      "dbd9fd65310c7a6d67221c5d9af6d89256182ee06e1bea37a8b05cd620a035d8",
+      "72f724c1a74897ce7da913edd871b63e837fd192d56036c61be668aecec44f0a"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If identity enables accumulation and defeater-tracking, then removing identity removes both \u2014 empirical data on anonymous forums confirms the consequent degradation",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The anonymity-as-epistemic-asset counterargument: Research on anonymous peer review and blind auditions demonstrates that removing identity can *improve* epistemic outcomes by eliminating status bias, ad hominem reasoning, and reputational deference. Fricker's (2007) work on epistemic injustice shows that persistent identity enables testimonial injustice \u2014 systematically discounting speakers based on identity markers rather than argument quality. Anonymous discourse may lose argument accumulation but gain epistemic fairness, and in domains where bias is the dominant distortion (rather than repetition), anonymity may produce better convergence on justified conclusions than persistent identity does.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775841778.6558578,
+    "id": "0d303e2ab463babef9f459cc6fb7585a3efba78c4fa86d4a9e13831f559b1c36"
+  },
+  {
+    "conclusion": "01dffe7396bde3bb0a6ee0370795d5156ec621bdd8799d1b1d72eac138d0cfe4",
+    "premises": [
+      "ef6198a49ce6115643961d1b871e1eaa5e709ad44098188e1e1a85dcec080227",
+      "352bc61c77ecb1c20bb9522cdc06d2c490eb39d64694596ef8283c7710a58bda"
+    ],
+    "pattern": "induction",
+    "label": "Across digital and historical cases, identity is the most common and accessible carrier of dialectical memory \u2014 generalizing to 'primary mechanism'",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775841781.3226619,
+    "id": "4ce4600908e8ebdf5809ad20c65ef9520a750f308988344641b1e7f5f40d51e2"
+  },
+  {
+    "conclusion": "cbc9b9876ddf25a4c722b6f936b31759b1a4181b6c040366f127512be8beb310",
+    "premises": [
+      "dbd9fd65310c7a6d67221c5d9af6d89256182ee06e1bea37a8b05cd620a035d8",
+      "72f724c1a74897ce7da913edd871b63e837fd192d56036c61be668aecec44f0a",
+      "c403f2e1bd3902dfd0144bf00aa3e2121ddea9461c8f384f02a40f94145c8c6d",
+      "01dffe7396bde3bb0a6ee0370795d5156ec621bdd8799d1b1d72eac138d0cfe4",
+      "595778525f2dcb77aa74bf87518be5315e77f8d7688e33957b213b3e8f2bd59d"
+    ],
+    "pattern": "abduction",
+    "label": "Master convergence: accumulation + defeater-tracking + degradation evidence + primacy claim + scope condition jointly constitute the best explanation for identity's role in epistemic resolution",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The structural-substitute undercount problem: The thesis concedes that institutional memory can substitute for persistent identity, but may underestimate how prevalent and effective such substitutes already are. Wikipedia, legal precedent systems, academic peer review, and AI-assisted summarization tools all provide identity-independent mechanisms for accumulating arguments and tracking defeaters. If these structural substitutes are more widespread than the thesis assumes, the claimed dependence on persistent identity is substantially weakened \u2014 not because the mechanism is wrong, but because the scope condition ('in the absence of robust institutional memory') rarely obtains in the discourse contexts that matter most.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775841790.9888709,
+    "id": "8583aa998290cb4e2716aa56958cd9c3b140da497332439094436591ccb6d2e2"
+  }
+]

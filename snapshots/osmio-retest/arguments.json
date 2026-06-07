@@ -1,0 +1,967 @@
+[
+  {
+    "conclusion": "C1b",
+    "premises": [
+      "R1"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Proof of work achieves Sybil resistance by substituting cost",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.418732,
+    "id": "bca82bd0e813a558609dc1b5e1eab3043cfd851cc1282154b624daef37e729c1"
+  },
+  {
+    "conclusion": "C2",
+    "premises": [
+      "R2"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: An epistemic analog of PoW works only where an oracle exists",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4204512,
+    "id": "9e35cfdcec0bba5e484b02402da64ae8cf407b2ac38e31cfc9be9219adf6be91"
+  },
+  {
+    "conclusion": "C1b",
+    "premises": [
+      "R3"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Alignment enters at direction-choice, which is normative and",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4220018,
+    "id": "733a7c1f827b836451964b4dde9087b67faad278e033f1252f67186b4c8c2592"
+  },
+  {
+    "conclusion": "C5",
+    "premises": [
+      "R4"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Useful epistemic work needs a legitimate direction-setter.",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.423546,
+    "id": "14a42801a1fc9b8e44efb86b2c37abff5d8e643468f118feb341bfa87de1585c"
+  },
+  {
+    "conclusion": "C1b",
+    "premises": [
+      "O_sep"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Separability refutes 'one regress': PoW solves Sybil while i",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.425472,
+    "id": "5cd17541c9300e1de5fe2b81fc9b7ee0422d4b9666ccb22420aac6a22a8a2a97"
+  },
+  {
+    "conclusion": "C3b",
+    "premises": [
+      "O_straw"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: 'Given up on legitimacy' is a strawman: PoW TRADED legitimac",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4272032,
+    "id": "aebbd5363f57891ccc17d0ba4348d950f71ee2b7f8ab2c9a7b627777f0f60bc5"
+  },
+  {
+    "conclusion": "C4b",
+    "premises": [
+      "O_neutrality"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: An authority that can issue personhood can deny it. Reintrod",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4287841,
+    "id": "8356dabb22a744b3bda321315aae41a08fd9f558b7fcae87d8e7a4b4ce458341"
+  },
+  {
+    "conclusion": "C6",
+    "premises": [
+      "C5"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Duly constituted by whom, accountable to whom?",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "[edge:refutes] 'Legitimacy is a vouching graph' is circular and unstable (b",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.43034,
+    "id": "e5400ae9aa1eb15ba9214c25cb27691a074e78217b96680ebe3f81eb65aa5d0d"
+  },
+  {
+    "conclusion": "C7",
+    "premises": [
+      "C5"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Duly constituted by whom, accountable to whom?",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.431942,
+    "id": "c65944d187efea284fb4823583863447d09aa419812d7126ff3a3e264f4a26c0"
+  },
+  {
+    "conclusion": "F_axis",
+    "premises": [
+      "O_conflate"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: The frontier conflated uniqueness with authority-issued uniq",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4336529,
+    "id": "d1e8267227287cbaf018af18b95f732d61bbdcb50b723fb4058cc0ce1161d22f"
+  },
+  {
+    "conclusion": "F_axis",
+    "premises": [
+      "C4b"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Relocate, not eliminate, the chokepoint: a user-held credent",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.435288,
+    "id": "31ee12589ab8bd7af99d130d51d9bde0091dd6a863af7cf711f82a7da3343863"
+  },
+  {
+    "conclusion": "F_competitor",
+    "premises": [
+      "F_axis"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: The organizing axis: trust root EXPLICIT & ACCOUNTABLE or HI",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.436822,
+    "id": "b641c799e6327f066dcfad02140c9dd10d2346fbedaf30267397b0208fa93bc4"
+  },
+  {
+    "conclusion": "F_steelman",
+    "premises": [
+      "F_competitor"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: The real competitor is decentralized proof-of-personhood / S",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4384909,
+    "id": "1b040fa369e86ca4e2ca788e51af559662049e91883fde3874ab747915bd588d"
+  },
+  {
+    "conclusion": "G_finding",
+    "premises": [
+      "F_steelman"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Decentralized PoP does not escape the trust root, it HIDES i",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.439988,
+    "id": "2960e541a6d43f2f532b939ddd33a5aa2480324066278701228b4861bbad5528"
+  },
+  {
+    "conclusion": "G_finding",
+    "premises": [
+      "C2"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Every mechanism merely chooses where to terminate the regres",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.442374,
+    "id": "313f56c44960671821642e83092a608e4e58936af7c5f7379ee6640d1ceefc63"
+  },
+  {
+    "conclusion": "G_compose",
+    "premises": [
+      "G_finding"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Everyone who solves uniqueness has an authority at the root.",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4441411,
+    "id": "dbbef1254e30a2b84a8b796a965b6bed10bb95f3a6042e17db2227bd112bd15c"
+  },
+  {
+    "conclusion": "H_layers",
+    "premises": [
+      "C7"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Osmio is a protocol for duly CONSTITUTING accountable public",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4457228,
+    "id": "cf5580bae8b3ee5704266fc98250c192eb32cbd25061a913adcc506aaf611bd5"
+  },
+  {
+    "conclusion": "H_conferral",
+    "premises": [
+      "C8"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: The decisive question: legitimate enough to serve people who",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "[edge:refutes] Demand-side bootstrap: a credential is worth only what relyi",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.447378,
+    "id": "56f37729d70f991ae65807a017c323877991a30debcd700a5ee739d4222ea3c3"
+  },
+  {
+    "conclusion": "H_layers",
+    "premises": [
+      "G_compose"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Compose with KERI, don't compete.",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "[edge:refutes] Network-effect re-concentration: identity is a coordination ",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4489548,
+    "id": "8f79dfbca50ff7c8991d539862ebaf2a73969b6794e6b5356d58692e707aa8dc"
+  },
+  {
+    "conclusion": "H_conferral",
+    "premises": [
+      "H_layers"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Three-layer architecture: L1 KERI / L2 uniqueness registry c",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.45083,
+    "id": "0aa6a7a0f09034e92daf847e89d0f70deac595ac39c99e816ad78e56acf5b8b9"
+  },
+  {
+    "conclusion": "I_commons",
+    "premises": [
+      "H_layers"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Three-layer architecture: L1 KERI / L2 uniqueness registry c",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "[edge:refutes] Threshold capture: a cartel or coercing state breaks uniquen",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.452656,
+    "id": "ab07ab3df724689570b0b3d1bc0399fa30f24b40620848f2349771b9372bfc3d"
+  },
+  {
+    "conclusion": "C4b",
+    "premises": [
+      "H_revoke"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: KERI key-event logs make revocation non-silent; plural attes",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4543948,
+    "id": "a452866435552b71d41932bf6272ab4bbb34af2854b1d827df7c630e0fece6b9"
+  },
+  {
+    "conclusion": "I_ostrom",
+    "premises": [
+      "I_commons"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: L2 is the irreducible chokepoint: one shared namespace, cann",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.45616,
+    "id": "55e4833dbe59261153f3dc25a4f28e37f551c17eeb8d8265fb7b84474825c662"
+  },
+  {
+    "conclusion": "I_backbone",
+    "premises": [
+      "I_ostrom"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Ostrom's principles map to mechanisms; load-bearing: transpa",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4579148,
+    "id": "d00a29c51b313bb02a0115ecb807634c4410c14e3af579d99f58c01e23a0d2cb"
+  },
+  {
+    "conclusion": "I_claim",
+    "premises": [
+      "C1b"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Honest form: three DISTINCT problems that share a shape and ",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.459916,
+    "id": "f31df63d800bcbc2412c1dcfca0d2fe15911397ee02d833ef4bc1493b739ba6a"
+  },
+  {
+    "conclusion": "I_claim",
+    "premises": [
+      "C3b"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: PoW's real product is credible neutrality + censorship resis",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "[edge:refutes] Network-effect re-concentration: identity is a coordination ",
+        "status": "active",
+        "response": null
+      },
+      {
+        "type": "rebutting",
+        "description": "[edge:refutes] Conjunction penalty: entangled links; confidence is the PROD",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.461616,
+    "id": "062a1bae09da2f984e49a08bc81b47e6fe13076b4a4e2130b92b18e5a0d0aad0"
+  },
+  {
+    "conclusion": "I_claim",
+    "premises": [
+      "C4b"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Relocate, not eliminate, the chokepoint: a user-held credent",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4632478,
+    "id": "80ed886e4f97e74cfd53b1584a81971069c32d19e07bda7d2ac77c9365d12a9c"
+  },
+  {
+    "conclusion": "I_claim",
+    "premises": [
+      "F_steelman"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Decentralized PoP does not escape the trust root, it HIDES i",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.46489,
+    "id": "406314926c1590e2d74831a799379a15c37baf4d90101e584d73f6f9dd42d41f"
+  },
+  {
+    "conclusion": "I_claim",
+    "premises": [
+      "H_conferral"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Conferral for the stateless: biometric -> KERI id + commons ",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4667032,
+    "id": "a8f94232cc338e1b401a1ea71a0a5c60961d4cc9f3297d23cb2f712fffcc051d"
+  },
+  {
+    "conclusion": "I_claim",
+    "premises": [
+      "I_ostrom"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: Ostrom's principles map to mechanisms; load-bearing: transpa",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.468446,
+    "id": "63f6b4616ad94d882d21b5c2e5ef11209b2a6db1b5f2ef3ee0d79350d5f34c2b"
+  },
+  {
+    "conclusion": "I_claim",
+    "premises": [
+      "C8"
+    ],
+    "pattern": "modus_ponens",
+    "label": "supports: The decisive question: legitimate enough to serve people who",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.470149,
+    "id": "941c13bcc01ba60f7668c00d8d262b03f58ae7b7b5cd4d853507d8564fdc5a15"
+  },
+  {
+    "conclusion": "F_competitor",
+    "premises": [
+      "EV_worldid"
+    ],
+    "pattern": "induction",
+    "label": "grounds: World ID: orb iris -> AMPC dedup; user-held; ZK; much open. BUT corporate root (",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4721,
+    "id": "647ec76a9fc5a435450a18aa07a51e7294aa267c966829bec516aadb86d51c56"
+  },
+  {
+    "conclusion": "O_redundant",
+    "premises": [
+      "EV_worldid"
+    ],
+    "pattern": "induction",
+    "label": "grounds: World ID: orb iris -> AMPC dedup; user-held; ZK; much open. BUT corporate root (",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.473981,
+    "id": "2f78e72f224b657ab2b6467a408e9f6e3ee66d6f1cc766f9b893462a17c11a02"
+  },
+  {
+    "conclusion": "F_steelman",
+    "premises": [
+      "EV_worldid"
+    ],
+    "pattern": "induction",
+    "label": "grounds: World ID: orb iris -> AMPC dedup; user-held; ZK; much open. BUT corporate root (",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4762938,
+    "id": "636551879ccc7311c1fa1a2780ece3d70a14e8cc2f90bd6b35f529615a38379d"
+  },
+  {
+    "conclusion": "G_compose",
+    "premises": [
+      "EV_keri"
+    ],
+    "pattern": "induction",
+    "label": "grounds: KERI: self-certifying identifier; no authority/ledger; witnesses. Solves identif",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.478142,
+    "id": "5f90d9513b4e95f8537fa0bfdbf20f16cc73cefcd2b27aa909c5f6e7a72b888c"
+  },
+  {
+    "conclusion": "H_revoke",
+    "premises": [
+      "EV_keri"
+    ],
+    "pattern": "induction",
+    "label": "grounds: KERI: self-certifying identifier; no authority/ledger; witnesses. Solves identif",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4800699,
+    "id": "2191c7817b097566ecc3e18281e6736d4835251bd5fb6bb7e1019251e4396630"
+  },
+  {
+    "conclusion": "C2",
+    "premises": [
+      "EV_keri"
+    ],
+    "pattern": "induction",
+    "label": "grounds: KERI: self-certifying identifier; no authority/ledger; witnesses. Solves identif",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.481972,
+    "id": "a39f9fabb93e17a39ee8e22af83ebf6feb517c528c9363c36419be41cce44f65"
+  },
+  {
+    "conclusion": "F_steelman",
+    "premises": [
+      "EV_poh"
+    ],
+    "pattern": "induction",
+    "label": "grounds: Proof of Humanity: social vouching + Kleros court; deanonymizing. BrightID: foun",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4840121,
+    "id": "66fa9272f05a4ead86a03c5f02baf6ffdf0ccbff267f56e109206fc58d7db425"
+  },
+  {
+    "conclusion": "O_bootstrap",
+    "premises": [
+      "EV_poh"
+    ],
+    "pattern": "induction",
+    "label": "grounds: Proof of Humanity: social vouching + Kleros court; deanonymizing. BrightID: foun",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.4859068,
+    "id": "cca80b83cde0e8aeed8a039feab7b13ae935e4c757e1f45d8f3a28d0b786d536"
+  },
+  {
+    "conclusion": "C8",
+    "premises": [
+      "EV_gov"
+    ],
+    "pattern": "induction",
+    "label": "grounds: Gov wallets: personhood rooted in citizenship; only for citizens; excludes the s",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.487675,
+    "id": "cdb858555225ec2cada836805011508a20b9f208dbac150d109f4d5868853225"
+  },
+  {
+    "conclusion": "F_steelman",
+    "premises": [
+      "EV_gov"
+    ],
+    "pattern": "induction",
+    "label": "grounds: Gov wallets: personhood rooted in citizenship; only for citizens; excludes the s",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.489569,
+    "id": "2ec61cdb611c1d0c7fa78de859d13b284f6531dc51a52c4e2bcaf74b23e0d64d"
+  },
+  {
+    "conclusion": "C8",
+    "premises": [
+      "EV_unhcr"
+    ],
+    "pattern": "induction",
+    "label": "grounds: ~4.4M+ stateless people; documentation barriers; the population existing systems",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.491571,
+    "id": "d2a1ff85fb1fea34d37ec80e59519e195b0139dffbe6a8a4882e8d5dafa3b205"
+  },
+  {
+    "conclusion": "I_ostrom",
+    "premises": [
+      "EV_ostrom"
+    ],
+    "pattern": "induction",
+    "label": "grounds: Eight design principles for durable commons.",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.493668,
+    "id": "0fc0602d4bd0e3b49adaa38be8359b905dd6932a77bb12dffaba56abbe7ababf"
+  },
+  {
+    "conclusion": "G_finding",
+    "premises": [
+      "EV_vitalik"
+    ],
+    "pattern": "induction",
+    "label": "grounds: No ideal form of proof of personhood; robust systems combine methods.",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780059226.495657,
+    "id": "0d57c519f1666a9bfe5bc199b634c3091892a2cdea092e12590fc8458d7ec156"
+  }
+]

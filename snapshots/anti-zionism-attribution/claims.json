@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "anti-zionism",
+    "predicate": "functions-as",
+    "object": "causal-attribution-engine-not-coherent-geopolitical-position",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "1ac5ea92a0d873b746ead2ea3516515bc0e164fda69fbd106b5159666f5b3d82",
+      "b192531aee29ccdead4da3c29315b5be31dd580a9ed2f339b34db655494544c3",
+      "2d0e3f3809875b44837341558770b25d1c29398369217f3556a222a01de602ca"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism, as it functions in practice, operates primarily as a causal attribution engine rather than a coherent geopolitical position \u2014 it substitutes moral clarity for strategic reasoning, makes the existence of the Jewish state the root explanation for regional conflict, and produces systematically worse geopolitical thinking in countries and movements that adopt it as an organizing principle.",
+    "created_at": 1776228363.62195,
+    "id": "f158cb38fa517673ca50845044391bfef8a71fbd6d3724a7a3cf0f8b572caafb"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "substitutes",
+    "object": "moral-clarity-for-strategic-reasoning",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionist frameworks prioritize moral denunciation over strategic analysis, treating the Israel question as a matter of obvious right/wrong rather than a complex multi-actor strategic problem requiring cost-benefit reasoning.",
+    "created_at": 1776228375.4526489,
+    "id": "f981e2ccec61ca22085464fae416bb5fa2c85066b42f7971af85714a4693ba0f"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "treats-jewish-state-as",
+    "object": "root-cause-of-regional-conflict",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionist discourse systematically attributes Middle Eastern instability, sectarian conflict, and authoritarian governance to the existence of Israel, functioning as a monocausal explanatory framework that crowds out other causal variables (sectarianism, oil economics, post-colonial state fragility, great power rivalry).",
+    "created_at": 1776228378.57951,
+    "id": "ea72bb2b8eb27d3b9fe42048f2b09a0a23b37b5a93a5683d727e5fbbec884e00"
+  },
+  {
+    "subject": "anti-zionist-movements",
+    "predicate": "produce",
+    "object": "systematically-worse-geopolitical-thinking",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Countries and movements that adopt anti-Zionism as an organizing principle demonstrably produce worse geopolitical analysis and make worse strategic decisions, as measured by predictive accuracy, alliance coherence, and outcome achievement.",
+    "created_at": 1776228381.81393,
+    "id": "305889ead0f6fb81030ee6a108e5b8201b0d1df32a7a79d3628e86c3080884fb"
+  },
+  {
+    "subject": "monocausal-attribution-frameworks",
+    "predicate": "degrade",
+    "object": "analytical-quality-in-foreign-policy",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "General epistemic principle: any framework that attributes complex multi-actor conflicts to a single root cause will systematically underperform multi-causal frameworks in prediction, explanation, and policy prescription. This is well-established in political science and intelligence analysis literature.",
+    "created_at": 1776228384.572306,
+    "id": "fec8b665d61f609fb2d0731b56641e3f323951665bd7ec83449af61a5a59a773"
+  },
+  {
+    "subject": "anti-zionism",
+    "predicate": "lacks",
+    "object": "internal-coherence-as-geopolitical-position",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Anti-Zionism encompasses mutually contradictory positions (secular nationalism, Islamism, Western leftism, right-wing isolationism) unified only by negation \u2014 opposition to the Jewish state \u2014 rather than by any shared positive geopolitical vision, suggesting it is better classified as a coalition affect than a geopolitical theory.",
+    "created_at": 1776228388.05875,
+    "id": "8f430a433c008ed2d7fa7aa09363eb879688a115191059ac5513526b945e6176"
+  },
+  {
+    "subject": "anti-zionism-in-practice",
+    "predicate": "is-separable-from",
+    "object": "legitimate-critique-of-israeli-policy",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes we can distinguish 'anti-Zionism as practiced' from policy-specific criticism of Israel. This is contested: some argue the boundary is clear (opposing a state's existence vs. opposing its policies), while others argue the categories bleed into each other in practice, making it difficult to isolate 'anti-Zionism' as a discrete analytical object.",
+    "created_at": 1776228493.763561,
+    "id": "1ac5ea92a0d873b746ead2ea3516515bc0e164fda69fbd106b5159666f5b3d82"
+  },
+  {
+    "subject": "strategic-failures-of-anti-zionist-states",
+    "predicate": "are-caused-by",
+    "object": "anti-zionism-rather-than-confounders",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes that the strategic failures of anti-Zionist states (USSR, pan-Arab movements, Iran) are substantially caused by the anti-Zionist framework itself rather than by confounding factors: material weakness, authoritarian governance, superpower interference, resource curses, or other ideological commitments. Causal isolation is extremely difficult in these cases.",
+    "created_at": 1776228497.0609128,
+    "id": "b192531aee29ccdead4da3c29315b5be31dd580a9ed2f339b34db655494544c3"
+  },
+  {
+    "subject": "geopolitical-thinking-quality",
+    "predicate": "is-measurable-across",
+    "object": "ideological-frameworks",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes there is a meaningful, framework-neutral way to evaluate 'quality of geopolitical thinking' \u2014 e.g., predictive accuracy, strategic outcome achievement. But the metrics themselves may be contested: what counts as a 'good outcome' depends on values. Anti-Zionist actors might define success differently (solidarity, moral witness) than realist analysts (power maximization, stability).",
+    "created_at": 1776228501.577323,
+    "id": "2d0e3f3809875b44837341558770b25d1c29398369217f3556a222a01de602ca"
+  }
+]

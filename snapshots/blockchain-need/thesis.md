@@ -1,0 +1,1 @@
+Deliberation infrastructure requires blockchain persistence

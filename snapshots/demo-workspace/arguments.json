@@ -1,0 +1,316 @@
+[
+  {
+    "conclusion": "2df430706503bd5cfd384aa294bbe53d28caae61f91bc5c5ccb7c07fd7d93b96",
+    "premises": [
+      "a508ea77853930e5cfdf11a4c4763f1c03dd2c66ab7d74367b6cfa2117fc11f0",
+      "dbd96baa5208d267e610db17187660b246503d2d313da63333bcdfb03a73c74c"
+    ],
+    "pattern": "abduction",
+    "label": "Replication crisis as epistemic infrastructure failure",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773372416.844855,
+    "id": "85a91a9e40869fd951e5d9d7c674e3770a6f6c1d277134a5654a2c455087448d"
+  },
+  {
+    "conclusion": "2df430706503bd5cfd384aa294bbe53d28caae61f91bc5c5ccb7c07fd7d93b96",
+    "premises": [
+      "570fa60695c59b7836e055b78c396de140cf4a1e3b88cd4ca5dd93e5b09fbad3",
+      "aa001000bd15a359b0551e4258c743675786792c069612ae84dcebb4e4de4750"
+    ],
+    "pattern": "abduction",
+    "label": "Polycentric governance requires identity infrastructure",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773372416.845322,
+    "id": "667c10bec352590002d6391d6761903f6d68576aeb4947a1543608b2a51c616a"
+  },
+  {
+    "conclusion": "aa001000bd15a359b0551e4258c743675786792c069612ae84dcebb4e4de4750",
+    "premises": [
+      "cf053b941d5d1af14f6813814628dddb334f1a61764a647a82c908bd130938b2"
+    ],
+    "pattern": "induction",
+    "label": "Axelrod: identity enables cooperation",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773372416.845804,
+    "id": "32d50cd5fce6e7e0aa57adb1b27829f3d371c6f597c43d5ca543cef870c88b3c"
+  },
+  {
+    "conclusion": "1053e6837ab8e6ef688ddaaf97241d96c729ed2172ec2af52605e23fa6a139ea",
+    "premises": [
+      "3b53fb03f3b8550813f19ee75d5e40fb39318805c63abbb3e5bc10abfdf2f4a8"
+    ],
+    "pattern": "induction",
+    "label": "Platform monopoly evidence",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773372416.846354,
+    "id": "8ab1b46cdb921ba1af27163e688d1f32ba268bd202dfcfe1305b91ebf54f32f4"
+  },
+  {
+    "conclusion": "f3b4dbca0bac351cce5d5007182d317534702be84b6085eb6d528f6b96826d3f",
+    "premises": [
+      "df7bcceb97f67dfcbd16568a023703d3cf1c6dfe20172947ecfc5e803b238940"
+    ],
+    "pattern": "testimony",
+    "label": "Osmio operational evidence",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773372416.8468769,
+    "id": "96e194785c3ebc8901d56d9cb4a03e84271fc6fdd2762f4bde400b2d861edcc1"
+  },
+  {
+    "conclusion": "b9ccf7800128895c9ac460951929ff11fe865edd587044fc91a2008ae13b5642",
+    "premises": [
+      "f3b4dbca0bac351cce5d5007182d317534702be84b6085eb6d528f6b96826d3f"
+    ],
+    "pattern": "analogy",
+    "label": "PKI + DKG as epistemic substrate",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "DKG centralization concerns: OriginTrail's paranet structure may reproduce the centralization it claims to solve",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773372416.847418,
+    "id": "de54909dfe0b7175ec0bbb4d5db6a140c52988ac68c3faba1be3b9ef14985c6d"
+  },
+  {
+    "conclusion": "fe65123d1a85a012f95a55fa3b9b3bd083f5bb042bbcbbb42dfe16e3edce3df8",
+    "premises": [
+      "570fa60695c59b7836e055b78c396de140cf4a1e3b88cd4ca5dd93e5b09fbad3",
+      "dbd96baa5208d267e610db17187660b246503d2d313da63333bcdfb03a73c74c"
+    ],
+    "pattern": "abduction",
+    "label": "Communities should fork foundations (from Ostrom + epistemic coordination)",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773372416.847987,
+    "id": "9f84b05a72aa879758ea21eacab14751956a3a67ce19efe718237f14c525d460"
+  },
+  {
+    "conclusion": "8326915789dc42fd535976abe62c4873542bedc40e87eb688507082bec07c901",
+    "premises": [
+      "db311b53092f6a71abdceae07f77da655d00a0bfba432b2b550325aabcf59fd1"
+    ],
+    "pattern": "abduction",
+    "label": "LLMs fail systematically on novel problems that require mult",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Demonstration that an LLM can solve genuinely novel mathematical conjectures not present in any training data",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773375188.863961,
+    "id": "a40b7dcce6e9330f68095acb2a8162a8031c05a43cdf06c23a0bc8f8ea7888d0"
+  },
+  {
+    "conclusion": "db311b53092f6a71abdceae07f77da655d00a0bfba432b2b550325aabcf59fd1",
+    "premises": [
+      "c05cb2df646450934e2591681bdd7b43912cd2bd7e7c7ce42f857978074cb065"
+    ],
+    "pattern": "induction",
+    "label": "Evidence: GSM8K benchmark shows GPT-4 drops from 9",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773375236.682632,
+    "id": "93888dada4a39913de1c4216fdedf06870ca4218d88d9aeb0490a6837f9f3c5f"
+  },
+  {
+    "conclusion": "6dbb22f50c00d4bb36e7f46cc5ec9a95216f2c86f6df11967a25ece032c47afb",
+    "premises": [
+      "bc7adeed0e590065c132a825d31364536fdcd0a329fe97e2d44717d9977019d6",
+      "79cd78d2f863e3aa372b76258788586cd2869cd85ef5f3cc3fd41164168e74f0",
+      "1483074c0e659b3a0c36dbeda9a344ad0b7ac83c0cab8d6383d89e840ddbceee"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Identity infrastructure enables scaled coordination",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Cultural and ideological differences may prevent coordination even with perfect identity infrastructure - shared identity doesn't guarantee shared values or goals",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773385122.845779,
+    "id": "547ea75f97175feb68e4bfc4df287b47efae73b2ae25c2aa1ceebbb0800b40c1"
+  },
+  {
+    "conclusion": "6d7189210751fd814ee762cc11402d60a332f61a1f2fff6d70fac6298d9f4c81",
+    "premises": [
+      "fd72bd62f891f2783dcbe19daa4faaf49aa1309acc68a526e2d48cb2785cfd31"
+    ],
+    "pattern": "induction",
+    "label": "Experimental evidence for structural coordination failures",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773385122.8470888,
+    "id": "7ea78ff2426f9ad1481b08e0753c130c09e5315167dff2fd93cbe9cca9e5ae33"
+  },
+  {
+    "conclusion": "53129ea995f2523cb2bc7fdde6cf75596fa9e3ea5098c62caa2aaef8debe94e6",
+    "premises": [
+      "0aee73c77792d22268a606c5f22d79e917d5a2d4e740b7ef1605f38351416a74"
+    ],
+    "pattern": "induction",
+    "label": "Historical pattern of infrastructure capture",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773385122.848494,
+    "id": "0191d3c0667a688fe2ba68b44e59383f8c16c25f5fce724d99ee4dd468c4dee0"
+  },
+  {
+    "conclusion": "79cd78d2f863e3aa372b76258788586cd2869cd85ef5f3cc3fd41164168e74f0",
+    "premises": [
+      "322bec377a35c70fed03615807b6ee004846f3f191b5bc1430fab2fffc48cbe4"
+    ],
+    "pattern": "causal",
+    "label": "Trade costs demonstrate social capital limitations",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773385122.849752,
+    "id": "dd187517cf82cdda7772ddb4d3ac507b5cf31653ebc7552c32b86f30d96def61"
+  },
+  {
+    "conclusion": "6dbb22f50c00d4bb36e7f46cc5ec9a95216f2c86f6df11967a25ece032c47afb",
+    "premises": [
+      "47eed1a23bf348574a21b721cc23e7d8aa1f4b4c62b3d31167b61ea551bbd228",
+      "53129ea995f2523cb2bc7fdde6cf75596fa9e3ea5098c62caa2aaef8debe94e6"
+    ],
+    "pattern": "analogy",
+    "label": "Digital identity precedent with capture-resistance",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Estonia's success may not generalize globally due to its small, relatively homogeneous population and high institutional trust - the same approach might fail in diverse, low-trust environments",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1773385122.8510551,
+    "id": "9ff051c9841debd120ed2893e79e90ffb6533dc295025a52291519e498368974"
+  }
+]

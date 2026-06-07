@@ -1,0 +1,306 @@
+[
+  {
+    "subject": "trust-in-keri-root",
+    "predicate": "terminates-only-in",
+    "object": "conjunction-of-three-horizontal-components",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "07f4e945999b739c5c5ae6c9ed5474029a52144d1fff174043f8f388b28cc0e4",
+      "caf22dc16e352265af3e95a149c161437f0700d8f2150e08d34b1c413d7faece",
+      "6c1d6763b72c23bca519e18e8bc08b7f1b66a5d682d59395ed6eab100374dbe2"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "In a KERI-based identity system fronted by a \"duly constituted\" authority like Osmio, trust in the root cannot rest on cryptography, on an apex authority, or on a charter's grant of status; it terminates only in the conjunction of THREE components. (1) Verifiable binding structures \u2014 append-only key event logs, witnesses, and transparency logs \u2014 whose sole job is to make the authority's self-binding checkable and its defection detectable. (2) Sufficient stake-asymmetry among relying parties: by Olson's privileged-group logic, large stakeholders whose operations depend on the authority will monitor it out of individual self-interest, which supplies the spontaneous DRIVE to watch \u2014 this component is provided by incentive geometry, i.e. \"by nature,\" not by design. (3) Actively and continuously maintained design conditions, in Ostrom's sense, that keep that vigilance plural and independent. The third component is indispensable precisely because incentives alone provide only the ENERGY of vigilance, not its DISTRIBUTION: left to natural dynamics, monitoring consolidates into a small oligopoly of large stakeholders (as Certificate Transparency monitoring largely did in practice), and that consolidation collapses the horizontal trust floor back into a disguised vertical hierarchy. Cryptography enables but cannot constitute this floor \u2014 it makes binding checkable and defection visible, but cannot manufacture either the incentives or the maintained plurality, which are economic and political facts. Every attempt to terminate the trust regress vertically (in a higher authority) fails, by the M\u00fcnchhausen trilemma in principle and by the empirical history of root-CA compromise in practice; termination is therefore possible only horizontally, and only where deliberate construction actively resists the natural tendency of horizontal monitoring to re-concentrate.",
+    "created_at": 1780280264.734868,
+    "id": "9e45c56620ab9a3bafe42ad6484893a4fbe522e9eaae626d004a55e82bdd3792"
+  },
+  {
+    "subject": "vertical-trust-termination",
+    "predicate": "fails-due-to",
+    "object": "muenchhausen-trilemma-and-empirical-ca-failures",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Every attempt to terminate the trust regress vertically \u2014 in a higher authority \u2014 fails. In principle this follows from the M\u00fcnchhausen trilemma (infinite regress, circularity, or dogmatic assertion). In practice it is confirmed by the empirical history of root-CA compromise (DigiNotar, CNNIC, Symantec). Therefore trust termination must be horizontal, not vertical.",
+    "created_at": 1780280270.754539,
+    "id": "3f18f7acabe36954ef9a06ef44bae66f28c65388cb90975460a12f59eea1dbac"
+  },
+  {
+    "subject": "verifiable-binding-structures",
+    "predicate": "make-checkable",
+    "object": "authority-self-binding-and-defection",
+    "confidence": {
+      "level": 0.88,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Component 1: Append-only key event logs (KELs), witnesses, and transparency logs create verifiable binding structures whose sole function is to make the authority's self-binding checkable and its defection detectable. Cryptography enables this checkability but does not by itself constitute the trust floor \u2014 it is necessary but not sufficient.",
+    "created_at": 1780280273.653688,
+    "id": "3d313717c633dc23d45e1e6990f8461ef36991b72ca22de2435ee085b52498ef"
+  },
+  {
+    "subject": "stake-asymmetry",
+    "predicate": "supplies-spontaneous-drive-to",
+    "object": "monitor-authority",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Component 2: By Olson's privileged-group logic, large stakeholders whose operations depend on the authority will monitor it out of individual self-interest. This supplies the spontaneous DRIVE \u2014 the energy \u2014 to watch. This component arises from incentive geometry (\"by nature\"), not by institutional design. Without sufficient stake-asymmetry, no one has adequate individual incentive to bear monitoring costs.",
+    "created_at": 1780280276.6638699,
+    "id": "ad9d0a0b8c38ac8bf87b6cf49d42b971b59742dd2485397fdfb14fba93d20e80"
+  },
+  {
+    "subject": "ostrom-design-conditions",
+    "predicate": "maintain-plural-independent",
+    "object": "vigilance-distribution",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Component 3: Actively and continuously maintained design conditions, in Ostrom's sense, keep vigilance plural and independent. This is indispensable because incentives alone provide only the ENERGY of vigilance, not its DISTRIBUTION. Without deliberate design, monitoring consolidates into a small oligopoly, collapsing the horizontal trust floor back into a disguised vertical hierarchy. This component requires ongoing political-institutional work.",
+    "created_at": 1780280279.408406,
+    "id": "33ebbaaa93f3c6bc3f082e5025925de4699cc01d73419c7972e0611014ff48fb"
+  },
+  {
+    "subject": "undesigned-monitoring",
+    "predicate": "naturally-consolidates-into",
+    "object": "oligopoly-disguised-vertical-hierarchy",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Left to natural dynamics \u2014 without Ostrom-style design conditions \u2014 monitoring consolidates into a small oligopoly of large stakeholders. Certificate Transparency monitoring largely did this in practice, with Google dominating enforcement. This consolidation collapses horizontal trust back into a disguised vertical hierarchy, defeating the purpose of horizontal termination.",
+    "created_at": 1780280282.335181,
+    "id": "771cad78a0674261193e1e9c59a2763af93d5e1e0bd765fa04dcebce77208cc9"
+  },
+  {
+    "subject": "keri-kel-integrity",
+    "predicate": "is-practically-achievable-at",
+    "object": "scale-needed-for-trust-infrastructure",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: KERI's append-only key event logs, witness networks, and associated cryptographic infrastructure can actually be deployed and maintained at the scale required for a real-world identity trust infrastructure. This is not yet proven at scale \u2014 KERI remains relatively early-stage compared to X.509 PKI. If the binding structures prove impractical at scale, Component 1 fails regardless of its theoretical soundness.",
+    "created_at": 1780280362.344485,
+    "id": "07f4e945999b739c5c5ae6c9ed5474029a52144d1fff174043f8f388b28cc0e4"
+  },
+  {
+    "subject": "olson-privileged-group",
+    "predicate": "actually-exists-in",
+    "object": "keri-relying-party-ecosystem",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: There actually exist relying parties with sufficient stake-asymmetry \u2014 whose operations depend heavily enough on the KERI root authority \u2014 that their individual monitoring benefit exceeds their monitoring cost. If the ecosystem is composed of many small, roughly equal-stakes parties, Olson's privileged-group condition is not met, and the spontaneous drive to monitor does not arise. This is an empirical question about the actual stakeholder composition of a future ecosystem.",
+    "created_at": 1780280367.192032,
+    "id": "caf22dc16e352265af3e95a149c161437f0700d8f2150e08d34b1c413d7faece"
+  },
+  {
+    "subject": "ostrom-style-governance",
+    "predicate": "is-transferable-to",
+    "object": "digital-trust-infrastructure-domain",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: Ostrom's design principles, developed primarily through study of natural common-pool resources (fisheries, irrigation, forests), transfer meaningfully to the governance of digital trust infrastructure. The analogy may break down: digital commons have different cost structures (near-zero marginal cost of log access), different defection dynamics (cryptographic rather than physical observability), and different jurisdictional characteristics (global, not local). The transferability of Ostrom's framework to this domain is asserted but not demonstrated.",
+    "created_at": 1780280371.6569579,
+    "id": "6c1d6763b72c23bca519e18e8bc08b7f1b66a5d682d59395ed6eab100374dbe2"
+  },
+  {
+    "subject": "The Olson-privileged-group condition that supplies sustained monitoring is generated not by commercial stakeholders but by populations under state persecution, whose existential self-preservation stakes drive them to build and maintain decentralized trust/communication networks; in its durable form the privileged group is the transnational civil-society / diaspora / rights-tech layer, for whom the global aggregate of always-somewhere persecution supplies a continuous rather than merely episodic incentive.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The Olson-privileged-group condition that supplies sustained monitoring is generated not by commercial stakeholders but by populations under state persecution, whose existential self-preservation stakes drive them to build and maintain decentralized trust/communication networks; in its durable form the privileged group is the transnational civil-society / diaspora / rights-tech layer, for whom the global aggregate of always-somewhere persecution supplies a continuous rather than merely episodic incentive.",
+    "created_at": 1780281897.574023,
+    "id": "ed218fcf818f923cb584df5fd554a1cb90b4fab0a94cc300268642eb1e38dae2"
+  }
+]

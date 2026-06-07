@@ -1,0 +1,152 @@
+[
+  {
+    "conclusion": "34d951484642b25b6cf1756cb4974c125d85cee56bc227631e63e9f5eea89fd9",
+    "premises": [
+      "d88fb752d8be5cadb79a6bbb35570052bc1e5185a434ffa8e327d8d52b82eff2"
+    ],
+    "pattern": "induction",
+    "label": "From documented platform manipulation to vulnerability of argument graphs",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775620707.006568,
+    "id": "823f15fc5a2900154841a99fb2b37f7a2432e192b841ccc2b95eb34641453b43"
+  },
+  {
+    "conclusion": "43b94fac6a4097b60fa12426fa58eb8aca4347a765ad3a7f269a22f3763dac08",
+    "premises": [
+      "34d951484642b25b6cf1756cb4974c125d85cee56bc227631e63e9f5eea89fd9",
+      "853ac6cb7127be3499727ad036875a490ec59fa5dadee5c2a6a30ecbf2f82ce2"
+    ],
+    "pattern": "causal",
+    "label": "Vulnerability plus discourse ethics entails legitimacy is undermined",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775620708.948394,
+    "id": "03a739c0caacb1cb59789f8f48409981cb391c7891d8d4cf2325cb44d3471ea5"
+  },
+  {
+    "conclusion": "29138f957fc0c2b1e8676d5905c0bcc8f4587bbb0b6e9dcef353cd1f067c7fa8",
+    "premises": [
+      "fa91816d74cb4e49fd414e4b5452fdabfb84b06e19a5093f1028fc6f660dc9de"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Cryptographic hash-chain properties entail tamper-evidence",
+    "confidence": {
+      "level": 0.92,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775620710.851016,
+    "id": "7cb122c9c163aae5aaee785fa524be61fddaad4f69b15d583a08407f5276551c"
+  },
+  {
+    "conclusion": "9f22b58dcaecdb1e36b7fd3c2b0ace655903b5a346f3a9fa24f77d35d5c8e80c",
+    "premises": [
+      "43b94fac6a4097b60fa12426fa58eb8aca4347a765ad3a7f269a22f3763dac08"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If silent alteration undermines legitimacy, then tamper-evidence is necessary",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Blockchain introduces its own democratic deficits: high energy costs exclude resource-constrained communities, transaction latency degrades real-time deliberation, and governance of the chain itself (hard forks, validator concentration, plutocratic PoS voting) replicates the very power asymmetries the thesis aims to prevent. If blockchain infrastructure makes participation harder or shifts control to a new set of gatekeepers (mining pools, validator cartels), the cure may be worse than the disease for democratic inclusion.",
+        "status": "answered",
+        "response": "This defeater is valid and we accept it rather than rebut it. Proof-of-work blockchain introduces energy costs that are fundamentally at odds with democratic inclusion \u2014 participation in the consensus mechanism requires computational resources that are distributed according to wealth, not citizenship. Even proof-of-stake systems create plutocratic governance where token holders have disproportionate influence over the infrastructure that democratic deliberation depends on. This is not a bug to be engineered around; it reflects the adversarial coordination assumption baked into blockchain's design. A deliberative democracy infrastructure should not rest on a persistence layer whose governance is plutocratic. The defeater stands \u2014 and it argues for using non-blockchain persistence mechanisms."
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775620712.546911,
+    "id": "7f93229173378e55524e7433446c886beb24540d42010b3ce9b7a915fe302c7d"
+  },
+  {
+    "conclusion": "07b1b687b1f41069794b2929bb2cbed16ee886919629de448f2f2f6717bd5586",
+    "premises": [
+      "9f22b58dcaecdb1e36b7fd3c2b0ace655903b5a346f3a9fa24f77d35d5c8e80c",
+      "29138f957fc0c2b1e8676d5905c0bcc8f4587bbb0b6e9dcef353cd1f067c7fa8",
+      "ceeec8a246e3c95235ca78f9cea9a467b5803ea46d7c5714f540180ba2117a7e"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Tamper-evidence is necessary + blockchain provides it + alternatives fail \u2192 blockchain required",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Certificate Transparency and similar append-only Merkle-tree logs (e.g., Trillian, Sigstore) achieve tamper-evident persistence without blockchain consensus or tokens. These systems are production-proven at scale (billions of certificates logged). The thesis's claim that alternatives are \"insufficient\" conflates blockchain-the-data-structure (hash chains) with blockchain-the-system (decentralized consensus + incentive tokens). Tamper-evidence may only require the former, making full blockchain unnecessary overhead.",
+        "status": "answered",
+        "response": "This defeater is correct. Certificate Transparency logs provide the same Merkle-tree tamper-evidence guarantees as blockchain without requiring consensus mechanisms, token economics, or energy expenditure. CT logs have been operating at global scale since 2013 with multiple independent operators, making them more battle-tested than most blockchain deployments. Critically, CT logs are already native to the PKI ecosystem \u2014 and Osmio, as a Certificate Authority, already operates within this infrastructure. Using CT-style logs for argument graph persistence means the tamper-evidence layer and the identity layer share the same architectural foundation, rather than bridging between two fundamentally different trust models (PKI and blockchain). The rebuttal stands."
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775620720.1533859,
+    "id": "4b28c5bd2954ad1d83b78ad5076e364da8315f74f1e1e9dc57340b6da75456cb"
+  },
+  {
+    "conclusion": "ceeec8a246e3c95235ca78f9cea9a467b5803ea46d7c5714f540180ba2117a7e",
+    "premises": [
+      "6ea93ad667c3c020cd75ba42b3d1d044e37a929b481672cc15d89ee2ed8571b3"
+    ],
+    "pattern": "induction",
+    "label": "Evidence: Certificate Transparency logs as production-grade tamper-evident infrastructure",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Git with signed commits (GPG/SSH) already provides content-addressed, cryptographically verifiable, distributed version history. The Epistemic Workbench itself uses git for versioning argument graphs. Combined with Osmio-issued X.509 certificates for commit signing and a CT-style append-only log for anchoring, this provides tamper-evidence, author attribution, and auditability without any blockchain component. The alternatives are not insufficient \u2014 they are more mature, better understood, and already integrated with the identity infrastructure the project uses.",
+        "status": "answered",
+        "response": "This defeater is correct and we accept it. Git with Osmio-signed commits provides content-addressed, cryptographically verifiable, distributed version history. The Workbench already uses git. Combined with CT-style logs for public anchoring, this stack provides tamper-evidence, attribution, and auditability without blockchain. The point stands."
+      },
+      {
+        "type": "undercutting",
+        "description": "The steelman for blockchain: CT logs and signed git both depend on trust in specific operators. Google runs most CT logs. Git repos need hosting. If the argument is that no single entity should be able to shut down or censor the deliberation record, then federated but still operator-dependent systems have a residual centralization risk that permissionless blockchain eliminates. The question is not whether CT logs provide tamper-evidence (they do) but whether they provide censorship resistance \u2014 can a government or corporation compel all CT log operators to exclude an entry? Blockchain's permissionless nature means no authority can prevent a transaction from being included.",
+        "status": "answered",
+        "response": "The censorship resistance argument is the strongest case for blockchain, and it deserves a careful response rather than dismissal. However, it rests on a threat model mismatch. The epistemology.info project operates under Osmio's governance \u2014 a digital municipality with a charter, enrolled citizens, and a legal structure. This is not an anonymous, adversarial, zero-trust environment. The threat model is not 'a hostile government will compel all operators to censor deliberation records.' The threat model is 'a platform operator might silently alter records for institutional convenience.' For the latter threat, CT logs with multiple independent operators (which Osmio can itself operate as a CA) provide sufficient resistance. If the threat model escalated to state-level censorship, blockchain's censorship resistance would also be compromised in practice \u2014 China's firewall blocks blockchain nodes, OFAC sanctions Bitcoin addresses, and validators increasingly comply with regulatory demands. Permissionless consensus is not in practice as censorship-resistant as the theory claims. The real insurance against state censorship is political and legal \u2014 Osmio's ITU charter and Swiss jurisdiction \u2014 not technological."
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1775620828.813917,
+    "id": "19fcf0553e9680450528f45fb9a94f8ddb5d074911a4ae5585bfb0f0b5f63109"
+  }
+]

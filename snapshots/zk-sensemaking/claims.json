@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "zkp-humanity-plus-argumentation-frameworks",
+    "predicate": "meaningfully-improves",
+    "object": "structured-deliberative-sensemaking",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "d6de4e8fde5a9949764fab7ede8002d5a981b95fed0344204f6f45cd78b37253",
+      "7fbd95cf2a005d268fa2f36600ff72acfd2f3bc0ed77ef7b5585cc6dba50a635",
+      "31418f725e60da8cda63f901d10cea004248ae29c621aaf30e5a9113797459b6"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Connecting zero-knowledge proof-of-humanity to formally structured argumentation frameworks (such as DF-QuAD scored argument graphs) \u2014 provided that adequate natural-language scaffolding, multilingual interfaces, and accessibility layers lower the barrier to participation \u2014 has strong potential to meaningfully improve structured deliberative sensemaking relative to current platform-based discourse, by ensuring that verified unique humans contribute to debates where the assessed quality and convergence of reasoning carries greater weight than headcount or amplification alone. However, such a system would constitute an improvement primarily within its domain of formalized deliberation rather than a universal sensemaking solution, and its gains would be partially offset by a shifted attack surface favoring argument-structure manipulation by well-resourced actors, necessitating ongoing adversarial robustness research and complementary informal deliberative channels.",
+    "created_at": 1775194819.527885,
+    "id": "c6e4902e90bb35aac78dbe2cb4a067ea4a0d66c76835f4daa19438f5ee006383"
+  },
+  {
+    "subject": "zkp-proof-of-humanity",
+    "predicate": "eliminates",
+    "object": "sybil-and-bot-amplification",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Zero-knowledge proof-of-humanity protocols can cryptographically verify that each participant is a unique human without revealing identity, eliminating Sybil attacks and bot-driven amplification that plague current platform discourse.",
+    "created_at": 1775194824.7520058,
+    "id": "e6902d26119bf0d2c8f9f2d8b70064d14850686a81e52a98c95a3683161306b5"
+  },
+  {
+    "subject": "df-quad-scored-graphs",
+    "predicate": "elevate",
+    "object": "reasoning-quality-over-headcount",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Formally structured argumentation frameworks like DF-QuAD assign dialectical strength scores to arguments based on their logical support and attack relationships, ensuring that reasoning quality and convergence carry more weight than raw vote counts or engagement metrics.",
+    "created_at": 1775194826.9913878,
+    "id": "aa42c4923ab0763a21976aa17792e18a2e9530e3917ff8815025acbaa881e2b9"
+  },
+  {
+    "subject": "nl-scaffolding-and-accessibility",
+    "predicate": "lowers",
+    "object": "participation-barrier",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Adequate natural-language scaffolding, multilingual interfaces, and accessibility layers are necessary and plausibly achievable conditions for lowering the barrier to participation in formal argumentation systems, which otherwise demand expertise in structured reasoning.",
+    "created_at": 1775194829.216723,
+    "id": "fc1662e9015f9d6f1a9dab1958055af43c45e9b59b4aa326c977719a62061c33"
+  },
+  {
+    "subject": "system-improvement",
+    "predicate": "is-bounded-to",
+    "object": "formalized-deliberation-domain",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The proposed system would improve sensemaking primarily within its domain of formalized deliberation rather than serving as a universal sensemaking solution. Many forms of discourse \u2014 narrative, emotional, creative, identity-based \u2014 resist formal argumentation capture.",
+    "created_at": 1775194832.062538,
+    "id": "30e99d15cb282fb4f0e1b46f96a278292fc44166f899787d4eb6cb54ed10ca75"
+  },
+  {
+    "subject": "shifted-attack-surface",
+    "predicate": "partially-offsets",
+    "object": "deliberative-gains",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Gains from the system would be partially offset by a shifted attack surface favoring argument-structure manipulation by well-resourced actors (e.g., using LLMs to generate structurally optimized but misleading arguments), necessitating ongoing adversarial robustness research and complementary informal deliberative channels.",
+    "created_at": 1775194833.9869819,
+    "id": "9423b4715c5e6fd256f64ac173e96ee5a3f01ea22df56cea7ef7679d30b2e30a"
+  },
+  {
+    "subject": "zkp-proof-of-humanity-protocols",
+    "predicate": "can-scale-without",
+    "object": "centralized-biometric-infrastructure",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes that zero-knowledge proof-of-humanity can achieve sufficient coverage and decentralization without relying on centralized biometric chokepoints (like Worldcoin's Orb network). If the only viable PoH systems require centralized biometric capture, the privacy and censorship-resistance properties the thesis depends on may be undermined.",
+    "created_at": 1775194888.383411,
+    "id": "d6de4e8fde5a9949764fab7ede8002d5a981b95fed0344204f6f45cd78b37253"
+  },
+  {
+    "subject": "formal-argumentation-quality",
+    "predicate": "correlates-with",
+    "object": "real-world-epistemic-improvement",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes that higher dialectical strength scores in a formal argumentation framework actually correspond to better real-world epistemic outcomes (truer beliefs, wiser policies). This mapping from formal argument quality to real-world truth-tracking is theoretically plausible but empirically underexplored.",
+    "created_at": 1775194891.0600462,
+    "id": "7fbd95cf2a005d268fa2f36600ff72acfd2f3bc0ed77ef7b5585cc6dba50a635"
+  },
+  {
+    "subject": "sufficient-user-adoption",
+    "predicate": "is-achievable-for",
+    "object": "formal-deliberation-platforms",
+    "confidence": {
+      "level": 0.4,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumes that a critical mass of users will adopt a formal deliberation system despite the higher cognitive effort required compared to social media posting. Historical precedent (e.g., Wikipedia talk pages, Deliberatorium, Kialo) suggests that structured deliberation platforms attract niche but not mass audiences, even with scaffolding.",
+    "created_at": 1775194894.257397,
+    "id": "31418f725e60da8cda63f901d10cea004248ae29c621aaf30e5a9113797459b6"
+  }
+]

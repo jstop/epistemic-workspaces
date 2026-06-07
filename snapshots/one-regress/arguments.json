@@ -1,0 +1,101 @@
+[
+  {
+    "conclusion": "46f2e8d8f4cd8576c0ee57c4701ce4e9113f7e107032669aea8ded0ddbe90f9e",
+    "premises": [
+      "abfeea7167f6daa3b00154233017ef2c4683491560c43f3b55b0254d3368f6f0"
+    ],
+    "pattern": "testimony",
+    "label": "W3C DID/VC standards demonstrate that self-certifying identifiers technically enable portable, issuer-independent credential verification",
+    "confidence": {
+      "level": 0.88,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780016029.834785,
+    "id": "51f657621f009f0278f20b2e0b759f8a5e468d1a96520dd4d80c4322f8b5f973"
+  },
+  {
+    "conclusion": "7847688fecb402ba8b088a7a041e84a3ff6c92e7ad8a5fe298aec7cee21a6869",
+    "premises": [
+      "3968fc832973a0cdbf8aebc17478adc8585123f78c7935a9a11e18604add0cbb",
+      "a1538a7c2bacba63cca228b1e0170193eade93465116a3d178792c9abd053fa1"
+    ],
+    "pattern": "induction",
+    "label": "UNHCR precedent of non-state identity documents plus PoH/BrightID field experience inductively support that plural vouching can substitute for state attestation",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The UNHCR/PoH analogy is misleading because it conflates two different trust models. UNHCR credentials work because UNHCR itself is a trusted institutional brand with decades of state-level relationships \u2014 relying parties accept the credential because they trust UNHCR, not because they trust a decentralized protocol. Proof-of-Humanity and BrightID, which are closer to the thesis's architecture, have failed to achieve meaningful institutional acceptance: no bank, government, or major aid organization accepts them. The evidence actually shows that non-state vouching works only when a single prestigious institution backstops it \u2014 precisely the single-party dependency the thesis aims to eliminate.",
+        "status": "answered",
+        "response": "Partially answered, with a concession. The defeater is right that PoH/BrightID \u2014 decentralized social-graph protocols \u2014 have achieved no institutional acceptance, but that is the wrong analogue: the design's Layer 3 is plural CONSTITUTED institutions (UNHCR, diaspora bodies, relief agencies, municipalities-in-exile), each a brand-backed voucher, not an anonymous web of trust. So the apt precedent is the one that works (UNHCR-type institutional attestation), and 'plural' here means several such institutions, not a protocol replacing institutions. The concession the defeater forces, and it is real: acceptance flows from institutional reputation, not from the protocol \u2014 so the design depends on recruiting already-trusted constituted bodies, and only their attestations will be honored. That re-introduces dependence on a handful of prestigious institutions and collapses back into the anchor-adoption and demand-side problems. Net: feasibility is non-zero (UNHCR-style works), but the protocol contributes portability and accountability, not acceptance; acceptance must be borrowed from institutions the design does not control."
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780016032.266709,
+    "id": "c8333a1d06f34fab002fe7e5fd59b06a9ad4935d3da9ccd0f6ed449ed6264b8c"
+  },
+  {
+    "conclusion": "f029741f9b69ded7219fce42aa1db80cf7e8411803645642a607869ca33a8b5f",
+    "premises": [
+      "4825308d2e4127f1e6a1105a9fd78162f67d7de1b70e17fa4776b2a3b422df22"
+    ],
+    "pattern": "induction",
+    "label": "Internet governance precedents (ICANN, CAs, fediverse) inductively show that multi-stakeholder commons governance raises capture cost and makes it publicly observable, though imperfectly",
+    "confidence": {
+      "level": 0.58,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780016034.706704,
+    "id": "2548f27164c33067a7bcde57b744fb5411b9917d538e46ed1fadb7e260eb19e7"
+  },
+  {
+    "conclusion": "93165e1b1f50d56e8d375ca2f73f5ca3b13f9aef0a2d5db4b87abd953ca08994",
+    "premises": [
+      "46f2e8d8f4cd8576c0ee57c4701ce4e9113f7e107032669aea8ded0ddbe90f9e",
+      "7847688fecb402ba8b088a7a041e84a3ff6c92e7ad8a5fe298aec7cee21a6869",
+      "f029741f9b69ded7219fce42aa1db80cf7e8411803645642a607869ca33a8b5f",
+      "7883a64b485c3c023e98461295d745902016eb5c37da8ce923365b2878e03b32",
+      "b2e0c4d8074d66563035aa31c5cea05b0fbb3af744787045a96f80cd24e69770"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If portable credentials are feasible (C2), plural vouching substitutes for state attestation (C3), commons governance converts capture dynamics (C4), re-concentration is resisted (C5), and an anchor relying party exists (C6), then the full thesis follows by conjunction",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The conjunction argument assumes the sub-claims are largely independent, but they are deeply entangled. If the uniqueness registry re-concentrates (C5 fails), the commons governance claim (C4) also collapses \u2014 a dominant operator IS the single-party chokepoint the thesis claims to eliminate. Similarly, if no anchor relying party emerges (C6 fails), the technical validity of the credential (C2, C3) becomes moot. The sub-claims are not modular building blocks but a fragile chain where each failure mode cascades. The overall confidence should therefore be closer to the product of the sub-claim confidences than their average, making the thesis substantially weaker than any individual sub-claim suggests.",
+        "status": "conceded",
+        "response": "Conceded \u2014 and this is the most important result of the stress test. The conditions are entangled, not independent: if the registry re-concentrates (C5), commons governance (C4) collapses because the dominant operator IS the chokepoint; if no anchor relying party emerges (C6), the technically valid credential (C2, C3) is inert. So confidence is closer to the PRODUCT of the sub-claims than their average. Product \u2248 0.85 \u00d7 0.60 \u00d7 0.55 \u00d7 0.45 \u00d7 0.58 \u2248 0.07. Even allowing partial mitigation and correlation, the honest figure is well under 50%, not the 62% the averaging shows. Narrowing the thesis into explicit conditions did not rescue it \u2014 it exposed that the design is a fragile five-link chain whose two weakest links (re-concentration resistance at 45%, anchor adoption at 58%) gate everything else."
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780016038.478305,
+    "id": "4e63f448e1a5ee03cf490c331f941eb7a95c19f9045e754e869aaad3dbd97115"
+  }
+]

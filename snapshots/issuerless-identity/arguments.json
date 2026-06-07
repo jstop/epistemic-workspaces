@@ -1,0 +1,141 @@
+[
+  {
+    "conclusion": "9fcb7179091dcf4891424d15f97a2c640a86d0494130b4c3d4b277327b690a4f",
+    "premises": [
+      "6d96a1fb7a6d8f88c87a22c8204d5c286930038e8c5bee85d5dc700be09542d4"
+    ],
+    "pattern": "induction",
+    "label": "C2PA deployment demonstrates feasibility of hardware-attested provenance binding",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774593639.063682,
+    "id": "8686f8b0e1e27f11206b75463364407a1b1b5dddc7cada2f52f43e509b9b5b14"
+  },
+  {
+    "conclusion": "e6bf8df36a0e09a8a943c224934088d211a7317bc785e9fdeefa3a1af4665c1c",
+    "premises": [
+      "b4f27a769be381d64757e41a329b61799cd05f314d93d388f487d4261460247a"
+    ],
+    "pattern": "causal",
+    "label": "Market concentration data shows TEE oligopoly creates structural trust reconcentration risk",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774593639.06463,
+    "id": "12a8577e70d4565f8eb00423727a381bd5be8910d954bad5b50a554cd1c9b23a"
+  },
+  {
+    "conclusion": "a479fe6f4eb979ec21652450407ffb6fc4711d3ee6e20c85b61af01a00232f5f",
+    "premises": [
+      "8c02e1f9826ddf43ec1652a05036cea464699f4b9f647277560d51354930ab32"
+    ],
+    "pattern": "induction",
+    "label": "Repeated TEE compromises demonstrate the empirical necessity of layered security",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774593639.065461,
+    "id": "506c47daf08dbc7bdf5484e2e20f77c8c04404831b0a95943d85194abe6e0b79"
+  },
+  {
+    "conclusion": "39147f602dec96de62d22867d4e608b702207e97dd18c0456e4ae67b759160d2",
+    "premises": [
+      "9fcb7179091dcf4891424d15f97a2c640a86d0494130b4c3d4b277327b690a4f"
+    ],
+    "pattern": "analogy",
+    "label": "Cryptographic device binding establishes physical-event attestation but not civil identity attributes, implying supplementary rather than substitutive role",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774593639.066488,
+    "id": "84cfd267b87ef38b4e6ebf14f35a4aabf6776ffba17925c012bb80ec405a58ab"
+  },
+  {
+    "conclusion": "859c1ed72b76cece693dc103b6b85cf4a30c52441f05c73617a4b7ce6b8941f2",
+    "premises": [
+      "9fcb7179091dcf4891424d15f97a2c640a86d0494130b4c3d4b277327b690a4f",
+      "e6bf8df36a0e09a8a943c224934088d211a7317bc785e9fdeefa3a1af4665c1c",
+      "d4f3705635e244f4e80bea5cdea8307adcb0f1f9dc0124e27e6f931960fa7b3e",
+      "a479fe6f4eb979ec21652450407ffb6fc4711d3ee6e20c85b61af01a00232f5f",
+      "39147f602dec96de62d22867d4e608b702207e97dd18c0456e4ae67b759160d2"
+    ],
+    "pattern": "abduction",
+    "label": "Convergent argument: hardware attestation is viable as probabilistic personhood signal only under all three provisos and with supplementary\u2014not substitutive\u2014framing",
+    "confidence": {
+      "level": 0.58,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The convergent argument assumes the three provisos (audit/anti-concentration, legal recognition, layered security) are achievable in practice. However, proviso (1) faces a bootstrapping problem: the very manufacturers who must be audited control the attestation infrastructure needed to verify audit compliance, creating a circular dependency. If independent audit of TEE implementations is technically infeasible without manufacturer cooperation\u2014and manufacturers have strong incentives to resist deep inspection of proprietary security architectures\u2014then the proviso may be unachievable, severing the argument's connection between market safeguards and trustworthy attestation.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774593639.0673,
+    "id": "adc1ec42ec7a634657900d3b50ca626a5fc404619e349bed345cfce7e7bf7611"
+  },
+  {
+    "conclusion": "859c1ed72b76cece693dc103b6b85cf4a30c52441f05c73617a4b7ce6b8941f2",
+    "premises": [
+      "962793fbdf0275e93e34221665a7f47dea43daa5db0abc4fc90d4c42160dd4a8",
+      "a479fe6f4eb979ec21652450407ffb6fc4711d3ee6e20c85b61af01a00232f5f"
+    ],
+    "pattern": "causal",
+    "label": "Biometric uniqueness limits and TEE fragility jointly constrain the system to probabilistic rather than definitive attestation",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Even accepting probabilistic framing, the system may not achieve useful signal-to-noise ratios. If sophisticated adversaries can fabricate attested personhood signals (via TEE key extraction, cloned biometrics, or compromised manufacturer keys issuing fraudulent attestations for synthetic identities), the probabilistic signal degrades to the point where relying parties cannot meaningfully distinguish genuine attestations from adversarial ones. At that point, the mechanism fails to reduce dependency on traditional credentials because rational relying parties will still require them as the authoritative check, rendering hardware attestation redundant rather than supplementary.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774593639.068139,
+    "id": "163fcee8b4473f30a471fd2f009faa189165011d13e91e574078cad040fd3643"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "title": "PKI root CA trust failures as historical pattern",
+    "description": "Historical incidents in traditional PKI (e.g., DigiNotar compromise 2011, CNNIC mis-issuance, Symantec trust revocations) demonstrate that vertical trust anchors \u2014 root CAs trusted by fiat \u2014 fail when the apex authority defects or is compromised. The trust community had no structural mechanism to prevent silent defection; detection was accidental or delayed. This pattern supports the claim that vertical trust termination is inherently fragile.",
+    "evidence_type": "observation",
+    "source": "Historical record of PKI root CA compromises and browser trust store revocations, widely documented in security incident reports and browser vendor announcements (2011-2024)",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780278870.254358,
+    "id": "5fbdde80e023fdb15a9695f887551513b053ac4203f4011aad424f2ae8fa3d88"
+  },
+  {
+    "title": "KERI architecture separates cryptographic verifiability from trust establishment",
+    "description": "The KERI (Key Event Receipt Infrastructure) protocol design uses key event logs (KELs), witness receipt logs, and threshold structures to create cryptographically verifiable audit trails for identifier control authority. The architecture is explicitly designed so that cryptographic verification enables detection of inconsistency/duplicity but does not itself establish who should be trusted \u2014 that requires an out-of-band trust establishment layer. This architectural separation supports the claim that crypto enables but cannot constitute trust.",
+    "evidence_type": "document",
+    "source": "KERI protocol design documents and technical whitepapers by Samuel M. Smith describing the separation of verifiability from trust establishment",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780278875.122721,
+    "id": "7340003efaade85bceafad30d37bbc5584c3c013c31bc133f9047fcc25cb670c"
+  },
+  {
+    "title": "Certificate Transparency as precedent for horizontal cross-checking",
+    "description": "Google's Certificate Transparency (CT) system provides an empirical precedent: by requiring certificates to be logged in publicly auditable append-only logs monitored by independent parties, CT shifted trust from a purely vertical model (trust the CA) to a horizontal one (independent monitors cross-check the CA's behavior). CT has successfully detected CA misbehavior that would otherwise have gone unnoticed, demonstrating that distributed cross-checking catches defection that vertical authority structures miss.",
+    "evidence_type": "observation",
+    "source": "Operational experience with Certificate Transparency (RFC 6962) and public reports of misbehavior detected through CT log monitoring (2013-present)",
+    "reliability": 0.82,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780278879.255887,
+    "id": "88ebb7c97dd00904cb03d2295f72032d975ec0492e88e5d2e8089f893177ff22"
+  },
+  {
+    "title": "M\u00fcnchhausen trilemma and the structure of justification regress",
+    "description": "The M\u00fcnchhausen trilemma (Agrippa's trilemma) in epistemology establishes that any attempt to provide a ultimate justification for a proposition must end in one of three unsatisfactory ways: infinite regress, circular reasoning, or dogmatic axiom. Applied to trust hierarchies, any vertical chain of trust terminating in an apex authority either regresses infinitely (who watches the watcher?), circles back on itself, or terminates in an unjustified axiom. This structural argument supports the claim that vertical trust termination necessarily fails.",
+    "evidence_type": "document",
+    "source": "Classical epistemological argument (Agrippa's trilemma / M\u00fcnchhausen trilemma) as applied to trust hierarchy analysis in security protocol literature",
+    "reliability": 0.9,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1780278884.254386,
+    "id": "58fac831c5593669a6780c58a34a855ee737f6b3f83d8a1d46f68643bf6bb5c7"
+  }
+]

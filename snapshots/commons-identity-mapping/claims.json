@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "ostrom-axelrod-design-patterns",
+    "predicate": "are-directly-applicable-to",
+    "object": "digital-identity-infrastructure",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "899f8b6960253c0f8cceef32da7b4063d5f3965e993a89de81b260b273b3358f",
+      "ca6a4267101d33b0d7455ab3b354234cad2f7f0e62346e1f26761e355c1e613e",
+      "8f9402a76ab2a23340d8f020cb14767d5fb20be0e391979f815e155dc607b8bc"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The six design patterns identified in Elinor Ostrom's commons governance research and Robert Axelrod's cooperation research are directly applicable to digital identity infrastructure. The structural properties that sustain cooperation in commons governance \u2014 authority derived from obligation, mutual monitoring, separation of standard-holding from operation, voluntary but binding participation, layered privacy and accountability, and adversarial resilience by design \u2014 transfer to the problem of governing credential-issuing systems because both domains face the same fundamental challenge: sustaining cooperation and accountability without centralized enforcement among participants who could defect.",
+    "created_at": 1774926693.3441,
+    "id": "93eae389ea275f75b9b71ef45f450cc0fe545079d519c02e866c8aa7245e9d47"
+  },
+  {
+    "subject": "commons-governance-research",
+    "predicate": "identifies",
+    "object": "structural-properties-sustaining-cooperation-without-central-enforcement",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Ostrom's research on long-enduring common-pool resource institutions identifies design principles (boundary rules, collective-choice arrangements, monitoring, graduated sanctions, conflict-resolution mechanisms, nested enterprises) that sustain cooperation without centralized enforcement. Axelrod's iterated cooperation research complements this with mechanisms like tit-for-tat, reputation, and shadow of the future.",
+    "created_at": 1774926699.131867,
+    "id": "54bb6f1688288f98ad12682197331f2e7848bf84d8f9a54f22bfb5aa77349146"
+  },
+  {
+    "subject": "credential-issuing-systems",
+    "predicate": "face",
+    "object": "cooperation-without-centralized-enforcement-challenge",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Digital identity and credential-issuing systems (e.g., PKI certificate authorities, verifiable credential ecosystems, federated identity) require multiple independent participants to cooperate on standards, issuance integrity, and revocation \u2014 without a single central authority capable of compelling compliance. Participants can defect by issuing fraudulent credentials, failing to revoke compromised ones, or free-riding on others' verification work.",
+    "created_at": 1774926702.9014962,
+    "id": "28e2224a7931e6ce059a3d5ae2246543d820d1609979ca0bec8244df87c5a1b9"
+  },
+  {
+    "subject": "commons-governance-and-credential-systems",
+    "predicate": "share",
+    "object": "same-fundamental-structural-challenge",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The isomorphism claim: both commons governance and credential-issuing systems are instances of the same abstract problem \u2014 sustaining cooperation and accountability among autonomous agents who could defect, in the absence of a central enforcer. This structural homology is what makes pattern transfer valid rather than merely metaphorical.",
+    "created_at": 1774926705.769491,
+    "id": "c69925d213c4aa874198b198ba048379dc28bb642e4d36236890ebd7b3561437"
+  },
+  {
+    "subject": "structural-isomorphism-between-domains",
+    "predicate": "enables",
+    "object": "valid-design-pattern-transfer",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "When two problem domains share the same structural challenge (polycentric cooperation under defection risk), design patterns that solve the challenge in one domain can be expected to transfer to the other. This is stronger than analogy \u2014 it is a claim about shared formal structure justifying solution reuse.",
+    "created_at": 1774926708.469284,
+    "id": "36383bbb6ce99a06b5ee3cfd5bf597440eadc3aec6064a092f3803f79282cd8a"
+  },
+  {
+    "subject": "six-named-patterns",
+    "predicate": "map-onto",
+    "object": "specific-credential-system-mechanisms",
+    "confidence": {
+      "level": 0.68,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Each of the six named patterns \u2014 (1) authority derived from obligation, (2) mutual monitoring, (3) separation of standard-holding from operation, (4) voluntary but binding participation, (5) layered privacy and accountability, (6) adversarial resilience by design \u2014 has a concrete counterpart in credential-issuing system design (e.g., governance frameworks, audit regimes, trust framework authorities vs. issuers, opt-in trust registries, selective disclosure, Byzantine fault tolerance).",
+    "created_at": 1774926711.936053,
+    "id": "1c4bb87641bd2f11a2f8cc6e2b5a6bc0c32628ffd4835c7aa046bf72205648db"
+  },
+  {
+    "subject": "design-patterns",
+    "predicate": "are-transferable-across",
+    "object": "structurally-similar-domains",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumption: design patterns abstracted from one institutional domain can be meaningfully applied to another when the domains share structural properties. This assumes that the relevant causal mechanisms operate at a level of abstraction that survives the transition from physical commons (fisheries, irrigation) to digital infrastructure (credential ecosystems). The assumption is non-trivial \u2014 pattern transfer across domains has a mixed track record and risks superficial analogizing.",
+    "created_at": 1774926779.0640152,
+    "id": "899f8b6960253c0f8cceef32da7b4063d5f3965e993a89de81b260b273b3358f"
+  },
+  {
+    "subject": "credential-system-participants",
+    "predicate": "are",
+    "object": "rational-agents-capable-of-strategic-defection",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumption: participants in credential-issuing systems (CAs, issuers, verifiers, governance bodies) behave as strategic rational actors who will defect when incentives favor defection \u2014 analogous to Ostrom's resource appropriators and Axelrod's iterated game players. This may overstate rationality; some failures are due to incompetence, not strategic defection. Conversely, some actors may be constrained by regulation in ways commons participants are not.",
+    "created_at": 1774926783.820757,
+    "id": "ca6a4267101d33b0d7455ab3b354234cad2f7f0e62346e1f26761e355c1e613e"
+  },
+  {
+    "subject": "digital-identity-systems",
+    "predicate": "lack",
+    "object": "effective-centralized-enforcement-mechanisms",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Assumption: digital credential-issuing systems genuinely lack centralized enforcement, making them commons-like. This is contestable \u2014 some systems (e.g., WebPKI) have de facto centralized enforcement via browser vendor root store policies; eIDAS 2.0 introduces state-level regulatory enforcement. If effective centralized enforcement exists or is emerging, the analogy to commons governance weakens because the fundamental challenge (cooperation without a central enforcer) may not apply.",
+    "created_at": 1774926787.0484989,
+    "id": "8f9402a76ab2a23340d8f020cb14767d5fb20be0e391979f815e155dc607b8bc"
+  }
+]

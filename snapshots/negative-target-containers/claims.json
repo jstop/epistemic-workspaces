@@ -1,0 +1,164 @@
+[
+  {
+    "subject": "negative-target-ideological-containers",
+    "predicate": "function-as",
+    "object": "epistemic-traps",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Negative-target ideological containers \u2014 movements defined by opposition to a single entity rather than commitment to a positive program \u2014 function as epistemic traps because their flexibility makes them unfalsifiable and their monocausal structure degrades analytical capacity over time. They can be identified by three markers: monocausal attribution, cross-ideological convergence on a shared enemy, and framework-shifting under challenge. Anti-Zionism is the clearest contemporary example, but anti-Americanism and Russophobia may be others.",
+    "created_at": 1776256379.081394,
+    "id": "f6894d3ccf6624093a02d76aabb79d71c5963520b775b26c35091cf921e38387"
+  },
+  {
+    "subject": "opposition-defined-movements",
+    "predicate": "exhibit",
+    "object": "monocausal-attribution",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Movements defined primarily by opposition to a single entity tend to attribute a wide range of disparate problems to that single cause, collapsing complex multi-factor explanations into a single explanatory variable. This is the first diagnostic marker.",
+    "created_at": 1776256392.783274,
+    "id": "f4b2228193fbbffd3f3f2711017c7af8d247ab0d59fb4f6465c7f310b52c3db2"
+  },
+  {
+    "subject": "opposition-defined-movements",
+    "predicate": "produce",
+    "object": "cross-ideological-convergence",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "When a movement is organized around a shared enemy rather than a shared positive vision, it attracts adherents from mutually incompatible ideological positions (far-left, far-right, religious fundamentalists, secular nationalists) who would otherwise never cooperate. This convergence is the second diagnostic marker and itself evidence of the container's emptiness.",
+    "created_at": 1776256394.872231,
+    "id": "b837335aec6f8a45b004c105dd5624b95f888178213edf7ea634c8309b8dde0c"
+  },
+  {
+    "subject": "opposition-defined-movements",
+    "predicate": "deploy",
+    "object": "framework-shifting-under-challenge",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "When a specific critique of the target entity is refuted, adherents shift to an entirely different framework of critique rather than updating their beliefs. E.g., if a human-rights argument against the target is answered, the critic pivots to an international-law argument, then a settler-colonial argument, etc. The target remains constant; only the justificatory frame rotates. This is the third diagnostic marker.",
+    "created_at": 1776256398.8340778,
+    "id": "a9154110fe95fee39954baa732425bd83f5ffc6fc851416ad6bcf4ea33252951"
+  },
+  {
+    "subject": "framework-flexibility",
+    "predicate": "renders",
+    "object": "container-unfalsifiable",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Because the negative-target container can absorb any justificatory framework and discard refuted ones without cost, there is no possible evidence or argument that could cause an adherent to abandon opposition to the target. The movement thus functions as an unfalsifiable belief system in the Popperian sense, insulated from disconfirmation by its structural flexibility.",
+    "created_at": 1776256402.6723268,
+    "id": "7cde7c6ad9e90298f381ca049449e3dfaa8cc49c1282ef47a1ba5ff985b9626d"
+  },
+  {
+    "subject": "monocausal-structure",
+    "predicate": "degrades",
+    "object": "analytical-capacity-over-time",
+    "confidence": {
+      "level": 0.68,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Habitual monocausal attribution atrophies the cognitive skills required for genuine multi-causal analysis. Over time, adherents become less capable of modeling complex systems because every explanatory path terminates at the same node. This is a cumulative epistemic harm distinct from merely holding a false belief \u2014 it degrades the capacity for future reasoning.",
+    "created_at": 1776256405.81868,
+    "id": "8bd446221a86916799ab99019304b47e6588856d5d301654b6c698876c47aca5"
+  }
+]

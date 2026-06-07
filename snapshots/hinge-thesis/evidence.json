@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Brandom's inferentialist account of discursive commitment",
+    "description": "Robert Brandom's 'Making It Explicit' (1994) argues that the game of giving and asking for reasons requires scorekeepers who track deontic statuses (commitments and entitlements) attributed to identifiable interlocutors. Without persistent agents to whom commitments are attributed, the normative scorekeeping that constitutes discursive practice cannot get off the ground. This directly supports the claim that identity is structurally required for normative speech.",
+    "evidence_type": "document",
+    "source": "Brandom, R. (1994). Making It Explicit. Harvard University Press.",
+    "reliability": 0.88,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1777518837.147134,
+    "id": "fe836eb6a64644003e4f25592fc04520ba4e9307009ae3d0b72c12a20ef38106"
+  },
+  {
+    "title": "Speech act theory's felicity conditions require identifiable speakers",
+    "description": "Austin and Searle's speech act theory establishes that performative utterances (promises, assertions, declarations) have felicity conditions that presuppose an identifiable speaker who occupies a role and can be held to the commitments undertaken. A promise by no one, to no one, is not a defective promise \u2014 it is not a promise at all. The illocutionary force of speech acts depends on speaker identity as a precondition.",
+    "evidence_type": "document",
+    "source": "Austin, J.L. (1962). How to Do Things with Words; Searle, J. (1969). Speech Acts.",
+    "reliability": 0.85,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1777518841.022352,
+    "id": "249749f508e178d3d9712fd6d91176fa6baea36fb94cc575ba86ba98721b1586"
+  },
+  {
+    "title": "Empirical observation of anonymous online discourse degradation",
+    "description": "Extensive observational evidence from anonymous online platforms (4chan, early unmoderated forums, anonymous comment sections) shows systematic degradation of normative discourse properties: reduced commitment to stated positions, increased contradictory claims by the same poster, diminished accountability for false assertions. When identity is structurally absent, discourse patterns shift measurably toward what the thesis calls 'events that resemble commitment.'",
+    "evidence_type": "observation",
+    "source": "Sociological and communication studies on online anonymity, e.g., Suler (2004) 'The Online Disinhibition Effect'; Santana (2014) on anonymous commenting.",
+    "reliability": 0.7,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1777518846.103148,
+    "id": "4e2a48344225c77dc58b56dae805ea0a726e2dc05e749b73a0039ec9b665068d"
+  },
+  {
+    "title": "Habermas's discourse ethics presupposes accountable participants",
+    "description": "Habermas's ideal speech situation and discourse ethics framework presupposes participants who are identifiable, can be challenged, and must respond to validity claims raised against them. The very structure of communicative rationality \u2014 where the 'unforced force of the better argument' prevails \u2014 requires agents who stand behind their claims and can be called to defend them. This is a well-developed parallel argument from critical theory.",
+    "evidence_type": "document",
+    "source": "Habermas, J. (1984). The Theory of Communicative Action; (1990). Moral Consciousness and Communicative Action.",
+    "reliability": 0.82,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1777518849.764201,
+    "id": "bf97833870f227773e66cee1887d7d353d7de3c7c0d6ad19c099cc0e11705932"
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "conclusion": "05ef88dbaa31c458ae7e722e99a818fc3a998224c21534a4dcb45fe9d9e0c38c",
+    "premises": [
+      "ea64741dd89d5934f88ecb2739ba1d6930307fd353eb9fd18273ed2464139cd3",
+      "a6b4a2f29d0a85a9695c7f5904d99c1e7996e9dbbff39d327b0925152b0a4ead"
+    ],
+    "pattern": "induction",
+    "label": "Adversarial environments empirically require non-repudiable attribution",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774153162.9872901,
+    "id": "80771fef82b8101529c85cedd4f59d61a0ec437d44a12c7489d4dcc0c33d5126"
+  },
+  {
+    "conclusion": "8889f3545b624c1663f91bdc62a1be3a0bed9b47d5affb74088587499d50e2f6",
+    "premises": [
+      "a6b4a2f29d0a85a9695c7f5904d99c1e7996e9dbbff39d327b0925152b0a4ead",
+      "ea64741dd89d5934f88ecb2739ba1d6930307fd353eb9fd18273ed2464139cd3"
+    ],
+    "pattern": "causal",
+    "label": "Sybil attacks and reputation laundering demonstrate vulnerability of non-cryptographic mechanisms",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774153162.989156,
+    "id": "0339286edf3212b3f10f62be060bfa09395aea64d8f394fffed06e4771bfdaa4"
+  },
+  {
+    "conclusion": "b7beaf6b828ec79faf03e1bef3c559a307532adcf8a309a03e8aef207b343577",
+    "premises": [
+      "0875eafccd1c6f13c1fed5bfe820a47bc7dd4f956b4f89afd1de6e962bf4a2fd",
+      "b96b7ce375d8429cc74bd3f40550dfcb463c40ec1c62ab764b389faa5e07aa55"
+    ],
+    "pattern": "induction",
+    "label": "PKI and DID systems empirically provide non-repudiable audit trails at scale",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774153162.990458,
+    "id": "dd96c93f6fca0eefc57a1daae1084c0d42d758fd518375749e61db5e11238823"
+  },
+  {
+    "conclusion": "d4e84b4a7542e74108382d3d2c52d383fee47877aecfb4ee5c8809d3afc813b9",
+    "premises": [
+      "8889f3545b624c1663f91bdc62a1be3a0bed9b47d5affb74088587499d50e2f6",
+      "b7beaf6b828ec79faf03e1bef3c559a307532adcf8a309a03e8aef207b343577"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If reputation requires stable identity and crypto provides it, then reputation depends on crypto",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774153162.9914849,
+    "id": "5f884510457f347983441d09104ddb61f42946daa70aca5f02d3859b426cd165"
+  },
+  {
+    "conclusion": "58676115014c22cd520bf4222ab317e09299e8263369b3881f7023f6900810d7",
+    "premises": [
+      "05ef88dbaa31c458ae7e722e99a818fc3a998224c21534a4dcb45fe9d9e0c38c",
+      "8889f3545b624c1663f91bdc62a1be3a0bed9b47d5affb74088587499d50e2f6",
+      "b7beaf6b828ec79faf03e1bef3c559a307532adcf8a309a03e8aef207b343577",
+      "d4e84b4a7542e74108382d3d2c52d383fee47877aecfb4ee5c8809d3afc813b9",
+      "2ac404f9683098e5f14233ea65c621848f1752ff4f6efe3e485e90c5b1e6424f"
+    ],
+    "pattern": "abduction",
+    "label": "Converging argument: cryptographic identity is the best explanation for satisfying trust gaps",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Sufficiently high economic stakes (e.g., large collateral bonds, slashing conditions) may create adequate accountability without cryptographic identity, as demonstrated by pseudonymous DeFi protocols where agents are held accountable through locked capital rather than verified identity. If the cost of defection always exceeds the gain, identity-binding may be unnecessary\u2014the economic mechanism alone deters misbehavior regardless of whether the agent's identity is cryptographically verifiable.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774153162.992904,
+    "id": "9d5fd75eb099e13d1c67b28315aba64b8c73778a32769364ed9c8bd8966447c5"
+  },
+  {
+    "conclusion": "58676115014c22cd520bf4222ab317e09299e8263369b3881f7023f6900810d7",
+    "premises": [
+      "d4e84b4a7542e74108382d3d2c52d383fee47877aecfb4ee5c8809d3afc813b9",
+      "8889f3545b624c1663f91bdc62a1be3a0bed9b47d5affb74088587499d50e2f6"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Economic/reputation mechanisms presuppose identity binding, so they cannot replace it",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The key-to-agent binding problem for AI agents is fundamentally harder than for human users: AI agents can be cloned, their keys extracted from memory, or their runtime environments compromised at scale. If cryptographic identity cannot reliably be bound to a specific agent instance (as opposed to a specific key), then the cryptographic layer does not actually provide the accountability it promises\u2014it merely shifts the trust problem from identity to key management, which may be no more tractable than the original reputation problem.",
+        "status": "answered",
+        "response": "The key-to-agent binding problem is real but mislocates the solution. The defeater assumes cryptographic identity must bind to an agent *instance* (a runtime, a container). Osmio's municipal CA model binds identity to the *legal entity responsible for the agent* \u2014 the human or organization that enrolled through a verified ceremony and accepted accountability. The key doesn't certify \"this is agent X.\" It certifies \"the entity operating this agent is accountable under this jurisdiction's governance framework.\" Agent cloning, key extraction, and runtime compromise become the operator's liability, not a failure of the identity layer. This mirrors how PKI works for TLS: the certificate doesn't bind to a specific server process \u2014 it binds to the domain operator who is accountable for what that server does. The enrollment ceremony \u2014 the institutional binding between a legal person and a cryptographic identity \u2014 is what no purely technical scheme (DID or otherwise) provides without a CA-like authority."
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774153162.993908,
+    "id": "cb6ac66d3bc902cad8ccae595f35581542f75699d37e4e03ee8bdd8fe862c6f4"
+  },
+  {
+    "conclusion": "d4e84b4a7542e74108382d3d2c52d383fee47877aecfb4ee5c8809d3afc813b9",
+    "premises": [
+      "df46b409c05ac5fa46b13fe84a33f667c43e4f2a3d8f5a6a9c0d8003d65f4520"
+    ],
+    "pattern": "causal",
+    "label": "Evidence: Axelrod's shadow of the future requires persistent identity",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774156591.362037,
+    "id": "90d65054b792eb32f2e825529f45dbf04af9b4b268f2669b2b00ca7b6c16d246"
+  }
+]

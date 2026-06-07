@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "cryptographic-identity-layer",
+    "predicate": "addresses-trust-requirements-beyond",
+    "object": "purely-economic-or-reputation-mechanisms",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "fbde70908aaaa077130ffa75f24ba8348753e7148b2910b736569c1793f45e6c",
+      "481188761e5c893ef083e8f308e9b2f15e021f3c10301a4e744e45a9e2dcbbb7",
+      "8de15972d7a211a253f4d801de6d71e914de008d4ed80f22a910f78b41879d49"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "For AI agent coordination scenarios that require strong accountability and operate in open, adversarial environments, a public-key cryptographic identity and accountability layer\u2014whether implemented through traditional PKI, decentralized identifiers, or hybrid architectures\u2014addresses critical trust requirements that purely economic or reputation-based mechanisms alone cannot fully satisfy.",
+    "created_at": 1774153162.976832,
+    "id": "58676115014c22cd520bf4222ab317e09299e8263369b3881f7023f6900810d7"
+  },
+  {
+    "subject": "open-adversarial-environments",
+    "predicate": "require",
+    "object": "non-repudiable-action-attribution",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "In open, adversarial multi-agent environments, the ability to irrefutably attribute actions to specific agents is a foundational trust requirement, because without it any agent can deny responsibility for harmful or defecting behavior.",
+    "created_at": 1774153162.978657,
+    "id": "05ef88dbaa31c458ae7e722e99a818fc3a998224c21534a4dcb45fe9d9e0c38c"
+  },
+  {
+    "subject": "reputation-and-economic-mechanisms",
+    "predicate": "are-vulnerable-to",
+    "object": "sybil-and-identity-manipulation-attacks",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Purely reputation-based or stake-based mechanisms are susceptible to Sybil attacks, identity recycling, and strategic reputation laundering, where adversarial agents can cheaply create new identities to escape accountability histories.",
+    "created_at": 1774153162.979506,
+    "id": "8889f3545b624c1663f91bdc62a1be3a0bed9b47d5affb74088587499d50e2f6"
+  },
+  {
+    "subject": "cryptographic-signatures",
+    "predicate": "provide",
+    "object": "tamper-evident-non-repudiable-audit-trails",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Public-key cryptographic signatures enable the creation of tamper-evident, non-repudiable audit trails that bind specific messages and actions to specific key-holders, forming a technical substrate for accountability that does not depend on trusted third parties.",
+    "created_at": 1774153162.980274,
+    "id": "b7beaf6b828ec79faf03e1bef3c559a307532adcf8a309a03e8aef207b343577"
+  },
+  {
+    "subject": "economic-reputation-mechanisms",
+    "predicate": "presuppose",
+    "object": "stable-identity-binding",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Reputation scores and economic stake are only meaningful if they are durably bound to an identity that persists across interactions; without a cryptographic identity layer, these mechanisms lack the identity continuity they implicitly require.",
+    "created_at": 1774153162.981168,
+    "id": "d4e84b4a7542e74108382d3d2c52d383fee47877aecfb4ee5c8809d3afc813b9"
+  },
+  {
+    "subject": "hybrid-architectures",
+    "predicate": "enable",
+    "object": "layered-trust-across-heterogeneous-agents",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Hybrid approaches combining PKI, decentralized identifiers, and verifiable credentials allow heterogeneous AI agents with different trust models and governance domains to interoperate while maintaining accountability, something neither pure PKI nor pure reputation alone achieves.",
+    "created_at": 1774153162.982242,
+    "id": "2ac404f9683098e5f14233ea65c621848f1752ff4f6efe3e485e90c5b1e6424f"
+  },
+  {
+    "subject": "private-keys",
+    "predicate": "remain-bound-to",
+    "object": "specific-agent-instances",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes that cryptographic keys can be reliably bound to specific AI agent instances and that key management (generation, storage, rotation, revocation) is tractable for autonomous agents. If keys are routinely stolen, cloned, or shared across agent instances, cryptographic identity provides little more accountability than pseudonymous reputation. This is especially challenging for software agents that can be copied.\n[72%] The responded-to defeater shifted the meaning of this assumption. The question is no longer whether private keys bind to agent instances (they don't need to) but whether keys bind to accountable operators. PKI enrollment ceremonies demonstrably achieve this for humans and organizations. Confidence raised from 50% to 72% to reflect that the operator-binding model is proven infrastructure (TLS/CA ecosystem), though agent-specific delegation chains remain novel and untested at scale.",
+    "created_at": 1774153162.9948359,
+    "id": "fbde70908aaaa077130ffa75f24ba8348753e7148b2910b736569c1793f45e6c"
+  },
+  {
+    "subject": "strong-accountability",
+    "predicate": "is-a-genuine-requirement-for",
+    "object": "meaningful-ai-agent-coordination",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes that the coordination scenarios in question genuinely require strong, individual-level accountability rather than weaker forms of collective or statistical trust. If many valuable coordination patterns can succeed with only probabilistic trust or anonymous economic incentives (e.g., prediction markets, zero-knowledge proofs of solvency), the thesis overstates the necessity of the cryptographic identity layer.",
+    "created_at": 1774153162.995775,
+    "id": "481188761e5c893ef083e8f308e9b2f15e021f3c10301a4e744e45a9e2dcbbb7"
+  },
+  {
+    "subject": "adversarial-agents",
+    "predicate": "cannot-trivially-circumvent",
+    "object": "cryptographic-accountability-via-external-means",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis assumes that cryptographic identity is not easily circumvented by adversaries operating outside the system\u2014e.g., by coercing legitimate key holders, compromising certificate authorities, or exploiting governance gaps in DID networks. If the real attack surface is primarily social/institutional rather than technical, cryptographic mechanisms may provide a false sense of security.",
+    "created_at": 1774153162.9967391,
+    "id": "8de15972d7a211a253f4d801de6d71e914de008d4ed80f22a910f78b41879d49"
+  }
+]

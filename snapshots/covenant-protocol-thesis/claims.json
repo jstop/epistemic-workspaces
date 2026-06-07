@@ -1,0 +1,249 @@
+[
+  {
+    "subject": "accountability-gap",
+    "predicate": "is",
+    "object": "deeply-structural-and-resistant-to-technical-closure",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "51a9a4d8a1b1eb5e300f5b333bfb4f63351adde70eab1bf6419563174083b137",
+      "162d3a0c2fefa66622d247382c16fd674fc6a5e85df87ca53fed226cc812854d",
+      "eb82dc48f7ce4dd155c4c37df96644a2e84f02bc64c4c0f510b2cb5d32fe140c"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Given the current state of architectural approaches to digital identity infrastructure \u2014 spanning centralized, federated, and decentralized paradigms \u2014 no deployed solution has eliminated the accountability gap between technical capacity and institutional obligation; each has instead redistributed the locus of vulnerability. While it remains an open question whether emerging cryptographic techniques (such as formally verified systems grounded in mathematical hardness assumptions) could narrow this gap in qualitatively novel ways, the persistent pattern across paradigms suggests that the gap is at minimum deeply structural and resistant to purely technical closure. The most prudent response, given present knowledge, combines governance architectures designed to make corruption visible and costly with a culture of institutional vigilance \u2014 not because elimination is provably impossible, but because the asymmetry between technical capacity and institutional constraint has consistently reasserted itself, and the consequences of assuming the gap is closed when it is not are severe.",
+    "created_at": 1774925751.237045,
+    "id": "1a1b84dff5f1768ad108dbc7c8c1843280b96cc2a8930430b2f16187640fc901"
+  },
+  {
+    "subject": "deployed-identity-paradigms",
+    "predicate": "have-not-eliminated",
+    "object": "accountability-gap",
+    "confidence": {
+      "level": 0.88,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "No deployed digital identity solution \u2014 centralized (e.g., national ID databases), federated (e.g., OAuth/SAML-based SSO), or decentralized (e.g., SSI/DID-based systems) \u2014 has eliminated the gap between what the system can technically do and what institutions are obligated to do with that capacity.",
+    "created_at": 1774925756.343085,
+    "id": "b4e06daddd7b47ff7fc43b8b1befd8fd3a74139effb1f798a8050df9e57818ca"
+  },
+  {
+    "subject": "identity-paradigms",
+    "predicate": "redistribute-rather-than-eliminate",
+    "object": "locus-of-vulnerability",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Each architectural paradigm shifts where the vulnerability lives \u2014 centralized systems concentrate it at the custodian, federated systems distribute it across trust boundaries, decentralized systems push it to the individual and the wallet layer \u2014 but none eliminates it. The vulnerability is conserved, not destroyed.",
+    "created_at": 1774925759.22971,
+    "id": "4938e6471b57398ab8f8cd60e094becd7f02fbc4644a8b4f0677a590433354b4"
+  },
+  {
+    "subject": "emerging-cryptographic-techniques",
+    "predicate": "may-narrow-but-unlikely-close",
+    "object": "accountability-gap",
+    "confidence": {
+      "level": 0.62,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "Formally verified systems, zero-knowledge proofs, and other cryptographic advances grounded in mathematical hardness assumptions could qualitatively narrow the gap by reducing the trust surface, but the question of whether they can close it entirely remains genuinely open. The gap includes dimensions (institutional incentives, human error, political capture) that formal methods do not address.",
+    "created_at": 1774925762.217559,
+    "id": "526955966b3ac15f908f0bd3bad2df4f833fca24213fc6910f35a6a5d114495a"
+  },
+  {
+    "subject": "asymmetry-between-technical-capacity-and-institutional-constraint",
+    "predicate": "has-consistently-reasserted",
+    "object": "itself-across-paradigm-shifts",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The persistent historical pattern: each new paradigm (mainframe-era centralized, web-era federated, blockchain-era decentralized) was accompanied by claims that the new architecture would solve the trust problem, yet the asymmetry between what systems can do and what institutions are bound to do has re-emerged in each case.",
+    "created_at": 1774925765.34866,
+    "id": "d9d5405978a139cad871f8aef25e215bfcfa9772a6d6207880af66efc4af8de3"
+  },
+  {
+    "subject": "prudent-response",
+    "predicate": "requires",
+    "object": "governance-transparency-plus-institutional-vigilance",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The most prudent response combines governance architectures designed to make corruption visible and costly with a culture of institutional vigilance \u2014 a precautionary posture justified not by proof of impossibility but by the severity of consequences if the gap is prematurely assumed closed.",
+    "created_at": 1774925767.7039208,
+    "id": "3713f232d86668931ca108a102f268c9bfd8337045e83dac60427f4ea3bc90ed"
+  },
+  {
+    "subject": "technical-capacity",
+    "predicate": "will-continue-outpacing",
+    "object": "institutional-adaptation-speed",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis implicitly assumes that the rate of technical capability growth (new protocols, new attack surfaces, new data aggregation capacities) will continue to outpace the rate at which institutions can adapt their governance, legal frameworks, and operational practices. This is plausible given historical trends but not guaranteed \u2014 institutional capacity could accelerate under the right conditions.",
+    "created_at": 1774925832.502086,
+    "id": "51a9a4d8a1b1eb5e300f5b333bfb4f63351adde70eab1bf6419563174083b137"
+  },
+  {
+    "subject": "mathematical-hardness-assumptions",
+    "predicate": "remain-valid",
+    "object": "for-deployed-cryptographic-primitives",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis grants that cryptographic techniques grounded in hardness assumptions could narrow the gap. This implicitly assumes those assumptions hold \u2014 that P\u2260NP, that lattice problems remain hard, and that quantum computing does not break the relevant primitives faster than post-quantum replacements are deployed. If these assumptions fail, the gap would widen catastrophically, further strengthening the thesis; but the thesis's calibration about crypto's potential depends on them holding.",
+    "created_at": 1774925836.852494,
+    "id": "162d3a0c2fefa66622d247382c16fd674fc6a5e85df87ca53fed226cc812854d"
+  },
+  {
+    "subject": "institutional-corruption-and-misalignment",
+    "predicate": "is",
+    "object": "enduring-feature-of-complex-organizations",
+    "confidence": {
+      "level": 0.58,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "notes": "The thesis's normative conclusion (governance + vigilance) assumes that institutional actors will reliably face incentives to deviate from their obligations \u2014 that corruption, negligence, and principal-agent misalignment are permanent features of organizations managing identity infrastructure, not transient problems solvable by better hiring or culture alone.",
+    "created_at": 1774925840.206229,
+    "id": "eb82dc48f7ce4dd155c4c37df96644a2e84f02bc64c4c0f510b2cb5d32fe140c"
+  }
+]

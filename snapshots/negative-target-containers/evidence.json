@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Cross-spectrum anti-Zionist coalition composition",
+    "description": "Observable convergence of far-left activists (e.g., socialist anti-imperialists), far-right nationalists (e.g., white supremacists who oppose Jewish influence), Islamist movements (e.g., Hamas, Hezbollah supporters), and post-colonial academics on a shared anti-Zionist position, despite these groups holding mutually contradictory positive programs regarding economics, religion, gender, and governance. Similar patterns observable in Cold War anti-Americanism uniting Islamists and Marxists.",
+    "evidence_type": "observation",
+    "source": "Political coalition analysis; documented cases from UN voting patterns, protest movements, and online discourse networks (2000-2025)",
+    "reliability": 0.8,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776256415.307092,
+    "id": "5e15c0b1d30a7c45db8f46efdaa280b1ffd0022e9ce698db4d98fed628c5db7d"
+  },
+  {
+    "title": "Framework rotation in anti-Zionist discourse",
+    "description": "Documented pattern in which critics of Israel cycle through incompatible justificatory frameworks: human rights violations \u2192 apartheid analogy \u2192 settler-colonialism \u2192 anti-imperialism \u2192 indigenous rights \u2192 international law violations \u2192 racial/ethnic critique. When one frame is challenged (e.g., apartheid analogy fails because Israeli Arabs vote and serve in parliament), the critic shifts frames rather than updating the conclusion. The conclusion (opposition to Zionism) remains invariant across all frame-shifts.",
+    "evidence_type": "observation",
+    "source": "Discourse analysis of academic publications, UN reports, and social media argumentation patterns; cf. Hirsh (2007) 'Anti-Zionism and Antisemitism: Cosmopolitan Reflections'; Sharansky's '3D Test'",
+    "reliability": 0.72,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1776256421.029121,
+    "id": "3e1fc3daf2114f0ecfdc2c45c6b8b7e7815c6f549107b3d46475089931ea9bba"
+  }
+]

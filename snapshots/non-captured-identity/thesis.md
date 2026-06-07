@@ -1,0 +1,1 @@
+Digital identity infrastructure should be designed as a voluntary, non-captured system where individuals maintain sovereignty over their own identity data, rather than relying on platform-mediated or government-controlled identity.

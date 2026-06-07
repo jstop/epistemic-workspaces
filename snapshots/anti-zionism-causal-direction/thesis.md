@@ -1,0 +1,1 @@
+Anti-Zionism functions as a causal attribution engine for populations and movements that lack strategic exposure — it's a symptom of geopolitical unsophistication, not necessarily its cause. The causal arrow may run the other direction: bad geopolitical thinking produces anti-Zionism as a convenient moral framework, rather than anti-Zionism degrading otherwise good thinking.

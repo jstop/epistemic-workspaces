@@ -1,0 +1,165 @@
+[
+  {
+    "conclusion": "970d4fed29a02abb07a9534700bbd46520328ce4f6172cf44ae2d21e1de48425",
+    "premises": [
+      "3a705ccf418dd464554525fb60e905ddb4ca073af89a19ff432c9b705afdeebb",
+      "b0828f64046d01be5d60765f4a4f9997340b8072c30927eafbea10cb7edb222c"
+    ],
+    "pattern": "induction",
+    "label": "Empirical cases show coordination failures have both structural and trust components",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774137286.887408,
+    "id": "06ff7789e228f0d275643ce703bbb1690e02d4882f0e4c7087409c8fabdf853a"
+  },
+  {
+    "conclusion": "2c926286953116d72ffbe59ed936af5b66c54c60771f9075ca774fcb26e92750",
+    "premises": [
+      "3a705ccf418dd464554525fb60e905ddb4ca073af89a19ff432c9b705afdeebb",
+      "970d4fed29a02abb07a9534700bbd46520328ce4f6172cf44ae2d21e1de48425"
+    ],
+    "pattern": "causal",
+    "label": "Ostrom's work demonstrates trust infrastructure can shift payoff structures",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774137286.888822,
+    "id": "a0a1661d4c192dcefbdc467ed41e1d37ebefef473758f7826a5b0ead55c92894"
+  },
+  {
+    "conclusion": "6457ca9fcf68368af635a5b452e56285b52f274fb76d9f40b64e02a0e56f11ed",
+    "premises": [
+      "2c926286953116d72ffbe59ed936af5b66c54c60771f9075ca774fcb26e92750",
+      "b0828f64046d01be5d60765f4a4f9997340b8072c30927eafbea10cb7edb222c"
+    ],
+    "pattern": "analogy",
+    "label": "Domain-specific identity and reputation successes suggest global identity could enable coordination",
+    "confidence": {
+      "level": 0.52,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The analogy from domain-specific reputation systems (eBay, credit registries) to a global identity layer may be fundamentally misleading. Domain-specific systems operate within enforceable legal jurisdictions, serve narrow purposes with clear metrics, and allow exit to alternative systems. A global identity layer would operate across jurisdictions with no overarching enforcement authority, serve open-ended purposes subject to scope creep, and \u2014 once network effects establish dominance \u2014 effectively preclude meaningful exit. The inferential gap between these cases may be so large that domain-specific successes provide essentially no evidence for global-layer feasibility.",
+        "status": "answered",
+        "response": "Osmio's enrollment ceremony model demonstrates a working implementation of cross-boundary identity verification that doesn't rely on centralized infrastructure, addressing the scalability gap between domain-specific and global systems."
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774137286.889964,
+    "id": "52dacc8724d0af1f0d4ef1706a4e374c35873618db54feaa5db20b33355163e5"
+  },
+  {
+    "conclusion": "af982d4aa41eef39cf971f9decff2b6f1c42b0de8d922faf20fbff54ad967f81",
+    "premises": [
+      "d3a3d1b8e1e28c20988e841aac584843b3a13113233dd5bcaeb230518411fe8a",
+      "37c5b22236ecbd6e2205d516f0ec1359e1809b7891f2f4efc57921ea7d4a5996"
+    ],
+    "pattern": "induction",
+    "label": "Aadhaar and scalability evidence demonstrate three serious challenges to global identity systems",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774137286.8915122,
+    "id": "131fca05e21b917efec62ae37f2622762dd40cfc999fce578ae2009b13e58e12"
+  },
+  {
+    "conclusion": "37214fd69d4784889448be9216098a98bf69d582672715425de96cdf0d121cbf",
+    "premises": [
+      "6457ca9fcf68368af635a5b452e56285b52f274fb76d9f40b64e02a0e56f11ed",
+      "af982d4aa41eef39cf971f9decff2b6f1c42b0de8d922faf20fbff54ad967f81"
+    ],
+    "pattern": "abduction",
+    "label": "Balancing potential coordination benefits against asymmetric risks yields a two-sided risk calculus",
+    "confidence": {
+      "level": 0.68,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774137286.89284,
+    "id": "67fff1b5551f0da0f1a0341fbdc6e59da86ef77e66d669c7bb5548b4d5c8aecb"
+  },
+  {
+    "conclusion": "0620f6abb7203f86a54636985fe6948f7a7a904ce725bff80c8e3b0833ab2ba8",
+    "premises": [
+      "970d4fed29a02abb07a9534700bbd46520328ce4f6172cf44ae2d21e1de48425",
+      "2c926286953116d72ffbe59ed936af5b66c54c60771f9075ca774fcb26e92750",
+      "6457ca9fcf68368af635a5b452e56285b52f274fb76d9f40b64e02a0e56f11ed",
+      "af982d4aa41eef39cf971f9decff2b6f1c42b0de8d922faf20fbff54ad967f81",
+      "37214fd69d4784889448be9216098a98bf69d582672715425de96cdf0d121cbf"
+    ],
+    "pattern": "abduction",
+    "label": "Converging argument: trust infrastructure works but global identity faces uncertain severe risks, so incremental validation with balanced risk calculus is warranted",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The thesis's call for incremental validation before civilizational-scale deployment may itself be a form of status quo bias that systematically underweights catastrophic coordination failures. If existential risks from climate change, AI misalignment, or biosecurity require rapid global coordination, and if identity infrastructure is a necessary component of that coordination, then the precautionary approach to identity infrastructure may be less prudent than it appears \u2014 effectively trading a known catastrophic risk for caution about a speculative one. The thesis acknowledges this tension but may not adequately resolve it; under some plausible parameterizations of existential risk, the expected value calculation favors faster deployment despite capture and surveillance risks.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774137286.894495,
+    "id": "aeccf4422d0ad84088dbf53f0bec80069c839eb30b50ae24e62d858f42abcf47"
+  },
+  {
+    "conclusion": "52dacc8724d0af1f0d4ef1706a4e374c35873618db54feaa5db20b33355163e5",
+    "premises": [
+      "627e015a723e80a1c1d31b3d9f6ed1c5b98a8056ab1d3e91e64d88dec28e786a"
+    ],
+    "pattern": "testimony",
+    "label": "Evidence: Osmio enrollment ceremony",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1774155020.647428,
+    "id": "5356c003fb654bc1ef3b148255c6263908e1c4a18a9ab4556112657d966f47ec"
+  }
+]
