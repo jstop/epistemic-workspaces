@@ -1,0 +1,146 @@
+[
+  {
+    "conclusion": "cf36d56bfcb960e4e09c2eb590eddba52941f24fb087538a96b6e5813a07aae3",
+    "premises": [
+      "f1f8c098d714b44f0e7443f1762d935f5a6cb13fa8209a4dd77547055e7084ae",
+      "404a5a439fd62c6c47267fedd0fa52ba8ccb31af847a208628c0dba63475714c"
+    ],
+    "pattern": "induction",
+    "label": "Hash-chain cryptographic properties plus KERI existence proof establish that per-identifier logs suffice for key state verification",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Witness receipts provide duplicity detection, not duplicity prevention. A malicious or compromised controller can publish two conflicting histories to two disjoint sets of witnesses before cross-witness gossip detects the split. During this window, a verifier relying on the 'wrong' fork makes an incorrect access control decision. A consensus ledger, by contrast, provides atomic ordering that prevents this race condition entirely. The hash-chained log thus does not fully 'suffice' \u2014 it trades a consensus-guaranteed property for a probabilistic one bounded by gossip latency. In high-stakes access control (e.g., infrastructure key management), this gap may be unacceptable.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1785741597.78091,
+    "id": "347e0cfecc3a4faafe8468042a9ea423eb0031789b702bf90458e459325d12f1"
+  },
+  {
+    "conclusion": "0ac3849224440dc582800b3e1a8036d2f1d4f7889e245aaea04a61ca276bdce4",
+    "premises": [
+      "49d9bb4317db1235b07dd556bf88385db902cc9e7c09f4b453cf3f5dbb59b886"
+    ],
+    "pattern": "induction",
+    "label": "Observed ledger-based DID method costs generalize to inherent ledger overhead",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1785741601.9558458,
+    "id": "cb548fc43f5be37bfe633ba81bed1abae91b40d8e4809d368423b84f60bc996b"
+  },
+  {
+    "conclusion": "419bf1fb981da866349cd98d8a63200ffe9c012246f43cbbd14847f07a886e32",
+    "premises": [
+      "8ce3cb0f1b2b98597e8cde8ecd366447cd694514196b800b96ee01d20cfac8e6"
+    ],
+    "pattern": "abduction",
+    "label": "Discovery/availability/equivocation challenges in ledger-optional systems reveal the three functions ledgers actually provide",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1785741604.939994,
+    "id": "6e87ae1abdd743922df94fcb4a3bf182404141b605f73e8413735fc4820146aa"
+  },
+  {
+    "conclusion": "b6b1561c3a945fd4e5c65208540905ed9b3b0364dd7ecb8a5ae5717b1c0e0161",
+    "premises": [
+      "6b63a235c952ea9124916d899c5e6ad560c1c7a69b7f35b803a0841401c3d782",
+      "cf36d56bfcb960e4e09c2eb590eddba52941f24fb087538a96b6e5813a07aae3"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Core necessity argument: if only per-identifier ordering is required and hash-chained logs provide it, then global consensus (ledger) is not necessary for access control",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The claim that 'only per-identifier ordering is needed' presupposes that access control decisions never require cross-identifier consistency. But revocation of a delegated authorization (e.g., a group key controlled by an organizational root) may require ordering guarantees across multiple identifiers' histories simultaneously. In delegation-heavy architectures, the single-identifier isolation assumption breaks down, and the gap between 'per-identifier log' and 'global ordering' narrows. This undercuts the inferential link rather than denying the premises outright.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1785741615.696981,
+    "id": "270ccb03a45deb3cf4a18dbeaae5fc085881680dd37aa30dba198d6912feed9f"
+  },
+  {
+    "conclusion": "95a7ea3617698af4b0acf31f54ed9a6d1386eea0513c5b3e3508dcba00af18ff",
+    "premises": [
+      "419bf1fb981da866349cd98d8a63200ffe9c012246f43cbbd14847f07a886e32",
+      "0ac3849224440dc582800b3e1a8036d2f1d4f7889e245aaea04a61ca276bdce4"
+    ],
+    "pattern": "analogy",
+    "label": "Preferability condition: the three ledger functions must be replaceable without chokepoints, and the replacement cost must undercut the ledger's own costs",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1785741619.968333,
+    "id": "6a7067f11fa924530a4451f33c25e8500f1451f731b14e91c1b9e47652afb0db"
+  },
+  {
+    "conclusion": "b6b1561c3a945fd4e5c65208540905ed9b3b0364dd7ecb8a5ae5717b1c0e0161",
+    "premises": [
+      "95a7ea3617698af4b0acf31f54ed9a6d1386eea0513c5b3e3508dcba00af18ff",
+      "419bf1fb981da866349cd98d8a63200ffe9c012246f43cbbd14847f07a886e32"
+    ],
+    "pattern": "causal",
+    "label": "Qualifying argument: the thesis is honest only because it concedes the ledger does real work and bounds its own applicability to cases where replacements succeed",
+    "confidence": {
+      "level": 0.73,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1785741626.094261,
+    "id": "ff9e78439098c74089d6cf675e5f391d12075df8a87b9a9e6a3ac41623dafbff"
+  }
+]

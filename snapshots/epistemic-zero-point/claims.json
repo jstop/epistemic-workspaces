@@ -1,0 +1,276 @@
+[
+  {
+    "subject": "fallibilist-epistemic-network",
+    "predicate": "has-zero-point-constituted-by",
+    "object": "declared-non-neutral-hinge-commitments",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "bdd8040a8dc25e9078395a0f9e7880d6585aa35414cebaa21682695b92acb24c",
+      "c329ca0df5b12c779ece3a0f3928713379614f129de9178ac5feffdd95160116",
+      "45dd2c9054f7bbb02333d6c189384dd34394a80f4c8e21281773605b61934a51"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The zero point of a fallibilist epistemic network is a declared, non-neutral set of hinge commitments: constitutive of the network rather than claims within it, not defeasible inside the network, and revisable only by forking the protocol under a constituted authority. It comprises the initial state of every claim plus the bounds of the space, not the rules of motion within it. The hinge set has four members: (1) Prior \u2014 no claim carries default warrant, (2) Ceiling \u2014 no claim reaches certainty (Resilience axiom), (3) Floor \u2014 signed attestation is indefeasible only relative to the key event log, (4) Entry state \u2014 claims enter at full commitment with zero earned entitlement. Declaring these hinges makes the dogmatic stop explicit and accountable, delegating justification to the constituted authority governing the protocol. The network's epistemic humility is itself a hinge, not a theorem.",
+    "created_at": 1789513509.012871,
+    "id": "206bbc0e679d55632bc12c1ffec7dc56e5e915f47e26bf526303604f82843792"
+  },
+  {
+    "subject": "prior-hinge",
+    "predicate": "entails",
+    "object": "no-default-warrant",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Dung's grounded semantics is the least fixed point from the empty set, so no claim carries default warrant. In gradual semantics the base-score assignment plays this role and must be declared as the network's prior rather than hidden as a parameter. This makes the foundationalist starting point explicit.",
+    "created_at": 1789513521.068845,
+    "id": "66271c2b9a0ebecadf6f0ad7f89a53ec8a6adcc70ffe0753ccffb53f3e24acf1"
+  },
+  {
+    "subject": "ceiling-hinge",
+    "predicate": "enforces",
+    "object": "no-claim-reaches-certainty",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "No claim reaches certainty. This is the Resilience axiom of Amgoud and Ben-Naim: an argument with initial weight strictly inside (0,1) never reaches 0 or 1. Enforced either by DF-QuAD with DAG constraint (structural prohibition of coherentist bootstrapping) or by a Resilient continuous dynamical system (e.g., Potyka's quadratic energy model) where bootstrapping is defused arithmetically. The selection between these mechanisms is itself a hinge commitment.",
+    "created_at": 1789513525.609901,
+    "id": "052febd6bdd5383c21c34aedd347fdd9f5cefaec2495156fc7d8dac47ef70825"
+  },
+  {
+    "subject": "floor-hinge",
+    "predicate": "restricts-indefeasibility-to",
+    "object": "key-event-log",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The signed attestation 'key K signed P at t' is indefeasible only relative to the key event log. Non-repudiation binds a key, not a person. The key-to-person binding is supplied by the identity layer, not the argumentation layer. This separates cryptographic fact from identity claim.",
+    "created_at": 1789513529.5764968,
+    "id": "ade550d6caa677c7abc023ba5094a151fec2380cb644d81958c1aea322a8e848"
+  },
+  {
+    "subject": "entry-state-hinge",
+    "predicate": "specifies",
+    "object": "full-commitment-zero-earned-entitlement",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "A claim enters at full commitment, default entitlement (its base score, formalizing Brandom's prima facie entitlement) and zero earned entitlement, with earned entitlement (unchallenged / challenged / defended / conceded) tracked on a deontic ledger separate from graded strength. This dual-track design separates normative standing from epistemic weight.",
+    "created_at": 1789513533.313472,
+    "id": "c41c508a7bc5e950fe035b3d8b17fd97a5514b612942dd17ba926f7b1e35e131"
+  },
+  {
+    "subject": "hinge-declaration",
+    "predicate": "makes-explicit",
+    "object": "dogmatic-stop-without-self-grounding",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Declaring these hinges does not resolve the M\u00fcnchhausen trilemma's dogmatic horn. It makes the dogmatic stop explicit and accountable, and relocates the question of its justification to the constituted authority that governs the protocol. The argumentation layer's zero point is not self-grounding: its regress terminates wherever the identity and governance layer's does, and this thesis delegates that terminus rather than supplying it. The network's epistemic humility is itself a hinge, not a theorem of the network.",
+    "created_at": 1789513537.0097039,
+    "id": "09a98c0d449c4690515385df18ee3fad25c2c514f5174f69c31d34a343d36de6"
+  },
+  {
+    "subject": "wittgensteinian-hinge-epistemology",
+    "predicate": "is-correct-framework-for",
+    "object": "foundational-commitments",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The thesis assumes that Wittgenstein's notion of 'hinge propositions' (from On Certainty) \u2014 commitments that stand fast and are constitutive of epistemic practice rather than products of it \u2014 is the correct way to model foundational commitments in an epistemic network. This is contested: coherentists deny that any commitments need special constitutive status, and classical foundationalists would ground them in self-evident truths rather than declarations.",
+    "created_at": 1789513623.433161,
+    "id": "bdd8040a8dc25e9078395a0f9e7880d6585aa35414cebaa21682695b92acb24c"
+  },
+  {
+    "subject": "constituted-authority",
+    "predicate": "can-legitimately-govern",
+    "object": "protocol-fork-decisions",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The thesis assumes that there exists a constituted authority capable of legitimately governing decisions about when and how to fork the protocol (i.e., revise hinges). This delegates the regress problem rather than solving it. The assumption is that delegation to an identity/governance layer is a coherent and adequate terminus \u2014 but this authority itself requires justification, and the thesis explicitly does not supply it.",
+    "created_at": 1789513627.619584,
+    "id": "c329ca0df5b12c779ece3a0f3928713379614f129de9178ac5feffdd95160116"
+  },
+  {
+    "subject": "gradual-semantics",
+    "predicate": "adequately-models",
+    "object": "epistemic-confidence",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The thesis assumes that gradual argumentation semantics (with numerical strengths in [0,1]) adequately models epistemic confidence. This presupposes that belief strength is representable as a single scalar, that the combination functions (DF-QuAD, quadratic energy, etc.) track rational belief revision, and that the axiomatic properties (Resilience, etc.) correspond to genuine epistemic desiderata rather than mere mathematical conveniences.",
+    "created_at": 1789513631.713695,
+    "id": "45dd2c9054f7bbb02333d6c189384dd34394a80f4c8e21281773605b61934a51"
+  }
+]

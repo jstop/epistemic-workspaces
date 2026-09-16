@@ -1,0 +1,276 @@
+[
+  {
+    "subject": "distributed-ledger",
+    "predicate": "is-not-necessary-for",
+    "object": "identifier-access-control",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "26ae165ef8169b23d9ffb4b6a914ed111688cee6acb881278d9ab114048c1327",
+      "45ad93335c9ac96463d24e952e7b7f0cf40622197f92c3f5eff7710d41d9c184",
+      "7dfd8e3091b6f4296ff5ffcc3103064663edf19f06726bf4dc9ca99e54b779ac"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "For access control specifically, a distributed ledger is not a necessary component of identifier infrastructure: the only ordering that must be consistent is within a single identifier's own key history, over which its controller is the sole authority, so key state can be verified from a per-identifier hash-chained log with witness receipts rather than from global consensus. This is a claim about necessity only, and it concedes that a ledger supplies three further functions that a ledger-optional design must replace rather than deny \u2014 permissionless discovery of where an identifier's state can be fetched, credential-status availability from infrastructure no participant must operate, and canonical resolution of equivocation when a controller publishes conflicting histories. A ledger-optional design is therefore preferable only where those three replacements can be built without recreating a chokepoint, and where their combined operational cost is lower than the ledger's per-operation fees, permanent public identifier metadata, and consensus dependency in the authentication path. Where they cannot, the correct conclusion is that the ledger was doing work, not that it was unnecessary.",
+    "created_at": 1785741533.478366,
+    "id": "b6b1561c3a945fd4e5c65208540905ed9b3b0364dd7ecb8a5ae5717b1c0e0161"
+  },
+  {
+    "subject": "access-control-ordering",
+    "predicate": "requires-only",
+    "object": "per-identifier-consistency",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The only ordering that must be consistent for access control is within a single identifier's own key history. Global total ordering across all identifiers is not required for verifying the current key state of any one identifier.",
+    "created_at": 1785741539.80721,
+    "id": "6b63a235c952ea9124916d899c5e6ad560c1c7a69b7f35b803a0841401c3d782"
+  },
+  {
+    "subject": "per-identifier-hash-chained-log",
+    "predicate": "suffices-for",
+    "object": "key-state-verification",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Key state can be verified from a per-identifier hash-chained log with witness receipts rather than from global consensus. The controller is the sole authority over their own key rotation history, so a self-certifying event log anchored by witness co-signatures provides sufficient integrity.",
+    "created_at": 1785741542.6880891,
+    "id": "cf36d56bfcb960e4e09c2eb590eddba52941f24fb087538a96b6e5813a07aae3"
+  },
+  {
+    "subject": "ledger",
+    "predicate": "provides-three-functions-beyond",
+    "object": "access-control",
+    "confidence": {
+      "level": 0.88,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "A ledger supplies three further functions that a ledger-optional design must replace rather than deny: (1) permissionless discovery of where an identifier's state can be fetched, (2) credential-status availability from infrastructure no participant must operate, and (3) canonical resolution of equivocation when a controller publishes conflicting histories.",
+    "created_at": 1785741545.0264242,
+    "id": "419bf1fb981da866349cd98d8a63200ffe9c012246f43cbbd14847f07a886e32"
+  },
+  {
+    "subject": "ledger-optional-design",
+    "predicate": "is-preferable-only-when",
+    "object": "replacements-avoid-chokepoints-and-cost-less",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "A ledger-optional design is preferable only where the three replacement mechanisms can be built without recreating a chokepoint, and where their combined operational cost is lower than the ledger's per-operation fees, permanent public identifier metadata, and consensus dependency in the authentication path.",
+    "created_at": 1785741547.058573,
+    "id": "95a7ea3617698af4b0acf31f54ed9a6d1386eea0513c5b3e3508dcba00af18ff"
+  },
+  {
+    "subject": "ledger-costs",
+    "predicate": "include",
+    "object": "fees-metadata-exposure-consensus-dependency",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The ledger imposes real costs: per-operation fees for writes, permanent public identifier metadata that cannot be deleted, and consensus dependency in the authentication path (meaning authentication availability depends on ledger liveness or cached state).",
+    "created_at": 1785741549.51368,
+    "id": "0ac3849224440dc582800b3e1a8036d2f1d4f7889e245aaea04a61ca276bdce4"
+  },
+  {
+    "subject": "controller",
+    "predicate": "is-sole-authority-over",
+    "object": "own-key-history",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the controller is and should be the sole authority over their own identifier's key rotation history. This is a design axiom in self-sovereign identity, but it is not universally accepted \u2014 some governance models require external approval for key rotations (e.g., organizational key ceremonies, custodial wallets, court-ordered key recovery). If external authority over key state is legitimate, the single-writer premise weakens.",
+    "created_at": 1785741635.536556,
+    "id": "26ae165ef8169b23d9ffb4b6a914ed111688cee6acb881278d9ab114048c1327"
+  },
+  {
+    "subject": "witness-infrastructure",
+    "predicate": "does-not-reconverge-to",
+    "object": "centralized-chokepoint",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the witness network used for receipt co-signing can be operated in a genuinely decentralized manner and will not, through market dynamics or operational convenience, reconverge into a small set of dominant witnesses that function as a de facto centralized registry \u2014 effectively recreating the chokepoint the design was meant to avoid.",
+    "created_at": 1785741639.319015,
+    "id": "45ad93335c9ac96463d24e952e7b7f0cf40622197f92c3f5eff7710d41d9c184"
+  },
+  {
+    "subject": "access-control",
+    "predicate": "is-cleanly-separable-from",
+    "object": "discovery-and-status-functions",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the thesis's decomposition of ledger functions into 'access control' (claimed separable) versus 'discovery, credential status, equivocation resolution' (conceded as needing replacement) reflects a clean architectural boundary. In practice, these concerns may be entangled \u2014 e.g., you cannot verify a key rotation if you cannot discover the latest event log, making discovery a precondition of access control rather than a separate function.",
+    "created_at": 1785741643.614249,
+    "id": "7dfd8e3091b6f4296ff5ffcc3103064663edf19f06726bf4dc9ca99e54b779ac"
+  }
+]

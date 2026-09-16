@@ -1,0 +1,52 @@
+[
+  {
+    "conclusion": "ad955d6bcc9a73404d55715596a80410dd6b6145ed060ca0c68d43dcbe9f512e",
+    "premises": [
+      "28c0d4d5ac4bccf96c314d2f8b57179a9aaa8619324edb724a300bfeb518a8f0",
+      "480568161e5ebf84989f476761b93be4080d7236fb3947f791e9235c382dab07"
+    ],
+    "pattern": "modus_ponens",
+    "label": "accountability needs a durable subject",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "[edge:rebuts] Reputation systems already provide accountability without a ",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "conjunctive",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789517582.315948,
+    "id": "c0ce61e1b0636b59abb90d73cc447f612f27b0e8fa1089c4284b4063298880b0"
+  },
+  {
+    "conclusion": "480568161e5ebf84989f476761b93be4080d7236fb3947f791e9235c382dab07",
+    "premises": [
+      "044ba539959c69b655e58acb8271b6acb507996932df9aab2400138b606b22d2"
+    ],
+    "pattern": "induction",
+    "label": "Evidence: Cross-platform harassment case studies",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789517582.4250162,
+    "id": "5e2e231499544b64044c9f0bf3c988d7e4f6233e47a5bd493c878acc3e46dde3"
+  }
+]

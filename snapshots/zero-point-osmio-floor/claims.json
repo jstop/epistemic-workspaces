@@ -1,0 +1,276 @@
+[
+  {
+    "subject": "epistemic-network",
+    "predicate": "terminates-regress-via",
+    "object": "declared-hinges-and-maintained-horizontal-floor",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "3562ba67c82978482b6c00020e1ab906ba04735d6a1c6faad40c0a122642e1c5",
+      "6c5c682703b1ca16bab0779801b5d38d1ef4f31e1b94cdbccf6e132ac7dc77b1",
+      "140c2492bb711728e4ec713ca4fb1372a3580822d4694038735745f0db941a7f"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "One regress, one answer, applied at two layers. The zero point of the epistemic network is a declared, non-neutral set of hinge commitments constitutive of the network rather than claims within it: (1) Prior, no claim carries default warrant (Dung's grounded semantics is the least fixed point from the empty set; the base-score assignment is the declared prior). (2) Ceiling, no claim reaches certainty, the Resilience axiom of Amgoud and Ben-Naim, enforced either by DF-QuAD with base scores in (0,1) and an acyclic support relation, or by a Resilient continuous semantics such as Potyka's quadratic energy model; certainty can be declared as a base score of 1 but never earned by aggregation. (3) Entry state, a claim enters at full commitment, default entitlement (its base score, Brandom's prima facie entitlement) and zero earned entitlement, with earned entitlement kept on a deontic ledger separate from graded strength. (4) Floor, deepened: \"key K signed P at t\" is indefeasible relative to the key event log; that is validity. Authorization requires what the KEL cannot supply, a binding credential (an ACDC) issued under a governance framework whose acceptance policy is itself a declared and revocable hinge, so that verified means the wallet can show why. Osmio, a duly constituted authority fronting a KERI-based identity system, is the issuer of that binding. The terminus is stated rather than delegated. The identity layer's regress does not terminate in Osmio's charter nor in Osmio as an apex, because vertical termination in any authority fails by the Munchhausen trilemma in principle and by the history of root-CA compromise in practice. It terminates horizontally, in a maintained floor with at least three necessary components: verifiable binding structures (append-only key event logs, witnesses, transparency logs) that make the authority's self-binding checkable and its defection detectable; sufficient stake-asymmetry among relying parties, which by Olson's privileged-group logic supplies the drive to monitor out of self-interest; and continuously maintained design conditions in Ostrom's sense that keep monitoring plural and independent rather than letting it consolidate into an oligopoly. Sufficiency of these three is open. Consequently \"constituted authority\" is reinterpreted: Osmio is constituted not by a founding act but by the ongoing floor; its standing as terminus is continuously earned by being watched, and lapses when the watching consolidates or stops. This is the same structure as the argumentation layer's hinges, held in place by what the community keeps doing rather than by a founding act. Neither layer is self-grounding and neither pretends to be. Above, declared hinges make dependence auditable, challengeable and forkable; below, a maintained horizontal floor makes the authority's defection visible and its standing revocable. The epistemic network's humility is a hinge whose keeper is the floor beneath it.",
+    "created_at": 1789514840.426379,
+    "id": "7a7caf47dd7b5daebb9eb19a640eb389e044355e8b153d1811777f09288cdf1e"
+  },
+  {
+    "subject": "argumentation-layer-hinges",
+    "predicate": "are-constitutive-of",
+    "object": "epistemic-network",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The zero point is a declared, non-neutral set of hinge commitments (Prior: no default warrant via Dung's grounded semantics; Ceiling: no certainty via Resilience axiom; Entry state: full commitment with zero earned entitlement on a deontic ledger). These are constitutive of the network rather than claims within it, making dependence auditable, challengeable, and forkable.",
+    "created_at": 1789514849.413044,
+    "id": "23c22358bcdcdbe22def4430536a071cdd95a4113db15fcb6c2c8b748e0195ff"
+  },
+  {
+    "subject": "vertical-regress-termination",
+    "predicate": "fails-for",
+    "object": "identity-authority",
+    "confidence": {
+      "level": 0.88,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Vertical termination in any authority fails by the M\u00fcnchhausen trilemma in principle (infinite regress, circularity, or dogmatic stop) and by the history of root-CA compromise in practice. Therefore neither Osmio's charter nor Osmio as an apex can serve as the terminus of the identity layer's regress.",
+    "created_at": 1789514852.239516,
+    "id": "c23324779430a8e35b65a116038d37a9e9356cb031101807d0658e82fed3b103"
+  },
+  {
+    "subject": "horizontal-floor",
+    "predicate": "requires-three-necessary-components",
+    "object": "verifiable-bindings-stake-asymmetry-ostrom-conditions",
+    "confidence": {
+      "level": 0.68,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The maintained horizontal floor has at least three necessary components: (i) verifiable binding structures (append-only key event logs, witnesses, transparency logs) making defection detectable; (ii) sufficient stake-asymmetry among relying parties supplying monitoring drive via Olson's privileged-group logic; (iii) continuously maintained Ostrom design conditions keeping monitoring plural and independent. Sufficiency of these three is explicitly left open.",
+    "created_at": 1789514855.115307,
+    "id": "7b3efa4051022053b67c6dafb066fa9ab01f084fdb0c5632d1d4acdfd0fb9fd7"
+  },
+  {
+    "subject": "constituted-authority",
+    "predicate": "is-continuously-earned-by",
+    "object": "maintained-watching",
+    "confidence": {
+      "level": 0.73,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Osmio is constituted not by a founding act but by the ongoing floor; its standing as terminus is continuously earned by being watched, and lapses when the watching consolidates or stops. \"Constituted authority\" is reinterpreted from a static founding-act concept to a dynamic maintenance concept.",
+    "created_at": 1789514857.365213,
+    "id": "bb2fac2d9a49d53713cd87daf34eaa625f039df2bbaa814a0ecdb17b7833e0ff"
+  },
+  {
+    "subject": "two-layer-structure",
+    "predicate": "shares-same-pattern-of",
+    "object": "maintained-not-self-grounding-termination",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Neither layer is self-grounding and neither pretends to be. Above, declared hinges make dependence auditable, challengeable and forkable; below, a maintained horizontal floor makes the authority's defection visible and its standing revocable. The epistemic network's humility is a hinge whose keeper is the floor beneath it. The isomorphism between the two layers is the core structural claim.",
+    "created_at": 1789514860.371449,
+    "id": "640735eb1feb4d9cf6ab4b2b47b38cfb607365e4764be0d615bb218fa9566acc"
+  },
+  {
+    "subject": "ostrom-design-conditions",
+    "predicate": "can-be-maintained-for",
+    "object": "identity-infrastructure-monitoring",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "ASSUMPTION: Ostrom's institutional design principles (originally demonstrated for common-pool resource governance) can be successfully transplanted to digital identity infrastructure monitoring. This assumes that the relevant structural features (bounded community, graduated sanctions, conflict-resolution mechanisms, nested enterprises) can be instantiated in the identity-system context. The digital domain may differ from Ostrom's original cases in scale, velocity, and jurisdictional complexity.",
+    "created_at": 1789514960.841648,
+    "id": "3562ba67c82978482b6c00020e1ab906ba04735d6a1c6faad40c0a122642e1c5"
+  },
+  {
+    "subject": "three-floor-components",
+    "predicate": "are-jointly-sufficient-for",
+    "object": "regress-termination",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "ASSUMPTION: The three identified components (verifiable binding structures, stake-asymmetry, Ostrom design conditions) are jointly sufficient for horizontal regress termination. The thesis itself flags this as open. There may be additional necessary conditions not yet identified \u2014 e.g., legal backstop, minimum network size, cultural norms of accountability \u2014 without which the floor degrades even if the three named components are present.",
+    "created_at": 1789514964.98676,
+    "id": "6c5c682703b1ca16bab0779801b5d38d1ef4f31e1b94cdbccf6e132ac7dc77b1"
+  },
+  {
+    "subject": "analogy-between-layers",
+    "predicate": "is-structurally-deep-not-merely",
+    "object": "surface-resemblance",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "ASSUMPTION: The claimed isomorphism between the argumentation layer (declared hinges maintained by community practice) and the identity layer (authority maintained by horizontal floor) is a deep structural parallel, not merely a suggestive metaphor. This assumes that the formal properties of \"constitutive rather than within\" at the argumentation level genuinely map to \"maintained rather than founded\" at the identity level, and that this mapping does explanatory work beyond rhetorical unity.",
+    "created_at": 1789514969.171713,
+    "id": "140c2492bb711728e4ec713ca4fb1372a3580822d4694038735745f0db941a7f"
+  }
+]

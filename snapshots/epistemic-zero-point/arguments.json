@@ -1,0 +1,151 @@
+[
+  {
+    "conclusion": "66271c2b9a0ebecadf6f0ad7f89a53ec8a6adcc70ffe0753ccffb53f3e24acf1",
+    "premises": [
+      "70c1402f111945d8dec69a1e37aa8566d804d070a49adc813e4dff5884fd625e"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Grounded semantics' least-fixed-point from empty set entails no default warrant; base-score declaration makes this explicit in gradual semantics",
+    "confidence": {
+      "level": 0.87,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789513590.206322,
+    "id": "da22f0e2be0c2d19825494ee9eb9bf63d60a99ef1dfab06aec179931fcc1a9fe"
+  },
+  {
+    "conclusion": "052febd6bdd5383c21c34aedd347fdd9f5cefaec2495156fc7d8dac47ef70825",
+    "premises": [
+      "806be1673741f86f84d89fd96d180adca8112ebc287ba8c3b830c4a895afe897",
+      "480eee156e4526fe58825a7ace87974ddd56c48db6be8cab49ebe5a149c29e7f",
+      "9d8c50b5a4d6e37a6ea12e649e9c691fd3428bef017728ebda43e945489384a5"
+    ],
+    "pattern": "induction",
+    "label": "Resilience axiom defines the ceiling; DF-QuAD's failure on support cycles and Potyka's arithmetic defusal demonstrate two enforcement mechanisms, both requiring declared hinge choices",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The ceiling hinge's reliance on the Resilience axiom may be too restrictive for legitimate epistemic purposes. Some propositions (logical tautologies, mathematical proofs, direct perceptual reports under ideal conditions) arguably should be assignable certainty or near-certainty. By prohibiting any claim from reaching 1, the network may enforce a false modesty that distorts rational confidence \u2014 a Bayesian agent can legitimately assign probability 1 to logical truths. Furthermore, the acknowledged gap in convergence proofs for mixed attack-and-support cycles (empirical only, not proven) means the ceiling guarantee is incomplete for the general case: the very mechanism meant to enforce the hinge may fail precisely in the complex topologies where it matters most. If option (b) is chosen, reliance on continuized dynamics introduces dependence on numerical integration fidelity, which is an engineering constraint masquerading as an epistemic principle.",
+        "status": "answered",
+        "response": "Three parts, answered in turn. (1) Tautologies, proofs, and ideal perceptual reports. Resilience governs arguments with initial weight strictly inside (0,1); it says nothing about weight 1. So the network can carry certainty, but only as a declared base score, never as a value earned through aggregation. That is not false modesty; it is the correct location of certainty. A Bayesian's probability 1 for a logical truth is a prior, not a posterior reached by conditioning, and Cromwell's rule is the same discipline applied to empirical propositions. Wittgenstein's treatment of mathematical propositions in On Certainty makes the same move: proofs function as rules of the practice, not as empirical claims that accumulate support. The thesis already has the category the objection asks for: a proposition assigned certainty is a hinge, not a claim in the game. One correction is carried along: how a weight-1 argument behaves under attack is semantics-dependent (fixed at 1 under the Euler-based restricted semantics; reducible by attackers under the quadratic energy model), so the treatment of declared certainty is part of the semantics hinge and must be declared with it. (2) Mixed cycles. The thesis states this limitation itself. It bears on convergence, not on the ceiling: Resilience holds in any reached equilibrium regardless of topology, and non-convergence yields no defined strength rather than certainty, so the failure mode is silence, not overconfidence. (3) Numerical fidelity. Conceded as a dependency, denied as a masquerade. The epistemic principle is Resilience, an axiom stated independently of any solver; the integrator is implementation, and Lemma 1 (strength in [0,1] for all t) holds analytically. The dependency is real and should be declared as part of the semantics hinge, which the thesis's account of hinges already requires: anything the network cannot revise from inside, including its solver, is declared rather than hidden."
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789513593.259399,
+    "id": "791b33037fa323585afb86bdec469313050f937080734eebc66975756227ff71"
+  },
+  {
+    "conclusion": "09a98c0d449c4690515385df18ee3fad25c2c514f5174f69c31d34a343d36de6",
+    "premises": [
+      "66271c2b9a0ebecadf6f0ad7f89a53ec8a6adcc70ffe0753ccffb53f3e24acf1",
+      "052febd6bdd5383c21c34aedd347fdd9f5cefaec2495156fc7d8dac47ef70825",
+      "ade550d6caa677c7abc023ba5094a151fec2380cb644d81958c1aea322a8e848",
+      "c41c508a7bc5e950fe035b3d8b17fd97a5514b612942dd17ba926f7b1e35e131"
+    ],
+    "pattern": "abduction",
+    "label": "Four hinges (prior, ceiling, floor, entry-state) collectively bound the space without self-grounding; declaring them explicitly makes the dogmatic stop accountable and delegates justification to constituted authority",
+    "confidence": {
+      "level": 0.73,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789513608.089919,
+    "id": "52b31e336455108b619bc7aaa265e8b140ede1615692f80f104d28f76b3ac609"
+  },
+  {
+    "conclusion": "206bbc0e679d55632bc12c1ffec7dc56e5e915f47e26bf526303604f82843792",
+    "premises": [
+      "66271c2b9a0ebecadf6f0ad7f89a53ec8a6adcc70ffe0753ccffb53f3e24acf1",
+      "052febd6bdd5383c21c34aedd347fdd9f5cefaec2495156fc7d8dac47ef70825",
+      "ade550d6caa677c7abc023ba5094a151fec2380cb644d81958c1aea322a8e848",
+      "c41c508a7bc5e950fe035b3d8b17fd97a5514b612942dd17ba926f7b1e35e131",
+      "09a98c0d449c4690515385df18ee3fad25c2c514f5174f69c31d34a343d36de6"
+    ],
+    "pattern": "abduction",
+    "label": "The four declared hinges constitute the network's zero point \u2014 they define initial state and bounds of the space, are not defeasible within the network, and are revisable only by protocol fork; this is the best explanation for how a fallibilist network can have a non-circular foundation",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The thesis claims to make the dogmatic stop 'explicit and accountable' by declaring hinges, but this may be a distinction without epistemic difference. If declaring a dogmatic stop is itself a dogmatic act, then explicitness adds only procedural transparency, not epistemic legitimacy. The M\u00fcnchhausen trilemma is not dissolved but repackaged: the regress is relocated to the governance layer, which faces the same trilemma. The thesis acknowledges this delegation but frames it as a feature; a critic could argue it is merely a deferral that inherits all the original problems. Explicitness is a pragmatic virtue, not an epistemic one \u2014 making an unjustified stop visible does not make it justified.",
+        "status": "answered",
+        "response": "The objection restates the thesis and calls it a weakness. The thesis says explicitly that declaring the hinges does not resolve the trilemma and does not justify the stop; it claims the stop is declared and accountable. \"Explicitness is a pragmatic virtue, not an epistemic one\" is hinge epistemology's own position: hinges are not known and not justified, they are constitutive of the practice, and their status is pragmatic. So the objection agrees with the thesis on every point of substance and disagrees only about whether that is worth calling a gain. It is, for a reason the objection misses. There are two different questions in play: whether the stop is justified, and whether the network's dependence on the stop is known. The trilemma settles the first negatively for every architecture. The second is a genuine epistemic property of the network, not of the hinge: an agent who knows which unjustified commitments its conclusions rest on is in a different epistemic state from one who does not, and a hidden parameter and a declared hinge differ exactly there. Declared hinges make dependence auditable, challengeable at the governance layer, and forkable; hidden ones make it none of those. \"Making an unjustified stop visible does not make it justified\" is true and conceded; it makes the stop's role in every downstream conclusion knowable, which is the epistemic difference the objection says does not exist."
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789513614.659942,
+    "id": "c9a21680da7688ad4f89545c0ae81f2f449aab7c20cbfda43bbd2c8866d41ef4"
+  },
+  {
+    "conclusion": "c41c508a7bc5e950fe035b3d8b17fd97a5514b612942dd17ba926f7b1e35e131",
+    "premises": [
+      "202f91a94aa0ea9df01cde1b1ae81b8b26339388ff06ef64c1d98a056b4894bd"
+    ],
+    "pattern": "analogy",
+    "label": "Evidence: Brandom 1994: commitment, default and earned entitlement",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789513751.132517,
+    "id": "fcc69c09fb4b4badfd5b5f6eb30e6accc3cb4fd3b81f3290aa630dd622b4182e"
+  },
+  {
+    "conclusion": "ade550d6caa677c7abc023ba5094a151fec2380cb644d81958c1aea322a8e848",
+    "premises": [
+      "679c7c61f4bdd20c46a0bc5ad9654f3a66d83b4c8a4c510b188380f8cf438806"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Evidence: KERI: key event log gives control provenance for a key, not a person binding",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789514021.0026398,
+    "id": "c027e9aba12a613e00b5183e7a6a40a21f89898e8e95cda217cae6315e68e4e8"
+  }
+]

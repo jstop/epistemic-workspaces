@@ -5,36 +5,6 @@
 
 ## Supporting Arguments
 
-### supports: Honest form: three DISTINCT problems that share a shape and 
-*Pattern: modus_ponens | Confidence: 80%*
-
-- **Claim:** Honest form: three DISTINCT problems that share a shape and often co-occur.   (80%)
-  - Honest form: three DISTINCT problems that share a shape and often co-occur.
-
-### supports: Ostrom's principles map to mechanisms; load-bearing: transpa
-*Pattern: modus_ponens | Confidence: 60%*
-
-- **Claim:** Ostrom's principles map to mechanisms; load-bearing: transparency log, separated appeal, cross-jurisdiction quorum.   (60%)
-  - Ostrom's principles map to mechanisms; load-bearing: transparency log, separated appeal, cross-jurisdiction quorum.
-
-### supports: Relocate, not eliminate, the chokepoint: a user-held credent
-*Pattern: modus_ponens | Confidence: 70%*
-
-- **Claim:** Relocate, not eliminate, the chokepoint: a user-held credential means only visible REVOKE.   (70%)
-  - Relocate, not eliminate, the chokepoint: a user-held credential means only visible REVOKE.
-
-### supports: The decisive question: legitimate enough to serve people who
-*Pattern: modus_ponens | Confidence: 70%*
-
-- **Claim:** The decisive question: legitimate enough to serve people who never signed on — the stateless.   (70%)
-  - The decisive question: legitimate enough to serve people who never signed on — the stateless.
-
-### supports: Decentralized PoP does not escape the trust root, it HIDES i
-*Pattern: modus_ponens | Confidence: 70%*
-
-- **Claim:** Decentralized PoP does not escape the trust root, it HIDES it. So: explicit vs hidden.   (70%)
-  - Decentralized PoP does not escape the trust root, it HIDES it. So: explicit vs hidden.
-
 ### supports: Conferral for the stateless: biometric -> KERI id + commons 
 *Pattern: modus_ponens | Confidence: 55%*
 
@@ -50,14 +20,44 @@
 - **Objection [ACTIVE]:** [edge:refutes] Network-effect re-concentration: identity is a coordination 
 - **Objection [ACTIVE]:** [edge:refutes] Conjunction penalty: entangled links; confidence is the PROD
 
+### supports: Relocate, not eliminate, the chokepoint: a user-held credent
+*Pattern: modus_ponens | Confidence: 70%*
+
+- **Claim:** Relocate, not eliminate, the chokepoint: a user-held credential means only visible REVOKE.   (70%)
+  - Relocate, not eliminate, the chokepoint: a user-held credential means only visible REVOKE.
+
+### supports: Honest form: three DISTINCT problems that share a shape and 
+*Pattern: modus_ponens | Confidence: 80%*
+
+- **Claim:** Honest form: three DISTINCT problems that share a shape and often co-occur.   (80%)
+  - Honest form: three DISTINCT problems that share a shape and often co-occur.
+
+### supports: Ostrom's principles map to mechanisms; load-bearing: transpa
+*Pattern: modus_ponens | Confidence: 60%*
+
+- **Claim:** Ostrom's principles map to mechanisms; load-bearing: transparency log, separated appeal, cross-jurisdiction quorum.   (60%)
+  - Ostrom's principles map to mechanisms; load-bearing: transparency log, separated appeal, cross-jurisdiction quorum.
+
+### supports: The decisive question: legitimate enough to serve people who
+*Pattern: modus_ponens | Confidence: 70%*
+
+- **Claim:** The decisive question: legitimate enough to serve people who never signed on — the stateless.   (70%)
+  - The decisive question: legitimate enough to serve people who never signed on — the stateless.
+
+### supports: Decentralized PoP does not escape the trust root, it HIDES i
+*Pattern: modus_ponens | Confidence: 70%*
+
+- **Claim:** Decentralized PoP does not escape the trust root, it HIDES it. So: explicit vs hidden.   (70%)
+  - Decentralized PoP does not escape the trust root, it HIDES it. So: explicit vs hidden.
+
 ## Known Objections
 
 ### Unresolved
-- [rebutting] [edge:refutes] Demand-side bootstrap: a credential is worth only what relyi *(on: supports: The decisive question: legitimate enough to serve people who)*
 - [rebutting] [edge:refutes] Threshold capture: a cartel or coercing state breaks uniquen *(on: supports: Three-layer architecture: L1 KERI / L2 uniqueness registry c)*
-- [rebutting] [edge:refutes] Network-effect re-concentration: identity is a coordination  *(on: supports: Compose with KERI, don't compete.)*
+- [rebutting] [edge:refutes] Demand-side bootstrap: a credential is worth only what relyi *(on: supports: The decisive question: legitimate enough to serve people who)*
 - [rebutting] [edge:refutes] Network-effect re-concentration: identity is a coordination  *(on: supports: PoW's real product is credible neutrality + censorship resis)*
 - [rebutting] [edge:refutes] Conjunction penalty: entangled links; confidence is the PROD *(on: supports: PoW's real product is credible neutrality + censorship resis)*
+- [rebutting] [edge:refutes] Network-effect re-concentration: identity is a coordination  *(on: supports: Compose with KERI, don't compete.)*
 
 ## Assumptions
 
@@ -95,11 +95,11 @@
 
 ## What Would Change My Mind
 
-- If [edge:refutes] demand-side bootstrap: a credential is worth only what relyi
 - If [edge:refutes] threshold capture: a cartel or coercing state breaks uniquen
-- If [edge:refutes] network-effect re-concentration: identity is a coordination 
+- If [edge:refutes] demand-side bootstrap: a credential is worth only what relyi
 - If [edge:refutes] network-effect re-concentration: identity is a coordination 
 - If [edge:refutes] conjunction penalty: entangled links; confidence is the prod
+- If [edge:refutes] network-effect re-concentration: identity is a coordination 
 
 ## ⚠ Confidence Gap
 
@@ -113,4 +113,4 @@ The advisory derived estimate (**5%**) is well below the stored confidence of re
 - **Claims with support:** 18/26
 - **Active defeaters:** 5
 - **Overall status:** accepted
-- **Evidence provenance:** 0 recorded, 7 **asserted (unverified)**
+- **Evidence provenance:** 1 recorded, 6 **asserted (unverified)**

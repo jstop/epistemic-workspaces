@@ -1,0 +1,184 @@
+[
+  {
+    "subject": "Networks need accountable identity as a global primitive so responsibility can operate at global scale",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": true,
+    "previous_version": "ff1becd38e46bd0c6e00f92522579cefccd22d0c5d2622c196727d28151831c4",
+    "version_meta": {
+      "rationale": "Real names are one implementation; the primitive is accountability, not legibility"
+    },
+    "node_type": "thesis",
+    "status": null,
+    "killed_by": null,
+    "notes": "Networks need accountable identity as a global primitive so responsibility can operate at global scale",
+    "created_at": 1789517582.130219,
+    "id": "ad955d6bcc9a73404d55715596a80410dd6b6145ed060ca0c68d43dcbe9f512e"
+  },
+  {
+    "subject": "Responsibility requires a stable subject that can be held to account across contexts",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Responsibility requires a stable subject that can be held to account across contexts",
+    "created_at": 1789517582.161388,
+    "id": "28c0d4d5ac4bccf96c314d2f8b57179a9aaa8619324edb724a300bfeb518a8f0"
+  },
+  {
+    "subject": "Pseudonymous networks cannot bind consequences to actors across contexts",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "retired",
+    "killed_by": null,
+    "notes": "Pseudonymous networks cannot bind consequences to actors across contexts\n\n[retired] demo of retire",
+    "created_at": 1789517582.19189,
+    "id": "480568161e5ebf84989f476761b93be4080d7236fb3947f791e9235c382dab07"
+  },
+  {
+    "subject": "Reputation systems already provide accountability without a shared identity primitive",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "objection",
+    "status": null,
+    "killed_by": null,
+    "notes": "Reputation systems already provide accountability without a shared identity primitive",
+    "created_at": 1789517582.222742,
+    "id": "6a89259f5cd7ada1df71bc8faa73490474d9eb6976dd4902cc88baa3f871ba19"
+  },
+  {
+    "subject": "Reputation works within a single platform, but does not travel between them",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "concession",
+    "status": null,
+    "killed_by": null,
+    "notes": "Reputation works within a single platform, but does not travel between them",
+    "created_at": 1789517582.254387,
+    "id": "37ada42851ecd95d240c5177c1c6f94ea30b4e4861572a71ab670eb226a8c754"
+  },
+  {
+    "subject": "Every network participant must use a single real-name identity",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "superseded",
+    "killed_by": "ad955d6bcc9a73404d55715596a80410dd6b6145ed060ca0c68d43dcbe9f512e",
+    "notes": "Every network participant must use a single real-name identity",
+    "created_at": 1789517582.285517,
+    "id": "ff1becd38e46bd0c6e00f92522579cefccd22d0c5d2622c196727d28151831c4"
+  }
+]

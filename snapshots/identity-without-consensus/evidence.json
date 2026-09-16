@@ -1,0 +1,70 @@
+[
+  {
+    "title": "KERI protocol demonstration of per-identifier key event logs",
+    "description": "The Key Event Receipt Infrastructure (KERI) protocol demonstrates a working implementation of per-identifier hash-chained key event logs (KELs) with witness receipts. Each identifier controller maintains their own append-only event log, and witnesses co-sign events to provide duplicity detection without requiring global consensus. Verification of key state requires only replaying the target identifier's KEL, not querying a shared ledger.",
+    "evidence_type": "observation",
+    "source": "Publicly available KERI protocol specifications and reference implementations (e.g., keripy, kerigo) demonstrating ledger-optional identifier architectures",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1785741563.497623,
+    "id": "404a5a439fd62c6c47267fedd0fa52ba8ccb31af847a208628c0dba63475714c"
+  },
+  {
+    "title": "Blockchain-based DID method operational costs",
+    "description": "Ledger-anchored DID methods (e.g., those using Ethereum or similar networks) incur per-operation gas fees for DID document creation and key rotation, write permanent identifier metadata to a public chain (including creation timestamps and rotation history), and require the authentication path to either query a live node or rely on cached/resolved state that may be stale. These costs are observable in deployed DID method specifications and on-chain transaction records.",
+    "evidence_type": "observation",
+    "source": "General observations from deployed ledger-based DID methods and their published fee structures and metadata models",
+    "reliability": 0.82,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1785741568.73486,
+    "id": "49d9bb4317db1235b07dd556bf88385db902cc9e7c09f4b453cf3f5dbb59b886"
+  },
+  {
+    "title": "Cryptographic sufficiency of hash-chained logs for tamper evidence",
+    "description": "Hash-chained (Merkle-linked) append-only logs are a well-established cryptographic construction for tamper-evident data structures. Each entry's hash commitment to its predecessor makes undetected history rewriting computationally infeasible. When combined with threshold witness signatures, a controller cannot equivocate (publish divergent histories) without detectable inconsistency, providing integrity guarantees analogous to those of a consensus ledger for the single-writer case.",
+    "evidence_type": "document",
+    "source": "Standard cryptographic literature on hash chains, Merkle trees, and transparency log constructions (e.g., Certificate Transparency design rationale)",
+    "reliability": 0.88,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1785741573.423767,
+    "id": "f1f8c098d714b44f0e7443f1762d935f5a6cb13fa8209a4dd77547055e7084ae"
+  },
+  {
+    "title": "Discovery and availability challenges in peer-to-peer identifier systems",
+    "description": "Peer-to-peer and ledger-optional identifier systems face documented challenges in permissionless discovery: resolvers must know where to fetch an identifier's state (requiring some form of registry, DHT, or well-known endpoint), credential status must remain available even when the issuer's infrastructure is offline, and there is no single canonical source to resolve conflicting claims. These are recurring engineering problems observed in did:peer, did:key extensions, and KERI's OOBI (Out-of-Band Introduction) mechanism.",
+    "evidence_type": "observation",
+    "source": "Design discussions and specification documents for ledger-optional DID methods and KERI's OOBI/witness architecture",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1785741578.76481,
+    "id": "8ce3cb0f1b2b98597e8cde8ecd366447cd694514196b800b96ee01d20cfac8e6"
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "conclusion": "23c22358bcdcdbe22def4430536a071cdd95a4113db15fcb6c2c8b748e0195ff",
+    "premises": [
+      "f015dee66f258d999ba7ea5bb29047537ca667b2f2ff678043da499e451aeb8c",
+      "01676baff6740ecb81d912a54cf0bcd9099fe57b8c9d7aab53c450794680513c"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Grounded semantics' empty-set origin plus Resilience ceiling entail that Prior and Ceiling are constitutive constraints, not claims within the network",
+    "confidence": {
+      "level": 0.83,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789514915.101946,
+    "id": "cc9d56a935f9010ed0e5db9eaf189eede8117e179e91f0e06e57533c078c6060"
+  },
+  {
+    "conclusion": "c23324779430a8e35b65a116038d37a9e9356cb031101807d0658e82fed3b103",
+    "premises": [
+      "a01107d31a64410b08b2ef3f54c992d51333ccdb329b42310b43e203e5b507af"
+    ],
+    "pattern": "induction",
+    "label": "Repeated root-CA compromise inductively confirms that vertical trust termination is practically unreliable, corroborating the M\u00fcnchhausen trilemma's in-principle argument",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789514917.124873,
+    "id": "4d875c9ef86dd334e9481b1f86cf3371040ec69c0980defbe31aec7552a9eb06"
+  },
+  {
+    "conclusion": "7b3efa4051022053b67c6dafb066fa9ab01f084fdb0c5632d1d4acdfd0fb9fd7",
+    "premises": [
+      "3493b4db602ddb829fbdd72ca3ff3b87cbc6f57f8ca61fa4d9f6071043c71003",
+      "a01107d31a64410b08b2ef3f54c992d51333ccdb329b42310b43e203e5b507af"
+    ],
+    "pattern": "abduction",
+    "label": "Olson's privileged-group logic explains why stake-asymmetric relying parties monitor, and CA-failure history shows verifiable structures are what they monitor \u2014 best explanation of a viable horizontal floor",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789514920.358528,
+    "id": "67daaa077ad21ebd09b7ad23564a01a70a2b944e3031d8ffd45ea95cd6120e0c"
+  },
+  {
+    "conclusion": "bb2fac2d9a49d53713cd87daf34eaa625f039df2bbaa814a0ecdb17b7833e0ff",
+    "premises": [
+      "c23324779430a8e35b65a116038d37a9e9356cb031101807d0658e82fed3b103",
+      "7b3efa4051022053b67c6dafb066fa9ab01f084fdb0c5632d1d4acdfd0fb9fd7"
+    ],
+    "pattern": "causal",
+    "label": "If vertical termination fails and a horizontal floor with verifiable structures, stake-driven monitors, and plural oversight exists, then authority standing must be continuously earned by being watched rather than conferred by founding act",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Monitoring consolidation may be structurally inevitable rather than preventable. Network effects, economies of scale in auditing infrastructure, and regulatory capture dynamics may drive monitoring toward oligopoly regardless of Ostrom-style design conditions. Certificate Transparency itself is currently dominated by a small number of log operators (primarily Google). If consolidation is a basin of attraction rather than a contingent failure mode, then the \"continuously maintained\" qualifier becomes a promissory note the architecture cannot cash \u2014 the horizontal floor silently becomes a vertical hierarchy with extra steps, and the authority's standing is no longer genuinely revocable because the watchers have merged with the watched.",
+        "status": "answered",
+        "response": "Two parts. (1) \"Regardless of Ostrom-style design conditions\" is contradicted by the evidence now recorded on the floor claim. Ostrom's cases (Swiss alpine pastures, Japanese village forests, Spanish huertas) document plural, user-accountable monitoring persisting for centuries under the design principles she extracts, so consolidation is not a basin of attraction in general; it is conditional on institutional design. Certificate Transparency is one case in which the conditions were absent by construction: a single firm authored the standard, controlled the dominant browser, and operated most logs, so CT never had plural, user-accountable monitors to lose. It is evidence that a floor built without the conditions consolidates, which the thesis predicts, not evidence that a floor built with them must. (2) The objection's conclusion does not undercut the inference; it instantiates it. The argument says standing is continuously earned by being watched and lapses when the watching consolidates or stops. If consolidation occurs, the thesis's own verdict is that Osmio's standing has lapsed and the floor has become a vertical hierarchy, which is precisely what the objection describes. A promissory note the architecture cannot cash would be a claim that the floor is guaranteed to hold; the thesis makes the opposite claim, that standing is conditional on a floor that can fail, and says sufficiency is open. Residue carried, not answered: whether Ostrom's conditions transfer from natural-resource commons to digital identity infrastructure is unestablished by any recorded source and is already flagged as an unsupported assumption. The objection's real force is there, as an empirical question about this domain, not as a structural inevitability."
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789514930.654698,
+    "id": "a232dcdacae07f3b04d8eb5732bcf4ac351040463226efe96a6938d07072e7e4"
+  },
+  {
+    "conclusion": "640735eb1feb4d9cf6ab4b2b47b38cfb607365e4764be0d615bb218fa9566acc",
+    "premises": [
+      "23c22358bcdcdbe22def4430536a071cdd95a4113db15fcb6c2c8b748e0195ff",
+      "bb2fac2d9a49d53713cd87daf34eaa625f039df2bbaa814a0ecdb17b7833e0ff"
+    ],
+    "pattern": "analogy",
+    "label": "Argumentation-layer hinges (held by community practice, not founding acts) and identity-layer authority (earned by maintained watching, not charter) exhibit the same structural pattern: maintained-not-self-grounding termination",
+    "confidence": {
+      "level": 0.74,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789514937.4283001,
+    "id": "8daf070351ff6c2b0d40f5498c5a6ecede7c09877e60405e1323031f77125a89"
+  },
+  {
+    "conclusion": "7a7caf47dd7b5daebb9eb19a640eb389e044355e8b153d1811777f09288cdf1e",
+    "premises": [
+      "23c22358bcdcdbe22def4430536a071cdd95a4113db15fcb6c2c8b748e0195ff",
+      "c23324779430a8e35b65a116038d37a9e9356cb031101807d0658e82fed3b103",
+      "7b3efa4051022053b67c6dafb066fa9ab01f084fdb0c5632d1d4acdfd0fb9fd7",
+      "bb2fac2d9a49d53713cd87daf34eaa625f039df2bbaa814a0ecdb17b7833e0ff",
+      "640735eb1feb4d9cf6ab4b2b47b38cfb607365e4764be0d615bb218fa9566acc"
+    ],
+    "pattern": "abduction",
+    "label": "The best unified account: one regress answer (declared maintained commitments, not self-grounding foundations) applied at two layers \u2014 argumentation hinges above and horizontal identity floor below \u2014 yielding an epistemic network whose humility is a hinge kept by its floor",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The thesis may conflate two genuinely different regress problems by forcing them into a single answer. The argumentation layer's regress is about epistemic justification (what warrants belief), while the identity layer's regress is about institutional trust (what warrants reliance on an authority). These may require fundamentally different termination strategies. Epistemic hinges \u00e0 la Wittgenstein are constitutive of language games and cannot coherently be doubted from within; but institutional trust in Osmio can and should be doubted from within \u2014 that is precisely what the monitoring floor is for. If the two layers require doubt-immunity at one level and doubt-receptivity at the other, they do not share \"the same structure\" and the unifying claim is false. The thesis's elegance may be purchased at the cost of papering over a disanalogy that matters for system design.",
+        "status": "answered",
+        "response": "The disanalogy the objection names is real, but it runs between two levels present at both layers, not between the layers. The thesis never claims Wittgensteinian doubt-immunity for the argumentation layer's hinges. It says they are not defeasible inside the network and are revisable by forking the protocol under governance: fixity within the practice, receptivity outside it. Wittgenstein's own image has the same two levels: the riverbed is not doubted while the river runs, and it shifts over time (On Certainty 96-99). The identity layer has the same two levels. Inside any single verification, the KEL's arithmetic and the credential chain are not doubted; validity is mechanical, and a relying party who doubted the signature math mid-verification would not be verifying. Outside any single verification, at the monitoring layer, Osmio is doubted continuously, which is what the floor is for. So \"doubt-immunity at one level and doubt-receptivity at the other\" describes each layer correctly and the pair identically. The objection's inference \"different termination strategies, therefore not the same structure\" also fails on its own terms: the thesis's structural claim is \"maintained, not self-grounding, fixed inside the practice and revisable outside it,\" and both layers satisfy that description exactly. What the objection does identify, and what the thesis should carry as a residue, is a difference in the mechanism of outside revision. The argumentation layer revises by fork, a discrete, versioned governance act. The identity layer revises by monitoring, a continuous process in which standing lapses by degrees. Discrete versus continuous revision is a real design difference with consequences (a fork has a clean audit trail; a lapse of standing needs a threshold to become actionable), and the thesis should say so. It is a difference in how the outside level operates, not evidence that one layer lacks the outside level."
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789514949.615283,
+    "id": "abd1a5f7bb6369e9fb39a999b3f02fca2a13e46fe7d0a1054e9570ec071a0c26"
+  },
+  {
+    "conclusion": "7b3efa4051022053b67c6dafb066fa9ab01f084fdb0c5632d1d4acdfd0fb9fd7",
+    "premises": [
+      "3131adf5e5bb820fd463a70e1eccb0fcbfc29a96673de3a2f76d201ecf24c42a"
+    ],
+    "pattern": "induction",
+    "label": "Evidence: Ostrom 1990: design principles for durable plural monitoring",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789515081.9934862,
+    "id": "3e34e718a4593a67973227974353e32e2b40d97a52b64f003b9cd61c7083839f"
+  },
+  {
+    "conclusion": "bb2fac2d9a49d53713cd87daf34eaa625f039df2bbaa814a0ecdb17b7833e0ff",
+    "premises": [
+      "d2e5f70f8fdc1610ec58801cc487f8ddd86b07ff15854af5fb3433e249760d74"
+    ],
+    "pattern": "induction",
+    "label": "Evidence: Chrome CT policy: plural log operators, singular rule-maker (correction)",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789515984.620676,
+    "id": "03866fb0b5304c5467504d012466286ca1e6dac198f6ad383114fb31a4df3d38"
+  },
+  {
+    "conclusion": "3562ba67c82978482b6c00020e1ab906ba04735d6a1c6faad40c0a122642e1c5",
+    "premises": [
+      "8dc64665c2f5975869966095f99ed8fe5533c6d15416c360429b76c33acea647"
+    ],
+    "pattern": "induction",
+    "label": "Evidence: Hess &amp; Ostrom 2007: commons framework extended to digital knowledge commons",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789516004.03501,
+    "id": "56172ca426d473c8a4f11828ee9299b029d289e086ca33e6b3039384429d1416"
+  }
+]

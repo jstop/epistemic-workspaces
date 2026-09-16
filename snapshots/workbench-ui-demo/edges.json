@@ -1,0 +1,26 @@
+[
+  {
+    "from_id": "6a89259f5cd7ada1df71bc8faa73490474d9eb6976dd4902cc88baa3f871ba19",
+    "rel": "rebuts",
+    "to": "ad955d6bcc9a73404d55715596a80410dd6b6145ed060ca0c68d43dcbe9f512e",
+    "notes": "",
+    "created_at": 1789517582.3430982,
+    "id": "80fb5e05854793ebed41dbcd45aae4fe10d9a83ac4948673fc86aab1bb78e13b"
+  },
+  {
+    "from_id": "37ada42851ecd95d240c5177c1c6f94ea30b4e4861572a71ab670eb226a8c754",
+    "rel": "narrows",
+    "to": "6a89259f5cd7ada1df71bc8faa73490474d9eb6976dd4902cc88baa3f871ba19",
+    "notes": "",
+    "created_at": 1789517582.370235,
+    "id": "6aee169f24bf8f08e9143888c594738c57926d76ffe6c6da79e8adbd2276173e"
+  },
+  {
+    "from_id": "ad955d6bcc9a73404d55715596a80410dd6b6145ed060ca0c68d43dcbe9f512e",
+    "rel": "supersedes",
+    "to": "ff1becd38e46bd0c6e00f92522579cefccd22d0c5d2622c196727d28151831c4",
+    "notes": "Real names are one implementation; the primitive is accountability, not legibility",
+    "created_at": 1789517582.397423,
+    "id": "68aa0f6e145b7af9216bf414bcfdd35e4b7d4ba9529faa0e7e9585c1bc640de0"
+  }
+]

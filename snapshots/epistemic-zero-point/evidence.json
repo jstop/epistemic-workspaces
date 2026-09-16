@@ -1,0 +1,128 @@
+[
+  {
+    "title": "Dung's grounded semantics least-fixed-point property",
+    "description": "Dung's seminal work on argumentation frameworks establishes that the grounded extension is the least fixed point of the characteristic function, computed iteratively from the empty set. This means no argument is accepted by default \u2014 acceptance must be earned through the absence of undefeated attackers. This mathematical property directly supports the 'no default warrant' prior.",
+    "evidence_type": "document",
+    "source": "Dung's foundational paper on abstract argumentation frameworks (mid-1990s AI journal literature) establishing grounded semantics as the skeptical, least-fixed-point extension",
+    "reliability": 0.92,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12526,
+      "url": null,
+      "quote": null,
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789513549.752865,
+    "id": "70c1402f111945d8dec69a1e37aa8566d804d070a49adc813e4dff5884fd625e"
+  },
+  {
+    "title": "Amgoud-Ben-Naim Resilience axiom",
+    "description": "The Resilience axiom states that an argument whose initial weight is strictly inside (0,1) can never be driven to 0 or 1 by any configuration of attackers and supporters. This axiom has been shown to be satisfied by certain gradual semantics (e.g., Euler-based restricted semantics for acyclic graphs) and violated by others (e.g., DF-QuAD on support cycles where sigma=1 is the only fixed point). The axiom formalizes the ceiling commitment that certainty is unreachable.",
+    "evidence_type": "document",
+    "source": "Amgoud and Ben-Naim's body of work on axiomatic foundations of gradual argumentation semantics, including the Resilience axiom and analysis of which semantics satisfy it",
+    "reliability": 0.88,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12528,
+      "url": null,
+      "quote": null,
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789513555.199819,
+    "id": "806be1673741f86f84d89fd96d180adca8112ebc287ba8c3b830c4a895afe897"
+  },
+  {
+    "title": "DF-QuAD Resilience failure on support cycles",
+    "description": "Under DF-QuAD's combination rule c = v0 + (1 - v0)(vs - va), when self-support or mutual support is present, sigma = 1 is the only fixed point for every base score strictly in (0,1). This means DF-QuAD is not Resilient on support cycles \u2014 coherentist bootstrapping drives strength to certainty, violating the ceiling. The DAG constraint therefore functions as a structural prohibition necessary to maintain Resilience.",
+    "evidence_type": "document",
+    "source": "Analysis of DF-QuAD's fixed-point behavior on cyclic support graphs, derivable from the combination rule's algebraic properties as published in the gradual semantics literature",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12527,
+      "url": null,
+      "quote": "Source for the DF-QuAD combination and aggregation definitions only (Rago et al., KR 2016). The support-cycle fixed point at sigma = 1 is Claude's derivation from those definitions, not a result in the paper.",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789513560.55581,
+    "id": "480eee156e4526fe58825a7ace87974ddd56c48db6be8cab49ebe5a149c29e7f"
+  },
+  {
+    "title": "Potyka's continuous quadratic energy model convergence",
+    "description": "Potyka's quadratic energy model (presented at KR 2018) implements gradual semantics as a continuous dynamical system where strength stays in [0,1] at all times and any reached equilibrium satisfies Resilience. Convergence is proven for acyclic graphs and for graphs containing only support relations. For mixed attack-and-support cycles, convergence is empirical only. A pure support cycle converges strictly below 1, defusing coherentist bootstrapping arithmetically rather than by structural prohibition.",
+    "evidence_type": "document",
+    "source": "Potyka's work on continuous dynamical systems for gradual argumentation semantics, including convergence proofs for restricted graph classes and empirical results for general graphs",
+    "reliability": 0.82,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12530,
+      "url": null,
+      "quote": null,
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789513565.690423,
+    "id": "9d8c50b5a4d6e37a6ea12e649e9c691fd3428bef017728ebda43e945489384a5"
+  },
+  {
+    "title": "Brandom 1994: commitment, default and earned entitlement",
+    "description": "Brandom, Making It Explicit (Harvard, 1994): deontic scorekeeping treats assertion as undertaking a commitment; entitlement is a distinct normative status that is default in some cases (prima facie entitlement) and otherwise earned by vindicating the commitment when challenged. This is the structure the entry-state hinge formalizes: commitment on assertion, default entitlement as base score, earned entitlement tracked separately from graded strength.",
+    "evidence_type": "document",
+    "source": "https://books.google.com/books/about/Making_it_Explicit.html?id=1ihqvEzZXxMC",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12529,
+      "url": null,
+      "quote": null,
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789513751.130152,
+    "id": "202f91a94aa0ea9df01cde1b1ae81b8b26339388ff06ef64c1d98a056b4894bd"
+  },
+  {
+    "title": "KERI: key event log gives control provenance for a key, not a person binding",
+    "description": "Smith, Key Event Receipt Infrastructure (KERI), arXiv:1907.02143. The primary root of trust is a self-certifying identifier strongly bound at issuance to a signing key pair; when control is transferred, an append-only chained key event log of signed transfer statements provides end-verifiable control provenance. What the log establishes is which key pair held control authority over the identifier at each point in the event sequence. It does not itself establish a binding between the identifier and a natural person; that binding is supplied outside the log, by whatever issuance or vouching process the surrounding identity layer provides. So the attestation \"key K signed P at t\" is verifiable and indefeasible relative to the key event log, and the step from key to person is a separate, defeasible layer. RFC 4949 (Internet Security Glossary v2) is the definitional reference for non-repudiation as a service providing evidence against false denial, which is evidence about a key's use, not a proof about a person.",
+    "evidence_type": "document",
+    "source": "https://arxiv.org/abs/1907.02143",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12531,
+      "url": "https://arxiv.org/abs/1907.02143",
+      "quote": "Abstract: self-certifying identifiers strongly bound at issuance to a signing key pair; an append-only chained key-event log of signed transfer statements provides end-verifiable control provenance.",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789514021.0005171,
+    "id": "679c7c61f4bdd20c46a0bc5ad9654f3a66d83b4c8a4c510b188380f8cf438806"
+  }
+]

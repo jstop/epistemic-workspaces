@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Dung's grounded semantics as least fixed point",
+    "description": "Dung's grounded semantics defines the grounded extension as the least fixed point of the characteristic function, starting from the empty set. This formally establishes that no argument carries default acceptability \u2014 acceptability must be earned through the absence of undefeated attackers. The empty-set starting point is the formal analogue of \"no claim carries default warrant.\"",
+    "evidence_type": "document",
+    "source": "Foundational result in abstract argumentation theory establishing grounded semantics as the skeptical, least-credulous extension built from the empty set via monotone fixed-point construction",
+    "reliability": 0.92,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12526,
+      "url": null,
+      "quote": null,
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789514870.895874,
+    "id": "f015dee66f258d999ba7ea5bb29047537ca667b2f2ff678043da499e451aeb8c"
+  },
+  {
+    "title": "Resilience axiom and DF-QuAD ceiling property",
+    "description": "The Resilience axiom (from gradual argumentation semantics research) requires that no argument's final strength can exceed its base score through support alone. In DF-QuAD with base scores strictly in (0,1) and an acyclic support graph, or in Potyka's quadratic energy model, this ensures certainty (strength = 1) can only be declared as a base score, never earned by aggregation. This provides the formal ceiling constraint.",
+    "evidence_type": "document",
+    "source": "Research in gradual argumentation semantics on the Resilience property, which constrains how support can amplify strength, preventing aggregation from producing certainty",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12528,
+      "url": null,
+      "quote": "Resilience axiom (Amgoud & Ben-Naim 2018); Potyka KR 2018 Prop. 11 proves it for the quadratic energy model in any reached equilibrium. DF-QuAD's failure of Resilience on support cycles is Claude's derivation from Rago et al. 2016's definitions.",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789514876.686692,
+    "id": "01676baff6740ecb81d912a54cf0bcd9099fe57b8c9d7aab53c450794680513c"
+  },
+  {
+    "title": "Root-CA compromise incidents in PKI history",
+    "description": "Multiple real-world incidents of root Certificate Authority compromise or misbehavior demonstrate the practical failure of vertical trust termination: DigiNotar (2011, complete compromise leading to revocation of entire CA), Symantec/VeriSign trust degradation (2015-2018, graduated distrust by browsers), CNNIC subordinate CA misuse (2015). Each case required the horizontal infrastructure of certificate transparency logs and browser vendor monitoring to detect and respond.",
+    "evidence_type": "observation",
+    "source": "Historical record of PKI failures where vertically-trusted root CAs were compromised or acted against relying party interests, requiring horizontal detection mechanisms",
+    "reliability": 0.9,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12534,
+      "url": "https://www.enisa.europa.eu/sites/default/files/all_files/Operation_Black_Tulip_v2.pdf",
+      "quote": "ENISA, Operation Black Tulip: Certificate authorities lose authority (2011). DigiNotar, a root CA trusted worldwide and audited yearly against ETSI TS 101 456, was breached from mid-June 2011; 531 rogue certificates were issued for 344 domains, used to intercept traffic in Iran for roughly two months before detection; the CA went bankrupt on 20 September 2011. Illustrates the thesis's point that a vertically trusted root's compromise is detected, if at all, by parties outside the root.",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789514882.0805912,
+    "id": "a01107d31a64410b08b2ef3f54c992d51333ccdb329b42310b43e203e5b507af"
+  },
+  {
+    "title": "Olson's privileged-group logic for monitoring incentives",
+    "description": "Olson's theory of collective action shows that in groups with sufficient stake-asymmetry, at least one member has individual incentive to provide the public good (monitoring) even if others free-ride. Applied to identity infrastructure relying parties, large institutional users whose operations depend on the system's integrity have self-interested motivation to monitor the authority's behavior, solving the collective action problem for oversight.",
+    "evidence_type": "document",
+    "source": "Theory of collective action and privileged groups, establishing conditions under which public goods are provided despite free-rider incentives, due to asymmetric stakes among group members",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12532,
+      "url": "https://www.hup.harvard.edu/books/9780674537514",
+      "quote": "Olson, The Logic of Collective Action: Public Goods and the Theory of Groups, Harvard University Press, 1965. Privileged group: a member gains more from the public good than it costs to provide it unilaterally, so provision occurs without coordination; latent groups face an intact free-rider problem.",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789514886.622489,
+    "id": "3493b4db602ddb829fbdd72ca3ff3b87cbc6f57f8ca61fa4d9f6071043c71003"
+  },
+  {
+    "title": "Ostrom 1990: design principles for durable plural monitoring",
+    "description": "Ostrom, Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press, 1990. From long-enduring self-governed common-pool resource regimes (Swiss alpine pastures, Japanese village forests, Spanish huertas, Philippine irrigation) Ostrom extracts design principles for durable collective governance, including monitors who are resource users or accountable to them, graduated sanctions, collective-choice arrangements allowing affected parties to modify rules, and low-cost conflict resolution. The cases document plural, user-accountable monitoring persisting over centuries under these conditions, which is direct evidence that monitoring consolidation is conditional on institutional design rather than inevitable. Ostrom presents the principles as conditions associated with survival, not as sufficient guarantees, and the transfer from natural-resource commons to digital identity infrastructure is not established by this source.",
+    "evidence_type": "document",
+    "source": "https://books.google.com/books/about/Governing_the_Commons.html?id=4xg6oUobMz4C",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12533,
+      "url": "https://books.google.com/books/about/Governing_the_Commons.html?id=4xg6oUobMz4C",
+      "quote": "Ostrom (1990), Governing the Commons, Cambridge University Press: eight design principles derived from long-enduring CPR regimes, including monitors accountable to users, graduated sanctions, and collective-choice arrangements.",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789515081.991002,
+    "id": "3131adf5e5bb820fd463a70e1eccb0fcbfc29a96673de3a2f76d201ecf24c42a"
+  },
+  {
+    "title": "Chrome CT policy: plural log operators, singular rule-maker (correction)",
+    "description": "Chrome Certificate Transparency policy (googlechrome.github.io/CertificateTransparency). Correction to the rebuttal recorded on this claim's argument: the claim that Google operated most CT logs is stale. Chrome removed the requirement for an SCT from a Google-operated log in Chrome 100 (April 2022); current policy requires SCTs from at least two distinct log operators, operator independence is asserted at application and observed in the log list, and the 2026 ct-policy list includes independent operators. What remains concentrated is rule-making: Google authors the policy, reviews operator applications, monitors compliance, and maintains the recognized-log list, with Apple maintaining a parallel program. In Ostrom's terms CT now has plural monitors (design principle 4, monitors accountable to users, partially met) but not plural collective-choice arrangements (principle 3, those affected can modify the rules, not met). So CT is evidence of partial instantiation, not of absent conditions: the monitoring layer pluralized once the gatekeeper decided it should, and the gatekeeper remains singular. For the thesis this means \"the watching consolidates\" can occur at the rule-setting level even when log operation is plural, and the floor's third component must cover who sets the admission rules, not only who runs the logs.",
+    "evidence_type": "document",
+    "source": "https://googlechrome.github.io/CertificateTransparency/ct_policy.html",
+    "reliability": 0.9,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12535,
+      "url": "https://googlechrome.github.io/CertificateTransparency/ct_policy.html",
+      "quote": "Chrome CT Policy: at least two SCTs must be issued from distinct CT log operators as recognized by Chrome. Chrome 100 announcement (ct-policy list): the requirement for SCTs from Google CT logs specifically is removed.",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789515984.618693,
+    "id": "d2e5f70f8fdc1610ec58801cc487f8ddd86b07ff15854af5fb3433e249760d74"
+  },
+  {
+    "title": "Hess &amp; Ostrom 2007: commons framework extended to digital knowledge commons",
+    "description": "Hess and Ostrom (eds.), Understanding Knowledge as a Commons: From Theory to Practice, MIT Press, 2007. Ostrom herself extended the commons framework beyond natural resources: the volume treats digital knowledge as a commons subject to enclosure and social dilemmas, offers a framework for analyzing knowledge commons (Ostrom and Hess), and includes Schweik's application of a free/open-source framework to scientific commons. Later work applies the CPR design principles directly to open-data ecosystems (Lin\u00e5ker and Runeson, arXiv 2208.01694). This is partial evidence for the transfer assumption: it establishes that the design principles have been carried from natural-resource commons to digital and knowledge commons by the framework's own author, not that they have been shown to hold for digital identity or transparency-log infrastructure specifically. The gap that remains is the one step from digital commons in general to trust infrastructure in particular, and no recorded source closes it.",
+    "evidence_type": "document",
+    "source": "https://mitpress.mit.edu/9780262516037/understanding-knowledge-as-a-commons/",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "recorded",
+      "source_id": 12536,
+      "url": "https://mitpress.mit.edu/9780262516037/understanding-knowledge-as-a-commons/",
+      "quote": "Hess & Ostrom (eds.), Understanding Knowledge as a Commons: From Theory to Practice, MIT Press 2007. Chapters include \"A Framework for Analyzing the Knowledge Commons\" (Ostrom and Hess) and \"Free/Open-Source Software as a Framework for Establishing Commons in Science\" (Schweik).",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1789516004.032778,
+    "id": "8dc64665c2f5975869966095f99ed8fe5533c6d15416c360429b76c33acea647"
+  }
+]
