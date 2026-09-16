@@ -9,3 +9,8 @@ archived_at\tkind\ts3_key\tbytes\tsha256\tlocal_path
 2026-09-16T12:25:55Z\tsource\tclaude-code/projects/\t42680320\t(dir: 295 files)\t/Users/jstein/.claude/projects
 2026-09-16T12:25:55Z\tderived\tlibrary-builds/current/bin\t2531328\t916a7c1d8b1da085722a263e1413df7de505011fd9bb36d3d9b7bf42424a1bde\t/var/folders/wf/vdsz2sqn50jfshc5fnz6tkdr0000gn/T/tmp.kIqhD55z1J/library/canonical.db
 2026-09-16T12:25:55Z\tderived\tlibrary-builds/current/evidence_store/\t39239680\t(dir: 2537 files)\t/Users/jstein/workspace/epistemic/memory/evidence_store
+2026-09-16T12:37:36Z\tsource\tclaude-exports/2025-07-14/conversations.json\t13526354\t74844c7b0f36157131557af1625990654537c55177762deca83eeb7d84565940\t/Users/jstein/workspace/Claude_Data/data-2025-07-14-19-34-21-batch-0000/conversations.json
+2026-09-16T12:37:36Z\tsource\tclaude-exports/2025-07-24/conversations.json\t14871361\t9cfc51bc95c62b1538dc45d6dd6454074a572f6b88f7230098e498b479586bbe\t/Users/jstein/workspace/Claude_Data/conversations/conversations.json
+2026-09-16T12:37:36Z\tsource\tclaude-exports/2025-08-18/conversations.json\t14023405\t7650d45ec911499fbcc2c81960303b4ba8d6e9b7c1aa4a9a140ecae4f09008d0\t/Users/jstein/workspace/obsidian/ClaudeConversations/conversations.json
+2026-09-16T12:37:36Z\tsource\tclaude-exports/2026-03-02/data-2026-03-02-02-24-47-batch-0000.zip\t8538417\t3c28342da6605dd22226583e22aba476d7f18be0ff92030ddda6d47e00318ded\t/Users/jstein/Documents/claude-data-export-2026-03/data-2026-03-02-02-24-47-batch-0000.zip
+2026-09-16T12:37:36Z\tsource\tclaude-exports/2026-03-02/conversations.json\t36263721\t35bc972bb443f3eb1979c8c88043f09752b90b892e1ef6f0c4a8785d062a395b\t/Users/jstein/Documents/claude-data-export-2026-03/claude_export/conversations.json
