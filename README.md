@@ -35,3 +35,28 @@ things it protects against. Log: `~/Library/Logs/epistemic-backup.log`.
 
 `bundles/<name>.refs` records the refs each bundle was built from, so an
 unchanged workspace produces no commit.
+
+## Source archive (the devops rule)
+
+Everything derived — the living library's `canonical.db`, its projections,
+recall's derivation edges, generated argument graphs — is a build artifact.
+What cannot be rebuilt is the raw input and the human acts on it. `archive-sources.sh`
+copies those to a private, versioned, encrypted S3 bucket in Josh's account
+(`s3://epistemic-sources-523888557587`) and commits a manifest here
+(`sources/MANIFEST.tsv`: when, kind, key, bytes, sha256, local path).
+
+| prefix | what | kind |
+|---|---|---|
+| `claude-exports/<date>/` | every Anthropic data export found on disk, by export date | source |
+| `recall/recall.db` | recall's database — holds hand-made attestations | human input |
+| `claude-code/projects/` | `~/.claude/projects` transcripts, the continuous source | source |
+| `library-builds/current/` | the library's `canonical.db` (consistent sqlite copy) + `evidence_store/` | derived, cheap insurance |
+
+- By hand: `./archive-sources.sh`. Scheduled: `~/Library/LaunchAgents/com.jstop.epistemic-archive.plist`
+  at 21:30 daily. Log: `~/Library/Logs/epistemic-archive.log`.
+- Uploads use `aws s3 sync`, so unchanged files are not re-sent; the bucket is
+  versioned, so an overwritten file's earlier versions remain.
+- Not yet archived: a clean export of the human acts inside the library's log
+  (verifications, restatements, acceptances). They are in the library build
+  copy, but cannot be separated from machine writes until the pre-actor
+  attribution is corrected.
