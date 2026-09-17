@@ -60,3 +60,8 @@ copies those to a private, versioned, encrypted S3 bucket in Josh's account
   (verifications, restatements, acceptances). They are in the library build
   copy, but cannot be separated from machine writes until the pre-actor
   attribution is corrected.
+
+> **Moved (2026-09-17):** `backup.sh` and `archive-sources.sh` now live in the
+> private platform repo `jstop/epistemic-platform` (`ops/backup.sh`,
+> `ops/archive.sh`), run through `ops/run-job.sh` with a status file and a
+> failure notification, and read every path from `config/episteme.env`.
