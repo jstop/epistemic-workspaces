@@ -53,7 +53,7 @@ if [[ -f "$LIB/canonical.db" ]]; then
 fi
 
 log "archive start -> s3://$BUCKET"
-[[ -f "$MANIFEST" ]] || print -r -- "archived_at\tkind\ts3_key\tbytes\tsha256\tlocal_path" > "$MANIFEST"
+[[ -f "$MANIFEST" ]] || printf 'archived_at\tkind\ts3_key\tbytes\tsha256\tlocal_path\n' > "$MANIFEST"
 now="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
 uploaded=0; failed=0
 for item in "${ITEMS[@]}"; do
@@ -62,7 +62,7 @@ for item in "${ITEMS[@]}"; do
     out="$(aws s3 sync "$src" "s3://$BUCKET/$prefix/" --only-show-errors --exclude '.DS_Store' --exclude '*/__pycache__/*' 2>&1)" || { log "FAILED sync $src: $out"; failed=$((failed+1)); continue; }
     files=$(find "$src" -type f ! -name .DS_Store | wc -l | tr -d ' ')
     bytes=$(du -sk "$src" | cut -f1)
-    print -r -- "$now\t$kind\t$prefix/\t$((bytes*1024))\t(dir: $files files)\t$src" >> "$MANIFEST"
+    printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$now" "$kind" "$prefix/" "$((bytes*1024))" "(dir: $files files)" "$src" >> "$MANIFEST"
     log "synced dir $prefix/ ($files files)"
   elif [[ -f "$src" ]]; then
     name="${src##*/}"
@@ -73,7 +73,7 @@ for item in "${ITEMS[@]}"; do
     sha="$(awk -F'\t' -v p="$src" -v b="$bytes" '$6==p && $4==b && $5 !~ /^\(/ {s=$5} END{print s}' "$MANIFEST")"
     [[ -n "$sha" ]] || sha="$(shasum -a 256 "$src" 2>/dev/null | cut -d' ' -f1)" || sha="(unreadable)"
     [[ -n "$sha" ]] || sha="(unreadable)"
-    print -r -- "$now\t$kind\t$prefix/$name\t$bytes\t$sha\t$src" >> "$MANIFEST"
+    printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$now" "$kind" "$prefix/$name" "$bytes" "$sha" "$src" >> "$MANIFEST"
     log "archived $prefix/$name ($bytes bytes)"
   else
     log "missing (skipped): $src"
