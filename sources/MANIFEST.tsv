@@ -125,3 +125,14 @@ archived_at	kind	s3_key	bytes	sha256	local_path
 2026-09-23T01:30:05Z	source	claude-code/projects/	90886144	(dir: 347 files)	/Users/jstein/.claude/projects
 2026-09-23T01:30:05Z	derived	library-builds/current/canonical.db	2568192	fad59429b07191420937aadf601c7ff47280a71c3eb578a0e34d0451b0d5e57f	/var/folders/wf/vdsz2sqn50jfshc5fnz6tkdr0000gn/T/tmp.LkbgRKHSLN/library/canonical.db
 2026-09-23T01:30:05Z	derived	library-builds/current/evidence_store/	39604224	(dir: 2569 files)	/Users/jstein/workspace/epistemic/data/evidence_store
+2026-09-24T01:30:04Z	source	claude-exports/2025-07-14/conversations.json	13526354	74844c7b0f36157131557af1625990654537c55177762deca83eeb7d84565940	/Users/jstein/workspace/Claude_Data/data-2025-07-14-19-34-21-batch-0000/conversations.json
+2026-09-24T01:30:04Z	source	claude-exports/2025-07-24/conversations.json	14871361	9cfc51bc95c62b1538dc45d6dd6454074a572f6b88f7230098e498b479586bbe	/Users/jstein/workspace/Claude_Data/conversations/conversations.json
+2026-09-24T01:30:04Z	source	claude-exports/2025-08-18/conversations.json	14023405	7650d45ec911499fbcc2c81960303b4ba8d6e9b7c1aa4a9a140ecae4f09008d0	/Users/jstein/workspace/obsidian/ClaudeConversations/conversations.json
+2026-09-24T01:30:04Z	source	claude-exports/2026-03-02/data-2026-03-02-02-24-47-batch-0000.zip	8538417	3c28342da6605dd22226583e22aba476d7f18be0ff92030ddda6d47e00318ded	/Users/jstein/workspace/Claude_Data/data-2026-03-02/data-2026-03-02-02-24-47-batch-0000.zip
+2026-09-24T01:30:04Z	source	claude-exports/2026-03-02/conversations.json	36263721	35bc972bb443f3eb1979c8c88043f09752b90b892e1ef6f0c4a8785d062a395b	/Users/jstein/workspace/Claude_Data/data-2026-03-02/conversations.json
+2026-09-24T01:30:04Z	source	claude-exports/2026-04-20/	176914432	(dir: 6 files)	/Users/jstein/workspace/recall/input
+2026-09-24T01:30:04Z	source	claude-exports/2026-09-10/	50102272	(dir: 2 files)	/Users/jstein/workspace/Claude_Data/data-2026-09-10
+2026-09-24T01:30:04Z	human-input	recall/recall.db	82837504	6578af20ddf059b48893fd886fd31f546c54d801ee2e4a29dc1933bb3c23ac12	/Users/jstein/.recall/recall.db
+2026-09-24T01:30:04Z	source	claude-code/projects/	102985728	(dir: 359 files)	/Users/jstein/.claude/projects
+2026-09-24T01:30:04Z	derived	library-builds/current/canonical.db	2568192	3a354ba4b61fdb90c888df7f1a16fec026f47cae1b8b0cde26744f577fd036dd	/var/folders/wf/vdsz2sqn50jfshc5fnz6tkdr0000gn/T/tmp.j7GBSofH1f/library/canonical.db
+2026-09-24T01:30:04Z	derived	library-builds/current/evidence_store/	39604224	(dir: 2569 files)	/Users/jstein/workspace/epistemic/data/evidence_store
