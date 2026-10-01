@@ -1,0 +1,285 @@
+[
+  {
+    "conclusion": "dd0f3be8111125e502e45e7b52426d9cc9e57d47cc43f2069a2d4f0acd1d5c90",
+    "premises": [
+      "6da757bf5a85bf4c64e99bc2b3953d81355dac07bee40efb4e060d14f5817f12"
+    ],
+    "pattern": "abduction",
+    "label": "SKS poisoning and Sovrin collapse show authority-dependent identifier layers fail; self-certifying control is the best explanation for avoiding this failure mode",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790804812.858288,
+    "id": "21792965b72d7f719653913c54f2c62b0e6aefc0a90ba612535fea67351bd626"
+  },
+  {
+    "conclusion": "bcefe900030420276a7ecba146b87ecadf6b957751725dc32990a8ae0ed8d9f6",
+    "premises": [
+      "23bc64ed99254cc8bab8d64446ebe13b86b31b7fcc4de2c73e8650c5f3d0fc13",
+      "605743dc372b27b62568cde86910555410fd9533e2213d4c92ca1c2245cdca94"
+    ],
+    "pattern": "induction",
+    "label": "DigiNotar/Symantec distrust succeeded because of plural root programs; GLEIF's single-qualifier design lacks this corrective \u2014 generalizing to the necessity of plural trust-list publishers",
+    "confidence": {
+      "level": 0.83,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790804816.134109,
+    "id": "03abbc533f4ece0ff0c13546c65665ac7c3f7ea383f344c7c9f68d9c37251ff5"
+  },
+  {
+    "conclusion": "c1c8d274809e54be3610f909167f1139cc419de27bb2e20458827feb507bdeb3",
+    "premises": [
+      "064be66fba7b78a09305a97fe7f3ec2adebfd51be15a2abf5237455482d64e88",
+      "fec4c2923f40f2c1352fbd4190248f2f6167cca9576e04bb3c0db69022652751"
+    ],
+    "pattern": "induction",
+    "label": "Aadhaar exclusion and Worldcoin bans demonstrate that mandatory identity systems without external legal appeal cause irremediable harm \u2014 supporting necessity of governed exit and redress",
+    "confidence": {
+      "level": 0.79,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790804818.909506,
+    "id": "826f2827227dfb3fb2a214cc728b8c3d2391e32b0c12117d96b88ef95654c664"
+  },
+  {
+    "conclusion": "19dc120354785bef6e053620385bf729230abcdf23854746cece089699ba80ee",
+    "premises": [
+      "fec4c2923f40f2c1352fbd4190248f2f6167cca9576e04bb3c0db69022652751"
+    ],
+    "pattern": "abduction",
+    "label": "Login.gov's misrepresented assurance levels show that without codified per-dimension scores and relying-party thresholding, assessor quality is opaque and non-substitutable",
+    "confidence": {
+      "level": 0.74,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790804821.49386,
+    "id": "0708a11e3b2be26d0eebad40755a2c6376b75f03ac5f3030f2f6d50ef478bc95"
+  },
+  {
+    "conclusion": "40675872f154e3044b667807afdb076da346f9f52babb600aff31237ad17123d",
+    "premises": [
+      "fec4c2923f40f2c1352fbd4190248f2f6167cca9576e04bb3c0db69022652751",
+      "064be66fba7b78a09305a97fe7f3ec2adebfd51be15a2abf5237455482d64e88"
+    ],
+    "pattern": "causal",
+    "label": "When identity judgment errors occur (Login.gov, Aadhaar), no individual assessor bears liability because aggregators disclaim it \u2014 bonded human assessors would anchor accountability and enable substitution",
+    "confidence": {
+      "level": 0.68,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Bonded individual-assessor liability may not scale to the billions of identity assertions required by modern digital systems. The notarial model works for low-volume, high-stakes transactions (real estate, wills), but identity verification for everyday digital services requires throughput that bonded human assessors cannot provide at reasonable cost. Moreover, bonding requirements create barriers to entry that could paradoxically reduce assessor plurality and competition \u2014 concentrating the assessor market among well-capitalized incumbents, which undermines the very substitutability the thesis demands. The practical tension between individual liability and system scale may mean element 3 is internally inconsistent with the architecture's operational requirements.",
+        "status": "conceded",
+        "response": "Conceded in part. Bonded individual liability cannot cover billions of assertions; it is viable only for the tacit-judgment tier (face-to-face proofing, high-assurance enrollment) where volume is low and stakes are high. For automated, high-volume assurance the liability has to sit on the organization operating the codified process, which is what element 2 already provides. Element 3 should be narrowed to \"where a human makes a discretionary judgment\" and stated as an option the architecture must permit, not a universal requirement."
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790804824.836567,
+    "id": "dfdd49879b1040341a0249e9f7422affe2696be11ff1e68107362f156d0fefb1"
+  },
+  {
+    "conclusion": "78096476437003c0ca29216d0436cf8ce0f8bc236790aba6f0ff2b84e28efa9f",
+    "premises": [
+      "23bc64ed99254cc8bab8d64446ebe13b86b31b7fcc4de2c73e8650c5f3d0fc13",
+      "064be66fba7b78a09305a97fe7f3ec2adebfd51be15a2abf5237455482d64e88",
+      "605743dc372b27b62568cde86910555410fd9533e2213d4c92ca1c2245cdca94",
+      "6da757bf5a85bf4c64e99bc2b3953d81355dac07bee40efb4e060d14f5817f12",
+      "fec4c2923f40f2c1352fbd4190248f2f6167cca9576e04bb3c0db69022652751"
+    ],
+    "pattern": "induction",
+    "label": "Eight documented failures (Aadhaar, DigiNotar, Symantec, Login.gov, Worldcoin, Sovrin, SKS, GLEIF/vLEI) each map to at least one missing element, inductively supporting the failure-correspondence claim",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790804840.8639219,
+    "id": "e943160fc54841dc871e2f24ff59b847a07bc9266ad818293fd84a4d29bd4ab4"
+  },
+  {
+    "conclusion": "983abdd67693bf40b87d92b4b5cca54ec1df09ef4f34f66bae62061f740d4847",
+    "premises": [
+      "dd0f3be8111125e502e45e7b52426d9cc9e57d47cc43f2069a2d4f0acd1d5c90",
+      "19dc120354785bef6e053620385bf729230abcdf23854746cece089699ba80ee",
+      "40675872f154e3044b667807afdb076da346f9f52babb600aff31237ad17123d",
+      "bcefe900030420276a7ecba146b87ecadf6b957751725dc32990a8ae0ed8d9f6",
+      "c1c8d274809e54be3610f909167f1139cc419de27bb2e20458827feb507bdeb3",
+      "78096476437003c0ca29216d0436cf8ce0f8bc236790aba6f0ff2b84e28efa9f"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Five elements jointly satisfy recursive tolerability (sufficiency), and failure correspondence confirms each is necessary (necessity), establishing the biconditional",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The biconditional's necessity direction relies on induction from eight failure cases, but this is a small and potentially cherry-picked sample. Selection bias is a genuine risk: the thesis may have chosen failures that fit the five-element framework while ignoring failures that don't map cleanly (e.g., Estonia's e-Residency identity card vulnerability in 2017 involved a chip-level cryptographic flaw \u2014 does that map to 'self-certifying key control' or does it reveal a hardware-supply-chain element missing from the framework?). The inductive base is too narrow to support a universal biconditional; at best it supports a weaker claim that these five elements address known failure modes.",
+        "status": "conceded",
+        "response": "Conceded. The \"only if\" direction rests on eight failure cases mapping to missing elements, which is induction and cannot establish necessity. WebPKI is the live counterexample: it sustains top-tier enforcement with no bonded-assessor liability (element 3) and no formal appeal (element 5), because cheap relying-party exit substitutes for both. The thesis should be weakened to sufficiency, with necessity of each element held as a separate conjecture to be tested per element."
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790804853.23746,
+    "id": "433b26f92f21f583811e16bf101bf9a88ac219261316e14c437901db396d6c6a"
+  },
+  {
+    "conclusion": "eed78a775ec4f532c56917983b8a9b2ddda31a7aab7235cec0fc7c33d1acfd4b",
+    "premises": [
+      "dd0f3be8111125e502e45e7b52426d9cc9e57d47cc43f2069a2d4f0acd1d5c90",
+      "19dc120354785bef6e053620385bf729230abcdf23854746cece089699ba80ee",
+      "40675872f154e3044b667807afdb076da346f9f52babb600aff31237ad17123d",
+      "bcefe900030420276a7ecba146b87ecadf6b957751725dc32990a8ae0ed8d9f6",
+      "c1c8d274809e54be3610f909167f1139cc419de27bb2e20458827feb507bdeb3"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Sufficiency: each element closes one tier at which the recursive conditions are known to fail (identifier layer, assessor interchangeability, liability locus, qualifier tier, redress for mandatory use)",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "conjunctive",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790810618.319883,
+    "id": "4f61030dd1c12f9184863f75f5d0596633971c96b1f28dab0d1b2e1ee79b65e7"
+  },
+  {
+    "conclusion": "eed78a775ec4f532c56917983b8a9b2ddda31a7aab7235cec0fc7c33d1acfd4b",
+    "premises": [
+      "dd0f3be8111125e502e45e7b52426d9cc9e57d47cc43f2069a2d4f0acd1d5c90",
+      "19dc120354785bef6e053620385bf729230abcdf23854746cece089699ba80ee",
+      "c1de6a3d68e1af3120a0f8e9bd7137d695d9ed4ed98422207e4088e9884927ad",
+      "bcefe900030420276a7ecba146b87ecadf6b957751725dc32990a8ae0ed8d9f6",
+      "c1c8d274809e54be3610f909167f1139cc419de27bb2e20458827feb507bdeb3"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Sufficiency (rescoped element 3): self-certifying identifiers + codified per-dimension assurance + liability on the judgment-holder + plural list-publishers + public-law appeal for mandatory use jointly satisfy the recursive conditions at every tier",
+    "confidence": {
+      "level": 0.62,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Estonia 2017 (ROCA, CVE-2017-15361): roughly 750,000 national ID cards issued 2014-2017 had RSA keys recoverable from the public key because of a flaw in Infineon's key-generation library. The chip was Common Criteria certified. None of the five elements addresses this: the failure was in the cryptographic substrate that generates the identity evidence, not in who judged it. Either the five-element list is not exhaustive (a sixth element covering substrate/hardware attestation is missing), or the thesis's scope silently excludes a whole class of identity-system failure.",
+        "status": "answered",
+        "response": "Partly conceded, partly answered. Answered: Estonia is not outside the thesis. The Common Criteria scheme is a trust-list publisher for the hardware tier, and it was a single one; the recursive reading of element 4 already says plural independent list-publishers are needed at every tier where something is certified, and hardware certification is such a tier. Estonia's recovery also depended on the key-control layer permitting revocation and reissue, which is exactly what element 1's rotation semantics provide. So the case maps onto elements 1 and 4 applied one tier lower than I had applied them. Conceded: the thesis as written speaks of judgment tiers and never names the substrate tier, so a reader could not have predicted this application. The five elements should be restated to say the recursive conditions apply to every tier at which anything is certified, attested, or listed, hardware and software included. Whether that is a restatement or a sixth element is a labelling question; the substantive content is that substrate certification is inside scope and currently fails element 4 almost everywhere (Common Criteria, FIPS 140, FIDO metadata are each single schemes)."
+      },
+      {
+        "type": "undercutting",
+        "description": "The recursive tolerability conditions are purely procedural: they ask who can be substituted, appealed, or exited, never what the system does to the people inside it. An architecture could satisfy all three at every tier and still systematically exclude the poor, the elderly, and the undocumented, because the conditions are indifferent to distributional outcome. The survey's own evidence shows this: IDQA satisfies condition 1 in intent yet scores asset linkage, breadth of online usage, and liability capacity, each of which tracks wealth and digital participation; Aadhaar's exclusion harm was reduced not by any of the three conditions but by an accessibility fallback. If accessibility and non-exclusion are not among the criteria, a \"tolerable\" architecture may be one that works beautifully for those it admits and quietly fails everyone else. The thesis's normative foundation is therefore incomplete, and sufficiency proven against incomplete criteria proves little.",
+        "status": "conceded",
+        "response": "Conceded in substance. The three conditions govern the structure of authority, not distributional outcome, and sufficiency against them is sufficiency for a narrower good than \"tolerable identity system.\" Two partial answers survive: Aadhaar's OTP fallback is assessor substitution at the lowest tier, so condition 2 did do that work; and the IDQA wealth gradient is a violation of condition 1 in effect even where it holds in intent, which means condition 1 was underspecified rather than absent. The repair is to restate condition 1 as an outcome test rather than a design intention: an assurance score about an assertion must not be predictable from the subject's wealth, age, or digital participation beyond what the identity evidence itself requires. With that restatement the conditions remain about authority but acquire a measurable non-exclusion constraint. Whether a fourth, explicitly distributional condition is also needed is left open."
+      }
+    ],
+    "support_mode": "conjunctive",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790811579.280538,
+    "id": "643926cfb9de1de70236862ec19700471f0c379a2459f56851582084a0fa0dbc"
+  },
+  {
+    "conclusion": "dee898ca485cb810bbf7c74861e1c6b3a5248df8233f28e704bf900fff152192",
+    "premises": [
+      "3a4d15431797d48f5940bfa6a93b28c1a236f365b4125d552c0ed44da646801b"
+    ],
+    "pattern": "testimony",
+    "label": "Evidence: ROCA / Estonia 2017: certified chips, key-generation flaw, revoke-and-reissue recovery",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790812499.576139,
+    "id": "892782318831679a5e8176f8c214ed40ba2a7c7c24b62508858de2e1cb2c142f"
+  },
+  {
+    "conclusion": "ad643291d0983b54a1c925109545b828529191fc9432ae032f8968c8b2539b33",
+    "premises": [
+      "dd0f3be8111125e502e45e7b52426d9cc9e57d47cc43f2069a2d4f0acd1d5c90",
+      "19dc120354785bef6e053620385bf729230abcdf23854746cece089699ba80ee",
+      "c1de6a3d68e1af3120a0f8e9bd7137d695d9ed4ed98422207e4088e9884927ad",
+      "bcefe900030420276a7ecba146b87ecadf6b957751725dc32990a8ae0ed8d9f6",
+      "c1c8d274809e54be3610f909167f1139cc419de27bb2e20458827feb507bdeb3",
+      "2303b5ddba2e8f78386f88a33a53fb0d2a897b702003af040fc9834bada13d32"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Sufficiency v3: five elements, with element 4 recursive to the substrate tier and condition 1 as an outcome test, jointly satisfy the recursive tolerability conditions for the structure of authority",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "conjunctive",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790813196.6340501,
+    "id": "b86550b0bfeaec7b1f3114423a5efec69e848c2a1bed3acd125808de9b7f5426"
+  }
+]

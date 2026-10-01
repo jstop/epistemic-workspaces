@@ -1,0 +1,18 @@
+[
+  {
+    "from_id": "a7aebf2ce58811e86c70f192abdb73ad0d2b3d64a3c04ef078e9026077a04b42",
+    "rel": "supersedes",
+    "to": "fbe5a20df6e6dcd8fa0810ff9485520b9aba5581518baff49c05f38c168d97aa",
+    "notes": "Round 1 undercutting defeater: the original thesis treated all authority concentration as equivalent. Narrowed to distinguish key-control concentration from verification-judgment concentration; the three tolerability conditions now govern only the judgment layer. This also targets the rebutting defeater (DID/VC + KERI may satisfy all three) by locating KERI/ACDC's contribution in the key-control layer.",
+    "created_at": 1790801894.37119,
+    "id": "d6f5b34cb564916e9dbe431006e631920abf4f071ca6e7980e2bb2166cc268e4"
+  },
+  {
+    "from_id": "03a55bd984382114c6a5abf444b1e2f7e102d42db1cc2f0a038af98094f50bfa",
+    "rel": "narrows",
+    "to": "a7aebf2ce58811e86c70f192abdb73ad0d2b3d64a3c04ef078e9026077a04b42",
+    "notes": "",
+    "created_at": 1790802305.2472498,
+    "id": "43fa2f4e34d99b822ab7355d0c84667e5d4d702b62fbcdc9410c44d73bf1ac7e"
+  }
+]

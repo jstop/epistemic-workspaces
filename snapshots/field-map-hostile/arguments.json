@@ -1,0 +1,126 @@
+[
+  {
+    "conclusion": "d24a52510779c687f68855220ef849ec9832ab3deebebe057be132bd2051fecc",
+    "premises": [
+      "4fcc06952d5213ce5cc661293543da9414e6f841f30074bdcb59c61a3b1db780"
+    ],
+    "pattern": "abduction",
+    "label": "Sovrin's collapse is best explained by registry-dependent identifiers being fragile, supporting the necessity of self-certifying identifiers",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790815507.0851042,
+    "id": "d1ac1abb0886f5eab36e3b4b5feb760c149395757b92b241205148f3f72832ba"
+  },
+  {
+    "conclusion": "8a64ad391fb2795bb9f3f97e4c3b644c4f6fc44100a6f173160f38886cef802a",
+    "premises": [
+      "3261d41c527cda85ac0c98145440d4f95249ca890a62fb1406eb8ca3de7b9087"
+    ],
+    "pattern": "induction",
+    "label": "WebPKI's multi-root-program competitive auditing track record inductively supports plural trust-list governance as necessary",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790815510.9496,
+    "id": "64258144adabfa64c37f55c7b9f2fe5b3b9eba9280f6017154c5e698a0fd9450"
+  },
+  {
+    "conclusion": "2cf36a1b58983000bd304aef251651649a434d6aaedde6e60d1cb361671fafed",
+    "premises": [
+      "33ec800ee8390a13c5c8876bd00460525b06b5bef3561ddbb57027f493ce1308"
+    ],
+    "pattern": "causal",
+    "label": "Aadhaar exclusion harms causally demonstrate that mandatory identity systems without public-law appeal produce irremediable exclusion",
+    "confidence": {
+      "level": 0.73,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790815514.8881128,
+    "id": "ae95f36698acb43a84b99b1fef0aba2c145240b6e90f0d60a58e340255e8d3cd"
+  },
+  {
+    "conclusion": "d55c28c7a741479d1bb9c72a4c98e7a336ee4a647314c044dd22b84df20ddfcc",
+    "premises": [
+      "a7cf5090f08d019392fc3f9ef654ce639e18d2902853612c77484bf0477f5d78"
+    ],
+    "pattern": "induction",
+    "label": "Systematic survey across 15+ identity systems inductively establishes that no existing system covers all five elements",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undermining",
+        "description": "The scoring subjectivity objection: the gap survey's conclusion that no system achieves more than three-plus-partials depends on binary or ternary pass/partial/fail scoring of each element against each system. This scoring is performed by the thesis author without a published rubric or inter-rater reliability check. Reasonable analysts might score differently \u2014 for example, eIDAS 2's Qualified Trust Service Provider lists could be scored as satisfying element 4 (plural trust-list publishers) if EU member-state lists are counted as independent publishers, which would give eIDAS 2 four elements (2, 3, 4, 5) and undermine the claim that the maximum is three-plus-partials. Similarly, GLEIF vLEI's Qualified vLEI Issuer framework could be scored as satisfying element 4 if multiple QVIs are treated as functionally independent trust anchors. The survey evidence is thus only as strong as the unstated scoring criteria.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790815518.5924969,
+    "id": "810ace918124e41541b0bdf6a2df6e54bf5645a3ab017083bc5ff3a7f8d46eee"
+  },
+  {
+    "conclusion": "24ae1e43708d275533c4f5fd7311ed5d0105d515e8a825ed175d7e70c7c1a07b",
+    "premises": [
+      "d24a52510779c687f68855220ef849ec9832ab3deebebe057be132bd2051fecc",
+      "dd2716e3adab456fbaf0783c3150b5ba48ab3473162ea60263ff8d1373867646",
+      "d62745031d10f6c99c6b163382df5e9c65ad52f63e6b621c58e1701af2c615bc",
+      "8a64ad391fb2795bb9f3f97e4c3b644c4f6fc44100a6f173160f38886cef802a",
+      "2cf36a1b58983000bd304aef251651649a434d6aaedde6e60d1cb361671fafed",
+      "d55c28c7a741479d1bb9c72a4c98e7a336ee4a647314c044dd22b84df20ddfcc"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If each of five elements is independently necessary and no existing system supplies all five, then optimal architecture requires composing them from demonstrated sources",
+    "confidence": {
+      "level": 0.74,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The composability objection: even if each element is individually necessary and has been demonstrated somewhere, the argument's inference to a viable composed architecture does not follow unless the five elements are mutually compatible under a single design. Self-certifying identifiers (element 1) may create tension with plural trust-list governance (element 4) \u2014 trust-list publishers typically gate entry via their own registration processes, which could re-introduce registry dependence. The thesis asserts composition is possible by pointing to partial overlaps (e.g., GLEIF vLEI has elements 1+3, UK DVS has 3+4+5) but never demonstrates a coherent integration of all five. Without an existence proof or formal compatibility analysis, the leap from 'each element demonstrated separately' to 'composition is the optimal architecture' is an unsupported inductive step.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790815527.975502,
+    "id": "f3c4039f582b393e4fa1abeedb9d9f0ae7a98ea3070e2846fba962e3bd003eda"
+  }
+]

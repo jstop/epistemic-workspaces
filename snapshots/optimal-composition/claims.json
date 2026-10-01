@@ -1,0 +1,462 @@
+[
+  {
+    "subject": "identity-assurance-architecture",
+    "predicate": "satisfies-recursive-tolerability-iff-composes",
+    "object": "five-elements",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "a0da48b766b3dfd4669d610b66c77e885d75e12a78a2dc50d4af52af4b93c017",
+      "06dafa41855d37a8d05bb3301bdeea42738878af90518f808483b13f82388d9f",
+      "73b03bdf8e528a8f9ccfb8975f353953a343cb26f70b5c53004f0630398d3dd4"
+    ],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "superseded",
+    "killed_by": "eed78a775ec4f532c56917983b8a9b2ddda31a7aab7235cec0fc7c33d1acfd4b",
+    "notes": "An identity-assurance architecture satisfies the recursive tolerability conditions (assessments are about identity assertions not persons; relying parties can substitute assessors at every judgment tier including the tier that qualifies assessors; there is a governed path to appeal and exit) if and only if it composes five elements: (1) self-certifying key control, as in KERI/ACDC, so that no authority is needed at the identifier layer and concentration is confined to judgment; (2) codified, per-dimension assurance, as in NIST SP 800-63 assurance levels combined with Osmio's IDQA feature vector, so that judgment is expressed as auditable per-dimension scores that relying parties threshold themselves, making assessors interchangeable and keeping confidence about the assertion rather than the person; (3) liable, bonded human assessors for irreducibly tacit judgment, as in Osmio's Attestation Officers or notaries, so that liability rests on the assessor rather than being disclaimed by an aggregator; (4) plural, independent trust-list publishers, as in the WebPKI's four competing browser root programs, so that no single qualifier exists and enforcement against large incumbents is credible; and (5) external appeal under public law for anything de facto mandatory, as in eIDAS 2's judicial review, with cheap exit preserved for voluntary use. Every documented failure in the field (Aadhaar exclusion, DigiNotar, Symantec, Login.gov, Worldcoin regulatory bans, Sovrin's collapse, SKS keyserver poisoning, GLEIF's single-qualifier vLEI) corresponds to a missing element.",
+    "created_at": 1790804727.279101,
+    "id": "983abdd67693bf40b87d92b4b5cca54ec1df09ef4f34f66bae62061f740d4847"
+  },
+  {
+    "subject": "self-certifying-key-control",
+    "predicate": "eliminates-authority-at",
+    "object": "identifier-layer",
+    "confidence": {
+      "level": 0.88,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Element 1: Self-certifying identifiers (as in KERI/ACDC) make the identifier layer authority-free by deriving identifiers from cryptographic key material. This confines any concentration of power to the judgment layer, where it can be governed. Without this, the identifier registry itself becomes a chokepoint (as seen in SKS keyserver poisoning or DNS-dependency).",
+    "created_at": 1790804735.742599,
+    "id": "dd0f3be8111125e502e45e7b52426d9cc9e57d47cc43f2069a2d4f0acd1d5c90"
+  },
+  {
+    "subject": "codified-per-dimension-assurance",
+    "predicate": "enables",
+    "object": "assessor-interchangeability",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Element 2: Expressing identity judgment as auditable per-dimension scores (combining NIST SP 800-63 assurance levels with a feature vector like Osmio's IDQA) lets relying parties set their own thresholds. This makes assessors interchangeable\u2014any assessor producing the same codified scores is substitutable\u2014and keeps confidence anchored on the assertion rather than collapsing into a reputation score about the person.",
+    "created_at": 1790804738.778722,
+    "id": "19dc120354785bef6e053620385bf729230abcdf23854746cece089699ba80ee"
+  },
+  {
+    "subject": "liable-bonded-human-assessors",
+    "predicate": "anchor-accountability-for",
+    "object": "tacit-judgment",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "superseded",
+    "killed_by": "c1de6a3d68e1af3120a0f8e9bd7137d695d9ed4ed98422207e4088e9884927ad",
+    "notes": "Element 3: For judgment that is irreducibly tacit (cannot be fully algorithmic), liable bonded human assessors (Osmio's Attestation Officers, notaries) ensure accountability rests on the individual assessor via bonding and liability, rather than being disclaimed by a corporate aggregator. This is a normative claim about where accountability should rest and an empirical claim that some judgment resists full codification.",
+    "created_at": 1790804742.1912599,
+    "id": "40675872f154e3044b667807afdb076da346f9f52babb600aff31237ad17123d"
+  },
+  {
+    "subject": "plural-independent-trust-list-publishers",
+    "predicate": "prevent",
+    "object": "single-qualifier-monopoly",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Element 4: Multiple independent trust-list publishers (analogous to WebPKI's four competing browser root programs) ensure no single qualifier has veto power. This makes enforcement against large incumbents credible (as demonstrated by the Symantec distrust) and prevents the GLEIF single-qualifier failure mode seen in vLEI.",
+    "created_at": 1790804744.9016478,
+    "id": "bcefe900030420276a7ecba146b87ecadf6b957751725dc32990a8ae0ed8d9f6"
+  },
+  {
+    "subject": "external-appeal-under-public-law",
+    "predicate": "provides",
+    "object": "governed-exit-and-redress",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Element 5: For identity systems that become de facto mandatory, external appeal under public law (as in eIDAS 2's judicial review provisions) provides a governed path to redress. Cheap exit is preserved for voluntary use. Without this, subjects of identity errors have no recourse outside the system\u2014the Aadhaar exclusion problem.",
+    "created_at": 1790804747.5596428,
+    "id": "c1c8d274809e54be3610f909167f1139cc419de27bb2e20458827feb507bdeb3"
+  },
+  {
+    "subject": "documented-identity-system-failures",
+    "predicate": "each-correspond-to",
+    "object": "missing-element-in-five-part-framework",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Every documented failure cited (Aadhaar exclusion, DigiNotar compromise, Symantec distrust, Login.gov assurance issues, Worldcoin regulatory bans, Sovrin's collapse, SKS keyserver poisoning, GLEIF's single-qualifier vLEI) can be mapped to the absence of one or more of the five elements. This is the inductive backbone of the biconditional: if the framework is necessary and sufficient, then failures should correspond to missing elements.",
+    "created_at": 1790804758.3129148,
+    "id": "78096476437003c0ca29216d0436cf8ce0f8bc236790aba6f0ff2b84e28efa9f"
+  },
+  {
+    "subject": "five-element-list",
+    "predicate": "is-exhaustive-for",
+    "object": "recursive-tolerability",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: The five elements listed are not merely sufficient but exhaustive \u2014 no sixth element is required to satisfy recursive tolerability. The thesis claims a biconditional (if and only if), which requires that these five are both necessary and sufficient. It is possible that future failure modes could reveal a missing element not yet encountered (e.g., quantum-computing-era key compromise, AI-generated deepfake identity fraud at scale). The enumeration is derived from observed failures, which is inherently incomplete.",
+    "created_at": 1790804862.1167622,
+    "id": "a0da48b766b3dfd4669d610b66c77e885d75e12a78a2dc50d4af52af4b93c017"
+  },
+  {
+    "subject": "recursive-tolerability-conditions",
+    "predicate": "are-correct-normative-criteria-for",
+    "object": "acceptable-identity-architecture",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: The three recursive tolerability conditions (assessments about assertions not persons; substitutability of assessors at every tier; governed appeal and exit) are themselves the right normative standard for evaluating identity architectures. This is a value judgment \u2014 one could argue that efficiency, inclusion rates, or national security override these liberal-procedural criteria. The thesis takes these conditions as given without arguing for them from first principles.",
+    "created_at": 1790804866.820906,
+    "id": "06dafa41855d37a8d05bb3301bdeea42738878af90518f808483b13f82388d9f"
+  },
+  {
+    "subject": "tacit-judgment",
+    "predicate": "remains-irreducibly-human-despite",
+    "object": "advances-in-automation",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: Some identity judgment is irreducibly tacit and cannot be fully codified or automated. Element 3 (liable bonded human assessors) depends on this assumption. If AI/ML systems could fully replicate the judgment of a notary or attestation officer with equivalent reliability, element 3 might collapse into element 2 (codified per-dimension assurance), reducing the five elements to four. The boundary between tacit and codifiable judgment is contested and may shift over time.",
+    "created_at": 1790804871.876422,
+    "id": "73b03bdf8e528a8f9ccfb8975f353953a343cb26f70b5c53004f0630398d3dd4"
+  },
+  {
+    "subject": "An identity-assurance architecture that composes (1) self-certifying key control, (2) codified per-dimension assurance thresholded by relying parties, (3) liability that rests on whoever exercises judgment, individual and bonded where the judgment is discretionary and organizational where it is codified, (4) plural independent trust-list publishers, and (5) external appeal under public law wherever use is de facto mandatory, with cheap exit preserved where it is voluntary, is sufficient to satisfy the recursive tolerability conditions at every judgment tier. Whether each element is necessary is a separate conjecture per element; elements 3 and 5 are known to be substitutable by cheap exit in low-stakes voluntary settings (WebPKI), and elements 1, 2 and 4 have no documented substitute.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": "983abdd67693bf40b87d92b4b5cca54ec1df09ef4f34f66bae62061f740d4847",
+    "version_meta": {
+      "rationale": "Two defeaters conceded: the biconditional's necessity direction was induction from a small failure sample (WebPKI shows elements 3 and 5 substitutable by cheap exit), and bonded individual liability does not scale beyond the discretionary-judgment tier. Narrowed to sufficiency, with per-element necessity as separate conjectures and element 3 re-scoped to place liability wherever judgment is exercised."
+    },
+    "node_type": "thesis",
+    "status": "superseded",
+    "killed_by": "ad643291d0983b54a1c925109545b828529191fc9432ae032f8968c8b2539b33",
+    "notes": "An identity-assurance architecture that composes (1) self-certifying key control, (2) codified per-dimension assurance thresholded by relying parties, (3) liability that rests on whoever exercises judgment, individual and bonded where the judgment is discretionary and organizational where it is codified, (4) plural independent trust-list publishers, and (5) external appeal under public law wherever use is de facto mandatory, with cheap exit preserved where it is voluntary, is sufficient to satisfy the recursive tolerability conditions at every judgment tier. Whether each element is necessary is a separate conjecture per element; elements 3 and 5 are known to be substitutable by cheap exit in low-stakes voluntary settings (WebPKI), and elements 1, 2 and 4 have no documented substitute.",
+    "created_at": 1790804946.7923589,
+    "id": "eed78a775ec4f532c56917983b8a9b2ddda31a7aab7235cec0fc7c33d1acfd4b"
+  },
+  {
+    "subject": "Liability for an assurance judgment must rest on whoever exercised it: on a bonded, individually liable human where the judgment was discretionary (face-to-face proofing, high-assurance enrollment), and on the operating organization where the judgment was codified and automated. What the recursive conditions exclude is the AAMVA pattern, where the aggregator that publishes the trust list disclaims liability while no assessor bears it either.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": "40675872f154e3044b667807afdb076da346f9f52babb600aff31237ad17123d",
+    "version_meta": {
+      "rationale": "Conceded rebutting defeater: bonded individual liability does not scale to high-volume automated assurance. Rescoped element 3 to \"liability rests on whoever exercises judgment\", bonding confined to the discretionary tier."
+    },
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Liability for an assurance judgment must rest on whoever exercised it: on a bonded, individually liable human where the judgment was discretionary (face-to-face proofing, high-assurance enrollment), and on the operating organization where the judgment was codified and automated. What the recursive conditions exclude is the AAMVA pattern, where the aggregator that publishes the trust list disclaims liability while no assessor bears it either.",
+    "created_at": 1790811072.802958,
+    "id": "c1de6a3d68e1af3120a0f8e9bd7137d695d9ed4ed98422207e4088e9884927ad"
+  },
+  {
+    "subject": "The ROCA-affected Infineon chips in Estonia's ID cards were Common Criteria certified; the flaw was in a proprietary key-generation library and was present across a list of certified smart-card products. Estonia recovered by revoking the affected certificates on 3 November 2017 and reissuing, with no misuse detected.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The ROCA-affected Infineon chips in Estonia's ID cards were Common Criteria certified; the flaw was in a proprietary key-generation library and was present across a list of certified smart-card products. Estonia recovered by revoking the affected certificates on 3 November 2017 and reissuing, with no misuse detected.",
+    "created_at": 1790812490.560448,
+    "id": "dee898ca485cb810bbf7c74861e1c6b3a5248df8233f28e704bf900fff152192"
+  },
+  {
+    "subject": "The recursive tolerability conditions, and therefore elements 1 and 4, apply to every tier at which something is certified, attested, or listed, including the hardware and software substrate that generates identity evidence. Substrate certification schemes (Common Criteria, FIPS 140, FIDO authenticator metadata) are trust-list publishers for that tier and are today each a single scheme, so element 4 fails there almost universally. (Surfaced by the Estonia/ROCA test; the thesis had named only judgment tiers.)",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "concession",
+    "status": null,
+    "killed_by": null,
+    "notes": "The recursive tolerability conditions, and therefore elements 1 and 4, apply to every tier at which something is certified, attested, or listed, including the hardware and software substrate that generates identity evidence. Substrate certification schemes (Common Criteria, FIPS 140, FIDO authenticator metadata) are trust-list publishers for that tier and are today each a single scheme, so element 4 fails there almost universally. (Surfaced by the Estonia/ROCA test; the thesis had named only judgment tiers.)",
+    "created_at": 1790812763.998402,
+    "id": "2303b5ddba2e8f78386f88a33a53fb0d2a897b702003af040fc9834bada13d32"
+  },
+  {
+    "subject": "An identity-assurance architecture that composes (1) self-certifying key control, (2) codified per-dimension assurance thresholded by relying parties, (3) liability resting on whoever exercised the judgment, bonded and individual where discretionary, organizational where codified, (4) plural independent trust-list publishers at every tier where anything is certified, attested, or listed, substrate included, and (5) external appeal under public law wherever use is de facto mandatory, with cheap exit where voluntary, is sufficient to satisfy the recursive tolerability conditions, where condition 1 is read as an outcome test: an assurance score about an identity assertion must not be predictable from the subject's wealth, age, or digital participation beyond what the identity evidence itself requires. Sufficiency is for the structure of authority; whether a further, explicitly distributional condition is needed is open. Per-element necessity remains a separate conjecture; elements 3 and 5 are substitutable by cheap exit in low-stakes voluntary settings.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": true,
+    "previous_version": "eed78a775ec4f532c56917983b8a9b2ddda31a7aab7235cec0fc7c33d1acfd4b",
+    "version_meta": {
+      "rationale": "Conceded that the conditions were purely procedural. Condition 1 restated as an outcome test (assurance scores not predictable from wealth, age, digital participation beyond what evidence requires); element 4 extended to the substrate tier after the Estonia/ROCA test; scope limited explicitly to the structure of authority with a possible distributional condition left open."
+    },
+    "node_type": "thesis",
+    "status": null,
+    "killed_by": null,
+    "notes": "An identity-assurance architecture that composes (1) self-certifying key control, (2) codified per-dimension assurance thresholded by relying parties, (3) liability resting on whoever exercised the judgment, bonded and individual where discretionary, organizational where codified, (4) plural independent trust-list publishers at every tier where anything is certified, attested, or listed, substrate included, and (5) external appeal under public law wherever use is de facto mandatory, with cheap exit where voluntary, is sufficient to satisfy the recursive tolerability conditions, where condition 1 is read as an outcome test: an assurance score about an identity assertion must not be predictable from the subject's wealth, age, or digital participation beyond what the identity evidence itself requires. Sufficiency is for the structure of authority; whether a further, explicitly distributional condition is needed is open. Per-element necessity remains a separate conjecture; elements 3 and 5 are substitutable by cheap exit in low-stakes voluntary settings.",
+    "created_at": 1790813178.5719628,
+    "id": "ad643291d0983b54a1c925109545b828529191fc9432ae032f8968c8b2539b33"
+  }
+]

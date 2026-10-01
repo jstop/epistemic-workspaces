@@ -1,0 +1,122 @@
+[
+  {
+    "title": "DigiNotar and Symantec distrust events in WebPKI",
+    "description": "DigiNotar was compromised in 2011 and distrusted by all major browsers within weeks. Symantec's CA business was gradually distrusted by Google Chrome and Mozilla Firefox between 2015-2018 due to systematic mis-issuance. Both cases demonstrate that plural trust-list publishers (element 4) enabled credible enforcement: multiple independent browser root programs could independently decide to distrust, and the existence of alternatives meant no single CA was irreplaceable. Conversely, a single-qualifier system could not have enforced distrust without destroying the entire ecosystem.",
+    "evidence_type": "observation",
+    "source": "Public post-mortem reports and browser vendor announcements regarding DigiNotar (2011) and Symantec CA distrust (2015-2018), widely documented in security community",
+    "reliability": 0.9,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_bfd1dfbdd4e44dda97442a22159635a8",
+      "url": "https://www.enisa.europa.eu/sites/default/files/all_files/Operation_Black_Tulip_v2.pdf",
+      "quote": "despite the fact that Diginotar was audited periodically to ETSI",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790804764.3613,
+    "id": "23bc64ed99254cc8bab8d64446ebe13b86b31b7fcc4de2c73e8650c5f3d0fc13"
+  },
+  {
+    "title": "Aadhaar exclusion and denial-of-service to enrolled persons",
+    "description": "India's Aadhaar biometric identity system has documented cases where enrolled individuals were denied benefits due to biometric authentication failures, database errors, or connectivity issues\u2014with no effective appeal mechanism outside the system itself. This corresponds to missing element 5 (external appeal under public law for mandatory systems) and partly element 3 (no individual assessor liability for erroneous enrollments or denials).",
+    "evidence_type": "observation",
+    "source": "Journalistic investigations and Indian Supreme Court proceedings documenting Aadhaar-related exclusion incidents, particularly welfare benefit denial cases",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_f83f6c1dc71a43a98c5cbc9b9d8a18bd",
+      "url": "https://ncaer.org/wp-content/uploads/2022/09/IPF2021Paper4.pdf",
+      "quote": "not a consequence of using Aadhaar but using Aadhaar exclusively",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790804768.654571,
+    "id": "064be66fba7b78a09305a97fe7f3ec2adebfd51be15a2abf5237455482d64e88"
+  },
+  {
+    "title": "GLEIF single-qualifier architecture in vLEI",
+    "description": "The verifiable Legal Entity Identifier (vLEI) system designates GLEIF as the sole root of trust / qualifier for Qualified vLEI Issuers. This single-qualifier design means there is no independent alternative trust-list publisher\u2014precisely the monopoly that element 4 is designed to prevent. Any governance failure, capture, or operational disruption at GLEIF has no competitive corrective.",
+    "evidence_type": "document",
+    "source": "GLEIF's published vLEI governance framework and ecosystem architecture documents describing the single-root trust hierarchy",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_128ce28c94994470874d972adc4b1629",
+      "url": "https://www.gleif.org/en/vlei/get-a-vlei-list-of-qualified-vlei-issuing-organizations",
+      "quote": "Only organizations duly qualified by the Global Legal Entity Identifier Foundation",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790804772.659704,
+    "id": "605743dc372b27b62568cde86910555410fd9533e2213d4c92ca1c2245cdca94"
+  },
+  {
+    "title": "SKS keyserver poisoning and Sovrin Foundation collapse",
+    "description": "The SKS keyserver network suffered certificate-flooding attacks in 2019 that rendered portions of the PGP ecosystem unusable, illustrating the failure of an identifier layer that depends on shared infrastructure without self-certifying key control (missing element 1). Sovrin Foundation, a permissioned blockchain for decentralized identity, ceased operations in 2022 due to financial unsustainability\u2014demonstrating that a ledger-dependent identifier layer reintroduces infrastructural authority and fragility, again a failure of element 1.",
+    "evidence_type": "observation",
+    "source": "Security community reports on SKS keyserver poisoning (2019) and news reports on Sovrin Foundation's operational cessation (2022)",
+    "reliability": 0.82,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_d6e9b83743a841008d873ed05f0071a9",
+      "url": "https://sovrin.org/the-sovrin-foundation-has-been-dissolved-but-sovrin-mainnet-remains/",
+      "quote": "officially dissolved by the State of Utah on May 21, 2025",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790804777.5221708,
+    "id": "6da757bf5a85bf4c64e99bc2b3953d81355dac07bee40efb4e060d14f5817f12"
+  },
+  {
+    "title": "Worldcoin regulatory bans and Login.gov assurance shortfalls",
+    "description": "Worldcoin's biometric iris-scanning identity system has been banned or suspended in multiple jurisdictions (Kenya, Spain, Portugal, France) due to privacy and consent concerns\u2014demonstrating what happens when a de facto mandatory system lacks external appeal and governed exit (missing element 5) and when identity judgment is opaque and non-codified (missing element 2). Login.gov faced criticism for misrepresenting its identity assurance levels, specifically claiming NIST IAL2 compliance it had not achieved\u2014illustrating the need for codified, per-dimension assurance with auditable scores (missing element 2) and liable individual assessors rather than institutional self-certification (missing element 3).",
+    "evidence_type": "observation",
+    "source": "Regulatory enforcement actions against Worldcoin by multiple national data protection authorities (2023-2024) and US Inspector General reports on Login.gov assurance level misrepresentation",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_c4e01dce9bbf447da4b04d9da10a8fb5",
+      "url": "https://www.gsaig.gov/content/gsa-misled-customers-logingovs-compliance-digital-identity-standards",
+      "quote": "Login.gov has never included a physical or biometric comparison",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790804806.2263622,
+    "id": "fec4c2923f40f2c1352fbd4190248f2f6167cca9576e04bb3c0db69022652751"
+  },
+  {
+    "title": "ROCA / Estonia 2017: certified chips, key-generation flaw, revoke-and-reissue recovery",
+    "description": "Encyclopedic summary of CVE-2017-15361 noting the vulnerability was present in Common Criteria certified smart-card products and caused a state-level crisis in Estonia across 750,000+ cards; trade press (The Register, SC Magazine) documents the 3 Nov 2017 certificate block, the 2014-2017 issuance window, and the statement that no misuse incidents were known. Primary source to attach later: Nemec et al., \"The Return of Coppersmith's Attack\", ACM CCS 2017, \u00a76.7.",
+    "evidence_type": "document",
+    "source": "https://wikipedia.com/wiki/ROCA_attack ; https://www.theregister.com/2017/11/03/estonian_e_id_lockdown/",
+    "reliability": 0.75,
+    "provenance": null,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790812499.5742211,
+    "id": "3a4d15431797d48f5940bfa6a93b28c1a236f365b4125d552c0ed44da646801b"
+  }
+]

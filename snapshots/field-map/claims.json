@@ -1,0 +1,1264 @@
+[
+  {
+    "subject": "FIELD-MAP THESIS (Claude's formulation, Sep 2026). The optimal identit",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "thesis",
+    "status": null,
+    "killed_by": null,
+    "notes": "FIELD-MAP THESIS (Claude's formulation, Sep 2026). The optimal identity-assurance architecture is a composition, not a product: it takes one element from each of five places in the field where that element has been demonstrated, and no existing system supplies more than three. (1) Identifier control from KERI/ACDC (self-certifying, pre-rotated keys; no registry authority). (2) Assurance expressed as a codified per-dimension scorecard, the NIST SP 800-63 level structure with IDQA's eight-dimension vector, thresholded by each relying party, and subject to an outcome test: scores must not be predictable from wealth, age, or digital participation beyond what the evidence requires. (3) Liability resting on whoever exercised the judgment: bonded, individually liable notaries or Attestation Officers for discretionary proofing; organizational liability for codified automated checks; never the AAMVA pattern of a list-publisher that disclaims it. (4) Plural, independent trust-list publishers at every tier where anything is certified, attested, or listed, as the WebPKI's competing browser root programs are, extended downward to hardware and software certification where today only single schemes exist. (5) Appeal under public law wherever use is de facto mandatory, as eIDAS 2 provides, with cheap exit where voluntary. Every technology in the field occupies a determinate place relative to these five: it supplies one, partially supplies one, or fails one, and the failures documented in the field map onto missing elements. The composition is sufficient for the recursive tolerability conditions; per-element necessity is conjectural (WebPKI shows 3 and 5 substitutable by cheap exit when voluntary).",
+    "created_at": 1790814511.610836,
+    "id": "692a1f58c6ceebb5"
+  },
+  {
+    "subject": "ELEMENT 1, pick: KERI/ACDC. Self-certifying identifiers derived from k",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "ELEMENT 1, pick: KERI/ACDC. Self-certifying identifiers derived from key material with pre-rotation and witness-based duplicity detection remove the need for any registry or ledger authority at the identifier layer. Alternatives examined: W3C DIDs (method-dependent), Sovrin/Indy (ledger authority, collapsed), X.509 (CA binds key to name), OpenPGP (self-certifying but no judgment layer), OIDC/social login (IdP owns identifier). [I]",
+    "created_at": 1790814511.610836,
+    "id": "81c9cf2877dbbf08"
+  },
+  {
+    "subject": "ELEMENT 2, pick: NIST SP 800-63 assurance levels as the codified stand",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "ELEMENT 2, pick: NIST SP 800-63 assurance levels as the codified standard, carrying IDQA's eight-dimension vector so relying parties threshold per dimension; condition 1 as outcome test. Alternatives examined: ISO/IEC 29115 and eIDAS LoA (codified but single-axis), proprietary IDV vendor scores (opaque, non-substitutable), credit-bureau KBA and platform reputation (fail condition 1 by design), Worldcoin (single opaque uniqueness bit), stamp aggregators (activity-weighted, fail outcome test). [I]",
+    "created_at": 1790814511.610836,
+    "id": "8dac3e7b73cf6203"
+  },
+  {
+    "subject": "ELEMENT 3, pick: notarial / Attestation Officer model for discretionar",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "ELEMENT 3, pick: notarial / Attestation Officer model for discretionary judgment (bonded, E&O-insured, personally liable, as Osmio's QEI design specifies), with certified-provider organizational liability for automated checks (UK DVS pattern). Alternatives examined: AAMVA DTS (disclaims), Login.gov (self-declared, nobody accountable), WebPKI CAs (sanction by delisting instead of liability). [I]",
+    "created_at": 1790814511.610836,
+    "id": "473c357d95ae69ba"
+  },
+  {
+    "subject": "ELEMENT 4, pick: the WebPKI root-program model, several independent pu",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "ELEMENT 4, pick: the WebPKI root-program model, several independent publishers of the trust list (Mozilla, Chrome, Apple, Microsoft) with Certificate Transparency as shared observability, generalized to every certification tier including hardware (Common Criteria, FIPS 140, FIDO MDS are today single schemes). Alternatives examined and found single-publisher: GLEIF vLEI, AAMVA VICAL, EU trusted lists per member state, C2PA Trust List, OfDIA register; ToIP Trust Registry Protocol and OpenID Federation permit plurality by design but are not yet deployed as such. [I]",
+    "created_at": 1790814511.610836,
+    "id": "36e0e08f85ecb896"
+  },
+  {
+    "subject": "ELEMENT 5, pick: eIDAS 2's model of judicial and administrative review",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "ELEMENT 5, pick: eIDAS 2's model of judicial and administrative review for a scheme that is de facto mandatory, paired with cheap exit for voluntary use. Alternatives examined: Aadhaar (mandatory, weak redress), BankID (de facto necessity, bank-internal recourse), Worldcoin (recourse only via external DPAs), Sovrin (exit forced by collapse), Proof of Humanity (on-chain dispute, untested at scale), WebPKI (no appeal; exit suffices because voluntary). [I]",
+    "created_at": 1790814511.610836,
+    "id": "c641893e18758940"
+  },
+  {
+    "subject": "KERI/ACDC: SUPPLIES element 1. Identifiers are self-certifying (derive",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "KERI/ACDC: SUPPLIES element 1. Identifiers are self-certifying (derived from the controlling key), rotation is pre-committed, and witnesses detect duplicity without a ledger. Does not specify the judgment layer (elements 2-5 are delegated to governance frameworks such as GLEIF's). [B: KERI whitepaper not fetched this session; W3C VC validation-out-of-scope statement recorded]",
+    "created_at": 1790814511.610836,
+    "id": "2be9fdee560dee7c"
+  },
+  {
+    "subject": "W3C DIDs / Verifiable Credentials: PARTIALLY supplies element 1, metho",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "W3C DIDs / Verifiable Credentials: PARTIALLY supplies element 1, method-dependent (did:key, did:peer self-certifying; did:web inherits DNS/TLS authority; ledger methods inherit ledger authority). Explicitly leaves issuer trust (elements 2-4) out of scope. [F]",
+    "created_at": 1790814511.610836,
+    "id": "805fdbff1901f306"
+  },
+  {
+    "subject": "Sovrin / Hyperledger Indy / AnonCreds: ATTEMPTED element 1 via a permi",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Sovrin / Hyperledger Indy / AnonCreds: ATTEMPTED element 1 via a permissioned ledger governed by Stewards; the ledger reintroduced infrastructural authority and an economic principal that failed. Foundation dissolved 21 May 2025; exit for issuers was forced (element 5 failure as well). [F]",
+    "created_at": 1790814511.610836,
+    "id": "3aec961984353407"
+  },
+  {
+    "subject": "X.509 / WebPKI certificates: FAIL element 1 (a CA binds the key to the",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "X.509 / WebPKI certificates: FAIL element 1 (a CA binds the key to the name; the subject does not control the identifier). The same system SUPPLIES element 4 (see WebPKI root programs). [F/B]",
+    "created_at": 1790814511.610836,
+    "id": "0dcf3bb558d12605"
+  },
+  {
+    "subject": "OpenPGP web of trust / SKS keyservers: SUPPLY element 1 (keys are self",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "OpenPGP web of trust / SKS keyservers: SUPPLY element 1 (keys are self-certifying) but FAIL elements 2 and 3 entirely: anyone may sign, no quality filter, no liability. 2019 poisoning made certificates unusable and undeletable; the replacement keyserver strips all signatures. [F]",
+    "created_at": 1790814511.610836,
+    "id": "c806fd870b972bf2"
+  },
+  {
+    "subject": "FIDO2 / passkeys: supply device-bound key control for AUTHENTICATION, ",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "FIDO2 / passkeys: supply device-bound key control for AUTHENTICATION, not identity proofing; syncable passkeys reintroduce platform (Apple/Google) authority over the key. FIDO Metadata Service is a single substrate-tier list-publisher (element 4 failure at that tier). [B]",
+    "created_at": 1790814511.610836,
+    "id": "f527d6171298c32a"
+  },
+  {
+    "subject": "OIDC / SAML / social login (Google, Apple, Facebook): FAIL element 1 (",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "OIDC / SAML / social login (Google, Apple, Facebook): FAIL element 1 (the IdP owns the identifier) and element 5 (account lockout with opaque recourse). Protocols are neutral; concentration comes from relying parties accepting few IdPs. OpenID Federation permits multiple trust anchors and is the one federation design that could satisfy element 4. [B]",
+    "created_at": 1790814511.610836,
+    "id": "c427f9ce1c27ffbf"
+  },
+  {
+    "subject": "NIST SP 800-63-4: SUPPLIES the codified level structure for element 2 ",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "NIST SP 800-63-4: SUPPLIES the codified level structure for element 2 (IAL/AAL/FAL, agency risk assessment and acceptance statement). Has no certification or enforcement tier of its own, which is why Login.gov's false IAL2 claims went unchecked for years (element 3 failure). Final Aug 2025. [F]",
+    "created_at": 1790814511.610836,
+    "id": "55b90ff94d731b5e"
+  },
+  {
+    "subject": "ISO/IEC 29115 and eIDAS assurance levels (low/substantial/high): codif",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "ISO/IEC 29115 and eIDAS assurance levels (low/substantial/high): codified but single-axis; they give relying parties one number, not a per-dimension vector, so cannot express the outcome test. [B]",
+    "created_at": 1790814511.610836,
+    "id": "d322334b9bbd0758"
+  },
+  {
+    "subject": "Osmio IDQA: SUPPLIES the per-dimension vector for element 2 (eight met",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Osmio IDQA: SUPPLIES the per-dimension vector for element 2 (eight metrics 0-9, relying parties threshold per dimension, carried in the certificate and OCSP response) and, with Attestation Officers, element 3 at the discretionary tier. FAILS the outcome-test reading of condition 1 as designed: metrics 1 (asset linkage), 5 (breadth of online use) and 7 (liability capacity) track wealth and digital participation. Three AO-scored dimensions not yet implemented. [F for design; I for outcome-test failure]",
+    "created_at": 1790814511.610836,
+    "id": "4ee26ab7abf6c245"
+  },
+  {
+    "subject": "Commercial IDV vendors (Jumio, Onfido, Veriff, Persona, ID.me, Socure,",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Commercial IDV vendors (Jumio, Onfido, Veriff, Persona, ID.me, Socure, Trulioo): proprietary document/biometric/risk scoring; relying parties can switch vendors (element 2 substitutability in form) but scores are not codified or comparable (fails in substance), and vendors returning fraud-risk scores drift toward condition 1 failure. Certification regimes (UK DVS, Kantara) partially repair this. [B]",
+    "created_at": 1790814511.610836,
+    "id": "a653e868f2ec9e7b"
+  },
+  {
+    "subject": "Credit bureaus / data-broker KBA (Experian, LexisNexis): FAIL conditio",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Credit bureaus / data-broker KBA (Experian, LexisNexis): FAIL condition 1 by construction (creditworthiness is worth); 800-63-4 restricts KBA. FCRA gives a dispute path (partial element 5). [B]",
+    "created_at": 1790814511.610836,
+    "id": "ca7f0132794e0f5b"
+  },
+  {
+    "subject": "World ID / Worldcoin: single-dimension uniqueness via iris scan, opaqu",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "World ID / Worldcoin: single-dimension uniqueness via iris scan, opaque methodology, single orb operator (fails elements 2 and 4); recourse supplied only externally by data-protection authorities in Kenya, Spain, Portugal, Brazil (element 5 absent internally). [F]",
+    "created_at": 1790814511.610836,
+    "id": "428909cc3cca3ddb"
+  },
+  {
+    "subject": "Proof-of-personhood and stamp systems (BrightID, Idena, Proof of Human",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Proof-of-personhood and stamp systems (BrightID, Idena, Proof of Humanity, Gitcoin/Human Passport, Humanity Protocol): supply Sybil resistance, not identity assurance; stamp scores are activity-weighted and fail the outcome test; Proof of Humanity's on-chain dispute process is the one decentralized element-5 candidate, untested at scale. [B]",
+    "created_at": 1790814511.610836,
+    "id": "205d5dbe3f570193"
+  },
+  {
+    "subject": "Platform reputation (eBay, Uber, Airbnb) and EigenTrust: rate conduct,",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Platform reputation (eBay, Uber, Airbnb) and EigenTrust: rate conduct, not assertions; FAIL condition 1 by design and element 5 (platform-internal recourse only). Out of scope for assurance, in scope as the failure mode condition 1 guards against. [B]",
+    "created_at": 1790814511.610836,
+    "id": "e6072ba5fc39000b"
+  },
+  {
+    "subject": "Notaries / remote online notarization / Osmio Attestation Officers: SU",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Notaries / remote online notarization / Osmio Attestation Officers: SUPPLY element 3 at the discretionary tier. The QEI design has officers licensed after examination, bonded, E&O-insured, and financially liable for negligent enrollment; Osmio's Reporter's Credential enrolls via a RON session. Qualifier is a single body inside the same alliance as the root (element 4 failure). [F]",
+    "created_at": 1790814511.610836,
+    "id": "d107d7e2d9d634ed"
+  },
+  {
+    "subject": "UK Digital Verification Services trust framework (OfDIA): SUPPLIES ele",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "UK Digital Verification Services trust framework (OfDIA): SUPPLIES element 3 at the organizational tier (certified providers, independent CABs accredited by UKAS) and element 5 (statutory basis under the Data (Use and Access) Act 2025). Plural CABs (BSI, Kantara) but a single register and trust mark (element 4 partial). Does not supply element 1. [F]",
+    "created_at": 1790814511.610836,
+    "id": "adf0842c8260ef24"
+  },
+  {
+    "subject": "AAMVA Digital Trust Service (mDL VICAL): FAILS element 3 (terms discla",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "AAMVA Digital Trust Service (mDL VICAL): FAILS element 3 (terms disclaim liability for AAMVA and issuing authorities) and element 4 (single default list for 69 jurisdictions). Issuing DMVs supply the proofing; the list is the authority. [F]",
+    "created_at": 1790814511.610836,
+    "id": "dd8d540acf6197e9"
+  },
+  {
+    "subject": "Login.gov: FAILS element 3 (GSA knowingly billed agencies for IAL2 it ",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Login.gov: FAILS element 3 (GSA knowingly billed agencies for IAL2 it never provided; no accountable assessor) and illustrates that codification without an enforcement tier is insufficient. Caught by the Inspector General, an external tier. [F]",
+    "created_at": 1790814511.610836,
+    "id": "bf5aead5eec2e28b"
+  },
+  {
+    "subject": "Browser root programs (Mozilla, Chrome, Apple, Microsoft) with CA/Brow",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Browser root programs (Mozilla, Chrome, Apple, Microsoft) with CA/Browser Forum rules and Certificate Transparency: SUPPLY element 4, the only instance in the field. Enforcement record against incumbents: DigiNotar 2011, Symantec 2017-18 (business sold to DigiCert), Entrust 2024 (sold to Sectigo). Relying parties may locally override. No appeal body (element 5 absent) but voluntary exit to another CA is cheap. [F]",
+    "created_at": 1790814511.610836,
+    "id": "c58dbeacd25a71da"
+  },
+  {
+    "subject": "GLEIF vLEI: SUPPLIES elements 1 (KERI) and 2-3 partially (qualified is",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "GLEIF vLEI: SUPPLIES elements 1 (KERI) and 2-3 partially (qualified issuers, per-credential frameworks, contractual liability) but FAILS element 4: GLEIF alone qualifies, monitors and revokes QVIs and holds the root identifier. Nine or more QVIs give relying parties choice one tier below the concentration. [F]",
+    "created_at": 1790814511.610836,
+    "id": "90b74fddf87aca73"
+  },
+  {
+    "subject": "eIDAS 2 / EUDI Wallet (Reg. 2024/1183): SUPPLIES element 5 (judicial r",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "eIDAS 2 / EUDI Wallet (Reg. 2024/1183): SUPPLIES element 5 (judicial review) and element 3 at the organizational tier (CAB certification, 24-month audits); FAILS element 4 (wallets certified under national schemes; relying parties register with their member state) and element 1 (state-issued wallets). Mandatory acceptance for designated sectors. [F]",
+    "created_at": 1790814511.610836,
+    "id": "3a04d13b5ddb0c46"
+  },
+  {
+    "subject": "C2PA Content Credentials: built its own single Trust List and conforma",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "C2PA Content Credentials: built its own single Trust List and conformance program rather than reuse existing ones; FAILS element 4 at the list tier; conformance criteria thinly documented as of 2025. Supplies signer identity, not content truth. [F]",
+    "created_at": 1790814511.610836,
+    "id": "826a8e08be452c6a"
+  },
+  {
+    "subject": "Trust Over IP governance metamodel / Trust Registry Protocol: ENABLES ",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Trust Over IP governance metamodel / Trust Registry Protocol: ENABLES element 4 by design (any ecosystem can publish a registry; relying parties choose), used to structure C2PA conformance; not yet deployed as a plural-registry ecosystem anywhere. [F for existence; B for deployment]",
+    "created_at": 1790814511.610836,
+    "id": "15cbb3d9611d6fac"
+  },
+  {
+    "subject": "Substrate certification (Common Criteria, FIPS 140, FIDO MDS): single-",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Substrate certification (Common Criteria, FIPS 140, FIDO MDS): single-scheme list-publishers for the hardware/software tier; FAIL element 4 there. Estonia/ROCA 2017: Common Criteria certified Infineon chips shipped with recoverable RSA keys across 750,000 cards; recovery relied on revoke-and-reissue (element 1 semantics). [F]",
+    "created_at": 1790814511.610836,
+    "id": "be93f8b3d84011a9"
+  },
+  {
+    "subject": "Kantara Initiative, DIACC PCTF, Australia TDIF/AGDIS, EBSI: assessor-o",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Kantara Initiative, DIACC PCTF, Australia TDIF/AGDIS, EBSI: assessor-of-assessors and national trust frameworks; each a single accreditor within its jurisdiction, so element 4 holds only across jurisdictions, not within. [B]",
+    "created_at": 1790814511.610836,
+    "id": "deee9a1c9e10cdd8"
+  },
+  {
+    "subject": "Aadhaar: FAILS elements 4 and 5 (single central authority; mandatory f",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Aadhaar: FAILS elements 4 and 5 (single central authority; mandatory for welfare; exclusion harm with weak redress). The OTP fallback that measurably reduced exclusion is assessor substitution at the lowest tier, the one place element 2's substitutability did work. [F]",
+    "created_at": 1790814511.610836,
+    "id": "4e821dbecd65ab84"
+  },
+  {
+    "subject": "BankID (Sweden, Norway): bank-consortium issuance; substitution among ",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "BankID (Sweden, Norway): bank-consortium issuance; substitution among banks but a single consortium list; de facto necessity for daily life with bank-internal recourse. Candidate to break element 4/5 predictions; unsourced. [B]",
+    "created_at": 1790814511.610836,
+    "id": "03eb30676dfb5c9d"
+  },
+  {
+    "subject": "CLOSEST EXISTING COMPOSITION A: GLEIF vLEI has elements 1, 2 (partial)",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "CLOSEST EXISTING COMPOSITION A: GLEIF vLEI has elements 1, 2 (partial) and 3 (contractual). Missing: 4. Appeal runs through the same authority's agreements (5 weak). [F/I]",
+    "created_at": 1790814511.610836,
+    "id": "2a9857da5701c322"
+  },
+  {
+    "subject": "CLOSEST EXISTING COMPOSITION B: Osmio/IDQA has elements 1 (X.509 today",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "superseded",
+    "killed_by": "794deed751cb6143",
+    "notes": "CLOSEST EXISTING COMPOSITION B: Osmio/IDQA has elements 1 (X.509 today, KERI-compatible in design), 2 and 3 on paper. Missing: 4 (single qualifier inside the same alliance as the root; no root-store inclusion). 5 undocumented (CPS not public, no appeal procedure found). Fails the outcome-test reading of condition 1 on three dimensions. [F for documentation gaps; I for placement]",
+    "created_at": 1790814511.610836,
+    "id": "9eeaf55b2543121d"
+  },
+  {
+    "subject": "CLOSEST EXISTING COMPOSITION C: UK DVS has elements 2, 3 (organization",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "CLOSEST EXISTING COMPOSITION C: UK DVS has elements 2, 3 (organizational), 4 (partial: plural CABs, single register) and 5 (statutory). Missing: 1. [F/I]",
+    "created_at": 1790814511.610836,
+    "id": "42ade0b071569c26"
+  },
+  {
+    "subject": "CLOSEST EXISTING COMPOSITION D: eIDAS 2 has elements 2, 3 (organizatio",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "CLOSEST EXISTING COMPOSITION D: eIDAS 2 has elements 2, 3 (organizational) and 5. Missing: 1 and 4. [F/I]",
+    "created_at": 1790814511.610836,
+    "id": "64ae0ac7bf6cb6b6"
+  },
+  {
+    "subject": "No existing system supplies all five elements; the maximum observed is",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "No existing system supplies all five elements; the maximum observed is three plus partials. The composition is therefore novel as a whole while every part is demonstrated somewhere. [I]",
+    "created_at": 1790814511.610836,
+    "id": "219a504f9d6f8a9a"
+  },
+  {
+    "subject": "SCORING RUBRIC (added after hostile generation flagged unstated scorin",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "SCORING RUBRIC (added after hostile generation flagged unstated scoring criteria). Each system is scored against five yes/no tests; PARTIAL only where the test is met at one tier and fails at the next. T1 Identifier control: can the subject rotate or recover the key behind their identifier without any issuer, registry, ledger or CA having to act or consent? (X.509 under a CA = NO; ledger DID = NO once the ledger stops; KERI = YES.) T2 Codified per-dimension assurance: is assurance published as separately scored dimensions against a public standard, so that two different assessors would produce comparable scores and a relying party can set its own threshold per dimension? (Single level or proprietary score = NO.) T3 Liability on the judgment-maker: is there a named party, individual or organization, that bears legal or financial liability for a wrong proofing judgment, and is that party the one who made it? (Disclaimed by aggregator or nobody accountable = NO.) T4 Plural list-keepers: at every tier where a list of trusted parties is published, can a relying party choose among two or more independent publishers of that list? (One qualifier, one register, one root program = NO at that tier; multiple issuers under one qualifier = PARTIAL.) T5 Appeal/exit: if use is de facto mandatory, is there review by a court or regulator outside the operator; if voluntary, can the subject or relying party leave at low cost? Scores are Claude's application of these tests, not independent ratings; inter-rater check not yet done.",
+    "created_at": 1790815798.1193464,
+    "id": "0d8d9f1ae9807c36"
+  },
+  {
+    "subject": "CLOSEST EXISTING COMPOSITION B (re-scored under rubric): Osmio/IDQA. T",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": "9eeaf55b2543121d",
+    "version_meta": {
+      "rationale": "Josh observed Osmio plans a root CA; under rubric T1 that is a fail. Earlier node credited KERI-compatibility as a pass."
+    },
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "CLOSEST EXISTING COMPOSITION B (re-scored under rubric): Osmio/IDQA. T1 NO: identities are X.509 certificates issued by the Vital Records Department root CA; the subject cannot rotate or recover without the CA. A KERI-compatible redesign would change this but is not what is built or documented. T2 YES on paper (eight-dimension IDQA vector, per-dimension thresholds; three AO-scored dimensions unimplemented). T3 YES on paper at the discretionary tier (bonded, liable Attestation Officers). T4 NO: one root CA, one Council of Attestation Officers inside the same alliance, no external root-store inclusion. T5 UNDOCUMENTED (no public CPS or appeal procedure found). Net: 2 of 5. Previous node scored T1 as a pass; that was an error corrected after Josh pointed out the planned root CA. [F for design facts; I for scoring]",
+    "created_at": 1790815798.1193464,
+    "id": "794deed751cb6143"
+  },
+  {
+    "subject": "RE-SCORE OF ALL COMPOSITIONS UNDER THE RUBRIC (T1 T2 T3 T4 T5). GLEIF ",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "identity-assurance",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "RE-SCORE OF ALL COMPOSITIONS UNDER THE RUBRIC (T1 T2 T3 T4 T5). GLEIF vLEI: YES, PARTIAL, YES(contractual), PARTIAL(many QVIs, one qualifier), PARTIAL(contractual dispute only) = 2 + 3 partials. Osmio/IDQA: NO, YES, YES, NO, UNDOC = 2. UK DVS: NO, PARTIAL(levels not vector), YES(organizational), PARTIAL(plural CABs, one register), YES = 2 + 2 partials. eIDAS 2: NO, PARTIAL, YES, PARTIAL(27 state lists, each a monopoly in its territory; the hostile objection that these count as plural is answered: a relying party in one state cannot choose another state's list), YES = 2 + 2 partials. WebPKI: NO, NO, NO(delisting instead), YES, PARTIAL(exit only) = 1 + 1 partial. Aadhaar: NO, NO, NO, NO, NO. Worldcoin: NO, NO, NO, NO, NO(external DPAs only). Sovrin: PARTIAL(ledger-dependent), NO, NO, PARTIAL(stewards), NO. Maximum full passes observed: 2. No system reaches 3 full passes; earlier claim of three-plus-partials was itself generous. [I]",
+    "created_at": 1790815798.1193464,
+    "id": "97df110f930e2e72"
+  }
+]

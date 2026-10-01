@@ -1,0 +1,34 @@
+[
+  {
+    "from_id": "eed78a775ec4f532c56917983b8a9b2ddda31a7aab7235cec0fc7c33d1acfd4b",
+    "rel": "supersedes",
+    "to": "983abdd67693bf40b87d92b4b5cca54ec1df09ef4f34f66bae62061f740d4847",
+    "notes": "Two defeaters conceded: the biconditional's necessity direction was induction from a small failure sample (WebPKI shows elements 3 and 5 substitutable by cheap exit), and bonded individual liability does not scale beyond the discretionary-judgment tier. Narrowed to sufficiency, with per-element necessity as separate conjectures and element 3 re-scoped to place liability wherever judgment is exercised.",
+    "created_at": 1790810608.516015,
+    "id": "54ed6d0c8533486987aac50ae2c856567b2d079e2c416a4130c79e8dd429e512"
+  },
+  {
+    "from_id": "c1de6a3d68e1af3120a0f8e9bd7137d695d9ed4ed98422207e4088e9884927ad",
+    "rel": "supersedes",
+    "to": "40675872f154e3044b667807afdb076da346f9f52babb600aff31237ad17123d",
+    "notes": "Conceded rebutting defeater: bonded individual liability does not scale to high-volume automated assurance. Rescoped element 3 to \"liability rests on whoever exercises judgment\", bonding confined to the discretionary tier.",
+    "created_at": 1790813114.30447,
+    "id": "9696604964fefb6e63d40864138a3ededefe9e35197034503483f13fb1550ad7"
+  },
+  {
+    "from_id": "2303b5ddba2e8f78386f88a33a53fb0d2a897b702003af040fc9834bada13d32",
+    "rel": "narrows",
+    "to": "eed78a775ec4f532c56917983b8a9b2ddda31a7aab7235cec0fc7c33d1acfd4b",
+    "notes": "",
+    "created_at": 1790813135.35117,
+    "id": "ab00608027fc3ac13519519441b1790cf41d82b5004358dc7c8844c71f53404c"
+  },
+  {
+    "from_id": "ad643291d0983b54a1c925109545b828529191fc9432ae032f8968c8b2539b33",
+    "rel": "supersedes",
+    "to": "eed78a775ec4f532c56917983b8a9b2ddda31a7aab7235cec0fc7c33d1acfd4b",
+    "notes": "Conceded that the conditions were purely procedural. Condition 1 restated as an outcome test (assurance scores not predictable from wealth, age, digital participation beyond what evidence requires); element 4 extended to the substrate tier after the Estonia/ROCA test; scope limited explicitly to the structure of authority with a possible distributional condition left open.",
+    "created_at": 1790813185.978049,
+    "id": "91531749b70b7b795a363b9be44456fd7112bbccf7cc27bbc18efeac122de049"
+  }
+]

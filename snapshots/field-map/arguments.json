@@ -1,0 +1,212 @@
+[
+  {
+    "conclusion": "81c9cf2877dbbf08",
+    "premises": [
+      "2be9fdee560dee7c",
+      "805fdbff1901f306",
+      "3aec961984353407",
+      "0dcf3bb558d12605",
+      "c806fd870b972bf2",
+      "f527d6171298c32a",
+      "c427f9ce1c27ffbf",
+      "f924585bf9db9eb7",
+      "a0900e871c0bd0e7",
+      "cc5f1e7f844a9cac"
+    ],
+    "pattern": "abduction",
+    "label": "Across seven identifier designs only self-certifying keys with pre-rotation avoid both registry authority and unrecoverable compromise; KERI is the complete instance",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "1670740775fc3efa"
+  },
+  {
+    "conclusion": "8dac3e7b73cf6203",
+    "premises": [
+      "55b90ff94d731b5e",
+      "d322334b9bbd0758",
+      "4ee26ab7abf6c245",
+      "a653e868f2ec9e7b",
+      "ca7f0132794e0f5b",
+      "428909cc3cca3ddb",
+      "205d5dbe3f570193",
+      "e6072ba5fc39000b",
+      "bc1a017fda21a249",
+      "08f37e90ed7220f4",
+      "c75e99b9b74cb7ca",
+      "0cc64921ded029b8"
+    ],
+    "pattern": "abduction",
+    "label": "Only a codified per-dimension vector makes assessors substitutable and lets condition 1 be tested as an outcome; single-axis levels and proprietary scores do not",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "40f0ba160b77e53f"
+  },
+  {
+    "conclusion": "473c357d95ae69ba",
+    "premises": [
+      "d107d7e2d9d634ed",
+      "adf0842c8260ef24",
+      "dd8d540acf6197e9",
+      "bf5aead5eec2e28b",
+      "55b90ff94d731b5e",
+      "23852c2013eb2ec4",
+      "3a568336b8ed0eda",
+      "48af461cbfed337b",
+      "b3b49416d6cd6529"
+    ],
+    "pattern": "causal",
+    "label": "Where liability is disclaimed (AAMVA) or unassigned (Login.gov) failures go uncaught; the notarial and certified-provider models place it on the judgment-maker",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "3983b7e75ac651ea"
+  },
+  {
+    "conclusion": "36e0e08f85ecb896",
+    "premises": [
+      "c58dbeacd25a71da",
+      "90b74fddf87aca73",
+      "dd8d540acf6197e9",
+      "3a04d13b5ddb0c46",
+      "826a8e08be452c6a",
+      "15cbb3d9611d6fac",
+      "be93f8b3d84011a9",
+      "deee9a1c9e10cdd8",
+      "adf0842c8260ef24",
+      "c427f9ce1c27ffbf",
+      "d9090df3e28f60d4",
+      "0352a0e61263b052",
+      "1886dfcaa607e0d5",
+      "fc1f2d4ecbfa1722",
+      "ea95d8be273cffcc",
+      "9ac73cc174ce37c7",
+      "9a7b4b77f7d3f542",
+      "c3af58d87949693e"
+    ],
+    "pattern": "induction",
+    "label": "The only tier-top enforcement record against incumbents is in the one system with plural list-publishers; every single-publisher system shows none",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "46320c4ead321ab9"
+  },
+  {
+    "conclusion": "c641893e18758940",
+    "premises": [
+      "3a04d13b5ddb0c46",
+      "4e821dbecd65ab84",
+      "03eb30676dfb5c9d",
+      "428909cc3cca3ddb",
+      "3aec961984353407",
+      "205d5dbe3f570193",
+      "c58dbeacd25a71da",
+      "ea95d8be273cffcc",
+      "188993d3bfd6c9cb",
+      "0cc64921ded029b8",
+      "a0900e871c0bd0e7"
+    ],
+    "pattern": "induction",
+    "label": "Harm is irremediable where use is mandatory and appeal is internal; appeal under public law is the only demonstrated repair; exit suffices only when voluntary",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "bf1f6887e25e109e"
+  },
+  {
+    "conclusion": "219a504f9d6f8a9a",
+    "premises": [
+      "2a9857da5701c322",
+      "9eeaf55b2543121d",
+      "42ade0b071569c26",
+      "64ae0ac7bf6cb6b6"
+    ],
+    "pattern": "induction",
+    "label": "Maximum observed is three elements plus partials",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "8cb24fb8a6c0675d"
+  },
+  {
+    "conclusion": "692a1f58c6ceebb5",
+    "premises": [
+      "81c9cf2877dbbf08",
+      "8dac3e7b73cf6203",
+      "473c357d95ae69ba",
+      "36e0e08f85ecb896",
+      "c641893e18758940",
+      "219a504f9d6f8a9a"
+    ],
+    "pattern": "modus_ponens",
+    "label": "The composition takes the demonstrated supplier of each element; no existing system is a counterexample because none supplies all five",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "conjunctive",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "a48c93d61e3f6ca2"
+  }
+]

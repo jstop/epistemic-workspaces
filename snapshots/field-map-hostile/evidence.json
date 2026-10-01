@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Sovrin Network collapse demonstrates registry-dependent identifier fragility",
+    "description": "The Sovrin Foundation's ledger-based decentralized identity network ceased operations, stranding identifiers that depended on the ledger's continued availability. This empirically demonstrates that identifiers anchored to an external registry (rather than self-certifying) carry systemic availability risk. KERI's self-certifying identifier model was designed explicitly to avoid this class of failure.",
+    "evidence_type": "observation",
+    "source": "Public reporting and community post-mortems on the Sovrin Foundation's operational wind-down and its impact on credential holders",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790815479.236476,
+    "id": "4fcc06952d5213ce5cc661293543da9414e6f841f30074bdcb59c61a3b1db780"
+  },
+  {
+    "title": "WebPKI multi-root-program model demonstrates resilience via competitive auditing",
+    "description": "The WebPKI ecosystem operates with four independent browser root programs (Mozilla, Google, Apple, Microsoft), each maintaining independent audit requirements and CA inclusion policies. When one program identified problems with CAs like Symantec/DigiCert or WoSign, other programs could independently verify and act. This competitive auditing has empirically driven up CA standards over two decades, demonstrating that plural trust-list governance outperforms single-publisher models in detecting and responding to failures.",
+    "evidence_type": "observation",
+    "source": "Historical record of browser root program CA distrust events (e.g., Symantec distrust timeline across Mozilla, Google, Apple programs)",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790815484.4861922,
+    "id": "3261d41c527cda85ac0c98145440d4f95249ca890a62fb1406eb8ca3de7b9087"
+  },
+  {
+    "title": "Systematic survey of identity systems shows maximum three-plus-partial element coverage",
+    "description": "A systematic mapping of existing identity systems against the five-element framework shows: GLEIF vLEI covers elements 1, partial 2, 3 (missing 4). Osmio/IDQA covers 1, 2, 3 on paper (missing 4; 5 undocumented). UK DVS covers 2, 3, partial 4, 5 (missing 1). eIDAS 2 covers 2, 3, 5 (missing 1 and 4). No system achieves more than three full elements plus partials. This gap analysis constitutes the core empirical evidence for the thesis that composition is required.",
+    "evidence_type": "statistical",
+    "source": "Author's comparative analysis of publicly documented identity-system architectures and governance structures as of 2024-2025",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790815490.585475,
+    "id": "a7cf5090f08d019392fc3f9ef654ce639e18d2902853612c77484bf0477f5d78"
+  },
+  {
+    "title": "Aadhaar exclusion incidents demonstrate need for public-law appeal in mandatory systems",
+    "description": "India's Aadhaar biometric identity system, used as a de facto mandatory credential for welfare access, has generated documented cases of wrongful denial of services due to biometric matching failures, with limited administrative or judicial appeal mechanisms available to affected individuals. These incidents illustrate the concrete harm that arises when element 5 (public-law appeal) is absent from a mandatory identity system.",
+    "evidence_type": "observation",
+    "source": "Journalistic and civil-society reporting on Aadhaar-linked welfare exclusion in India (multiple outlets and NGO reports)",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790815495.2721121,
+    "id": "33ec800ee8390a13c5c8876bd00460525b06b5bef3561ddbb57027f493ce1308"
+  }
+]

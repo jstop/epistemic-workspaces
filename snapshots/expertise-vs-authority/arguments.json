@@ -1,0 +1,280 @@
+[
+  {
+    "conclusion": "ee2ab1e2f0b9a2b3679603c230596817d013ae490f64601dc759d094d19fa1e2",
+    "premises": [
+      "e24d22de0db7c4fb6745ac0fe5454f0f3b43fe881544a6b0d4f715eb4f4eb0f3",
+      "fab6b9f8e0f65bb788306833c42f3960b1670ded15da666ded3dca640c49d80d"
+    ],
+    "pattern": "induction",
+    "label": "Diverse architectures all exhibit concentration: WebPKI centralizes in root CAs, federated login centralizes in dominant IdPs \u2014 the locus shifts but concentration persists across structurally different designs",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790801501.077721,
+    "id": "4771c55e8b51d9c06f56f61506d38382db0a029c0a6929aaab7728a09daf6003"
+  },
+  {
+    "conclusion": "3de714a2a0b5bbef1e6b8d503bc91d772f0bbc3a276c3e34e8d9079cae54df82",
+    "premises": [
+      "64f2646c6aec328ea377dd8e07a59baa4e9395dd6b3cb720d4baa5eeeaf91aca",
+      "83169a3c6d60d93afaed41e349cfadb904ccfc5eb059b20d897503ba2aa34153",
+      "e24d22de0db7c4fb6745ac0fe5454f0f3b43fe881544a6b0d4f715eb4f4eb0f3"
+    ],
+    "pattern": "induction",
+    "label": "Surveying concrete architectures: Aadhaar fails conditions 1 and 3 (conflates assertion with entitlement, no real appeal); platform reputation fails all three; WebPKI fails condition 2 (browser vendors choose CAs, not relying parties) \u2014 each fails differently, confirming no architecture satisfies all three",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The W3C DID/VC ecosystem combined with KERI/ACDC-style cryptographic autonomy may be closer to satisfying all three conditions than acknowledged. DIDs allow credential subjects to control their own identifiers (supporting exit), the VC data model explicitly separates assertion from reputation (addressing C1), and the architecture is designed to allow issuer substitution (addressing C2). The thesis may underestimate how far these newer ecosystems have progressed, particularly as governance frameworks like the Trust Over IP Foundation's metamodel attempt to provide the governed appeal path (C3). The failure may be one of current implementation maturity rather than architectural impossibility.",
+        "status": "answered",
+        "response": "The defeater conflates layers. DID/VC and KERI/ACDC decentralize key control, which is not what the three conditions govern. At the judgment layer they are silent: the specs define how a credential is signed, anchored, and revoked, not who is competent to issue it, what methodology applies, or how a relying party substitutes or appeals an issuer. Those questions are pushed to governance frameworks (e.g. GLEIF vLEI, Sovrin/ToIP frameworks), and it is those frameworks, not the protocols, that must be tested against conditions 1-3. Until a specific framework is shown to satisfy all three, the protocol family cannot be a counterexample."
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790801507.4227798,
+    "id": "3c14cd9c5600418a4c4b5a96c9d56651aa6584f1e210cb320c2186e701db9e4a"
+  },
+  {
+    "conclusion": "c29c07b2584f12ea7d355a367e8e79a0739e8e31e9763d462a2631c5a72abe22",
+    "premises": [
+      "224662400a9d66b2e839e1a86584e0909e860d8bde03f83a27bad18ca90bcdd4",
+      "83169a3c6d60d93afaed41e349cfadb904ccfc5eb059b20d897503ba2aa34153"
+    ],
+    "pattern": "abduction",
+    "label": "The three conditions best explain what goes wrong in intolerable authority concentration: systems that blend identity with worth (violating C1), lock in assessors (violating C2 due to missing interop), or lack appeal paths (violating C3) are the ones that produce the most harmful outcomes",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790801514.888097,
+    "id": "c66f3a4d470e85564eaec178f5f717af54691b00317d7110f0908ac81c24dc4e"
+  },
+  {
+    "conclusion": "bfd8ef79cefd71e00b9fae2a69e44f67d90d9f7fce8e16b12d0f66892428ccdc",
+    "premises": [
+      "e24d22de0db7c4fb6745ac0fe5454f0f3b43fe881544a6b0d4f715eb4f4eb0f3",
+      "fab6b9f8e0f65bb788306833c42f3960b1670ded15da666ded3dca640c49d80d",
+      "64f2646c6aec328ea377dd8e07a59baa4e9395dd6b3cb720d4baa5eeeaf91aca"
+    ],
+    "pattern": "induction",
+    "label": "In every observed identity architecture \u2014 centralized CAs, federated IdPs, government monopolies \u2014 someone or something must perform verification judgment. No architecture achieves fraud resistance through pure structure without an evaluating agent",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790801520.6737878,
+    "id": "9cae0ce46613996033af47acdf122842676f28af786a1407c70d3b7613b7b98f"
+  },
+  {
+    "conclusion": "fbe5a20df6e6dcd8fa0810ff9485520b9aba5581518baff49c05f38c168d97aa",
+    "premises": [
+      "bfd8ef79cefd71e00b9fae2a69e44f67d90d9f7fce8e16b12d0f66892428ccdc",
+      "ee2ab1e2f0b9a2b3679603c230596817d013ae490f64601dc759d094d19fa1e2",
+      "c29c07b2584f12ea7d355a367e8e79a0739e8e31e9763d462a2631c5a72abe22",
+      "3de714a2a0b5bbef1e6b8d503bc91d772f0bbc3a276c3e34e8d9079cae54df82"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If fraud resistance requires verification placement (P1), and every placement produces authority concentration (P2), then concentration is inevitable. If tolerability requires three conditions (P3), and no existing architecture satisfies all three (P4), then no existing architecture achieves tolerable authority concentration \u2014 which is exactly the thesis",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The thesis treats all \"concentration of authority\" as equivalent, but there may be meaningful degrees. A system where three competing assessors each hold 33% market share is structurally different from one where a single government monopoly holds 100%, yet both count as \"concentration\" under the thesis. If concentration admits of degrees, some architectures may achieve sufficiently dispersed authority that the three tolerability conditions become less urgent \u2014 the thesis may be applying a binary frame to a continuous variable.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790801536.618547,
+    "id": "0b847bebdd9150ebcce24371b1583dc88c184038265cbaa21a92c8e0ac8b12b4"
+  },
+  {
+    "conclusion": "a7aebf2ce58811e86c70f192abdb73ad0d2b3d64a3c04ef078e9026077a04b42",
+    "premises": [
+      "91eae9e6bf0974538e50dca8f6fb934bb8aed6a5705636c5fa7cc9c161a68a80",
+      "a4bfe2e9f52f08b1871a2cb78561acb2102b4ecc72e54163c982fb24e9a661d4",
+      "bfd8ef79cefd71e00b9fae2a69e44f67d90d9f7fce8e16b12d0f66892428ccdc",
+      "ee2ab1e2f0b9a2b3679603c230596817d013ae490f64601dc759d094d19fa1e2",
+      "c29c07b2584f12ea7d355a367e8e79a0739e8e31e9763d462a2631c5a72abe22",
+      "3de714a2a0b5bbef1e6b8d503bc91d772f0bbc3a276c3e34e8d9079cae54df82"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Two-layer argument: separability + KERI/DID silence on judgment + round-1 premises about placement, concentration, tolerability, and per-architecture failure",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Counterexample candidate: GLEIF's vLEI ecosystem is a KERI/ACDC-based system that DOES specify the judgment layer. Its Ecosystem Governance Framework defines who may issue (Qualified vLEI Issuers, admitted through a published qualification program), what methodology they must follow (credential frameworks with issuance, verification and revocation policies), and a legal agreement with binding dispute resolution and court competence. Multiple QVIs compete, so relying parties can substitute issuers. If vLEI satisfies all three conditions at the judgment layer, the thesis's claim that no existing architecture does is false.",
+        "status": "answered",
+        "response": "vLEI is the strongest test so far and it partly succeeds: it does specify the judgment layer, and it plausibly satisfies condition 1 (credentials assert legal-entity and role facts, not worth) and offers a contractual dispute path toward condition 3. But it fails condition 2 one tier up. Relying parties can substitute among QVIs, yet every QVI is qualified, monitored, and revocable by GLEIF alone, and GLEIF holds the root identifier. Condition 2 requires that whoever performs the judgment can be substituted; in vLEI the operative judgment about who is competent to judge is made by a single unsubstitutable authority, and the dispute path runs through agreements with that same authority. So vLEI is not a counterexample; it is an instance of the pattern the thesis predicts, with the concentration relocated to the qualifier tier. The thesis should be sharpened to say the three conditions must hold at every tier at which judgment is exercised, including the tier that judges the judges."
+      },
+      {
+        "type": "rebutting",
+        "description": "Counterexample candidate: eIDAS 2 (Regulation (EU) 2024/1183). It specifies the judgment layer by law rather than contract: wallet providers are member states or state-certified entities, attestation providers are qualified under a published trust framework, conformity is assessed by notified bodies, and every decision is subject to administrative appeal and judicial review under national and EU law. Wallet use is voluntary for individuals, and 27 member states plus a market of qualified attestation providers give relying parties multiple assessors. If this satisfies all three conditions across tiers, the thesis fails.",
+        "status": "answered",
+        "response": "eIDAS 2 does best on condition 3 of anything tested: appeal runs through administrative and judicial review rather than through the authority's own contracts, which vLEI could not offer. It plausibly satisfies condition 1 for identity attributes. It fails condition 2 at the admitting tier and partially fails condition 3 for relying parties. Wallets may only be issued by member states or entities they certify; a relying party must register with, and be admitted by, the state in which it is established, so the assessor that admits relying parties is unsubstitutable by construction. Exit is asymmetric: voluntary for individuals, but designated sectors are obliged to accept the wallet, so for them the scheme is a condition of operating in the market rather than a choice. This is the voluntary-adoption/de-facto-necessity tension made law. eIDAS 2 is therefore a different failure than vLEI (strong appeal, no substitution of the admitting state) and confirms the \"each fails differently\" clause rather than refuting it."
+      },
+      {
+        "type": "rebutting",
+        "description": "Counterexample candidate: Osmio/IDQA. The architecture appears designed around exactly the three conditions. IDQA is an eight-dimension per-dimension score of confidence in an identity assertion, and the design explicitly says relying parties set thresholds per dimension rather than on an aggregate (condition 1 and relying-party autonomy). Enrollment expertise is held by a distributed body of Attestation Officers rather than by the certificate authority (expertise placed away from the root). And Osmio is modeled as a municipality with charters, commissions, and a civil court (a governed appeal path, condition 3). If the design realizes all three at every judgment tier, the thesis is false.",
+        "status": "answered",
+        "response": "[Interpretation, not documented.] Osmio/IDQA is the only tested design that separates expertise from root authority on paper: relying parties threshold per dimension, and the judgment-heavy dimensions are assigned to Attestation Officers rather than to the CA. That is a real structural answer to the expertise-vs-authority problem and it satisfies condition 1 cleanly. But at the tier the recursive reading requires, it does not yet satisfy conditions 2 or 3. (a) Certificates issue from a single VRD root, and the AO-scored dimensions do not exist in the implementation; the documented state is that dimensions 0, 3 and 5 are zero for everyone, so the expertise layer is designed but not yet placed anywhere. (b) Who qualifies an Attestation Officer, and whether a relying party or enrollee could substitute one AO body for another, is not stated in the sources read; the Council of Attestation Officers appears to be one body. (c) The appeal path exists as a governance model (charters, commissions, civil court) whose operating status the sources describe as largely simulated. So Osmio is not a counterexample: it is the design that most directly targets the conditions, with the qualifier tier and appeal tier unbuilt. Open questions for the primary charters: how AOs are qualified and by whom; whether the civil court has ever heard a certificate dispute; whether \"credential reputation\" and \"social proof\" dimensions stay on the assertion side of the assertion/worth boundary."
+      }
+    ],
+    "support_mode": "conjunctive",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790801908.60581,
+    "id": "870ca69305e4556130aad75099648f4f4b72c947c43d2bef358bd9f0cb05cdc7"
+  },
+  {
+    "conclusion": "a4bfe2e9f52f08b1871a2cb78561acb2102b4ecc72e54163c982fb24e9a661d4",
+    "premises": [
+      "ed775a56ad0880e09e0015ad45fedd508a740bc56f32185fdd177ba45527cd90"
+    ],
+    "pattern": "testimony",
+    "label": "Evidence: W3C VC Data Model 2.1: validation of issuer trust is out of scope",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790801941.2540002,
+    "id": "4772209e49145b33fe93ac12d9a614311460039c8e718b508adaec7dfd05964e"
+  },
+  {
+    "conclusion": "e6fcb5713366f5320b3a5a3fd6d5efdff846f12307ddd176b62d185947b2c8b4",
+    "premises": [
+      "f6f9e090602fe4584289901938ccb7886e772337747ae9a0d032a22d8adf0db3"
+    ],
+    "pattern": "testimony",
+    "label": "Evidence: GLEIF describes itself as sole guardian and gatekeeper of the vLEI system",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790802096.186154,
+    "id": "7b3e6e05d0c0b8d6cb2fd440d2203bddc08d3e2cde84c54a00964ecdbaa2363e"
+  },
+  {
+    "conclusion": "11b8f210bb326427768056fbe9bc157a92c147ec1a1844e18d4162864ad9b344",
+    "premises": [
+      "c602202200719c972fd29b264a0b510faace0d06ee7fbcb824273e2a6ee6976e"
+    ],
+    "pattern": "testimony",
+    "label": "Evidence: eIDAS 2: relying-party registration with member state and staged mandatory acceptance",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790802424.059743,
+    "id": "94c657dc2c731f7e39edcb8000c452b2ec4e9039f22fd14bf0a134b691f04f9a"
+  },
+  {
+    "conclusion": "0f6f6556e29dafe98636dc5fe83a21298dc9687f374d7781e1af2063e3e957a3",
+    "premises": [
+      "eca57d9e4c7e299a1e806eb2911d43c029300b2b5ddfebb2991b77b421f62273"
+    ],
+    "pattern": "testimony",
+    "label": "Evidence: Osmio poc: idqa-scoring.md",
+    "confidence": {
+      "level": 0.95,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790802865.3597262,
+    "id": "8640d83071ecdc73ef7dd0cea81c8a5a5ae170902b5fd073dff18ae948bca003"
+  },
+  {
+    "conclusion": "130584280e4c4444b7e4fce86b3f2d6db4d3f1ac276e397037252196257af6ce",
+    "premises": [
+      "8477b69d81c7b38f6b92e3a85702e019d6016613af2ae7896cc6b65acc90c7c2"
+    ],
+    "pattern": "testimony",
+    "label": "Evidence: Osmio knowledgebase: ecosystem overview and City of Osmio notes",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790802929.603182,
+    "id": "19ebf1b42446c5550f0fde0d7717725566c42108df5d36d9f5be2c59c616683c"
+  }
+]

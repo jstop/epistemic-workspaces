@@ -1,0 +1,306 @@
+[
+  {
+    "subject": "optimal-identity-assurance-architecture",
+    "predicate": "requires-composition-of",
+    "object": "five-necessary-elements",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "f7c43583fdcd874908de0febd4562570c41bb384ac41de936f83283204f2f21d",
+      "04c6bb59068de1b8163a48bddfdb1594dec6d157002bfb469aef9550544895bd",
+      "a9797b57c15085ac20ba51b9c0146828a4d8fd58e8787f5d7c526687014f05cb"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The optimal identity-assurance architecture is a composition of five elements, each taken from the system that has demonstrated it: (1) self-certifying identifier control from KERI/ACDC; (2) codified per-dimension assurance using NIST SP 800-63 levels carrying Osmio IDQA's eight-dimension vector, thresholded by relying parties; (3) liability on whoever exercised the judgment, via bonded notaries/Attestation Officers for discretionary proofing and certified-provider liability for automated checks; (4) plural independent trust-list publishers as in the WebPKI's four browser root programs, extended to hardware certification; (5) appeal under public law when use is de facto mandatory, as in eIDAS 2. No existing system supplies all five; the maximum observed is three plus partials.",
+    "created_at": 1790815435.292757,
+    "id": "24ae1e43708d275533c4f5fd7311ed5d0105d515e8a825ed175d7e70c7c1a07b"
+  },
+  {
+    "subject": "self-certifying-identifier-control",
+    "predicate": "is-necessary-for",
+    "object": "identity-assurance-architecture",
+    "confidence": {
+      "level": 0.82,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Element 1: The identifier holder must have cryptographic control over their own identifier without depending on any external registry's continued operation. KERI/ACDC demonstrates this via key event receipt infrastructure with self-certifying identifiers. W3C DIDs partially achieve this (method-dependent). Sovrin attempted this via a ledger and collapsed. OpenPGP achieves this but fails on assurance levels and liability. Platform reputation and credit-bureau KBA fail this by design because the identifier is controlled by the platform, not the subject.",
+    "created_at": 1790815444.115372,
+    "id": "d24a52510779c687f68855220ef849ec9832ab3deebebe057be132bd2051fecc"
+  },
+  {
+    "subject": "codified-per-dimension-assurance",
+    "predicate": "is-necessary-for",
+    "object": "identity-assurance-architecture",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Element 2: Assurance must be expressed as a codified, per-dimension vector (not a single scalar), using NIST SP 800-63 assurance levels extended by Osmio IDQA's eight-dimension vector, thresholded by relying parties according to their own risk tolerance. NIST 800-63-4 supplies the level structure but has no enforcement tier. Osmio IDQA supplies the per-dimension vector. Worldcoin, OpenPGP, and others fail this because they collapse assurance into a binary or single-scalar assertion.",
+    "created_at": 1790815448.304021,
+    "id": "dd2716e3adab456fbaf0783c3150b5ba48ab3473162ea60263ff8d1373867646"
+  },
+  {
+    "subject": "liability-on-judgment-exerciser",
+    "predicate": "is-necessary-for",
+    "object": "identity-assurance-architecture",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Element 3: Whoever exercised the judgment in identity proofing must bear liability for that judgment \u2014 bonded notaries/Attestation Officers for discretionary proofing, certified-provider liability for automated checks. Login.gov fails this. AAMVA fails this. UK DVS supplies this organizationally. eIDAS 2 supplies this. GLEIF vLEI partly supplies this. Without liability alignment, there is no incentive to maintain proofing quality and no recourse for relying parties harmed by negligent proofing.",
+    "created_at": 1790815452.306495,
+    "id": "d62745031d10f6c99c6b163382df5e9c65ad52f63e6b621c58e1701af2c615bc"
+  },
+  {
+    "subject": "plural-independent-trust-list-publishers",
+    "predicate": "is-necessary-for",
+    "object": "identity-assurance-architecture",
+    "confidence": {
+      "level": 0.77,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Element 4: Trust-list governance must be plural and independent, as in the WebPKI's four browser root programs, extended to hardware certification. X.509 by itself fails this but WebPKI root programs supply it. AAMVA, C2PA, Common Criteria (at hardware tier), Aadhaar, Worldcoin, and eIDAS 2 all fail this. Single-publisher trust lists create single points of failure, capture risk, and jurisdiction lock-in. The WebPKI's multi-root-program model has empirically demonstrated resilience via competitive auditing.",
+    "created_at": 1790815457.071557,
+    "id": "8a64ad391fb2795bb9f3f97e4c3b644c4f6fc44100a6f173160f38886cef802a"
+  },
+  {
+    "subject": "public-law-appeal",
+    "predicate": "is-necessary-for",
+    "object": "identity-assurance-architecture",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Element 5: When use of an identity system is de facto mandatory, appeal must be available under public law, as in eIDAS 2. Aadhaar and Worldcoin fail this. UK DVS supplies this statutorily. Without public-law appeal, mandatory identity systems become instruments of exclusion with no remedy for wrongful denial of identity assertions.",
+    "created_at": 1790815460.02194,
+    "id": "2cf36a1b58983000bd304aef251651649a434d6aaedde6e60d1cb361671fafed"
+  },
+  {
+    "subject": "no-existing-system",
+    "predicate": "supplies-all-five-of",
+    "object": "required-elements",
+    "confidence": {
+      "level": 0.88,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "No existing system supplies all five elements. The maximum observed is three plus partials. GLEIF vLEI has 1, partial 2, 3 but missing 4. Osmio/IDQA has 1 (via X.509 root CA with KERI-compatible design), 2, 3 on paper but missing 4 and 5 undocumented. UK DVS has 2, 3, partial 4, 5 but missing 1. eIDAS 2 has 2, 3, 5 but missing 1 and 4. This empirical gap confirms the thesis that composition across systems is necessary.",
+    "created_at": 1790815464.6959229,
+    "id": "d55c28c7a741479d1bb9c72a4c98e7a336ee4a647314c044dd22b84df20ddfcc"
+  },
+  {
+    "subject": "five-element-list",
+    "predicate": "is-complete-and-not-missing",
+    "object": "sixth-necessary-element",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The thesis assumes these five elements are both necessary and sufficient \u2014 that no sixth element (e.g., privacy-by-design, interoperability standards, usability/accessibility requirements, or revocation timeliness guarantees) is also necessary. The selection of exactly five could reflect the author's exposure to particular systems rather than an exhaustive derivation from first principles. A missing element would not invalidate the five but would weaken the 'optimal' claim.",
+    "created_at": 1790815536.4098291,
+    "id": "f7c43583fdcd874908de0febd4562570c41bb384ac41de936f83283204f2f21d"
+  },
+  {
+    "subject": "demonstrated-in-isolation",
+    "predicate": "implies-composable-into",
+    "object": "coherent-combined-architecture",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The thesis assumes that because each element has been demonstrated in at least one system, the five can be composed into a single coherent architecture. This is a composability assumption \u2014 it may not hold if elements impose contradictory constraints. For example, self-certifying identifiers (element 1) could tension with plural trust-list governance (element 4) if trust-list publishers require registry-anchored identifiers. The integration proof is not provided.",
+    "created_at": 1790815540.062075,
+    "id": "04c6bb59068de1b8163a48bddfdb1594dec6d157002bfb469aef9550544895bd"
+  },
+  {
+    "subject": "comparative-survey-methodology",
+    "predicate": "is-unbiased-regarding",
+    "object": "system-element-coverage-scoring",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The gap analysis mapping systems to elements assumes consistent and unbiased scoring criteria. Terms like 'partially supplies' and 'fails' involve judgment calls \u2014 for example, whether eIDAS 2's Qualified Trust Service Provider framework counts as 'plural independent trust-list publishers' (element 4) or not depends on how 'independent' and 'plural' are operationalized. Different evaluators might score the same system differently on the same element.",
+    "created_at": 1790815544.217652,
+    "id": "a9797b57c15085ac20ba51b9c0146828a4d8fd58e8787f5d7c526687014f05cb"
+  }
+]

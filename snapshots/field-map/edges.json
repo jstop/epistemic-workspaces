@@ -1,0 +1,66 @@
+[
+  {
+    "from_id": "2a9857da5701c322",
+    "rel": "narrows",
+    "to": "692a1f58c6ceebb5",
+    "notes": "closest existing composition",
+    "created_at": 1790814511.610836,
+    "id": "83ace2b6fbfee96c"
+  },
+  {
+    "from_id": "9eeaf55b2543121d",
+    "rel": "narrows",
+    "to": "692a1f58c6ceebb5",
+    "notes": "closest existing composition",
+    "created_at": 1790814511.610836,
+    "id": "50cb86250ebe2c14"
+  },
+  {
+    "from_id": "42ade0b071569c26",
+    "rel": "narrows",
+    "to": "692a1f58c6ceebb5",
+    "notes": "closest existing composition",
+    "created_at": 1790814511.610836,
+    "id": "227f1836da1ea982"
+  },
+  {
+    "from_id": "64ae0ac7bf6cb6b6",
+    "rel": "narrows",
+    "to": "692a1f58c6ceebb5",
+    "notes": "closest existing composition",
+    "created_at": 1790814511.610836,
+    "id": "080573f155fc2240"
+  },
+  {
+    "from_id": "794deed751cb6143",
+    "rel": "supersedes",
+    "to": "9eeaf55b2543121d",
+    "notes": "T1 corrected to NO; see rubric",
+    "created_at": 1790815798.1193464,
+    "id": "8b5cc4df7eec7d32"
+  },
+  {
+    "from_id": "0d8d9f1ae9807c36",
+    "rel": "grounds",
+    "to": "219a504f9d6f8a9a",
+    "notes": "scoring criteria for the gap claim",
+    "created_at": 1790815798.1193464,
+    "id": "ac0f09c0f8bf5e7a"
+  },
+  {
+    "from_id": "97df110f930e2e72",
+    "rel": "narrows",
+    "to": "219a504f9d6f8a9a",
+    "notes": "re-scored: max is 2 full passes, not 3",
+    "created_at": 1790815798.1193464,
+    "id": "cef7fc13a3818093"
+  },
+  {
+    "from_id": "97df110f930e2e72",
+    "rel": "narrows",
+    "to": "692a1f58c6ceebb5",
+    "notes": "",
+    "created_at": 1790815798.1193464,
+    "id": "449777124b1466a8"
+  }
+]

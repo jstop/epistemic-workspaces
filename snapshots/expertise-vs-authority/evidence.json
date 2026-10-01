@@ -1,0 +1,169 @@
+[
+  {
+    "title": "CA hierarchy concentration in WebPKI",
+    "description": "The WebPKI ecosystem demonstrates authority concentration: a small number of root Certificate Authorities (historically fewer than ~150 organizations in major browser trust stores) control the ability to issue identity-binding certificates for the entire internet. Incidents like the DigiNotar compromise (2011) and Symantec distrust (2017-2018) show that concentration creates single points of failure, but also that relying parties (browsers) lack practical ability to substitute CAs at the individual user level \u2014 the browser vendor decides trust, not the relying party.",
+    "evidence_type": "observation",
+    "source": "Publicly documented history of browser trust store governance and CA compromise incidents; browser vendor trust store policies",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790801466.838332,
+    "id": "e24d22de0db7c4fb6745ac0fe5454f0f3b43fe881544a6b0d4f715eb4f4eb0f3"
+  },
+  {
+    "title": "Aadhaar biometric lock-in and appeal failures",
+    "description": "India's Aadhaar system enrolls over 1.3 billion residents with biometric and demographic data managed by UIDAI. Reports from civil society organizations and media document cases where biometric authentication failures (especially among manual laborers whose fingerprints degrade) led to denial of food rations and welfare benefits, with no practical appeal mechanism beyond re-enrollment. The system conflates identity assertion with entitlement worthiness, and there is no alternative assessor \u2014 UIDAI is the sole authority.",
+    "evidence_type": "testimony",
+    "source": "Investigative journalism and civil society reports on Aadhaar authentication failures and welfare denial incidents in India",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790801471.946785,
+    "id": "64f2646c6aec328ea377dd8e07a59baa4e9395dd6b3cb720d4baa5eeeaf91aca"
+  },
+  {
+    "title": "Platform reputation systems blend identity with worth",
+    "description": "Platform reputation systems (Uber driver ratings, Airbnb host scores, eBay seller ratings) structurally conflate identity verification with reputational scoring. A driver's identity assurance and their quality rating are fused into a single platform-controlled score. Users cannot port reputation across platforms, cannot substitute assessors, and appeal mechanisms are opaque and platform-controlled. This violates all three tolerability conditions simultaneously.",
+    "evidence_type": "observation",
+    "source": "Public documentation of platform reputation system designs; academic literature on platform labor and reputation portability",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790801476.0028229,
+    "id": "83169a3c6d60d93afaed41e349cfadb904ccfc5eb059b20d897503ba2aa34153"
+  },
+  {
+    "title": "Federated identity provider concentration patterns",
+    "description": "Federated identity systems (SAML, OpenID Connect) formally allow assessor substitution but in practice exhibit extreme concentration: Google and Facebook/Meta account for the vast majority of social login usage. Enterprise SAML federations typically depend on a single IdP per organization. When an IdP revokes or suspends an account, downstream relying parties have no independent verification path. The eIDAS 2 regulation attempts to address this with qualified trust service provider lists, but member state implementation creates new national concentration points.",
+    "evidence_type": "statistical",
+    "source": "Industry analyses of social login market share; enterprise federation architecture documentation; eIDAS 2 regulation text and implementation reports",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790801481.102211,
+    "id": "fab6b9f8e0f65bb788306833c42f3960b1670ded15da666ded3dca640c49d80d"
+  },
+  {
+    "title": "W3C VC Data Model 2.1: validation of issuer trust is out of scope",
+    "description": "The spec's Terminology section defines \"validation\" (whether a claim from a given issuer meets a verifier's business requirements) and states the means of validation are outside the specification's scope; verifiers trust certain issuers for certain claims under their own rules. Section 1.1 likewise says verifiability does not imply truth of claims. This documents that the judgment layer is deliberately unspecified by the protocol.",
+    "evidence_type": "document",
+    "source": "https://www.w3.org/TR/2026/WD-vc-data-model-2.1-20260809/ (Terminology, \"validation\"; \u00a71.1)",
+    "reliability": 0.9,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_2cca679832794413a666409a9a87fa65",
+      "url": "https://www.w3.org/TR/2026/WD-vc-data-model-2.1-20260809/",
+      "quote": "the means for such validation vary widely and are outside the scope",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790801941.2520971,
+    "id": "ed775a56ad0880e09e0015ad45fedd508a740bc56f32185fdd177ba45527cd90"
+  },
+  {
+    "title": "GLEIF describes itself as sole guardian and gatekeeper of the vLEI system",
+    "description": "GLEIF's own framing at the launch of the QVI qualification program: it describes itself as the guardian and gatekeeper of the vLEI system, running the governance structure together with the compliance and quality functions. All QVIs must operate under GLEIF's Ecosystem Governance Framework, and qualification is conferred by GLEIF alone.",
+    "evidence_type": "document",
+    "source": "https://www.helpnetsecurity.com/2022/07/08/gleif-verifiable-lei-issuer-qualification-program/",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_b8c6dc95d4974d20ae0b6ae50cb6a02d",
+      "url": "https://www.helpnetsecurity.com/2022/07/08/gleif-verifiable-lei-issuer-qualification-program/",
+      "quote": "the guardian and gatekeeper of the new standardized and decentralized vLEI system",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790802096.184353,
+    "id": "f6f9e090602fe4584289901938ccb7886e772337747ae9a0d032a22d8adf0db3"
+  },
+  {
+    "title": "eIDAS 2: relying-party registration with member state and staged mandatory acceptance",
+    "description": "Secondary summary of Regulation (EU) 2024/1183 (secondary source; the primary text on EUR-Lex should be attached before this is treated as settled): relying parties must register with the member state where they are established and declare in advance the attributes they intend to request; Article 5b(3) forbids requesting more; acceptance of the wallet becomes compulsory in stages for designated sectors; only member states or their designated entities may issue the EUDI wallet itself.",
+    "evidence_type": "document",
+    "source": "https://ppc.land/eidas/ ; https://cdn.presencis.com/regulations/eidas-2/applicability/",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_a134d34640c34a9598f00a83c26cd136",
+      "url": "https://ppc.land/eidas/",
+      "quote": "must register as a relying party in the member state where it is established",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790802424.057054,
+    "id": "c602202200719c972fd29b264a0b510faace0d06ee7fbcb824273e2a6ee6976e"
+  },
+  {
+    "title": "Osmio poc: idqa-scoring.md",
+    "description": "Architecture doc in the Osmio proof-of-concept repo. Documents the eight dimensions and codes, the per-dimension thresholding rule for relying parties, the modifier table, and a \"Not Yet Implemented\" section stating AO-mediated scoring for dimensions 0, 3 and 5 requires human judgment and has no enrollment flow yet, and that no score-degradation mechanism exists. Retrieved 2026-09-30 from the local repo.",
+    "evidence_type": "document",
+    "source": "file:///Users/jstein/workspace/OSMIO/poc/docs/architecture/idqa-scoring.md",
+    "reliability": 0.95,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_cfc8afca1d8a4e73b3445032709df243",
+      "url": "file:///Users/jstein/workspace/OSMIO/poc/docs/architecture/idqa-scoring.md",
+      "quote": "Relying parties set thresholds per dimension, not on the aggregate.",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790802865.356971,
+    "id": "eca57d9e4c7e299a1e806eb2911d43c029300b2b5ddfebb2991b77b421f62273"
+  },
+  {
+    "title": "Osmio knowledgebase: ecosystem overview and City of Osmio notes",
+    "description": "Two knowledgebase notes (2026-05-25) synthesized from Nextcloud documents: the Authenticity Ecosystem overview (organizational stack: TAI, Alliance, City of Osmio/VRD as certificate issuer, Council of Attestation Officers as notary-like in-person proofing) and the City of Osmio note (Commissions and Departments folder described as a \"model of municipal government\" with charters, OsmioCivilCourt, CA Operations Commission; Enrollment and CA folders contain shipped software). These are secondary; the primary charter and QEI spec documents are flagged in the note as not yet read.",
+    "evidence_type": "document",
+    "source": "file:///Users/jstein/workspace/OSMIO/knowledgebase/Authenticity Ecosystem \u2014 Overview.md ; file:///Users/jstein/workspace/OSMIO/knowledgebase/Nextcloud/City of Osmio.md",
+    "reliability": 0.7,
+    "provenance": null,
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790802929.6003141,
+    "id": "8477b69d81c7b38f6b92e3a85702e019d6016613af2ae7896cc6b65acc90c7c2"
+  }
+]

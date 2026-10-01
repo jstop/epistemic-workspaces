@@ -1,0 +1,422 @@
+[
+  {
+    "title": "W3C VC Data Model 2.1: validation of issuer trust out of scope",
+    "description": "Terminology defines validation and places its means outside the specification.",
+    "evidence_type": "document",
+    "source": "https://www.w3.org/TR/2026/WD-vc-data-model-2.1-20260809/",
+    "reliability": 0.9,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_f924585bf9db9eb7",
+      "url": "https://www.w3.org/TR/2026/WD-vc-data-model-2.1-20260809/",
+      "quote": "the means for such validation vary widely and are outside the scope",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "f924585bf9db9eb7"
+  },
+  {
+    "title": "Sovrin Foundation dissolution notice",
+    "description": "Foundation dissolved; Trinsic sole remaining Steward; MainNet read-only.",
+    "evidence_type": "document",
+    "source": "https://sovrin.org/the-sovrin-foundation-has-been-dissolved-but-sovrin-mainnet-remains/",
+    "reliability": 0.9,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_a0900e871c0bd0e7",
+      "url": "https://sovrin.org/the-sovrin-foundation-has-been-dissolved-but-sovrin-mainnet-remains/",
+      "quote": "officially dissolved by the State of Utah on May 21, 2025",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "a0900e871c0bd0e7"
+  },
+  {
+    "title": "Gentoo notice on SKS keyserver poisoning",
+    "description": "Signatures appended without limit; poisoned certificates cannot be removed from the network.",
+    "evidence_type": "document",
+    "source": "https://www.gentoo.org/news/2019/07/03/sks-key-poisoning.html",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_cc5f1e7f844a9cac",
+      "url": "https://www.gentoo.org/news/2019/07/03/sks-key-poisoning.html",
+      "quote": "no way to distinguish a legitimate signature from garbage",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "cc5f1e7f844a9cac"
+  },
+  {
+    "title": "GSA OIG: Login.gov misled agencies on IAL2",
+    "description": "Login.gov billed for IAL2 compliance it never had.",
+    "evidence_type": "document",
+    "source": "https://www.gsaig.gov/content/gsa-misled-customers-logingovs-compliance-digital-identity-standards",
+    "reliability": 0.9,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_b3b49416d6cd6529",
+      "url": "https://www.gsaig.gov/content/gsa-misled-customers-logingovs-compliance-digital-identity-standards",
+      "quote": "Login.gov has never included a physical or biometric comparison",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "b3b49416d6cd6529"
+  },
+  {
+    "title": "Osmio IDQA page",
+    "description": "Eight metrics, aggregate 0-72, relying parties set per-dimension minimums.",
+    "evidence_type": "document",
+    "source": "https://www.osmio.ch/idqa.html",
+    "reliability": 0.9,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_08f37e90ed7220f4",
+      "url": "https://www.osmio.ch/idqa.html",
+      "quote": "or minimums of any of the eight component scores",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "08f37e90ed7220f4"
+  },
+  {
+    "title": "Osmio QEI Enrollment Component",
+    "description": "Council of Attestation Officers qualifies, trains and supervises enrollers; officers bonded and liable.",
+    "evidence_type": "document",
+    "source": "https://www.osmio.ch/pdf/QEI-3-Enrollment-Component.pdf",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_23852c2013eb2ec4",
+      "url": "https://www.osmio.ch/pdf/QEI-3-Enrollment-Component.pdf",
+      "quote": "That is the job of the Council of Attestation Officers",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "23852c2013eb2ec4"
+  },
+  {
+    "title": "Osmio poc idqa-scoring.md (local)",
+    "description": "Per-dimension thresholding rule; AO-scored dimensions 0, 3, 5 not yet implemented.",
+    "evidence_type": "document",
+    "source": "file:///Users/jstein/workspace/OSMIO/poc/docs/architecture/idqa-scoring.md",
+    "reliability": 0.95,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_c75e99b9b74cb7ca",
+      "url": "file:///Users/jstein/workspace/OSMIO/poc/docs/architecture/idqa-scoring.md",
+      "quote": "Relying parties set thresholds per dimension, not on the aggregate.",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "c75e99b9b74cb7ca"
+  },
+  {
+    "title": "AAMVA DTS relying-party terms",
+    "description": "Single default list; liability limited.",
+    "evidence_type": "document",
+    "source": "https://www.aamva.org/identity/mobile-driver-license-digital-trust-service/for-relying-parties",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_48af461cbfed337b",
+      "url": "https://www.aamva.org/identity/mobile-driver-license-digital-trust-service/for-relying-parties",
+      "quote": "significant limitations on the liability of AAMVA",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "48af461cbfed337b"
+  },
+  {
+    "title": "Chrome distrust of Symantec",
+    "description": "Chrome 66/70 distrust; site operators may obtain certificates from any other CA.",
+    "evidence_type": "document",
+    "source": "https://support.google.com/chrome/a/answer/7662561?hl=en",
+    "reliability": 0.9,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_d9090df3e28f60d4",
+      "url": "https://support.google.com/chrome/a/answer/7662561?hl=en",
+      "quote": "may obtain replacement certificates from any other Certificate Authority",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "d9090df3e28f60d4"
+  },
+  {
+    "title": "Entrust distrust 2024",
+    "description": "Chrome, Apple, Mozilla distrust for compliance failures; CA business sold to Sectigo.",
+    "evidence_type": "document",
+    "source": "https://www.infosecurity-magazine.com/news/chrome-update-will-block-entrust/",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_0352a0e61263b052",
+      "url": "https://www.infosecurity-magazine.com/news/chrome-update-will-block-entrust/",
+      "quote": "a pattern of compliance failures, unmet improvement commitments",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "0352a0e61263b052"
+  },
+  {
+    "title": "ENISA on DigiNotar",
+    "description": "Audited to ETSI yet compromised; caught by browsers.",
+    "evidence_type": "document",
+    "source": "https://www.enisa.europa.eu/sites/default/files/all_files/Operation_Black_Tulip_v2.pdf",
+    "reliability": 0.9,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_1886dfcaa607e0d5",
+      "url": "https://www.enisa.europa.eu/sites/default/files/all_files/Operation_Black_Tulip_v2.pdf",
+      "quote": "despite the fact that Diginotar was audited periodically to ETSI",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "1886dfcaa607e0d5"
+  },
+  {
+    "title": "GLEIF QVI list",
+    "description": "Only GLEIF-qualified organizations may issue vLEIs; entities choose among QVIs.",
+    "evidence_type": "document",
+    "source": "https://www.gleif.org/en/vlei/get-a-vlei-list-of-qualified-vlei-issuing-organizations",
+    "reliability": 0.9,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_fc1f2d4ecbfa1722",
+      "url": "https://www.gleif.org/en/vlei/get-a-vlei-list-of-qualified-vlei-issuing-organizations",
+      "quote": "Only organizations duly qualified by the Global Legal Entity Identifier Foundation",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "fc1f2d4ecbfa1722"
+  },
+  {
+    "title": "Regulation (EU) 2024/1183",
+    "description": "Wallet certification by member-state-designated CABs; mandatory acceptance for designated sectors.",
+    "evidence_type": "document",
+    "source": "https://eur-lex.europa.eu/eli/reg/2024/1183/oj/eng",
+    "reliability": 0.9,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_ea95d8be273cffcc",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1183/oj/eng",
+      "quote": "certified by accredited conformity assessment bodies designated by Member States",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "ea95d8be273cffcc"
+  },
+  {
+    "title": "OfDIA blog on DVS certification",
+    "description": "OfDIA sets rules; independent CABs decide; 60+ certified services.",
+    "evidence_type": "document",
+    "source": "https://enablingdigitalidentity.blog.gov.uk/2026/07/13/digital-verification-at-scale-our-keynotes-at-the-european-identity-conference-and-identity-week-europe/",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_3a568336b8ed0eda",
+      "url": "https://enablingdigitalidentity.blog.gov.uk/2026/07/13/digital-verification-at-scale-our-keynotes-at-the-european-identity-conference-and-identity-week-europe/",
+      "quote": "independent conformity assessment bodies decide whether your service meets them",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "3a568336b8ed0eda"
+  },
+  {
+    "title": "C2PA Content Credentials whitepaper 09/2025",
+    "description": "C2PA established its own trust list rather than reuse existing ones.",
+    "evidence_type": "document",
+    "source": "https://c2pa.org/wp-content/uploads/sites/33/2025/10/content_credentials_wp_0925.pdf",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_9ac73cc174ce37c7",
+      "url": "https://c2pa.org/wp-content/uploads/sites/33/2025/10/content_credentials_wp_0925.pdf",
+      "quote": "has established it own C2PA Trust List",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "9ac73cc174ce37c7"
+  },
+  {
+    "title": "ToIP EGWG on C2PA conformance",
+    "description": "ToIP governance metamodel used to structure the C2PA program.",
+    "evidence_type": "document",
+    "source": "https://trustoverip.org/blog/2025/05/20/egwg-2025-05-15-the-c2pa-conformance-program-scott-perry/",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_9a7b4b77f7d3f542",
+      "url": "https://trustoverip.org/blog/2025/05/20/egwg-2025-05-15-the-c2pa-conformance-program-scott-perry/",
+      "quote": "holds Certification Authorities Accountable",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "9a7b4b77f7d3f542"
+  },
+  {
+    "title": "ROCA / Estonia 2017",
+    "description": "Common Criteria certified chips with recoverable keys; 750,000+ cards; revoke-and-reissue.",
+    "evidence_type": "document",
+    "source": "https://wikipedia.com/wiki/ROCA_attack",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_c3af58d87949693e",
+      "url": "https://wikipedia.com/wiki/ROCA_attack",
+      "quote": "present in a list of Common Criteria certified smart card products",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "c3af58d87949693e"
+  },
+  {
+    "title": "NCAER on Aadhaar exclusion",
+    "description": "Exclusion stems from exclusive reliance; OTP fallback mitigated.",
+    "evidence_type": "document",
+    "source": "https://ncaer.org/wp-content/uploads/2022/09/IPF2021Paper4.pdf",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_188993d3bfd6c9cb",
+      "url": "https://ncaer.org/wp-content/uploads/2022/09/IPF2021Paper4.pdf",
+      "quote": "not a consequence of using Aadhaar but using Aadhaar exclusively",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "188993d3bfd6c9cb"
+  },
+  {
+    "title": "TechCrunch on Worldcoin regulatory actions",
+    "description": "Kenya suspension, Spain/Portugal orders, deletion ambiguity.",
+    "evidence_type": "document",
+    "source": "https://techcrunch.com/2024/06/04/worldcoin-faces-pivotal-eu-privacy-decision-within-weeks",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_0cc64921ded029b8",
+      "url": "https://techcrunch.com/2024/06/04/worldcoin-faces-pivotal-eu-privacy-decision-within-weeks",
+      "quote": "optional World ID unverification",
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "0cc64921ded029b8"
+  },
+  {
+    "title": "NIST SP 800-63-4 commentary",
+    "description": "Final Aug 2025; IAL/AAL/FAL; syncable passkeys recognized at AAL2.",
+    "evidence_type": "document",
+    "source": "https://www.intercede.com/nist-sp-800-63-4-the-future-of-digital-identity-is-here-and-intercede-is-ready/",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_bc1a017fda21a249",
+      "url": "https://www.intercede.com/nist-sp-800-63-4-the-future-of-digital-identity-is-here-and-intercede-is-ready/",
+      "quote": null,
+      "retrieved_at": "2026-09-30"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1790814511.610836,
+    "id": "bc1a017fda21a249"
+  }
+]

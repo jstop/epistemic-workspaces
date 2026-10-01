@@ -1,0 +1,518 @@
+[
+  {
+    "subject": "identity-assurance-architectures",
+    "predicate": "inevitably-concentrate-authority-tolerably-only-under-three-conditions-none-satisfies-all",
+    "object": "fraud-resistance-verification-placement",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "605c3f6991c9e3ac025b86c32b545c29274e705d28172589b92d19105c340c71",
+      "e59f033047c75bf535063d16194877912ffc5fb973b588356e5791fa049e2e29",
+      "a4506bb4d0411125617b9f75502390479dc50023ae1bc87baab603619c7e5208"
+    ],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "superseded",
+    "killed_by": "a7aebf2ce58811e86c70f192abdb73ad0d2b3d64a3c04ef078e9026077a04b42",
+    "notes": "Any identity-assurance architecture that raises fraud resistance must place verification expertise somewhere, and every known placement produces a distinct concentration of authority. That concentration is tolerable only where three conditions hold: (1) assessments are claims about identity assertions rather than about persons' worth or reputation, (2) relying parties can substitute one assessor for another, and (3) there is a governed path to appeal and exit. No existing identity architecture \u2014 hierarchical PKI, KERI/ACDC, W3C DID/VC ecosystems, government schemes such as eIDAS 2 or Aadhaar, federated identity, trust registries, proof-of-personhood systems, web-of-trust, platform reputation, or Osmio/IDQA \u2014 satisfies all three; each fails a different one.",
+    "created_at": 1790801432.820768,
+    "id": "fbe5a20df6e6dcd8fa0810ff9485520b9aba5581518baff49c05f38c168d97aa"
+  },
+  {
+    "subject": "fraud-resistance",
+    "predicate": "necessitates-placement-of",
+    "object": "verification-expertise",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Any architecture that raises fraud resistance above baseline must locate verification expertise \u2014 human judgment, algorithmic scoring, credential checking \u2014 at some identifiable point. Fraud resistance cannot emerge from structure alone without someone or something performing assessment.",
+    "created_at": 1790801440.95633,
+    "id": "bfd8ef79cefd71e00b9fae2a69e44f67d90d9f7fce8e16b12d0f66892428ccdc"
+  },
+  {
+    "subject": "verification-expertise-placement",
+    "predicate": "produces",
+    "object": "authority-concentration",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Every known placement of verification expertise \u2014 whether centralized (CAs, government agencies), federated (IdPs), decentralized (KERI witnesses, web-of-trust endorsers), or algorithmic (proof-of-personhood oracles) \u2014 produces a distinct concentration of authority over identity outcomes. The locus shifts but does not disappear.",
+    "created_at": 1790801444.076909,
+    "id": "ee2ab1e2f0b9a2b3679603c230596817d013ae490f64601dc759d094d19fa1e2"
+  },
+  {
+    "subject": "authority-concentration",
+    "predicate": "is-tolerable-only-when",
+    "object": "three-conditions-hold",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The concentration of authority is tolerable only where: (1) assessments are claims about identity assertions rather than about persons' worth or reputation, (2) relying parties can substitute one assessor for another, and (3) there is a governed path to appeal and exit. These three conditions are jointly necessary and arguably sufficient for acceptable authority concentration.",
+    "created_at": 1790801446.377816,
+    "id": "c29c07b2584f12ea7d355a367e8e79a0739e8e31e9763d462a2631c5a72abe22"
+  },
+  {
+    "subject": "existing-identity-architectures",
+    "predicate": "each-fail-at-least-one-of",
+    "object": "three-tolerability-conditions",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "No existing identity architecture \u2014 hierarchical PKI, KERI/ACDC, W3C DID/VC, eIDAS 2, Aadhaar, federated identity, trust registries, proof-of-personhood, web-of-trust, platform reputation, or Osmio/IDQA \u2014 satisfies all three conditions. Each fails a different one, suggesting the problem is structural rather than incidental.",
+    "created_at": 1790801449.153383,
+    "id": "3de714a2a0b5bbef1e6b8d503bc91d772f0bbc3a276c3e34e8d9079cae54df82"
+  },
+  {
+    "subject": "assessor-substitutability",
+    "predicate": "requires",
+    "object": "interoperable-assessment-semantics",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "For relying parties to genuinely substitute one assessor for another (condition 2), the semantics of what is being assessed must be interoperable across assessors. This requires standardized assertion formats and comparable assurance levels \u2014 a coordination problem most architectures have not solved.",
+    "created_at": 1790801451.7275038,
+    "id": "224662400a9d66b2e839e1a86584e0909e860d8bde03f83a27bad18ca90bcdd4"
+  },
+  {
+    "subject": "fraud-resistance",
+    "predicate": "cannot-be-achieved-by",
+    "object": "purely-cryptographic-structure",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: cryptographic mechanisms alone (signatures, zero-knowledge proofs, hash chains) cannot provide fraud resistance without some entity exercising judgment about the binding between a credential and a real-world subject. This is contestable \u2014 advances in verifiable computation or autonomous verification protocols might weaken this assumption.",
+    "created_at": 1790801540.6949341,
+    "id": "605c3f6991c9e3ac025b86c32b545c29274e705d28172589b92d19105c340c71"
+  },
+  {
+    "subject": "three-tolerability-conditions",
+    "predicate": "are-jointly-necessary-and-sufficient-for",
+    "object": "acceptable-authority-concentration",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the three conditions (assertion-not-worth, substitutability, appeal/exit) are the right three \u2014 not too few, not too many. Perhaps additional conditions are needed (e.g., transparency of assessment criteria, data minimization), or perhaps fewer suffice. The thesis assumes this particular triple is the correct specification of tolerability.",
+    "created_at": 1790801545.119884,
+    "id": "e59f033047c75bf535063d16194877912ffc5fb973b588356e5791fa049e2e29"
+  },
+  {
+    "subject": "listed-architectures",
+    "predicate": "are-representative-of",
+    "object": "all-possible-identity-architectures",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the enumerated architectures (PKI, KERI/ACDC, DID/VC, eIDAS 2, Aadhaar, federated identity, trust registries, proof-of-personhood, web-of-trust, platform reputation, Osmio/IDQA) cover the structural design space exhaustively enough that no unlisted architecture could satisfy all three conditions. A novel hybrid or future architecture might escape the pattern.",
+    "created_at": 1790801549.770855,
+    "id": "a4506bb4d0411125617b9f75502390479dc50023ae1bc87baab603619c7e5208"
+  },
+  {
+    "subject": "Identity-assurance architectures concentrate authority in two separable layers: key control (who can bind, rotate, or revoke the cryptographic identifier) and verification judgment (who decides that an identity assertion is trustworthy enough for a purpose). Fraud resistance requires expertise in the judgment layer, and every known placement of that expertise concentrates judgment authority somewhere. Judgment concentration is tolerable only where (1) assessments are claims about identity assertions rather than about persons, (2) relying parties can substitute assessors, and (3) there is a governed path to appeal and exit. Architectures that decentralize key control (KERI/ACDC, DID/VC) do not thereby satisfy these conditions, because they leave the judgment layer unspecified; and no existing architecture satisfies all three at the judgment layer, each failing a different one.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": true,
+    "previous_version": "fbe5a20df6e6dcd8fa0810ff9485520b9aba5581518baff49c05f38c168d97aa",
+    "version_meta": {
+      "rationale": "Round 1 undercutting defeater: the original thesis treated all authority concentration as equivalent. Narrowed to distinguish key-control concentration from verification-judgment concentration; the three tolerability conditions now govern only the judgment layer. This also targets the rebutting defeater (DID/VC + KERI may satisfy all three) by locating KERI/ACDC's contribution in the key-control layer."
+    },
+    "node_type": "thesis",
+    "status": null,
+    "killed_by": null,
+    "notes": "Identity-assurance architectures concentrate authority in two separable layers: key control (who can bind, rotate, or revoke the cryptographic identifier) and verification judgment (who decides that an identity assertion is trustworthy enough for a purpose). Fraud resistance requires expertise in the judgment layer, and every known placement of that expertise concentrates judgment authority somewhere. Judgment concentration is tolerable only where (1) assessments are claims about identity assertions rather than about persons, (2) relying parties can substitute assessors, and (3) there is a governed path to appeal and exit. Architectures that decentralize key control (KERI/ACDC, DID/VC) do not thereby satisfy these conditions, because they leave the judgment layer unspecified; and no existing architecture satisfies all three at the judgment layer, each failing a different one.",
+    "created_at": 1790801873.591831,
+    "id": "a7aebf2ce58811e86c70f192abdb73ad0d2b3d64a3c04ef078e9026077a04b42"
+  },
+  {
+    "subject": "Key-control authority and verification-judgment authority are separable: an architecture can fully decentralize who controls an identifier's keys while leaving entirely open who judges whether an assertion bound to that identifier should be trusted.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Key-control authority and verification-judgment authority are separable: an architecture can fully decentralize who controls an identifier's keys while leaving entirely open who judges whether an assertion bound to that identifier should be trusted.",
+    "created_at": 1790801898.593351,
+    "id": "91eae9e6bf0974538e50dca8f6fb934bb8aed6a5705636c5fa7cc9c161a68a80"
+  },
+  {
+    "subject": "KERI/ACDC and W3C DID/VC specify key control (self-certifying identifiers, key event logs, witnesses, rotation, credential issuance and revocation) but do not specify who is competent to issue a credential, what assessment methodology they must follow, or how a relying party contests or replaces an issuer; the judgment layer is delegated to out-of-band governance frameworks.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "KERI/ACDC and W3C DID/VC specify key control (self-certifying identifiers, key event logs, witnesses, rotation, credential issuance and revocation) but do not specify who is competent to issue a credential, what assessment methodology they must follow, or how a relying party contests or replaces an issuer; the judgment layer is delegated to out-of-band governance frameworks.",
+    "created_at": 1790801902.979702,
+    "id": "a4bfe2e9f52f08b1871a2cb78561acb2102b4ecc72e54163c982fb24e9a661d4"
+  },
+  {
+    "subject": "In the vLEI ecosystem, assessor substitutability exists only at the issuer tier: relying parties may accept credentials from any Qualified vLEI Issuer, but every QVI is qualified, monitored, and revocable by a single governing authority (GLEIF), which also controls the root identifier. There is no second qualifier a QVI or relying party could switch to; substitutability stops one tier below the concentration.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "In the vLEI ecosystem, assessor substitutability exists only at the issuer tier: relying parties may accept credentials from any Qualified vLEI Issuer, but every QVI is qualified, monitored, and revocable by a single governing authority (GLEIF), which also controls the root identifier. There is no second qualifier a QVI or relying party could switch to; substitutability stops one tier below the concentration.",
+    "created_at": 1790802090.4084191,
+    "id": "e6fcb5713366f5320b3a5a3fd6d5efdff846f12307ddd176b62d185947b2c8b4"
+  },
+  {
+    "subject": "The three tolerability conditions are recursive: they must hold at every tier at which verification judgment is exercised, including the tier that qualifies, monitors, or revokes assessors. Substitutability among first-tier issuers does not satisfy condition 2 if the qualifier of those issuers is unsubstitutable. (Surfaced by the vLEI test; the original thesis stated the conditions only for \"assessors\" without specifying tier.)",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "concession",
+    "status": null,
+    "killed_by": null,
+    "notes": "The three tolerability conditions are recursive: they must hold at every tier at which verification judgment is exercised, including the tier that qualifies, monitors, or revokes assessors. Substitutability among first-tier issuers does not satisfy condition 2 if the qualifier of those issuers is unsubstitutable. (Surfaced by the vLEI test; the original thesis stated the conditions only for \"assessors\" without specifying tier.)",
+    "created_at": 1790802299.969929,
+    "id": "03a55bd984382114c6a5abf444b1e2f7e102d42db1cc2f0a038af98094f50bfa"
+  },
+  {
+    "subject": "Under eIDAS 2, the judgment about who may rely on wallet credentials is itself state-exercised: a relying party must register with the member state in which it is established and declare in advance which attributes it will request, and designated sectors (banks, telecoms, very large online platforms, and others) are obliged to accept the wallet. Relying parties therefore cannot substitute the authority that admits them, and for obliged sectors there is no exit from the scheme, only from the market.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Under eIDAS 2, the judgment about who may rely on wallet credentials is itself state-exercised: a relying party must register with the member state in which it is established and declare in advance which attributes it will request, and designated sectors (banks, telecoms, very large online platforms, and others) are obliged to accept the wallet. Relying parties therefore cannot substitute the authority that admits them, and for obliged sectors there is no exit from the scheme, only from the market.",
+    "created_at": 1790802416.3397481,
+    "id": "11b8f210bb326427768056fbe9bc157a92c147ec1a1844e18d4162864ad9b344"
+  },
+  {
+    "subject": "[Documented, Osmio poc] IDQA is specified as an eight-dimension feature vector (each 0-9) carried as an X.509v3 extension; the design states relying parties set thresholds per dimension, not on the aggregate. Three dimensions (personal asset linkage, attestation quality, liability assumption) require human judgment by an Attestation Officer; self-service enrollment leaves them at 0. As of the doc, no AO enrollment flow exists and there is no score-degradation mechanism.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "[Documented, Osmio poc] IDQA is specified as an eight-dimension feature vector (each 0-9) carried as an X.509v3 extension; the design states relying parties set thresholds per dimension, not on the aggregate. Three dimensions (personal asset linkage, attestation quality, liability assumption) require human judgment by an Attestation Officer; self-service enrollment leaves them at 0. As of the doc, no AO enrollment flow exists and there is no score-degradation mechanism.",
+    "created_at": 1790802856.12229,
+    "id": "0f6f6556e29dafe98636dc5fe83a21298dc9687f374d7781e1af2063e3e957a3"
+  },
+  {
+    "subject": "[Documented, Osmio knowledgebase notes; secondary \u2014 Claude-synthesized notes over Nextcloud sources, not the primary charters] Osmio's Vital Records Department is the single issuer of identity certificates for the Authenticity ecosystem; in-person proofing is performed by Attestation/Enrollment Officers coordinated through a Council of Attestation Officers; governance is modeled on a municipality with charters, commissions, and a civil court. The knowledgebase describes the charters and court as largely a governance model, with the enrollment application and CA tooling as the built parts.",
+    "predicate": "",
+    "object": "",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "[Documented, Osmio knowledgebase notes; secondary \u2014 Claude-synthesized notes over Nextcloud sources, not the primary charters] Osmio's Vital Records Department is the single issuer of identity certificates for the Authenticity ecosystem; in-person proofing is performed by Attestation/Enrollment Officers coordinated through a Council of Attestation Officers; governance is modeled on a municipality with charters, commissions, and a civil court. The knowledgebase describes the charters and court as largely a governance model, with the enrollment application and CA tooling as the built parts.",
+    "created_at": 1790802916.196912,
+    "id": "130584280e4c4444b7e4fce86b3f2d6db4d3f1ac276e397037252196257af6ce"
+  }
+]
