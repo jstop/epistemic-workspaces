@@ -1,0 +1,753 @@
+{
+  "proposal_id": "prop-14ecbe44",
+  "created_at": 1792097828.558899,
+  "status": "pending",
+  "source_id": "evd_eedf3a15dfd74ebc8b80cc25b9cb9b28",
+  "source_type": "document",
+  "source_url": null,
+  "title": "Wes Kussmaul / Grace Rachmany / Josh Stein call, 2026-10-15: DIF, Creator Assertions WG, Osmio certification, technical vs political adoption crux",
+  "interpreter": "epistemic-workbench/ingest@claude-fable-5-1",
+  "run_id": "run_d7eac86f4c974a998561145c756a30b6",
+  "nodes": [
+    {
+      "id": "n0",
+      "type": "thesis",
+      "text": "The ecovillage identity network is decentralized, not federated, because there is no single authority \u2014 there are multiple registries.",
+      "confidence": 0.8,
+      "span": "It's not federated because there isn't a single authority. There are multiple registries.",
+      "interpretation_id": "int_6aa2b3058bc54c8c9c9f4241cd939bf5"
+    },
+    {
+      "id": "n1",
+      "type": "claim",
+      "text": "All ecovillages recognize each other, but the car-sharing fleet recognizes only 50 of them plus 20 non-ecovillage organizations \u2014 a different registry.",
+      "confidence": 0.8,
+      "span": "the fleet only recognizes 50 of them. Plus they recognize 20 other organizations that aren't ecovillages. So it's a different registry.",
+      "interpretation_id": "int_ced2102f20d043fcb52cc8f357f2c96a"
+    },
+    {
+      "id": "n2",
+      "type": "claim",
+      "text": "There is not one federation but two overlapping ones, like a Venn diagram.",
+      "confidence": 0.8,
+      "span": "There's two federations. There's some overlap. There's like a Venn diagram.",
+      "interpretation_id": "int_edad6b3f55cd421bbd23745ab906cd38"
+    },
+    {
+      "id": "n3",
+      "type": "thesis",
+      "text": "DIF, being a standards body rather than a company, has little to offer Osmio.",
+      "confidence": 0.8,
+      "span": "DIF isn't a company, DIF is a standards body and so I don't think we have a lot to offer you.",
+      "interpretation_id": "int_6b0f6ca61d86450cb5e9decf7348bc7e"
+    },
+    {
+      "id": "n4",
+      "type": "claim",
+      "text": "Without using DIDs, most DIF working groups won't be interesting to Osmio.",
+      "confidence": 0.8,
+      "span": "If you're not using DIDs, then most of our working groups aren't gonna be very interesting to you",
+      "interpretation_id": "int_43a450e42e354fdc892180d5ea3d1dcd"
+    },
+    {
+      "id": "n5",
+      "type": "claim",
+      "text": "Osmio already has a developed, working technology, so it is unclear why it would come to DIF.",
+      "confidence": 0.7,
+      "span": "It sounds like you've got a technology that you've developed that works. Why would you come to DIF?",
+      "interpretation_id": "int_21f4f1b271f04b5ab5123c2364ea8ea8"
+    },
+    {
+      "id": "n6",
+      "type": "claim",
+      "text": "Osmio's work is appropriate for DIF's Creator Assertions Working Group, which also supports X.509.",
+      "confidence": 0.7,
+      "span": "What you're talking about is really appropriate for the Creator Assertions Working Group",
+      "interpretation_id": "int_009a14ffa4f64c93a94ed798dfc466be"
+    },
+    {
+      "id": "n7",
+      "type": "claim",
+      "text": "A working group founded by Adobe and the big players, two years in, will not listen to a newcomer like Osmio.",
+      "confidence": 0.75,
+      "span": "If you come into a working group that is founded by Adobe and all the big guys, they're not gonna listen to you. They've been working on this for two years.",
+      "interpretation_id": "int_78c0330dd49f48c3ae18b2ea2d2bb06f"
+    },
+    {
+      "id": "n8",
+      "type": "claim",
+      "text": "Standards are typically not industry collaborations but the big players forcing their will (OpenID Foundation, Agentic AI Foundation).",
+      "confidence": 0.75,
+      "span": "They're not really industry collaborations. They're the big guys forcing their will.",
+      "interpretation_id": "int_f34d6f1e399a491e9b81bd346a2c2b6f"
+    },
+    {
+      "id": "n9",
+      "type": "claim",
+      "text": "Osmio is not big enough to force a standard on others, but big enough to run its own franchise its own way.",
+      "confidence": 0.7,
+      "span": "You're not big enough to stuff it down somebody's throat. You're big enough to have your own franchise of doing things the way you want.",
+      "interpretation_id": "int_9ad24027e6c347f7874b594131261e6a"
+    },
+    {
+      "id": "n10",
+      "type": "thesis",
+      "text": "Osmio is a unified-vision organization \u2014 effectively a franchising business, not a collaborative-vision body.",
+      "confidence": 0.8,
+      "span": "We are a unified vision organization. We're effectively a franchising business.",
+      "interpretation_id": "int_25602cfd666949d0806c5e77075ee9e7"
+    },
+    {
+      "id": "n11",
+      "type": "claim",
+      "text": "When vision comes from one source (Python, Apple, Drupal), interfaces between elements get developed faster and more effectively.",
+      "confidence": 0.65,
+      "span": "the vision comes from one collection of brain cells and that's why interfaces between elements tend to be more quickly developed and more effectively developed in organizations that are unified",
+      "interpretation_id": "int_d5153e94781942a9bebd4f6227872034"
+    },
+    {
+      "id": "n12",
+      "type": "claim",
+      "text": "Identity reliability is not binary; different uses need different reliability levels, as in NIST 800-63.",
+      "confidence": 0.8,
+      "span": "Identity reliability is not binary.",
+      "interpretation_id": "int_9188ff40a37c4550926e28541c6a7ab6"
+    },
+    {
+      "id": "n13",
+      "type": "claim",
+      "text": "Osmio's assertion support certificate lets a relying party see an identity reliability score behind an identity claim.",
+      "confidence": 0.7,
+      "span": "the relying party can see the identity reliability score associated with that identity claim",
+      "interpretation_id": "int_9f816d5d7ea54bd8acfc53fa1cff27d3"
+    },
+    {
+      "id": "n14",
+      "type": "thesis",
+      "text": "Preventing Nazi-style misuse of identity databases is a technical question, solved by Osmio's Internet of People protocol: an identity database with no identity information in it.",
+      "confidence": 0.7,
+      "span": "We have the Internet of People protocol, which means we have an identity database with no identity information in it.",
+      "interpretation_id": "int_eafdbcefccea4b8c9f9a56264461ed92"
+    },
+    {
+      "id": "n15",
+      "type": "claim",
+      "text": "The historical threat of government identity databases (Germany, Netherlands) is amplified now that databases are online.",
+      "confidence": 0.75,
+      "span": "Now we have online databases and the threat is amplified.",
+      "interpretation_id": "int_43e9b7b0d4dc4b079aebeca0eb2e6396"
+    },
+    {
+      "id": "n16",
+      "type": "objection",
+      "text": "The identity-database question is now a political question, not a technical one.",
+      "confidence": 0.75,
+      "span": "That question is a political question now. It's not a technical question.",
+      "interpretation_id": "int_3dc3ce910a7d4339a6e1ffe2f8627d38"
+    },
+    {
+      "id": "n17",
+      "type": "objection",
+      "text": "Signing up for Osmio's identity does no practical good because one is forced into government ID for banking, healthcare and driver's licenses.",
+      "confidence": 0.8,
+      "span": "I can sign up for your identity. It won't do me a damn bit of good because I have zero choice if I wanna get healthcare.",
+      "interpretation_id": "int_05750847b0c24387864c6696485867f4"
+    },
+    {
+      "id": "n18",
+      "type": "claim",
+      "text": "Few can extract themselves from the existing system because no full alternative system is offered; you have to offer all the services.",
+      "confidence": 0.75,
+      "span": "Very few people are able to extract themselves from the existing system because you're not offering an alternative system. You have to offer all of the services.",
+      "interpretation_id": "int_d8d8798c21994cf0a4174249f5016c31"
+    },
+    {
+      "id": "n19",
+      "type": "claim",
+      "text": "Many people are ignoring banks these days.",
+      "confidence": 0.5,
+      "span": "A lot of people are ignoring banks these days.",
+      "interpretation_id": "int_e48803b973c34c3f80c933d8c54955c9"
+    },
+    {
+      "id": "n20",
+      "type": "claim",
+      "text": "After seven years in crypto, Grace knows very few people, even in the crypto industry, without a bank account.",
+      "confidence": 0.75,
+      "span": "I know very few people for whom it's their primary means, within the crypto industry, who don't have a bank account.",
+      "interpretation_id": "int_256781afbeec4ad8b2ae0e8a79191c98"
+    },
+    {
+      "id": "n21",
+      "type": "claim",
+      "text": "The identifier is only part of the system; that is why Grace starts with ecovillages and food systems.",
+      "confidence": 0.75,
+      "span": "The identifier is only part of the system. That's why I wanna work with ecovillages, because they have food.",
+      "interpretation_id": "int_16430bb1c7b641eea4be70d66c2e7f70"
+    },
+    {
+      "id": "n22",
+      "type": "claim",
+      "text": "Banks are threatened: KYC/KYCC are cracking, synthetic identities are rampant and will vanish in a downturn, causing serious problems for banking.",
+      "confidence": 0.6,
+      "span": "KYC and KYCC are cracking at the seams. Synthetic identities are rampant.",
+      "interpretation_id": "int_853b861ba4574f59b4651c33feafba71"
+    },
+    {
+      "id": "n23",
+      "type": "concession",
+      "text": "Grace agrees with the critique of banks but maintains the issue is adoption and what services an individual can get with the identity.",
+      "confidence": 0.8,
+      "span": "I agree with you on all of these things. What I'm saying is that this is an issue of adoption and of what service an individual can get with this identity.",
+      "interpretation_id": "int_b78f24fdfb844b688c30e19becd49151"
+    },
+    {
+      "id": "n24",
+      "type": "claim",
+      "text": "Osmio's adoption answer is franchisees that target a painful problem in a specific audience (Deep Authenticity, HireEvo, Trusted and True).",
+      "confidence": 0.75,
+      "span": "That's why our franchisees focus on a particular problem in a particular audience that's painful.",
+      "interpretation_id": "int_7ff8bf3a1a6b4edcba220acb7d66d347"
+    },
+    {
+      "id": "n25",
+      "type": "concession",
+      "text": "Grace likes the franchise approach and thinks both are trying to do the same thing, with different adoption strategies.",
+      "confidence": 0.8,
+      "span": "I love that. I think we're trying to do the same thing. Your approach to adoption is really different from my approach to adoption.",
+      "interpretation_id": "int_b915974f7c9b47adba61b60bab030a4b"
+    },
+    {
+      "id": "n26",
+      "type": "claim",
+      "text": "For the ecovillage work, many technical solutions already meet the bar; it is not a technical problem at all.",
+      "confidence": 0.8,
+      "span": "there are many technical solutions which pass the standard that I would want. Many. It's not a technical problem at all.",
+      "interpretation_id": "int_f52399c48da44be4bfc5a4c64bf43443"
+    },
+    {
+      "id": "n27",
+      "type": "claim",
+      "text": "The technical problems in identity are mostly resolved; the need is deployment in the world.",
+      "confidence": 0.75,
+      "span": "the technical problems are mostly resolved",
+      "interpretation_id": "int_2e3d174f08d04a55998776a28a24c4cf"
+    },
+    {
+      "id": "n28",
+      "type": "claim",
+      "text": "Deployment is the reality \u2014 where the rubber meets the road.",
+      "confidence": 0.75,
+      "span": "Deployment is the reality. That's where the rubber meets the road.",
+      "interpretation_id": "int_28e8d7f0858c4413a705d93a14823de1"
+    },
+    {
+      "id": "n29",
+      "type": "thesis",
+      "text": "Conversations like this are valuable for identifying what is known, what is argued for, and where disagreements and cruxes lie.",
+      "confidence": 0.75,
+      "span": "Even identifying where disagreements or gaps exist is valuable. It's valuable to see where you come to a crux.",
+      "interpretation_id": "int_eb02aea647c54fef9e794f415a8324c2"
+    },
+    {
+      "id": "n30",
+      "type": "claim",
+      "text": "There should be global infrastructure \u2014 perhaps a decentralized protocol or standard \u2014 providing a public record of debate.",
+      "confidence": 0.65,
+      "span": "create global infrastructure where these conversations can be useful and provide a public record of debate",
+      "interpretation_id": "int_17d2668072b946049c4bcaa77799976d"
+    },
+    {
+      "id": "n31",
+      "type": "claim",
+      "text": "The Talmud was an early on-paper protocol for recording communal debate, consensus and branching.",
+      "confidence": 0.7,
+      "span": "The Talmud was an early on-paper version of a protocol for recording communal debate",
+      "interpretation_id": "int_8e1c8748d2354f458886c59a558cf063"
+    },
+    {
+      "id": "n32",
+      "type": "claim",
+      "text": "Regardless of disagreement on X.509, some layer exists that is global.",
+      "confidence": 0.6,
+      "span": "Whether or not we agree or disagree on X.509, there's still some layer that exists that is global regardless.",
+      "interpretation_id": "int_36e06898648240618adbba18af37b437"
+    },
+    {
+      "id": "n33",
+      "type": "objection",
+      "text": "Global layers are a very modern idea and few things actually constitute global layers.",
+      "confidence": 0.7,
+      "span": "The idea of global layers is a very modern idea. And there isn't that much that makes up global layers.",
+      "interpretation_id": "int_79d8c1ce794f4b01aa790e378631abb5"
+    },
+    {
+      "id": "n34",
+      "type": "claim",
+      "text": "Passports were interoperable long before NFC chips, without a standard \u2014 standards aren't always needed for interoperability.",
+      "confidence": 0.7,
+      "span": "long before there were NFC chips in them, they were interoperable",
+      "interpretation_id": "int_be8447bc03ab4f4186ad222c99410dfd"
+    },
+    {
+      "id": "n35",
+      "type": "claim",
+      "text": "It is unclear why some things become standards (Bluetooth, USB-C) and others (video protocols) do not.",
+      "confidence": 0.65,
+      "span": "Why are some things a standard and some things aren't? I have no idea.",
+      "interpretation_id": "int_6e845d7dfd0044c59a0925c56f40b276"
+    },
+    {
+      "id": "n36",
+      "type": "concession",
+      "text": "There is one space where a standard is required: knowing whether an online representation is a real person and whether they are who they claim to be.",
+      "confidence": 0.75,
+      "span": "there's one space where the answer is there must be a standard. We need to know whether the representation of a person online is A, really a person, not a bot, and B, are they who they claim to be?",
+      "interpretation_id": "int_c41b26ff0b8246e38a3774727534ed65"
+    },
+    {
+      "id": "n37",
+      "type": "claim",
+      "text": "There is more than one way to verify personhood, which is why people aren't coming to DIF \u2014 every member built its own standard.",
+      "confidence": 0.7,
+      "span": "Is there only one way to do that? No. That's why people aren't coming to DIF, because every one of our members has developed their own standard for that.",
+      "interpretation_id": "int_4031fdf41bac4e9e8d8b35396e05b861"
+    },
+    {
+      "id": "n38",
+      "type": "thesis",
+      "text": "Without a central authority, an identity system can be corrupted.",
+      "confidence": 0.7,
+      "span": "If there's no central authority, then it can be corrupted.",
+      "interpretation_id": "int_91b63289cccc46379db04406ac277b85"
+    },
+    {
+      "id": "n39",
+      "type": "objection",
+      "text": "A central authority can also be corrupted, and existing central authorities are failing badly \u2014 that is the worst possible world.",
+      "confidence": 0.75,
+      "span": "If there's a central authority, it can be corrupted. What's happening to all of our central authorities? It's really bad.",
+      "interpretation_id": "int_2feadf9723dc44419fd086f09be916cc"
+    },
+    {
+      "id": "n40",
+      "type": "claim",
+      "text": "Osmio invites outside engineers and pen testers to try to corrupt its certification.",
+      "confidence": 0.7,
+      "span": "We're inviting you to bring your best engineers, your best pen testers to corrupt our certification.",
+      "interpretation_id": "int_67451fbbfa794bc8bf7c31c0430a1db7"
+    },
+    {
+      "id": "n41",
+      "type": "objection",
+      "text": "Grace is absolutely opposed to one central authority that knows who all the people in the world are.",
+      "confidence": 0.85,
+      "span": "Absolutely opposed to one central authority that knows who all the people in the world are.",
+      "interpretation_id": "int_e2e6e26b9d884c12a94d26b6ddeb831d"
+    },
+    {
+      "id": "n42",
+      "type": "claim",
+      "text": "Osmio's certification holds no identity information, so the central-authority objection does not apply; examine it closely.",
+      "confidence": 0.65,
+      "span": "It doesn't have any identity information in it. Put it under the microscope.",
+      "interpretation_id": "int_cb4565ef73744114b627d1c54d0c5135"
+    },
+    {
+      "id": "n43",
+      "type": "objection",
+      "text": "A single central system doesn't work; it is too fragile \u2014 Grace does not believe in 'one world computer'.",
+      "confidence": 0.7,
+      "span": "I just think it doesn't work. It's too fragile.",
+      "interpretation_id": "int_2b9827fe1463483d83b699770ea91a0b"
+    },
+    {
+      "id": "n44",
+      "type": "claim",
+      "text": "PKCS/PKI standards have been hammered on for decades and hold up.",
+      "confidence": 0.7,
+      "span": "PKCS has been hammered on for decades and it holds up.",
+      "interpretation_id": "int_0260e789565742bb8df2b40cb81ff68d"
+    },
+    {
+      "id": "n45",
+      "type": "claim",
+      "text": "Even DNS has to be federated with multiple layers, because one system doesn't work.",
+      "confidence": 0.7,
+      "span": "Even the DNS system has to be federated in some way and it has multiple layers of how it works, because one system doesn't work.",
+      "interpretation_id": "int_8fb9bd7232ff42f69dafa10045db4e56"
+    },
+    {
+      "id": "n46",
+      "type": "claim",
+      "text": "Everyone touching DNS should be professionally licensed via Osmio's utility certificate and thus legally accountable.",
+      "confidence": 0.6,
+      "span": "Everyone in the DNS system should be professionally licensed to touch the DNS system, thus legally accountable for what they do.",
+      "interpretation_id": "int_2d6af00bd7d047a4a2cc49b9fecb2b97"
+    },
+    {
+      "id": "n47",
+      "type": "objection",
+      "text": "Nobody is even close to such a licensed/global system; the closest existing thing is Aadhaar.",
+      "confidence": 0.7,
+      "span": "none of us are even mildly close to that. The closest you've got is the Aadhaar system.",
+      "interpretation_id": "int_89f865f58f9c4cb0aa72e9e2d4a297bb"
+    },
+    {
+      "id": "n48",
+      "type": "concession",
+      "text": "Wes agrees Aadhaar is horrible, which is why Osmio has a group working on a global stack.",
+      "confidence": 0.7,
+      "span": "Oh, Aadhaar is horrible.",
+      "interpretation_id": "int_bef5acaa73434cabad86f14e0c97eab5"
+    },
+    {
+      "id": "n49",
+      "type": "objection",
+      "text": "Global identity is a practical question; like Network School and Liberland, Osmio is a normal, not bad, idea \u2014 but right now it is only an idea.",
+      "confidence": 0.75,
+      "span": "It's not a bad idea, but right now it's an idea.",
+      "interpretation_id": "int_d30e8ece87e442e38f10b5da16c2562e"
+    },
+    {
+      "id": "n50",
+      "type": "claim",
+      "text": "Osmio is already developed and being deployed, not merely an idea; Grace hasn't looked into it.",
+      "confidence": 0.65,
+      "span": "Right now, it's developed; it's being deployed.",
+      "interpretation_id": "int_76d09693778d4cdba2faefdb5489ad8a"
+    },
+    {
+      "id": "n51",
+      "type": "claim",
+      "text": "Osmio is a municipality that grew out of and continues the ITU.",
+      "confidence": 0.65,
+      "span": "It's a municipality. It grew out of, it's the continuation of the ITU.",
+      "interpretation_id": "int_6d22cf348ea74e09b90470c5502e950f"
+    },
+    {
+      "id": "n52",
+      "type": "claim",
+      "text": "C2PA handles content provenance (whether a camera took the content) but deliberately avoids identity \u2014 what camera, whose camera.",
+      "confidence": 0.8,
+      "span": "C2PA didn't want to touch identity. They can say a camera took this, but they don't want to say what camera, whose camera.",
+      "interpretation_id": "int_8af5f5de9b094a6fab39e277f66ab5a9"
+    },
+    {
+      "id": "n53",
+      "type": "claim",
+      "text": "The Creator Assertions Working Group addresses how to attach identity assertions to a C2PA manifest.",
+      "confidence": 0.75,
+      "span": "If there's something called a C2PA manifest, how do we stick some identity assertions on that?",
+      "interpretation_id": "int_a4427e960d314fa6ae2b7c6b4bf5d9d8"
+    },
+    {
+      "id": "n54",
+      "type": "claim",
+      "text": "The Creator Assertions group will be quite centralized because of the kind of large entities involved.",
+      "confidence": 0.7,
+      "span": "It's gonna be quite centralized because that's the kind of entities they are.",
+      "interpretation_id": "int_c4b6e8e58ba3480794cc5693fcbff941"
+    },
+    {
+      "id": "n55",
+      "type": "claim",
+      "text": "A photo can be digitally signed by both the photographer and the camera.",
+      "confidence": 0.7,
+      "span": "A photo can be digitally signed by the photographer and by the camera.",
+      "interpretation_id": "int_767c24b716ff4180946a511e1d342653"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "rel": "supports",
+      "to": "n0"
+    },
+    {
+      "from": "n2",
+      "rel": "supports",
+      "to": "n0"
+    },
+    {
+      "from": "n4",
+      "rel": "supports",
+      "to": "n3"
+    },
+    {
+      "from": "n5",
+      "rel": "supports",
+      "to": "n3"
+    },
+    {
+      "from": "n6",
+      "rel": "narrows",
+      "to": "n3"
+    },
+    {
+      "from": "n7",
+      "rel": "rebuts",
+      "to": "n6"
+    },
+    {
+      "from": "n7",
+      "rel": "supports",
+      "to": "n3"
+    },
+    {
+      "from": "n8",
+      "rel": "supports",
+      "to": "n7"
+    },
+    {
+      "from": "n9",
+      "rel": "grounds",
+      "to": "n3"
+    },
+    {
+      "from": "n9",
+      "rel": "supports",
+      "to": "n10"
+    },
+    {
+      "from": "n11",
+      "rel": "supports",
+      "to": "n10"
+    },
+    {
+      "from": "n12",
+      "rel": "grounds",
+      "to": "n13"
+    },
+    {
+      "from": "n15",
+      "rel": "grounds",
+      "to": "n14"
+    },
+    {
+      "from": "n16",
+      "rel": "refutes",
+      "to": "n14"
+    },
+    {
+      "from": "n17",
+      "rel": "supports",
+      "to": "n16"
+    },
+    {
+      "from": "n18",
+      "rel": "supports",
+      "to": "n17"
+    },
+    {
+      "from": "n19",
+      "rel": "rebuts",
+      "to": "n17"
+    },
+    {
+      "from": "n20",
+      "rel": "refutes",
+      "to": "n19"
+    },
+    {
+      "from": "n21",
+      "rel": "supports",
+      "to": "n18"
+    },
+    {
+      "from": "n22",
+      "rel": "rebuts",
+      "to": "n17"
+    },
+    {
+      "from": "n23",
+      "rel": "concedes",
+      "to": "n22"
+    },
+    {
+      "from": "n23",
+      "rel": "supports",
+      "to": "n16"
+    },
+    {
+      "from": "n24",
+      "rel": "rebuts",
+      "to": "n23"
+    },
+    {
+      "from": "n24",
+      "rel": "supports",
+      "to": "n10"
+    },
+    {
+      "from": "n25",
+      "rel": "concedes",
+      "to": "n24"
+    },
+    {
+      "from": "n26",
+      "rel": "supports",
+      "to": "n16"
+    },
+    {
+      "from": "n27",
+      "rel": "supports",
+      "to": "n26"
+    },
+    {
+      "from": "n28",
+      "rel": "supports",
+      "to": "n27"
+    },
+    {
+      "from": "n29",
+      "rel": "grounds",
+      "to": "n30"
+    },
+    {
+      "from": "n31",
+      "rel": "supports",
+      "to": "n30"
+    },
+    {
+      "from": "n32",
+      "rel": "supports",
+      "to": "n30"
+    },
+    {
+      "from": "n33",
+      "rel": "refutes",
+      "to": "n32"
+    },
+    {
+      "from": "n34",
+      "rel": "supports",
+      "to": "n33"
+    },
+    {
+      "from": "n35",
+      "rel": "supports",
+      "to": "n33"
+    },
+    {
+      "from": "n36",
+      "rel": "concedes",
+      "to": "n32"
+    },
+    {
+      "from": "n36",
+      "rel": "narrows",
+      "to": "n33"
+    },
+    {
+      "from": "n37",
+      "rel": "narrows",
+      "to": "n36"
+    },
+    {
+      "from": "n37",
+      "rel": "supports",
+      "to": "n3"
+    },
+    {
+      "from": "n39",
+      "rel": "refutes",
+      "to": "n38"
+    },
+    {
+      "from": "n40",
+      "rel": "rebuts",
+      "to": "n39"
+    },
+    {
+      "from": "n41",
+      "rel": "refutes",
+      "to": "n38"
+    },
+    {
+      "from": "n42",
+      "rel": "rebuts",
+      "to": "n41"
+    },
+    {
+      "from": "n42",
+      "rel": "supports",
+      "to": "n14"
+    },
+    {
+      "from": "n43",
+      "rel": "rebuts",
+      "to": "n42"
+    },
+    {
+      "from": "n43",
+      "rel": "refutes",
+      "to": "n38"
+    },
+    {
+      "from": "n44",
+      "rel": "rebuts",
+      "to": "n43"
+    },
+    {
+      "from": "n45",
+      "rel": "supports",
+      "to": "n43"
+    },
+    {
+      "from": "n46",
+      "rel": "rebuts",
+      "to": "n45"
+    },
+    {
+      "from": "n47",
+      "rel": "rebuts",
+      "to": "n46"
+    },
+    {
+      "from": "n48",
+      "rel": "concedes",
+      "to": "n47"
+    },
+    {
+      "from": "n49",
+      "rel": "refutes",
+      "to": "n38"
+    },
+    {
+      "from": "n49",
+      "rel": "supports",
+      "to": "n23"
+    },
+    {
+      "from": "n50",
+      "rel": "rebuts",
+      "to": "n49"
+    },
+    {
+      "from": "n51",
+      "rel": "supports",
+      "to": "n50"
+    },
+    {
+      "from": "n52",
+      "rel": "grounds",
+      "to": "n53"
+    },
+    {
+      "from": "n55",
+      "rel": "supports",
+      "to": "n53"
+    },
+    {
+      "from": "n53",
+      "rel": "supports",
+      "to": "n6"
+    },
+    {
+      "from": "n54",
+      "rel": "supports",
+      "to": "n7"
+    }
+  ]
+}

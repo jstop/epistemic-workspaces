@@ -1,0 +1,175 @@
+[
+  {
+    "conclusion": "bf358a103453de8152ca1be55caaf08fb2349b4b4a9b5544bca449872e25cd64",
+    "premises": [
+      "16b19b733c79feafb2ea53c6906cfc215b204986082bdbb9d93b60f48a1a82c1"
+    ],
+    "pattern": "induction",
+    "label": "Deployed high-assurance standards show the binding problem is solved in practice",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undermining",
+        "description": "The standards evidence shows binding is solved for institution-centric, surveillance-tolerant deployments. The accountable-identity goal (traceable to a root under due process, yet pseudonymous in context, with a portable reliability score usable across relying parties) adds requirements \u2014 cross-domain unlinkability, score computation without a central observer, recovery without an issuer who can impersonate \u2014 that the cited standards do not address. If those are unsolved, 'the technical bar is cleared' is only true for a weaker bar than the one Osmio-style schemes set for themselves.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1792097685.0776498,
+    "id": "255e47b789e7295a0c4a26b8d553855531438bb8961e2adc21f9fdf452f37ff0"
+  },
+  {
+    "conclusion": "b4f5e17d2ecdcc06108365d82bd1493314d7ad1ddd1f7e4785e5c44301f4f7d6",
+    "premises": [
+      "05bd196f7e174ee3233b52ac752a196d117e66ec6a75b72f31e8cfb7265d3796"
+    ],
+    "pattern": "induction",
+    "label": "eID adoption curves track mandatory bundling, not availability",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1792097687.707338,
+    "id": "b7a53212cff7f2238dee186b9f0b284beff15451c49a0e2ca10f01f7eff25fc8"
+  },
+  {
+    "conclusion": "03d298bcf90e023c8e8ead2927d1ed1303abf55bece70b2969fe9bca3783a9be",
+    "premises": [
+      "68a3b145fdc81998910f674460b9b46a1c66f7e4c0d42308afee74066d24925b"
+    ],
+    "pattern": "induction",
+    "label": "Strong-but-optional identity tools stalled despite sound cryptography",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1792097690.2810209,
+    "id": "6ef72b4d1a751a5fcf6af4832e333b211ba1dd0c307955dcf7274a5925cf4f6f"
+  },
+  {
+    "conclusion": "2d1789656df9b9a9aa458d1752f6b3e6c90b3c08fe1b9a258049aef59b65f2f4",
+    "premises": [
+      "aeaf1836527b879d4f933713acb9f9495837b8d7ae2816d4bc1a8de6b56bf805"
+    ],
+    "pattern": "testimony",
+    "label": "Practitioners report architecture rarely decides adoption",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1792097693.0117471,
+    "id": "149d07bb892ed20dcce1b78bb685272a4f4736b0aab6a97f2f88b2f04f9ad6bb"
+  },
+  {
+    "conclusion": "f58ed18534f393d776e229b63b13c589be29f83b2211b668f942f57ea94827e2",
+    "premises": [
+      "b4f5e17d2ecdcc06108365d82bd1493314d7ad1ddd1f7e4785e5c44301f4f7d6",
+      "03d298bcf90e023c8e8ead2927d1ed1303abf55bece70b2969fe9bca3783a9be",
+      "2d1789656df9b9a9aa458d1752f6b3e6c90b3c08fe1b9a258049aef59b65f2f4"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If bundling decides adoption and architecture does not, both wedges reduce to bets on which bundle compels",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1792097696.686799,
+    "id": "054c22990962ed738b2eeaaf19911f1bc4b7e3b9dd6206b7837e2dd092ad68f5"
+  },
+  {
+    "conclusion": "8d14c167d79d9f99a5b40bcec174bfec7e78c6972a5cc3f7e6e958583af41715",
+    "premises": [
+      "bf358a103453de8152ca1be55caaf08fb2349b4b4a9b5544bca449872e25cd64",
+      "b4f5e17d2ecdcc06108365d82bd1493314d7ad1ddd1f7e4785e5c44301f4f7d6",
+      "03d298bcf90e023c8e8ead2927d1ed1303abf55bece70b2969fe9bca3783a9be"
+    ],
+    "pattern": "abduction",
+    "label": "Bundling-as-binding-constraint best explains why solved-technology schemes still succeed or fail",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Confounding by state power: the mass-adopted exemplars (national eIDs, bank logins, Aadhaar) were bundled by actors who already had legal authority or regulatory licence to mandate them. The abduction infers 'bundling causes adoption', but the cases are equally explained by 'sovereign or regulated-incumbent backing causes both the bundling and the adoption'. A chartered-but-non-sovereign authority like Osmio, or an ecovillage, may be unable to bundle in the relevant sense at all \u2014 which would make the constraint political in a stronger way than the thesis admits (not 'find a bundle' but 'acquire mandate power'), and would not be fixed by either wedge.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1792097700.2744179,
+    "id": "11f6cf5191135033a1c6fbdbf5599566ddd40224bf5babad0c8c498db9881815"
+  },
+  {
+    "conclusion": "8d14c167d79d9f99a5b40bcec174bfec7e78c6972a5cc3f7e6e958583af41715",
+    "premises": [
+      "2d1789656df9b9a9aa458d1752f6b3e6c90b3c08fe1b9a258049aef59b65f2f4",
+      "f58ed18534f393d776e229b63b13c589be29f83b2211b668f942f57ea94827e2"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Corollary: the wedge disagreement is about compulsion source, not X.509 vs DIDs or registry topology",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Architecture may re-enter through the bundle: the services named as compulsion sources impose their own technical requirements. Healthcare and banking relying parties are bound to specific assurance frameworks and certificate formats; deepfake defense needs content-binding and revocation properties; dating needs selective disclosure and unlinkability to avoid stalking risk. If the painful-vertical wedge requires privacy-preserving DID-style credentials while the ecovillage wedge tolerates a simple X.509 registry, then the wedge disagreement partly IS a disagreement about X.509 vs DIDs and central vs plural registries \u2014 the corollary conflates 'architecture does not decide adoption in general' with 'architecture is irrelevant to which wedge can work'.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1792097703.502431,
+    "id": "2e82e88fad51fae4b0bf82ce54d26aab647f44692540eb836e97e8ae861fbdb8"
+  }
+]

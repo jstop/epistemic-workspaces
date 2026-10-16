@@ -1,0 +1,276 @@
+[
+  {
+    "subject": "accountable-digital-identity-adoption",
+    "predicate": "is-constrained-by",
+    "object": "political-and-practical-bundling-not-technical-strength",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "0bfece457bf8f43423aa0572dc8dfb2f8cb9520d5013dc5f537517b803e30ffc",
+      "96a8278b251da139a9d1917f337d38e55289dd456f7c00ba6089d812b46f0de4",
+      "003f40d63c3663b4d648abdeab9e2d38e4d5fe7238805d42f1c4b0a265d67f19"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The binding constraint on accountable digital identity (Osmio-style PKI certification with identity reliability scores, or any comparable scheme) is not technical but political and practical: many existing systems already clear the technical bar for reliably binding an online representation to a real, accountable person, so an identity credential wins adoption only when it is bundled with services people cannot opt out of (banking, healthcare, government ID, food and housing in a community), not by proving its certification resists attack. Corollary: the ecovillage/food-systems wedge and the painful-vertical franchise wedge (deepfakes, skills brokerage, dating) are both bets on this same adoption thesis, and the disagreement between them is about which bundled service creates compulsion, not about X.509 versus DIDs or central versus plural registries.",
+    "created_at": 1792097614.853476,
+    "id": "8d14c167d79d9f99a5b40bcec174bfec7e78c6972a5cc3f7e6e958583af41715"
+  },
+  {
+    "subject": "existing-identity-systems",
+    "predicate": "already-achieve",
+    "object": "reliable-binding-of-online-representation-to-accountable-person",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Several deployed systems (national eIDs, bank-issued identity logins, KYC-backed accounts with hardware-bound authenticators, qualified certificates) already bind an online representation to a real, legally accountable person at a reliability level sufficient for banking, taxation, and contracts. The technical problem is substantially solved in practice, even if no system is perfect.",
+    "created_at": 1792097631.6046422,
+    "id": "bf358a103453de8152ca1be55caaf08fb2349b4b4a9b5544bca449872e25cd64"
+  },
+  {
+    "subject": "mass-adopted-identity-credentials",
+    "predicate": "were-bundled-with",
+    "object": "non-optional-services",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The identity credentials that reached population-scale adoption did so because they were the required key to services people could not practically forgo: bank accounts, tax filing, government benefits, healthcare, telecom SIM registration. Adoption tracked bundling, not credential quality.",
+    "created_at": 1792097635.202579,
+    "id": "b4f5e17d2ecdcc06108365d82bd1493314d7ad1ddd1f7e4785e5c44301f4f7d6"
+  },
+  {
+    "subject": "unbundled-strong-identity-schemes",
+    "predicate": "failed-to-reach",
+    "object": "mass-adoption",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Cryptographically strong identity schemes offered as standalone goods \u2014 PGP web of trust, client certificates for individuals, most self-sovereign-identity wallet pilots \u2014 stalled despite sound security properties, because nothing people needed required them. Security proofs did not translate into users.",
+    "created_at": 1792097639.147682,
+    "id": "03d298bcf90e023c8e8ead2927d1ed1303abf55bece70b2969fe9bca3783a9be"
+  },
+  {
+    "subject": "credential-architecture-choice",
+    "predicate": "does-not-predict",
+    "object": "adoption-outcome",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Whether a scheme uses X.509 certificates or DIDs/verifiable credentials, a single registry or plural registries, is not what separates adopted from unadopted schemes. Both architectures have adopted instances (X.509 in national eIDs; DID-like schemes in some wallet programs) and failed instances. Architecture matters for governance and resilience, but not as the adoption bottleneck.",
+    "created_at": 1792097643.3648582,
+    "id": "2d1789656df9b9a9aa458d1752f6b3e6c90b3c08fe1b9a258049aef59b65f2f4"
+  },
+  {
+    "subject": "ecovillage-wedge-and-painful-vertical-wedge",
+    "predicate": "are-both-bets-on",
+    "object": "bundled-service-compulsion",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The ecovillage/food-systems wedge bets that food, housing, and community membership create a service people in that community cannot opt out of. The painful-vertical franchise wedge (deepfake defense, skills brokerage, dating) bets that acute pain in a vertical makes the credential a de facto requirement there. Both are instances of the same strategy: find a bundled service that compels credential use. Their disagreement is about where compulsion is strongest and reachable, not about technical architecture.",
+    "created_at": 1792097647.753527,
+    "id": "f58ed18534f393d776e229b63b13c589be29f83b2211b668f942f57ea94827e2"
+  },
+  {
+    "subject": "end-users",
+    "predicate": "cannot-evaluate",
+    "object": "certification-attack-resistance",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: ordinary users and most relying parties choose credentials on convenience and necessity, not on an assessment of how well the certification resists attack. If relying parties (not end users) are the real buyers and they do perform security due diligence, this assumption weakens.",
+    "created_at": 1792097651.615289,
+    "id": "0bfece457bf8f43423aa0572dc8dfb2f8cb9520d5013dc5f537517b803e30ffc"
+  },
+  {
+    "subject": "osmio-style-certification",
+    "predicate": "is-technically-equivalent-to",
+    "object": "existing-deployed-binding-systems",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the Osmio design (PKI certification plus identity reliability scores issued under a chartered authority) has no unsolved technical gap that distinguishes it from systems already in the field; in particular, computing and communicating a reliability score is an implementable, not research-grade, problem. If a genuine technical gap exists (e.g. privacy-preserving reliability scoring, revocation at scale), the thesis's 'not technical' premise weakens.",
+    "created_at": 1792097655.6509922,
+    "id": "96a8278b251da139a9d1917f337d38e55289dd456f7c00ba6089d812b46f0de4"
+  },
+  {
+    "subject": "bundling-driven-compulsion",
+    "predicate": "does-not-trigger",
+    "object": "adoption-killing-backlash",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: making a credential a condition of food, housing, healthcare, or banking will be tolerated (or welcomed) rather than provoking political resistance that sinks the scheme. Counterexamples exist (UK ID card repeal 2010, resistance to Aadhaar-linking mandates, vaccine-pass backlash), so this is genuinely uncertain and partly normative.",
+    "created_at": 1792097660.068287,
+    "id": "003f40d63c3663b4d648abdeab9e2d38e4d5fe7238805d42f1c4b0a265d67f19"
+  }
+]

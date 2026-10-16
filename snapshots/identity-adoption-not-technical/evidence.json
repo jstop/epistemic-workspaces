@@ -1,0 +1,70 @@
+[
+  {
+    "title": "National and bank-issued eID adoption histories",
+    "description": "Comparative accounts of population-scale eID programs (e.g. Nordic bank-issued logins, Estonia's state eID, India's Aadhaar) consistently show adoption rising sharply once the credential became required for banking, tax, benefits, or SIM registration, while uptake was slow in the years the credential was merely available. Would be supported by government/program statistics and policy case studies.",
+    "evidence_type": "statistical",
+    "source": "Program adoption statistics and policy case studies of national/bank-issued eID schemes (to be attached; not yet consulted for this graph)",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1792097664.593011,
+    "id": "05bd196f7e174ee3233b52ac752a196d117e66ec6a75b72f31e8cfb7265d3796"
+  },
+  {
+    "title": "Stalled uptake of standalone strong-identity tools",
+    "description": "Observed history of PGP/web-of-trust, personal client certificates, and standalone SSI wallet pilots: decades of availability and sound cryptography with negligible general-population use, typically explained by usability and the absence of any service requiring them.",
+    "evidence_type": "observation",
+    "source": "Usability studies and post-mortems on PGP adoption and SSI pilot programs (to be attached)",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1792097668.079786,
+    "id": "68a3b145fdc81998910f674460b9b46a1c66f7e4c0d42308afee74066d24925b"
+  },
+  {
+    "title": "Existing standards already specify high-assurance person binding",
+    "description": "Identity-assurance frameworks and authenticator standards used by governments and banks define identity-proofing and authentication levels that are accepted as legally sufficient for high-value transactions, and are implemented in production at scale. This indicates the technical bar for binding a representation to an accountable person has been met by existing specifications.",
+    "evidence_type": "document",
+    "source": "Published identity-assurance and authenticator standards and their conformance/deployment records (to be attached)",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1792097672.080961,
+    "id": "16b19b733c79feafb2ea53c6906cfc215b204986082bdbb9d93b60f48a1a82c1"
+  },
+  {
+    "title": "Practitioner testimony that identity products sell on the use case, not the crypto",
+    "description": "Identity-industry practitioners and SSI community participants commonly report that relying parties and users choose solutions based on the service workflow they unlock and the cost of integration, and that security-architecture differences (X.509 vs DIDs, registry topology) rarely decide procurement or user adoption.",
+    "evidence_type": "testimony",
+    "source": "Identity-industry practitioner commentary and community discussion (Josh's own SSI/Osmio conversations are one input; to be attached)",
+    "reliability": 0.55,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1792097676.616523,
+    "id": "aeaf1836527b879d4f933713acb9f9495837b8d7ae2816d4bc1a8de6b56bf805"
+  }
+]
