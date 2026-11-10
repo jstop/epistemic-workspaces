@@ -1,0 +1,306 @@
+[
+  {
+    "subject": "global-trust-between-strangers",
+    "predicate": "requires",
+    "object": "three-authority-sources-cooperating-not-new-global-authority",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "0465735a36b58487514dbfce55e0c02a6e51cea263747c552fc9a362cfcc4d04",
+      "0a4f429df8adb3d6f3698ff4563ef7d282b20caee24e8b8f7109e539e1f06ab9",
+      "b07504264512ff76bc8ada67c8852eaa8b8cf09f8f45fe9f9314fd8323221670"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "An authority is a party whose say-so settles a question for other people who do not check it themselves. An authority's standing comes from one of three sources. (1) Office: it was formally set up under law to give that word, and its office-holders can be punished for abuse. (2) Community: the people relying on it chose to. (3) Open challenge: nothing is believed because of who said it; a claim stands because anyone could have challenged it, people did, and it held, as in science. These three are exhaustive and distinct. Each fails alone in a way the other two repair: an office is a single point that can be captured, and is checked by communities' freedom to go elsewhere and by having its decisions open to challenge; a community's word does not carry to distant strangers, and is helped by answerable office-holders and a shared way of settling disputes; open challenge corrects itself only if participants are real and accountable, which office establishes, and free to dissent, which independent communities protect. Therefore trust between strangers at global scale does not need a new global authority; it needs the three sources working together across borders, and such an arrangement would have no power to compel, only the influence of being believed.",
+    "created_at": 1794275223.648344,
+    "id": "797f9bd14fa8909496dded53bc131dabb4f86936d4191bae0d820cdf06492b5a"
+  },
+  {
+    "subject": "authority-standing",
+    "predicate": "has-exactly-three-exhaustive-distinct-sources",
+    "object": "office-community-open-challenge",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Taxonomy claim: any party whose say-so settles a question for non-checkers derives its standing from (1) legal office with punishable office-holders, (2) voluntary choice of the relying community, or (3) survival under open challenge. The claim is that this trichotomy is both exhaustive and that the categories do not collapse into one another. This is the structural load-bearing premise; it is analytic in form but defended by induction over cases.",
+    "created_at": 1794275231.8963048,
+    "id": "70afd7f7f633a7e23b70d291b252ad09979f95955a920a129424f8cf14174b4a"
+  },
+  {
+    "subject": "office-authority-alone",
+    "predicate": "fails-by",
+    "object": "single-point-capture-repaired-by-exit-and-challenge",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "An office is a single locus of decision, so it can be captured by those it regulates or by whoever controls appointments. The repair comes from outside it: communities' freedom to go elsewhere (exit) and exposure of decisions to open challenge (contestability). Without those, punishment-for-abuse is enforced by the captured office itself and is hollow.",
+    "created_at": 1794275235.895477,
+    "id": "6d036d13b1b9ab5df5ab5e6350a07e7c1342ce2f27a5c1ae98ab1262d79bb411"
+  },
+  {
+    "subject": "community-authority-alone",
+    "predicate": "fails-by",
+    "object": "not-carrying-to-strangers-repaired-by-office-and-shared-dispute-settlement",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Trust grounded in a community's choice is bounded by that community: a distant stranger has not chosen it and has no reason to defer. Answerable office-holders (whom the stranger can hold to account under law) and a shared procedure for settling disputes extend the community's word beyond its membership.",
+    "created_at": 1794275239.943857,
+    "id": "5b6b3e021f651e180bc926fa1089ce64ae4c5efd62f61bd6b3129fe4514a649b"
+  },
+  {
+    "subject": "open-challenge-alone",
+    "predicate": "fails-by",
+    "object": "unaccountable-or-unfree-participants-repaired-by-office-and-communities",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Open challenge self-corrects only when challengers are real (not sock puppets), accountable (bear costs for bad-faith or fraud), and free to dissent (not punished by the orthodoxy for challenging). Office supplies identity and accountability; independent communities supply protected space for dissent. Absent either, \"it withstood challenge\" is uninformative.",
+    "created_at": 1794275243.993121,
+    "id": "60407e182f92f012f018737ab304edb51feaa7e7603dbd6e309a7de4e4a3889e"
+  },
+  {
+    "subject": "cross-border-combination-of-three-sources",
+    "predicate": "suffices-for-global-stranger-trust-without",
+    "object": "new-global-authority-or-coercive-power",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "If each source's failure is repaired by the other two, then a sufficient arrangement for trust at global scale is the three operating together across jurisdictions, not a fourth supra-national office. Such an arrangement has no coercive power: it influences only by being believed. This is the bridge from the mutual-repair claims to the thesis.",
+    "created_at": 1794275247.3417401,
+    "id": "adefff4b682c1b484e1b18c5e65abb8f6d92498581247b1ee18bd57e887987a3"
+  },
+  {
+    "subject": "authority",
+    "predicate": "is-defined-as",
+    "object": "say-so-that-settles-questions-for-non-checkers",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Stipulative definition: an authority is a party whose word settles a question for people who do not verify it themselves. This excludes persuasion-by-argument (where the hearer does check) and brute force (where nothing is settled epistemically, only enforced).",
+    "created_at": 1794275250.179463,
+    "id": "32a59513a02352f2c8f06f1b66c864cfc5a929a13ce7af12302d96baebe29fcc"
+  },
+  {
+    "subject": "deference-based-trust",
+    "predicate": "is-the-relevant-kind-of-trust-for",
+    "object": "global-stranger-coordination",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the trust problem at global scale is primarily epistemic deference (accepting say-so without checking), rather than, e.g., enforcement of promises or redistribution. If the real problem is compliance rather than belief, an arrangement with no power to compel may be beside the point.",
+    "created_at": 1794275279.0059268,
+    "id": "0465735a36b58487514dbfce55e0c02a6e51cea263747c552fc9a362cfcc4d04"
+  },
+  {
+    "subject": "national-offices",
+    "predicate": "are-sufficiently-answerable-to-serve-as",
+    "object": "accountability-anchor-across-borders",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the \"office\" leg can be supplied by existing national and sub-national legal offices rather than a new global one, i.e. that enough jurisdictions have office-holders genuinely punishable for abuse, and that strangers abroad can in practice rely on that punishability. Where offices are themselves unaccountable, the office leg of the tripod is missing for those populations.",
+    "created_at": 1794275283.053626,
+    "id": "0a4f429df8adb3d6f3698ff4563ef7d282b20caee24e8b8f7109e539e1f06ab9"
+  },
+  {
+    "subject": "mutual-repair-among-three-sources",
+    "predicate": "is-complete-leaving",
+    "object": "no-residual-joint-failure-mode",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the repairs are pairwise sufficient and there is no failure mode shared by all three at once (e.g. a single actor capturing offices, dominating communities, and flooding challenge venues simultaneously; or correlated collapse under a shared information infrastructure). The argument from \"each fails alone\" to \"together they suffice\" needs this.",
+    "created_at": 1794275286.5089338,
+    "id": "b07504264512ff76bc8ada67c8852eaa8b8cf09f8f45fe9f9314fd8323221670"
+  }
+]

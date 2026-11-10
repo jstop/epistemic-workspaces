@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Platform self-adjudication of content and account disputes",
+    "description": "Large social platforms set their own terms of service, define who may participate, and route appeals through internal processes and feeds they control. Even externally branded review bodies are funded and scoped by the platform. Documented user experience and journalism on appeals shows complainants have little recourse outside the platform's own channels.",
+    "evidence_type": "observation",
+    "source": "Public platform terms-of-service and appeals policies, plus reporting on account-suspension disputes (to be attached; no specific citation consulted here)",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275988.380806,
+    "id": "5c279262347593a222c9fd077da69b1bbb03b5236590473339aa6ac7350775b3"
+  },
+  {
+    "title": "States combining control of courts, press, and exit",
+    "description": "Comparative-politics and press-freedom indices consistently rate regimes that control the judiciary, dominate media, and restrict emigration as lowest in institutional trust and in the credibility of official statements, both domestically and abroad.",
+    "evidence_type": "statistical",
+    "source": "Cross-national governance and press-freedom index data (kind of source; specific dataset to be attached via attach_source)",
+    "reliability": 0.65,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275991.750311,
+    "id": "4edf9d98ee824edad827e6f759666ce85222e31aa31d41fe47db811b037eb6a9"
+  },
+  {
+    "title": "Independent audit and peer review as separated forums",
+    "description": "In domains where the party making a claim does not control the venue of challenge \u2014 external financial audit, journal peer review, open-source code review, competitive sport with independent officiating \u2014 claims are regarded as more credible than equivalent self-certified claims, and credibility visibly drops when the venue is captured (auditor conflicts of interest, publisher-controlled review).",
+    "evidence_type": "observation",
+    "source": "Institutional practice in auditing, scientific publishing, and software review; literature on auditor independence (descriptive; not a verified citation)",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275995.9715369,
+    "id": "67a327f84365ea633cc3da5f86abd9f504b5bff29d591a79a61df000d8813e52"
+  },
+  {
+    "title": "Cross-border trust mechanisms that work without a global sovereign",
+    "description": "International commerce relies on reputation networks, arbitration bodies chosen by the parties, standards organizations, and open reporting rather than a single world authority. Historical merchant networks and modern arbitration show credibility can be sustained where the rule-setter, the community of traders, and the venue of dispute are distinct.",
+    "evidence_type": "document",
+    "source": "Economic-history and international-arbitration literature on private ordering across borders (kind of source only; to be attached)",
+    "reliability": 0.6,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275998.826077,
+    "id": "33f3b02686efb5a7ab83c549f3649d8539e6764c5aced5a747ea183d76297fcc"
+  }
+]

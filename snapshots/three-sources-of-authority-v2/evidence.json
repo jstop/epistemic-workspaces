@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Documented cases of regulatory and certifier capture",
+    "description": "Historical record of formally constituted credibility offices being captured by the parties they were meant to vet \u2014 e.g. credit rating agencies paid by issuers ahead of the 2008 crisis, auditors certifying firms that later collapsed, and national regulators staffed from the regulated industry. Supports the claim that office fails by capture, and that exposure typically came from outside the office (journalists, short-sellers, litigants) rather than from within it.",
+    "evidence_type": "document",
+    "source": "Post-crisis inquiry reports and financial-history accounts of rating-agency and audit failures; not a specific citation \u2014 a real source should be attached.",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275542.114732,
+    "id": "acc599caf07fe5e34b3ee2b3f0f6fd8807d375ea5cbe3aa7f0d670928eca247f"
+  },
+  {
+    "title": "Cross-border trade conducted on reputation plus national-court enforcement",
+    "description": "Observation that large volumes of international commerce already rely on counterparties' word grounded in track record (open challenge/experience), trade-association membership (community), and licensed intermediaries such as banks issuing letters of credit (office), with disputes ultimately enforced through national courts and reciprocal recognition of judgments and arbitral awards \u2014 without a single global credibility authority. Supports the 'no new global authority needed' sub-claim.",
+    "evidence_type": "observation",
+    "source": "Economic-history and legal scholarship on merchant reputation networks, letters of credit, and cross-border enforcement of arbitral awards; descriptive, no specific citation consulted.",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275547.165901,
+    "id": "817167334dadbd6511b8db4e329d50410564e71a7a5a05e76e1779bd2360690c"
+  },
+  {
+    "title": "Degradation of open-challenge forums by fake and coerced participants",
+    "description": "Empirical findings that platform rating systems, review sites, and online discourse lose informational value when participants are bots or paid sock-puppets, when anonymous reviewers face no cost for falsehood, or when dissent is suppressed by state censorship or coordinated harassment. Supports the claim that open challenge requires real, accountable, free participants.",
+    "evidence_type": "statistical",
+    "source": "Studies of fake-review prevalence and platform manipulation, and reports on censorship effects on online discourse; kind-of-evidence description, not a verified citation.",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275551.212348,
+    "id": "960095c6e923a557e0cd842203fb7250d54ad1c2a6800fff2c24163c93c90f8e"
+  },
+  {
+    "title": "Agreements broken despite undisputed facts",
+    "description": "Cases where a party's credibility on the facts was never in doubt yet it breached anyway \u2014 sovereign debt defaults by states that acknowledged the debt, treaty withdrawals, and commercial efficient breach where damages were cheaper than performance. Shows that being believed does not deter defection when defection pays, supporting the scope-limiting compliance sub-claim.",
+    "evidence_type": "observation",
+    "source": "Case literature on sovereign default, treaty exit, and efficient breach in contract law; descriptive, not a specific citation.",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275555.262816,
+    "id": "067b5e95855bb27a4620291464d229f78f389e4c90acc4d9fe5d3f24fe9c3c46"
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "conclusion": "5ba575719d83387305cfde9c37eee2202b79f2a99457ddda3f9b81407bcc5b12",
+    "premises": [
+      "7e0e204dbb984f0a5f27c10b0604210eab885e278b9cbcfe389a9785f5bc59a4",
+      "fde8e84c72e318bbee5e679e04080945d0ade1903e52db4020541caa0891882b"
+    ],
+    "pattern": "induction",
+    "label": "Observed CA compromise/coercion and Sybil exploits show A's and B's weaknesses are real, not rhetorical",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794256010.462497,
+    "id": "4c5a07058a036bbe3b996aafe52d03715202292d08049e0144c7344e9e69c0f4"
+  },
+  {
+    "conclusion": "de7414810219227da9edaae97f6ac38d6ad64f80cd2cff9830acd244b248d969",
+    "premises": [
+      "b8606e6292bf76721dc0d0ae8a8c23490ab3b0b77fc4dc144cb3f14cedff3588",
+      "5ba575719d83387305cfde9c37eee2202b79f2a99457ddda3f9b81407bcc5b12"
+    ],
+    "pattern": "abduction",
+    "label": "Shared rejection of a PII registry plus mutually valid objections is best explained by partial misattribution of goals",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794256013.299194,
+    "id": "41ba57490dd5a3619c0389654ea49e82557a5c754be03e450f6b7e1d5d972a48"
+  },
+  {
+    "conclusion": "eec4348476d3e7c458d1df8cb771f6c2d256bf8dae21f911fc4a4783f0baa1d5",
+    "premises": [
+      "5ba575719d83387305cfde9c37eee2202b79f2a99457ddda3f9b81407bcc5b12",
+      "9e8b370da92facf698c72e8944bccf366498ec89eeabb210d3c11806e0aa28f5",
+      "b8606e6292bf76721dc0d0ae8a8c23490ab3b0b77fc4dc144cb3f14cedff3588"
+    ],
+    "pattern": "causal",
+    "label": "Each hybrid component (plural roots, assurance vocabulary, logs, pairwise pseudonyms, portability) removes one of the addressable objections",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Plural roots that relying parties \"choose among\" tend in practice to collapse into a small oligopoly (as with browser root programs and app stores), because relying parties rationally default to whichever lists are already widely accepted. If so, the hybrid does not actually remove coercion and unappealable exclusion \u2014 it relocates them to a few de-facto roots \u2014 and the inference that each hybrid component neutralises its corresponding objection does not go through for the coercion/exclusion objections. The same dynamic undercuts the assurance-vocabulary point: a shared vocabulary helps only if relying parties trust the level assertions of issuers they do not know, which again pushes toward a small set of recognised certifiers.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794256017.344467,
+    "id": "e94ddd78a7bdb8c7958d9da33c09a073b73f8372db3ad31c9914f0e8474a00f0"
+  },
+  {
+    "conclusion": "0d557177e917da94e11499a0d65001c9ee8ba3eee6af68671ed89e5896220bfc",
+    "premises": [
+      "d4428a92f5e2932e5e8391fc01b66766d259c40c6fc849823b8485d4a38c14a9",
+      "5548f94e64b2dfd4734bb735ad97daf73ea6a86af91121eddc23f7b611d0338e"
+    ],
+    "pattern": "analogy",
+    "label": "By analogy with Certificate Transparency, logs only detect; the hybrid's guarantees need an enforcing party, and it cannot decide the uniqueness/revocation policy for you",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794256020.451412,
+    "id": "4fab3df8473930dc497fdcfa6cb9953d87923bbb00c277afb681dc6cc5e26e9f"
+  },
+  {
+    "conclusion": "f63bf2afdfc1a33a7e0213e6e9e0d42b10e967a2c85a55b6f526c2578be45e4c",
+    "premises": [
+      "5548f94e64b2dfd4734bb735ad97daf73ea6a86af91121eddc23f7b611d0338e",
+      "0d557177e917da94e11499a0d65001c9ee8ba3eee6af68671ed89e5896220bfc"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If uniqueness/revocation is a genuine design choice and the best hybrid only makes it explicit, the dispute has a core no architecture dissolves",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The \"core\" may itself be a misunderstanding of scope rather than a genuine disagreement. Uniqueness is a per-application requirement (voting, benefit disbursement), not a property of the identity layer; applications that need it can run their own scoped uniqueness check (e.g. a per-election nullifier or per-program dedup) without any global one-person-one-identity, and revocation likewise can be scoped to the relying party's own trust decision. On this view neither A's global uniqueness nor B's refusal of global revocation binding is the right frame \u2014 both are arguing about a layer at which the question need not be answered \u2014 so the dispute would be almost entirely a misunderstanding, contrary to the thesis.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794256023.353193,
+    "id": "9ada95e1fe6a86e1d1d896e5ead84cfa524e837f6593a70e3bbf9d4490fdcf6b"
+  },
+  {
+    "conclusion": "8eb9239975b69e10b2ff384bf5335e98b3318dd22f9ddbed505e99458c1a9c32",
+    "premises": [
+      "de7414810219227da9edaae97f6ac38d6ad64f80cd2cff9830acd244b248d969",
+      "eec4348476d3e7c458d1df8cb771f6c2d256bf8dae21f911fc4a4783f0baa1d5",
+      "f63bf2afdfc1a33a7e0213e6e9e0d42b10e967a2c85a55b6f526c2578be45e4c"
+    ],
+    "pattern": "modus_ponens",
+    "label": "A resolvable misunderstood part plus an unresolvable substantive core entails the dispute is only partly a misunderstanding",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794256026.870978,
+    "id": "6b16d99856911573f2afb7492acb5b5584190f0a0b1de68af05449d184d5224c"
+  },
+  {
+    "conclusion": "90c99b13af3875f66f945bd818f665bad9e794e5d9158adc6643629660285921",
+    "premises": [
+      "630e76bed65a92b1906a927a43ceefaaf3cf8295bfbed926b14f145fd8f9f940",
+      "7486d2f19f1f85495fccd75aff3c33f5d97a9919f52cf256129dddf5937c40c0"
+    ],
+    "pattern": "induction",
+    "label": "Documented CA compromises and Sybil attacks show each side's objection lands on a real weakness",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794259426.1204422,
+    "id": "aaf8650a576e84502d1f48f26e1c58976b11c13e663fce9ee4aedbc1639d311f"
+  },
+  {
+    "conclusion": "5d40fd16adde01f2a93254162e02aebb4514b5164a9e5bc192f12e5f609d2a15",
+    "premises": [
+      "11257c7464eb58a875ddcb8a783c06cd7f21b6d64ff33e23e0a33dc4f0dbf0f5"
+    ],
+    "pattern": "analogy",
+    "label": "Browser root programs and app stores show plural trust lists consolidate into a few de-facto gatekeepers",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undermining",
+        "description": "The browser-root-program and app-store analogies may not transfer. Those consolidated because the relying party (browser or OS vendor) is a single monolithic distributor whose users cannot individually choose trust lists, and because evaluating CAs is expensive for end users. In a credential system where the relying parties are many independent organisations with domain-specific needs (a bank, a university, a voting authority), each with incentive to maintain its own list, and where a shared assurance vocabulary lowers rather than raises the cost of evaluating an unfamiliar certifier, the consolidation pressure could be substantially weaker. The oligopoly premise therefore rests on a disanalogy that has not been shown to hold.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794259428.779924,
+    "id": "66700cd85186109427f3e8afbdacd9930f9a106df8c22c866d5112467f605e90"
+  },
+  {
+    "conclusion": "b4b307d13412ac9b57eeca4cf42b4c6895a5c3c34c303b21167e52a11e6c249b",
+    "premises": [
+      "90c99b13af3875f66f945bd818f665bad9e794e5d9158adc6643629660285921",
+      "5d40fd16adde01f2a93254162e02aebb4514b5164a9e5bc192f12e5f609d2a15"
+    ],
+    "pattern": "causal",
+    "label": "Hybrid removes compromise and Sybil weaknesses by design, but coercion/exclusion relief depends on roots staying plural",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794259431.628717,
+    "id": "83f5b8b438688cb0607d5623222723a7270b1265d89ac640108ea294ea3f3a1e"
+  },
+  {
+    "conclusion": "9cd540ab22e20fbcf1457d5cf9d145d17d1c280ae582ce04fe6d99788464e7ea",
+    "premises": [
+      "b786c685ec9f99a8b94231958fd348c84930788491599187eca0717b4c9af697",
+      "9d71bc9fac8f874863357ac9e48d7201fca958b9bd0ed9a4a9aebff48bd42e15",
+      "aab8051a78603c873ffd297de97f97b059f08ab3e5dba4731a07eccf759d4015"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Hybrid can only make the uniqueness/revocation trade-off explicit, and even that rests on an unproven uniqueness check and log enforcement",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794259435.6084821,
+    "id": "e12a71a91da585de03b9cdcaf280f5e71349eabb67bbf050cc99ec85a46bba9e"
+  },
+  {
+    "conclusion": "e3e65846ba3b6fa87fa68b163e595dcbd47b9e2e02fc04935f0e194c859f903c",
+    "premises": [
+      "a04e9c314ccb4859d0b50271c789a6e9b3ca079309f425727627eda5fd3c2105",
+      "b786c685ec9f99a8b94231958fd348c84930788491599187eca0717b4c9af697"
+    ],
+    "pattern": "abduction",
+    "label": "Scoped nullifiers show uniqueness can be enforced per application, so the core may be about scope rather than substance",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794259438.9939368,
+    "id": "fefe9bd5a6cf223ca157f7ae757104db8333b7d2f9ad511ed929498506107a83"
+  },
+  {
+    "conclusion": "24fc762d4c992430438df7536ba04eab176ae1ddfaba03ea5d7a8380ee296c75",
+    "premises": [
+      "90c99b13af3875f66f945bd818f665bad9e794e5d9158adc6643629660285921",
+      "b786c685ec9f99a8b94231958fd348c84930788491599187eca0717b4c9af697",
+      "b4b307d13412ac9b57eeca4cf42b4c6895a5c3c34c303b21167e52a11e6c249b",
+      "9cd540ab22e20fbcf1457d5cf9d145d17d1c280ae582ce04fe6d99788464e7ea",
+      "e3e65846ba3b6fa87fa68b163e595dcbd47b9e2e02fc04935f0e194c859f903c"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Misunderstood part is conditionally resolvable, core is not, and a scoping escape remains open \u2014 so the dispute is only partly a misunderstanding",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The \"substantive core\" may be an artefact of framing rather than a real disagreement. If one grants the per-application-scoping move and also notes that most real use cases demanding cross-application uniqueness (e.g. one-person-one-benefit across government programs) already require a legally authoritative issuer regardless of the identity architecture, then the residual disagreement is not about identity design at all but about which legal authority is in charge \u2014 and the dispute is almost entirely a misunderstanding, not \"only partly\" one. Conversely, if proponents of A actually want a PII-holding root (violating the shared-rejection premise), the dispute is more substantive than claimed. Either way the argument's premises may not jointly fix the thesis' exact position.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794259443.383359,
+    "id": "c6ff44aa7d9ac51b7d16b95c024e3fac8da38cc2ae5b2122c09420990a2fb2df"
+  }
+]

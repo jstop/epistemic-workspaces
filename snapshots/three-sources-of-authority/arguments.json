@@ -1,0 +1,154 @@
+[
+  {
+    "conclusion": "70afd7f7f633a7e23b70d291b252ad09979f95955a920a129424f8cf14174b4a",
+    "premises": [
+      "32a59513a02352f2c8f06f1b66c864cfc5a929a13ce7af12302d96baebe29fcc"
+    ],
+    "pattern": "induction",
+    "label": "Given the definition, surveying why non-checkers defer yields three irreducible grounds: legal constitution with sanction, voluntary adoption, or survival under contest",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undermining",
+        "description": "The trichotomy is neither clearly exhaustive nor clearly distinct. Deference grounded in demonstrated track record or expertise (a pilot, a surgeon, a weather service) settles questions for non-checkers without legal office, without the deferrer having \"chosen\" in any meaningful sense, and without the claim ever having been openly contested by the deferrer's peers; deference grounded in tradition or charisma is another candidate. And the categories blend: legal offices exist because a political community chose to constitute them, and science operates through offices (journals, funders, degree-granting institutions) whose holders are sanctionable. If the categories overlap or omit cases, \"each fails alone and the other two repair it\" loses its clean structure.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275299.307282,
+    "id": "bcc73fc05b819304bd0246d344c16311152dba8b996d307d65786598289f6611"
+  },
+  {
+    "conclusion": "6d036d13b1b9ab5df5ab5e6350a07e7c1342ce2f27a5c1ae98ab1262d79bb411",
+    "premises": [
+      "009322f57a2add4c609c48c3bbf0aede1a554519b9c81c5b2f82af9f09c8f9c3"
+    ],
+    "pattern": "induction",
+    "label": "Repeated capture of single-locus regulators, reversed only by exit or external challenge, shows office alone is capturable and names its repair",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275307.20976,
+    "id": "eaf2509c3be05a6b2e2f3d1c497daafab78ac18016d52436eea6a4adc0c06093"
+  },
+  {
+    "conclusion": "5b6b3e021f651e180bc926fa1089ce64ae4c5efd62f61bd6b3129fe4514a649b",
+    "premises": [
+      "7b342f857e5b0c559639f44c4da1f5047326ef0b2666f0988a05ce1d1dd24c43"
+    ],
+    "pattern": "induction",
+    "label": "Guild and diaspora trust stayed in-group until legal recourse and shared dispute forums let it reach strangers",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275313.055819,
+    "id": "04fe82ffaf019d86d9fbfb280a4a9302549c39d037976208b33db055be3dc943"
+  },
+  {
+    "conclusion": "60407e182f92f012f018737ab304edb51feaa7e7603dbd6e309a7de4e4a3889e",
+    "premises": [
+      "b3c4ad02a8029b302d373614d3091bd64c7336b06677a48a2304f1482f5e4093"
+    ],
+    "pattern": "causal",
+    "label": "Fake or costless challengers hollow out open challenge; identity/accountability and independent dissent venues restore it",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275319.278903,
+    "id": "77e34c6ff4d0b8345a5dd93c5007597a0107c7170e60efbdef49e1472fffb57d"
+  },
+  {
+    "conclusion": "adefff4b682c1b484e1b18c5e65abb8f6d92498581247b1ee18bd57e887987a3",
+    "premises": [
+      "70afd7f7f633a7e23b70d291b252ad09979f95955a920a129424f8cf14174b4a",
+      "6d036d13b1b9ab5df5ab5e6350a07e7c1342ce2f27a5c1ae98ab1262d79bb411",
+      "5b6b3e021f651e180bc926fa1089ce64ae4c5efd62f61bd6b3129fe4514a649b",
+      "60407e182f92f012f018737ab304edb51feaa7e7603dbd6e309a7de4e4a3889e",
+      "2d848cedce88d78d047497fdea42d25e6a9a05243ba666e2a09bbd74c4aad53a"
+    ],
+    "pattern": "abduction",
+    "label": "If the three sources are exhaustive and each one's solo failure is repaired by the other two, and working cross-border regimes already exhibit this pattern without coercion, the best explanation of durable stranger-trust is the three combined, not a fourth office",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The cross-border regimes cited as working without a global authority (standards bodies, PKI root programs, arbitration) actually free-ride on background coercive states: arbitration awards are worthless without national courts that enforce them, browser root programs rest on a handful of firms subject to antitrust and consumer-protection law, and standards bodies are backed by procurement mandates. So the examples may show that cross-border trust needs coercive offices doing the heavy lifting underneath, which is closer to the view the thesis rejects. Moreover, the pairwise repairs may fail jointly: a single well-resourced actor can capture offices, dominate the relevant communities, and flood challenge venues at once, and a shared information infrastructure can collapse all three together.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275327.662387,
+    "id": "826318c9602d1134417d6eef807a6b1d8faf3b35bba71053475900747f4b5443"
+  },
+  {
+    "conclusion": "797f9bd14fa8909496dded53bc131dabb4f86936d4191bae0d820cdf06492b5a",
+    "premises": [
+      "adefff4b682c1b484e1b18c5e65abb8f6d92498581247b1ee18bd57e887987a3",
+      "32a59513a02352f2c8f06f1b66c864cfc5a929a13ce7af12302d96baebe29fcc"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Since the combined sources suffice and authority as defined works by being believed rather than by compelling, global stranger-trust needs the three working across borders, with influence but no coercive power",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The step from \"the three sources suffice\" to \"no new global authority is needed, only influence without compulsion\" assumes the global trust problem is a problem of belief. Many of the hardest cross-border problems (pandemic reporting, emissions accounting, financial contagion) are problems of compliance and free-riding: parties may fully believe the authoritative word and still defect because defection pays. If so, an arrangement that can only be believed addresses a different question than the one that motivates calls for a global authority, and the conclusion does not follow from the premises even if they are true.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275333.460573,
+    "id": "deb035cce514609432975fdd6335904290058c91ad9ca673f36e5d21f9cc46af"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "conclusion": "bc19da30af3538945c7bfd655b379bc2580a3d6764dee4c18c5f057aeb41b67a",
+    "premises": [
+      "15b25d8e3040a96e846017903fe9915ff7bef36da9996e60ef5dcef152e14510"
+    ],
+    "pattern": "induction",
+    "label": "Past root compromises and coerced issuance show single-root exposure is real, not hypothetical",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794253618.302002,
+    "id": "e9bf0a7bd897a39d0ed908f7970db92dfb54846fd1c191b84add63c97a7c6645"
+  },
+  {
+    "conclusion": "46e5994ad2482d624d8ad3ed72cfe8f67a3b7ea499ca7cb8b71a7b1494c724ff",
+    "premises": [
+      "e771dbba8f40dba38b616e6e689aca1d799bb6b11ffa87430368b31ff9dfa332"
+    ],
+    "pattern": "induction",
+    "label": "Observed Sybil floods in open/federated systems show plural lists without shared assurance are genuinely vulnerable",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794253620.8800519,
+    "id": "f1eba5a7ebe2c584820038401fe3771769e69486eeb8bb1b4e741b62b0529308"
+  },
+  {
+    "conclusion": "e370a5b7063e9142f3a02e32c1aca633f0a8052719099883054a938b1303c9ea",
+    "premises": [
+      "46e5994ad2482d624d8ad3ed72cfe8f67a3b7ea499ca7cb8b71a7b1494c724ff",
+      "bc19da30af3538945c7bfd655b379bc2580a3d6764dee4c18c5f057aeb41b67a"
+    ],
+    "pattern": "abduction",
+    "label": "Both sides' objections being valid against distinct properties (exclusivity vs. lack of shared frame) is best explained by equivocation on \"central authority\"",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undermining",
+        "description": "The abductive step assumes the two sides' objections are the whole of their positions. But proponents of a single no-PII root may hold a substantive (not terminological) commitment: that uniqueness guarantees require exactly one issuing authority, since any second root can mint a second identity for the same person. If so, \"central authority\" is not equivocated \u2014 A really does mean exclusivity, and the dispute is substantive, not a misunderstanding. The thesis's crux (2) partially concedes this.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794253623.999661,
+    "id": "88bb7a1822cb8b0d5a204b47819a7de528e2e87594447618ee9e344fa114410d"
+  },
+  {
+    "conclusion": "7f33f2e5864624ee53182d475a1a9ace8b1e128b82521724a895f0563e55c2d8",
+    "premises": [
+      "32fc949cd0ecef6312b7bb753dbe96a5afe84d66c8afc3e221dcd7c808ec21da",
+      "3811d65ec836fdd4b569fe1274fc67c3e21c76257480f7bb308973e48fa2519a",
+      "46e5994ad2482d624d8ad3ed72cfe8f67a3b7ea499ca7cb8b71a7b1494c724ff",
+      "bc19da30af3538945c7bfd655b379bc2580a3d6764dee4c18c5f057aeb41b67a"
+    ],
+    "pattern": "analogy",
+    "label": "Deployed transparency logs and shared assurance frameworks show each component of the hybrid already addresses the named weaknesses in analogous systems",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The analogy to Certificate Transparency and assurance frameworks is weakened by a disanalogy: CT and shared assurance levels work in the Web PKI because browsers act as a de facto oligopoly that enforces log policy and distrusts non-compliant CAs. Remove that enforcer and \"plural roots relying parties choose among\" may degrade into either no-one-checking-the-logs or a platform-bundled default list \u2014 i.e., the hybrid's Sybil and legibility guarantees may depend on precisely the kind of concentrated authority Position B rejects.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794253628.99103,
+    "id": "315eb5635ba60111b509b302a1f804346cc0e32c59485f4f7efe219cb9edb576"
+  },
+  {
+    "conclusion": "f12ef5050b7f1634dea2470c9a89491d74e0cd9bc599f5ee1ff596a959170ded",
+    "premises": [
+      "7f33f2e5864624ee53182d475a1a9ace8b1e128b82521724a895f0563e55c2d8",
+      "e370a5b7063e9142f3a02e32c1aca633f0a8052719099883054a938b1303c9ea"
+    ],
+    "pattern": "abduction",
+    "label": "Once the terminological dispute is removed and the hybrid absorbs the named weaknesses, what remains contested is the three points the hybrid cannot settle by design",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The \"only three cruxes remain\" claim omits at least one further genuine disagreement: revocation semantics and interoperability of revocation across roots. If a credential is portable across roots but revocation is per-root, a person excluded by one root can continue presenting a credential anchored elsewhere \u2014 which Position A would regard as the Sybil problem reappearing, and Position B would regard as the appeal mechanism working. This is not reducible to cruxes (1)\u2013(3) and suggests the residual set is larger than claimed.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794253632.288306,
+    "id": "f92952d0fde1c3c07159baddcb3a817ae614ee092d5a7cac852229bad4ffe2f6"
+  },
+  {
+    "conclusion": "6378209cb54a6476ef592a44765e6476317d759b6c4a4e857693684379506076",
+    "premises": [
+      "e370a5b7063e9142f3a02e32c1aca633f0a8052719099883054a938b1303c9ea",
+      "7f33f2e5864624ee53182d475a1a9ace8b1e128b82521724a895f0563e55c2d8",
+      "f12ef5050b7f1634dea2470c9a89491d74e0cd9bc599f5ee1ff596a959170ded"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If the dispute is partly equivocation, the hybrid satisfies both sides' core requirements, and only three cruxes remain, then the thesis holds",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794253635.572727,
+    "id": "f2e45635fc7138e649d14894951a390899055f433a5a32022fa169b4faf02fa8"
+  }
+]

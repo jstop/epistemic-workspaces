@@ -1,0 +1,131 @@
+[
+  {
+    "conclusion": "1c54f635ed45daa8ae47e8f4173732c4e797aba1375addbf3b87970bbc8fde33",
+    "premises": [
+      "5c279262347593a222c9fd077da69b1bbb03b5236590473339aa6ac7350775b3",
+      "4edf9d98ee824edad827e6f759666ce85222e31aa31d41fe47db811b037eb6a9",
+      "0a4c0182bc6124ccbe2fdc6524094d5c5963eca4a789a4334486a45439b26e84"
+    ],
+    "pattern": "induction",
+    "label": "Platform and state cases show concentration of all three grounds leaves authority unchecked",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794276018.233206,
+    "id": "874466e3e7339a882f51826922b0f681fe4dd77ad66994a58f72be4953cc0d55"
+  },
+  {
+    "conclusion": "2bcf8c9324885a71cf70c9f18039e10164d11affcda376968cc98f1197ef4137",
+    "premises": [
+      "67a327f84365ea633cc3da5f86abd9f504b5bff29d591a79a61df000d8813e52",
+      "0a4c0182bc6124ccbe2fdc6524094d5c5963eca4a789a4334486a45439b26e84",
+      "1c54f635ed45daa8ae47e8f4173732c4e797aba1375addbf3b87970bbc8fde33"
+    ],
+    "pattern": "abduction",
+    "label": "Separated venues of challenge yield more credible claims; best explanation is mutual checking among distinct holders",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Independent forums can be captured without formal ownership: auditors depend on client fees, journals on publishers, external oversight boards on the platform that funds them. Separation of title does not guarantee separation of interest, so the correlation between \"separated venue\" and \"more credible claim\" may track independence of incentives rather than the three-way division of grounds the thesis names. If so, the evidence doesn't support the specific mechanism claimed.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794276022.5935922,
+    "id": "b183b777686648fd182414d53c9637311e26222983948c2c0a6c9ee2459f05df"
+  },
+  {
+    "conclusion": "d751f61cd525d34107733a33c23d1870e40b15e3675c958effac6f36fdece482",
+    "premises": [
+      "1c54f635ed45daa8ae47e8f4173732c4e797aba1375addbf3b87970bbc8fde33",
+      "0a4c0182bc6124ccbe2fdc6524094d5c5963eca4a789a4334486a45439b26e84"
+    ],
+    "pattern": "modus_ponens",
+    "label": "A single global body would by construction hold office, membership and forum, so it inherits the unchecked configuration",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794276027.644594,
+    "id": "96b6648653e8c5d6ab66838d145d448f258a2406e2a6a80bf694a1366a9a06a0"
+  },
+  {
+    "conclusion": "b8a38cbad3bd097cc52fa812bcbedaf337f94e9c8bce52819f7894d2bb9db7a3",
+    "premises": [
+      "2bcf8c9324885a71cf70c9f18039e10164d11affcda376968cc98f1197ef4137",
+      "1c54f635ed45daa8ae47e8f4173732c4e797aba1375addbf3b87970bbc8fde33",
+      "d751f61cd525d34107733a33c23d1870e40b15e3675c958effac6f36fdece482",
+      "633634913d66bb5a0c7c0b8b3b5a7ed9f108100ce80af61ac777085c2a762198",
+      "33f3b02686efb5a7ab83c549f3649d8539e6764c5aced5a747ea183d76297fcc"
+    ],
+    "pattern": "causal",
+    "label": "Since separation produces checking and a global authority would not, the practical aim for cross-border credibility is separation of office, community and forum \u2014 within stated limits",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Separation of powers works because a constitution and coercive enforcement hold the branches apart; without an enforcer, separated holders of office, community and forum tend to re-merge (forums become rule-setters because that's where the community is). So the practical aim across borders may still require some authority \u2014 at least one that enforces the separation \u2014 which is precisely what the thesis rules out. The conclusion \"not a new global authority but a separation\" may present a false alternative.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794276039.792108,
+    "id": "bf474a55ae698a5fbc46a1be9bc329e71721e75b899423b61237acbe04b52d1a"
+  },
+  {
+    "conclusion": "633634913d66bb5a0c7c0b8b3b5a7ed9f108100ce80af61ac777085c2a762198",
+    "premises": [
+      "0a4c0182bc6124ccbe2fdc6524094d5c5963eca4a789a4334486a45439b26e84",
+      "2bcf8c9324885a71cf70c9f18039e10164d11affcda376968cc98f1197ef4137"
+    ],
+    "pattern": "modus_ponens",
+    "label": "The three grounds concern belief in another's word, so a mechanism built on them cannot by itself secure performance or reach those outside it",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794276066.61906,
+    "id": "e64e2bdeb71f34662e487794f87824b9c3d54ac4cca3133f3a7026f4a1849170"
+  }
+]

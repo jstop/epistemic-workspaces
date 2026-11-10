@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Historical CA root compromises and coerced issuance",
+    "description": "Documented incidents in the Web PKI where a trusted certificate authority was compromised or pressured into issuing fraudulent certificates, followed by distrust decisions that affected all relying parties at once. Shows that single-point roots are real compromise and coercion targets.",
+    "evidence_type": "document",
+    "source": "Public incident post-mortems and browser-vendor distrust announcements for compromised or misbehaving certificate authorities (to be attached as specific citations)",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794253590.74338,
+    "id": "15b25d8e3040a96e846017903fe9915ff7bef36da9996e60ef5dcef152e14510"
+  },
+  {
+    "title": "Sybil attacks on open or federated identity/reputation systems",
+    "description": "Observed and experimentally demonstrated cases where systems admitting many self-asserting or weakly vetted issuers/identities were flooded with synthetic identities, degrading trust decisions for relying parties. Supports A's objection that plural lists without shared assurance need a Sybil answer.",
+    "evidence_type": "observation",
+    "source": "Security research literature on Sybil attacks in peer-to-peer, reputation, and federated identity systems (specific references to be attached)",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794253594.61753,
+    "id": "e771dbba8f40dba38b616e6e689aca1d799bb6b11ffa87430368b31ff9dfa332"
+  },
+  {
+    "title": "Certificate Transparency as deployed append-only log for issuance",
+    "description": "The Web PKI's adoption of public append-only logs that make issuance auditable by anyone, with plural log operators and browser-defined policies, demonstrates that transparency logs plus plural trust anchors can coexist and detect mis-issuance without a single exclusive root.",
+    "evidence_type": "document",
+    "source": "Public specifications and deployment reports for Certificate Transparency and browser CT policies (to be attached)",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794253598.202837,
+    "id": "32fc949cd0ecef6312b7bb753dbe96a5afe84d66c8afc3e221dcd7c808ec21da"
+  },
+  {
+    "title": "Existing shared assurance-level vocabularies across plural identity providers",
+    "description": "Government and standards-body identity assurance frameworks define common assurance levels (for identity proofing and authentication strength) that many independent issuers map to, letting relying parties judge unfamiliar credentials by level rather than by issuer familiarity. Shows a shared vocabulary without a single issuing root is practicable.",
+    "evidence_type": "document",
+    "source": "Published digital identity assurance frameworks and trust-framework rulebooks used by multiple issuers (specific standards to be attached)",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794253601.8478131,
+    "id": "3811d65ec836fdd4b569fe1274fc67c3e21c76257480f7bb308973e48fa2519a"
+  }
+]

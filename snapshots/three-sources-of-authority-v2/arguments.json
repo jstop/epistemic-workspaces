@@ -1,0 +1,126 @@
+[
+  {
+    "conclusion": "7b99b4c844609f3015025b86bd13d4e7f9000524bced78b48b6e377efa6b8e68",
+    "premises": [
+      "acc599caf07fe5e34b3ee2b3f0f6fd8807d375ea5cbe3aa7f0d670928eca247f",
+      "960095c6e923a557e0cd842203fb7250d54ad1c2a6800fff2c24163c93c90f8e"
+    ],
+    "pattern": "induction",
+    "label": "Observed capture of offices and degradation of open forums generalise to distinct, ground-specific failure modes",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275583.2476668,
+    "id": "378ae37c637c8837fe0f3e67863b9ecfa93abb9b2ca2546b43e2302d51167e08"
+  },
+  {
+    "conclusion": "6e6dae9c157cdc29ad0cb2f2f629ee0bfda351370f47c096426bf0b74f931370",
+    "premises": [
+      "7b99b4c844609f3015025b86bd13d4e7f9000524bced78b48b6e377efa6b8e68",
+      "72f746250e0a075fefe691d95118fdb7876d9ca6424da7086b95847fb67957c6"
+    ],
+    "pattern": "causal",
+    "label": "Because the grounds fail in different ways, the failure of one leaves the others available to expose or substitute for it",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "The three grounds are not independent in the way the mitigation argument needs. Offices are staffed from communities; open-challenge forums are owned by platforms that are themselves offices or community-like clubs; communities form their judgments by reading the output of offices and forums. Correlated failure is therefore the normal case, not a rare exception reserved for a 'powerful enough actor': a dominant state or platform routinely captures the regulator, hosts and shapes the forum, and defines the community's exit options at once. If failures are strongly correlated, 'each is partly mitigated by the other two' overstates the resilience, and the thesis's conclusion that no additional mechanism is needed loses its main support.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275591.000226,
+    "id": "d0a1255a4aed574ad80a4dcdf601b5fa9192f885b86a2c3e85ce70a9333a2d60"
+  },
+  {
+    "conclusion": "4b8c5dec16d6ca4309691a43d51d71a9bf581f7e83b45fb47b1ecd0a3e945b38",
+    "premises": [
+      "817167334dadbd6511b8db4e329d50410564e71a7a5a05e76e1779bd2360690c",
+      "6e6dae9c157cdc29ad0cb2f2f629ee0bfda351370f47c096426bf0b74f931370"
+    ],
+    "pattern": "abduction",
+    "label": "Cross-border reliance already functions on the three grounds plus national-court enforcement; the best explanation is that this combination suffices, so a new global authority adds little",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Survivorship and selection: the cross-border trade that visibly functions on reputation plus national courts is the trade that was feasible under those conditions. Exchanges that never happened because no party's word could be relied on (e.g. with counterparties in jurisdictions whose courts are not trusted or whose judgments are not recognised) do not appear in the record. The observed success therefore does not show the arrangement is 'enough'; it may show only that it is enough for the subset of cases it already serves, leaving a large unserved domain where a supranational mechanism (or something else) might add real value.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275597.9523342,
+    "id": "05499abb5dd6db8d87916268e3f9eea6495062f7de50248771f0c3fc81f141bf"
+  },
+  {
+    "conclusion": "0f93e1ed805d7f9c237975a37d2fe4e474e36d8d3a5e8cc51e9169e06186160f",
+    "premises": [
+      "067b5e95855bb27a4620291464d229f78f389e4c90acc4d9fe5d3f24fe9c3c46"
+    ],
+    "pattern": "induction",
+    "label": "Repeated breaches by parties whose facts were accepted show that belief does not deter profitable defection",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275604.749105,
+    "id": "dc54a357e65d3ae99ffce4ee3baba5c1f1a325b04f601c82d97a2c42ef8127af"
+  },
+  {
+    "conclusion": "e1cccb434577bd81a8fbdbaaab043ec32a3920af7ec41ea849cd32f939077349",
+    "premises": [
+      "72f746250e0a075fefe691d95118fdb7876d9ca6424da7086b95847fb67957c6",
+      "4b8c5dec16d6ca4309691a43d51d71a9bf581f7e83b45fb47b1ecd0a3e945b38",
+      "0f93e1ed805d7f9c237975a37d2fe4e474e36d8d3a5e8cc51e9169e06186160f"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If the three grounds exhaust the ways reliance is earned, jointly suffice across borders, and the residual problem is compliance rather than credibility, then the thesis follows",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275609.9950101,
+    "id": "593264bafb88344a7909a57f3765bbfe47858660cddcb01c4ca56b457b3e9ad3"
+  }
+]

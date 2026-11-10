@@ -1,0 +1,157 @@
+[
+  {
+    "conclusion": "dd9da5af29480810b3d227460b141012f0866f7d5f7ea0ea4713b411a241ca15",
+    "premises": [
+      "789424e8e835ff6bcdd3cd9e0f8275e83f937d951de6f1b970bfcc61e901caf8",
+      "99b146e9991c991119c2607641781b36a73b91000cedcbaa490d2f7d1493e9d3"
+    ],
+    "pattern": "testimony",
+    "label": "Advocates of each bundled option concede the other's critique, and central-certifier failures are documented",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794260300.498663,
+    "id": "9e26e4cba2352edf7be8c351fa60417d80adb2e28e639acbb53a371bcd3ef6d2"
+  },
+  {
+    "conclusion": "4f5353e803c85e94a320943340a20c32d5dee231a78f07d5a4638121b3885282",
+    "premises": [
+      "99b146e9991c991119c2607641781b36a73b91000cedcbaa490d2f7d1493e9d3",
+      "dd9da5af29480810b3d227460b141012f0866f7d5f7ea0ea4713b411a241ca15"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If lockout and untraceable error come from a single point of certification, then plural, individually liable certifiers remove that point",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Plural certifiers remove the single point of lockout only if a person can actually obtain a second certification. If certifiers of a given grade all rely on the same upstream inputs (government ID documents, phone numbers, a shared sanctions or fraud list), then a person refused by one for an upstream reason is refused by all, and the 'single point' has merely moved upstream rather than been eliminated. Likewise, per-certifier liability traces error to a named party only if that party is solvent and reachable; a judgment-proof certifier makes 'liable' nominal.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794260303.8890638,
+    "id": "b00cf3c36ea4152d2e6f23af42673fd80c22e3a46f0602ca4fbf6f45bf60c4a1"
+  },
+  {
+    "conclusion": "1df7dc64cfa67810a23821d19e8cdab64ef39ea06751b8de94709f1d83ddeac3",
+    "premises": [
+      "1b56492b1d8b394c43d826916313eabeb907fc395ee1cb31d1227a8c94af745e"
+    ],
+    "pattern": "analogy",
+    "label": "Tiered assurance levels already let relying parties specify thoroughness rather than provider, so a public grade can do the same for unknown certifiers",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794260306.313735,
+    "id": "365e3f1194f222fe393719767fe0b380f07f21535549efc8f60fd4346e56b082"
+  },
+  {
+    "conclusion": "661b269ed96ad8f8dd6391f6c37110d7986664cc3fb8aaab81739f0e63e11088",
+    "premises": [
+      "68c0e6beb0d3bed77713a2d52bde02de05fa63e1674b089e45f3ec28ad4222bb",
+      "1df7dc64cfa67810a23821d19e8cdab64ef39ea06751b8de94709f1d83ddeac3"
+    ],
+    "pattern": "abduction",
+    "label": "Because grades make unknown certifiers legible and lists need not match, relying parties have less reason to converge on one provider than in ungraded ecosystems",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undermining",
+        "description": "The inference assumes grades reduce the pull toward convergence, but a public grade may increase it: once a grade exists, the cheapest path for a relying party is to accept 'any certifier at grade N', and the cheapest path for a user is to get certified by whichever certifier is largest and most widely listed. Grades make certifiers substitutable, and substitutable goods with network effects tend to concentrate, not diversify.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794260312.7831979,
+    "id": "adc4fb2c8c49c33bbfe94332a3639229cc63ff04cce74d8c1ba01aa02f98d0d7"
+  },
+  {
+    "conclusion": "d20b887ad6ef2957f1d521b1965acfd614437acec95f10df3876dc25090e46ae",
+    "premises": [
+      "dd9da5af29480810b3d227460b141012f0866f7d5f7ea0ea4713b411a241ca15",
+      "4f5353e803c85e94a320943340a20c32d5dee231a78f07d5a4638121b3885282",
+      "1df7dc64cfa67810a23821d19e8cdab64ef39ea06751b8de94709f1d83ddeac3",
+      "68c0e6beb0d3bed77713a2d52bde02de05fa63e1674b089e45f3ec28ad4222bb",
+      "661b269ed96ad8f8dd6391f6c37110d7986664cc3fb8aaab81739f0e63e11088"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Both bundled options fail; unbundling certifying, grading and accepting satisfies success tests i\u2013iv; and if plurality persists, the failure condition is avoided \u2014 so the architecture solves the dilemma",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Market concentration in nominally plural trust ecosystems (web CAs, social login, card networks) shows that relying parties default to whichever one or two providers most users already hold. If that pattern repeats, the thesis's own failure condition triggers: the architecture collapses back into option (1) with extra complexity, and the success tests i and iv are met only on paper.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794260317.069443,
+    "id": "648676c70c134bb3ca73d0d1880b078f8cdf8d8de6f7a8e7f85a972e9cac29aa"
+  },
+  {
+    "conclusion": "68c0e6beb0d3bed77713a2d52bde02de05fa63e1674b089e45f3ec28ad4222bb",
+    "premises": [
+      "1df7dc64cfa67810a23821d19e8cdab64ef39ea06751b8de94709f1d83ddeac3",
+      "4f5353e803c85e94a320943340a20c32d5dee231a78f07d5a4638121b3885282"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Given a shared grade and multiple certifiers, overlapping-but-distinct acceptance lists let each relying party keep its own gate while strangers carry standing across them",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794260324.827473,
+    "id": "8085634fd8f5be8a69deb76199c8f7470115be4a17bb2880e0eb3e003fe51d46"
+  }
+]

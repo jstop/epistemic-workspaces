@@ -1,0 +1,10 @@
+[
+  {
+    "from_id": "4eb93cac5d6e268ddf01bc7e21651dd3bcd9d2d4d371bd7b075d089a543f14a3",
+    "rel": "supersedes",
+    "to": "9d8c8ecc12116cb706c0d8d984ed2362671c7c3fbcd781e9c488bb48d01a382b",
+    "notes": "The ATMS status is defeated and all three objections land on real seams in the original. The rebutting objection (tests i and iv contradict) is the sharpest: the original offered no way to distinguish a legitimate second check from fraud-shopping, and any fix seemed to violate iv. The refinement resolves it by narrowing iv from 'no shared data' to 'no shared attribute-level data' and permitting a minimal non-identifying fraud signal, with an explicit failure condition if that signal leaks attributes or query patterns. The undercutting objection (liability covers defective checks, not conduct) is accepted outright: test iii is split into the identity-fraud case (certifier pays) and the genuine-identity case (individual is nameable), and a SCOPE section states that conduct guarantees are a separate product. This shrinks the claim but makes it defensible. The undermining objection (eIDAS already does this) is largely conceded: the refined thesis drops the 'new architecture' framing and states three narrower additions, with an explicit fallback to 'deployment profile' if those too prove pre-existing. The unsupported assumptions about certifier supply and insurer appetite are surfaced in test v as conditions the thesis currently fails rather than silently relied on. The grading-neutrality assumption is addressed by requiring the grading body not to certify. The direction of the thesis \u2014 unbundle certifying, grading, and accepting so a small relying party can accept a stranger \u2014 is preserved throughout.",
+    "created_at": 1794261996.5965319,
+    "id": "4cc3d0db9a2a514ac897972a1c5a6eaddcbfaf1cbbc8854386e2b8cd2bb7bd1c"
+  }
+]

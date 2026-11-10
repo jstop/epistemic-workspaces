@@ -1,0 +1,332 @@
+[
+  {
+    "conclusion": "c2dd57ae7f79e667933d5b76c1a5dd2cafd5a671744b855022d762c3ab3bb9fa",
+    "premises": [
+      "f84da0a7ed0821c2d2f2f09fde15f35c048ceb62ce6625825a4c7ae270fee25f"
+    ],
+    "pattern": "causal",
+    "label": "Concentrating checks in one certifier concentrates breach and refusal risk; spreading them across independent liable certifiers removes the single point",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261105.148298,
+    "id": "ad955bc9c213808f77e766bf0e1368af600f726486f4077189bb922775aeea71"
+  },
+  {
+    "conclusion": "367e7927058bdb09b22fe1131fedc1f648f744a26baf33653391dde3b76b3c09",
+    "premises": [
+      "7e62c78d66e70aa0b1f97e92882a78ab290f848756e51999ac1d56d24a1098a3"
+    ],
+    "pattern": "analogy",
+    "label": "eIDAS/NIST show relying parties can decide on (provider, level) alone; a public grade therefore lets the fleet decide without knowing the ecovillage",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261107.950436,
+    "id": "cde06576cd49fbb5003dbe964b6f09540f41f91630ee742f5bb4d3afd1a0e75b"
+  },
+  {
+    "conclusion": "674e2a1934a648820c075cc0cc46fdcecdc9d294b9ce83a9a150d8628a8aea06",
+    "premises": [
+      "e1e5fcfa5c3a13b4079f79a5505c5327048733853a7f7736d9fa39399a582d3d"
+    ],
+    "pattern": "induction",
+    "label": "Insured liability for trust providers already operates in practice, so a per-certifier insured liability regime is achievable and gives a party with funds",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Certifier liability covers a defective check, not the customer's conduct. If the certifier correctly verified a real person who then steals the car, the certifier owes nothing, and the fleet is back to pursuing the individual. Test (iii) is only met for the synthetic-identity case, not the general theft case, unless the certifier also acts as guarantor \u2014 a different, far more expensive product.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261110.693005,
+    "id": "965dd07d19e3dd45496ad4b4861653c614653b15aec775d8fce2aa7afe085a53"
+  },
+  {
+    "conclusion": "04a16c44d46279789330264852b43fd930179d2e5bc99cdbe3e20ebf8412875f",
+    "premises": [
+      "005e0ceb633146fb12dc560e6762273e0fb74ee16c58d84e60df78634293efb1",
+      "e1e5fcfa5c3a13b4079f79a5505c5327048733853a7f7736d9fa39399a582d3d"
+    ],
+    "pattern": "abduction",
+    "label": "Fleets already pay per-check vendors and insurers; certifiers already carry liability; so each role has an existing operator, payer and a first adopter acting in its own interest",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261113.970122,
+    "id": "6d4988800d0eadd4bb8d4f8c1c057c9531c8ef64100e1b8da011482653879d4e"
+  },
+  {
+    "conclusion": "9d8c8ecc12116cb706c0d8d984ed2362671c7c3fbcd781e9c488bb48d01a382b",
+    "premises": [
+      "c2dd57ae7f79e667933d5b76c1a5dd2cafd5a671744b855022d762c3ab3bb9fa",
+      "367e7927058bdb09b22fe1131fedc1f648f744a26baf33653391dde3b76b3c09",
+      "674e2a1934a648820c075cc0cc46fdcecdc9d294b9ce83a9a150d8628a8aea06",
+      "2fd48dc9bb5f0d29831de60cbdd94267e009cb49e3bfd05d647467e782782ba0"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If success tests (i)-(iv) are each met by the three-way split, the architecture solves the fleet's two questions for the stranger",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Tests (i) and (iv) pull against each other. If certifiers hold no shared data, a person refused by certifier A for fraud can shop to certifier B, which has no record of the refusal; test (i) becomes a fraud-shopping channel. Any fix \u2014 a shared refusal or revocation index \u2014 reintroduces exactly the cross-certifier database that test (iv) forbids.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261122.449743,
+    "id": "10fc45ac320ad38c7f08f151ceecaf84c2b94bbfd9fa8919ce6cff5ae52593a7"
+  },
+  {
+    "conclusion": "9d8c8ecc12116cb706c0d8d984ed2362671c7c3fbcd781e9c488bb48d01a382b",
+    "premises": [
+      "04a16c44d46279789330264852b43fd930179d2e5bc99cdbe3e20ebf8412875f",
+      "1c5539fbe0510539f2299fa8f105aeb79c7e13289a3afcac685d4f4d370f09ec"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If the split is buildable by self-interested parties (v) and adds something to prior art (vi), it is a deployable new architecture rather than a redescription of existing systems",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undermining",
+        "description": "eIDAS already lets a relying party pick which trusted-list providers and which LoA it accepts, and QTSPs already carry insured liability with no shared cross-provider database. If the only residual difference is that acceptance lists are private and per-relying-party, that is a deployment choice available today, not a new architecture; by its own test (vi) the thesis should then say so.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261125.872174,
+    "id": "9b5244d45a262b73a6f6cba872c11851fdb5c67c150a3595e740c22f1abefd79"
+  },
+  {
+    "conclusion": "1c5539fbe0510539f2299fa8f105aeb79c7e13289a3afcac685d4f4d370f09ec",
+    "premises": [
+      "7e62c78d66e70aa0b1f97e92882a78ab290f848756e51999ac1d56d24a1098a3",
+      "e1e5fcfa5c3a13b4079f79a5505c5327048733853a7f7736d9fa39399a582d3d",
+      "2fd48dc9bb5f0d29831de60cbdd94267e009cb49e3bfd05d647467e782782ba0"
+    ],
+    "pattern": "abduction",
+    "label": "Prior art supplies grades, lists and insured certifiers separately; the claimed addition is per-relying-party policies plus per-check liability reporting plus a no-shared-database rule",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261139.385427,
+    "id": "b73d960cbb767d840664214457c85ff64930e116e0bfd9a8e6856b7582fed1c7"
+  },
+  {
+    "conclusion": "635964fe3e3056522b76fc458a414e345b036013438ea57406a47ef27e38bcfb",
+    "premises": [
+      "836a62d75dc487cccd1fcd34c3343ec3fe51ee3191c4075586b3f8185c5d03c6",
+      "94de187939b7a0549e852fa907ab271397606885cab0b1357b139f552371a74a"
+    ],
+    "pattern": "analogy",
+    "label": "QTSP-style liable, insured plural providers already operate; extending liability to per-check identity outcomes yields a nameable, payable party",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261947.748302,
+    "id": "c150d3c593d3f92e48b742a1df7480ac72f19accf0da5f8bdbe0c096d2dced6a"
+  },
+  {
+    "conclusion": "5087da760ed94eb3583d28a32fa7f3750e133427af0b95f348151dbfa7977266",
+    "premises": [
+      "0b5e01f2ffeb2f35af6a27a3ed8fdd7624f0509694522c08746c7fe418e04b4d",
+      "ce0e5b6e621abe05c2cfa32543c081472b24efc725326084e8bea274e27991ef"
+    ],
+    "pattern": "analogy",
+    "label": "Input-based assurance tiers are a proven construct; a single independent body can map certifiers from several frameworks onto one scale a small relying party can read",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261951.43873,
+    "id": "441d329236288f821f20ef29dec69cfca7692ad85f471fe772f83f7d3ed41f81"
+  },
+  {
+    "conclusion": "a63d095eacdb2f497a6618b4226f410b6b95e681e026f70783c7266ac1c1f84c",
+    "premises": [
+      "5087da760ed94eb3583d28a32fa7f3750e133427af0b95f348151dbfa7977266",
+      "635964fe3e3056522b76fc458a414e345b036013438ea57406a47ef27e38bcfb"
+    ],
+    "pattern": "modus_ponens",
+    "label": "If grades are comparable and certifiers are liable, an acceptance decision reduces to (certifier in published set) AND (grade >= minimum), which never references the ecovillage",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261954.474229,
+    "id": "40ed21baa1b4c4ac0a9fe496d0049fc0c3e7b16699c93c603c8ebe08d6208aab"
+  },
+  {
+    "conclusion": "a8c46b30b6751e94826f65496cf11d0df273729b38f7b677023591d90f60dbf8",
+    "premises": [
+      "eedd7e4b42b3f9277e9ace5729123245771f2b71b7fe3f147b3ae146eb67f1b8"
+    ],
+    "pattern": "analogy",
+    "label": "Hashed lookups and attribute-free revocation bits are deployed elsewhere; the same mechanism can flag re-presentation after a fraud refusal without a shared personal-data store",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undermining",
+        "description": "The analogy to hashed-lookup systems breaks on entropy and on the threat model. National ID and passport numbers have small, structured keyspaces, so a salted hash of a document number is dictionary-attackable by any party holding the salt \u2014 which every participating certifier must hold to query. A certifier that already has attributes on a person it checked can also test hashes for people it did not check, converting the \"non-identifying\" signal into a cross-certifier membership oracle. And unless the lookup is run as a private-set-membership or oblivious protocol, the operator of the signal sees who queried and when, which is exactly the profiling test (iv) forbids. The signal may therefore fail test (iv) in practice even though revocation bits succeed in the certificate world, where serials are high-entropy and public.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261957.261462,
+    "id": "819927989e759feada6b8e9a21abc7e85a0d52176d7ada34938607e57645b02a"
+  },
+  {
+    "conclusion": "a5aa40b70f66f18732cb7f0c182d23c80439fa97ff9e8c705fc795beaad0515f",
+    "premises": [
+      "836a62d75dc487cccd1fcd34c3343ec3fe51ee3191c4075586b3f8185c5d03c6",
+      "0b5e01f2ffeb2f35af6a27a3ed8fdd7624f0509694522c08746c7fe418e04b4d"
+    ],
+    "pattern": "abduction",
+    "label": "eIDAS and NIST tier and list providers within their own framework, but neither publishes a cross-framework input-exposing grade, machine-readable per-relying-party acceptance policy, or a cross-certifier fraud-refusal signal \u2014 so the additions appear genuinely absent",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "eIDAS 2.0 may already supply each claimed addition as a deployment option: the EU Digital Identity Wallet framework includes relying-party registration with declared intended-use and accepted-attestation policies (a machine-readable per-relying-party acceptance list), conformity-assessed levels of assurance that reference the proofing inputs used (an input-exposing grade, at least within the EU), and wallet-level credential revocation and status lists (a non-identifying revocation signal). If these cover the Lisbon fleet's case, the correct description \u2014 by the thesis's own test (vi) \u2014 is a deployment profile of eIDAS 2.0, and the root claim should be restated as such rather than as a distinct architecture.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261961.466169,
+    "id": "380cf4679fbc79c0de3d619a81f7ce8969951a517ab59ced7f7a62a9d61392be"
+  },
+  {
+    "conclusion": "4eb93cac5d6e268ddf01bc7e21651dd3bcd9d2d4d371bd7b075d089a543f14a3",
+    "premises": [
+      "045bda9fd362c79f7cb10ebd9c31d25eba2c099dc6fe0213d60462c4db1a2285",
+      "635964fe3e3056522b76fc458a414e345b036013438ea57406a47ef27e38bcfb",
+      "a63d095eacdb2f497a6618b4226f410b6b95e681e026f70783c7266ac1c1f84c",
+      "a8c46b30b6751e94826f65496cf11d0df273729b38f7b677023591d90f60dbf8",
+      "a5aa40b70f66f18732cb7f0c182d23c80439fa97ff9e8c705fc795beaad0515f"
+    ],
+    "pattern": "causal",
+    "label": "Given the fraud problem, liable certifiers answer accountability (iii), published policy answers acceptance of strangers (ii), the minimal signal preserves (iv) while closing certifier-shopping (i), and the additions are not mere prior art (vi) \u2014 so the split architecture answers both questions",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The inference from \"each component is answerable\" to \"the architecture answers the fleet's questions\" assumes the components coexist economically, but the buildability test (v) is admitted unmet on its two load-bearing points. A relying party acting in its own interest will accept whichever certifier most of its paying customers already hold, which drives convergence on one or two large certifiers \u2014 reproducing option (1) with extra steps. With a single dominant certifier the \"right to a second check\" in test (i) is vacuous, and the per-check liability in (iii) is only as real as an insurance market that has not been shown to exist. Until at least one live instance shows multiple accepted certifiers and an underwritten per-check policy, the conclusion is a design claim, not a claim that the fleet's two questions are in fact answered.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261966.95088,
+    "id": "2f59fe36498e6680d23b08e7fd1a63b4c50ea739819cc330a3f2a0901dc02ae2"
+  }
+]

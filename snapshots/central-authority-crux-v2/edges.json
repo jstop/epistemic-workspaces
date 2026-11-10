@@ -1,0 +1,10 @@
+[
+  {
+    "from_id": "24fc762d4c992430438df7536ba04eab176ae1ddfaba03ea5d7a8380ee296c75",
+    "rel": "supersedes",
+    "to": "8eb9239975b69e10b2ff384bf5335e98b3318dd22f9ddbed505e99458c1a9c32",
+    "notes": "The analysis shows the thesis defeated by two active objections and resting on four unsupported, high-risk assumptions. The undercutting objection (oligopoly collapse) attacks the claim that the hybrid neutralises coercion and exclusion; the enhanced thesis concedes this by making the resolution conditional and splitting the objections the hybrid does neutralise (compromise, Sybil, unfamiliar credentials) from those it only relocates absent anti-consolidation measures. The rebutting objection (scope misunderstanding) attacks the existence of the core itself; rather than ignoring it, the enhanced thesis names it as the live escape route and relocates the residual disagreement to a sharper question \u2014 whether cross-application uniqueness is a genuine requirement for the relevant use cases \u2014 which also surfaces the previously silent assumption 'one-person-one-identity is required'. The unsupported characterisation and shared-rejection assumptions are made explicit as a 'provided that' condition; the feasibility-at-scale assumption for a shared uniqueness check is stated inline. The core direction (partly a misunderstanding, uniqueness/revocation as the substantive residue, hybrid resolves the periphery not the center) is preserved, but the claim is now defensible against the two defeaters rather than defeated by them.",
+    "created_at": 1794259469.073725,
+    "id": "d48c00c02ab0f1abaa9579eefc4827e07d1d2620ff0aea85773fe16c0be565cc"
+  }
+]

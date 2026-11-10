@@ -1,0 +1,276 @@
+[
+  {
+    "subject": "cross-border-reliance-on-testimony",
+    "predicate": "is-sufficiently-grounded-by",
+    "object": "office-community-and-open-challenge-without-new-global-authority",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "210340786f5365733a83a97fafd9b88f9bfb801f2e430f736e796b9bacec94bf",
+      "76de2634c66644074bb2d98d687320635c188fcb7797f80165ad74dcba1417f5",
+      "9fce8cc41dfa048f44acfaf5e1882bc12b26b49524d877a1c75794944845d52d"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "People rely on another party's word on three overlapping grounds: office (formally constituted, with holders who can be sanctioned), community (the people relying chose to, and can leave), and open challenge (a claim stands because anyone could contest it and it held; a proven track record is a form of this, with experience doing the contesting). The grounds blend in practice but differ in how they fail: an office can be captured, a community's word does not carry to distant strangers, and open challenge works only when participants are real, accountable and free to dissent. Each failure is partly mitigated by the other two, though a powerful enough actor could degrade all three at once. For the specific problem of knowing whose word to rely on across borders, no new global authority is needed: the three grounds working together are enough, resting on existing national courts for enforcement. This arrangement does not address compliance problems, where parties accept the facts and still break agreements because it pays; those require consequences that being believed cannot supply.",
+    "created_at": 1794275510.222188,
+    "id": "e1cccb434577bd81a8fbdbaaab043ec32a3920af7ec41ea849cd32f939077349"
+  },
+  {
+    "subject": "grounds-for-reliance",
+    "predicate": "exhaustively-reduce-to",
+    "object": "office-community-open-challenge",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Taxonomic claim: every ground on which one party relies on another's word is one of (or a blend of) office (sanctionable formal role), community (voluntary membership with exit), or open challenge (claim survived contestation; track record counts as experience doing the contesting). Confidence moderate because exhaustiveness of a three-way taxonomy is hard to establish \u2014 e.g. coercion-backed reliance and pure self-interest alignment may not fit neatly.",
+    "created_at": 1794275517.449214,
+    "id": "72f746250e0a075fefe691d95118fdb7876d9ca6424da7086b95847fb67957c6"
+  },
+  {
+    "subject": "the-three-grounds",
+    "predicate": "have-distinct-failure-modes",
+    "object": "capture-nonportability-fake-or-unfree-participants",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Office fails by capture (regulatory capture, corrupted certifiers); community fails by non-portability (reputation inside a group means nothing to strangers outside it); open challenge fails when participants are fake (bots, sock puppets), unaccountable (anonymous without stake), or unfree to dissent (censorship, chilling).",
+    "created_at": 1794275521.503242,
+    "id": "7b99b4c844609f3015025b86bd13d4e7f9000524bced78b48b6e377efa6b8e68"
+  },
+  {
+    "subject": "each-ground-failure",
+    "predicate": "is-partly-mitigated-by",
+    "object": "the-other-two-grounds",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Because the failure modes are distinct, they are unlikely to co-occur by accident: a captured office can be exposed by open challenge and abandoned by community exit; a community's non-portable word can be vouched for by an office or tested by track record; a degraded open-challenge forum can be backstopped by sanctionable officials and by communities that can leave. The qualifier 'partly' matters \u2014 mitigation is incomplete, and a sufficiently powerful actor can degrade all three simultaneously.",
+    "created_at": 1794275525.603216,
+    "id": "6e6dae9c157cdc29ad0cb2f2f629ee0bfda351370f47c096426bf0b74f931370"
+  },
+  {
+    "subject": "cross-border-credibility-problem",
+    "predicate": "does-not-require",
+    "object": "new-global-authority",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The institutional-design claim: for deciding whose word to rely on across borders, the combination of the three grounds, with existing national courts supplying enforcement for the office leg, is sufficient; a new supranational credibility authority would add little and would itself be a single capturable office. Partly normative (what institutions we should build) and partly empirical (whether existing arrangements already work).",
+    "created_at": 1794275529.8035069,
+    "id": "4b8c5dec16d6ca4309691a43d51d71a9bf581f7e83b45fb47b1ecd0a3e945b38"
+  },
+  {
+    "subject": "compliance-problems",
+    "predicate": "are-not-solved-by",
+    "object": "credibility-mechanisms",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Scope-limiting claim: when parties agree on the facts yet defect because defection pays, the problem is incentives, not belief. Being believed is an epistemic good; deterring profitable breach requires consequences (sanctions, enforcement, reputational cost that actually bites). This distinguishes the thesis from a claim that trust alone secures cooperation.",
+    "created_at": 1794275533.1144588,
+    "id": "0f93e1ed805d7f9c237975a37d2fe4e474e36d8d3a5e8cc51e9169e06186160f"
+  },
+  {
+    "subject": "national-courts",
+    "predicate": "remain-sufficiently-independent-and-mutually-recognised",
+    "object": "for-cross-border-enforcement",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the office leg rests on national courts, so the thesis presupposes that courts in the relevant jurisdictions are not themselves captured and that judgments are recognised across borders often enough to matter. This is uneven across countries and may be weakening.",
+    "created_at": 1794275559.3663318,
+    "id": "210340786f5365733a83a97fafd9b88f9bfb801f2e430f736e796b9bacec94bf"
+  },
+  {
+    "subject": "simultaneous-degradation-of-all-three-grounds",
+    "predicate": "is-rare-enough",
+    "object": "to-leave-mutual-mitigation-effective",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the thesis concedes a powerful actor could degrade office, community, and open challenge together, but assumes this is uncommon enough that the three-ground arrangement is 'enough' in the typical case. Large states and dominant platforms may make this less rare than assumed.",
+    "created_at": 1794275562.562397,
+    "id": "76de2634c66644074bb2d98d687320635c188fcb7797f80165ad74dcba1417f5"
+  },
+  {
+    "subject": "credibility-and-compliance",
+    "predicate": "are-cleanly-separable",
+    "object": "in-practice",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the thesis treats 'whose word to rely on' and 'will they keep their agreements' as distinct problems. But a track record of breach feeds back into credibility, and expected future reliance is itself a consequence that may deter breach \u2014 so the boundary may be blurrier than the thesis supposes.",
+    "created_at": 1794275565.513695,
+    "id": "9fce8cc41dfa048f44acfaf5e1882bc12b26b49524d877a1c75794944845d52d"
+  }
+]

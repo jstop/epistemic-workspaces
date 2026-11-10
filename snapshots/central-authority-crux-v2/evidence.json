@@ -1,0 +1,138 @@
+[
+  {
+    "title": "Web PKI CA compromise and coercion incidents",
+    "description": "The public history of web certificate authorities includes cases of root/intermediate key compromise, mis-issuance under pressure from state actors, and distrust decisions by browser vendors that the affected CA could not appeal. These show that a single trusted root is a concrete target for compromise and coercion, and that exclusion from a root program is effectively unappealable.",
+    "evidence_type": "observation",
+    "source": "Public post-mortems and browser root-program distrust announcements for certificate authorities (not individually consulted; the kind of record that would need to be attached)",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794255974.0702112,
+    "id": "7e0e204dbb984f0a5f27c10b0604210eab885e278b9cbcfe389a9785f5bc59a4"
+  },
+  {
+    "title": "Sybil attacks in systems without a uniqueness authority",
+    "description": "Decentralised reputation, airdrop, and governance systems that accept credentials from many independent issuers with no cross-issuer uniqueness check have repeatedly been exploited by actors creating many synthetic identities. This supports the claim that plural trust lists are structurally exposed to Sybil/synthetic identities unless something enforces one-person-one-identity across lists.",
+    "evidence_type": "observation",
+    "source": "Incident reports and academic surveys of Sybil resistance in decentralised identity and reputation systems (kind of evidence; specific sources to be attached)",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794255977.8004951,
+    "id": "fde8e84c72e318bbee5e679e04080945d0ade1903e52db4020541caa0891882b"
+  },
+  {
+    "title": "Certificate Transparency relies on enforcement by clients and monitors",
+    "description": "In Certificate Transparency, append-only logs by themselves only record issuance; the security property (mis-issuance is detectable) becomes effective only because browsers refuse certificates lacking valid log proofs and because independent monitors and gossip compare log views. Logs that are not enforced by relying parties and audited by monitors provide no guarantee. This directly supports the claim that log-based guarantees require some enforcing party.",
+    "evidence_type": "document",
+    "source": "Design documentation and operational policy for Certificate Transparency as deployed in major browsers (kind of evidence; specific documents to be attached)",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794255982.820748,
+    "id": "d4428a92f5e2932e5e8391fc01b66766d259c40c6fc849823b8485d4a38c14a9"
+  },
+  {
+    "title": "Assurance-level vocabularies enable cross-issuer acceptance",
+    "description": "Government and industry identity-assurance frameworks define shared levels of identity proofing and authentication strength so that a relying party can accept a credential from an unfamiliar issuer by checking its asserted level rather than knowing the issuer. Federated eID schemes across jurisdictions use this to achieve mutual recognition without a single issuer. This supports the claim that the \"relying parties can't judge unfamiliar credentials\" objection to B is addressable by a shared vocabulary.",
+    "evidence_type": "document",
+    "source": "Published identity-assurance-level frameworks and cross-border eID mutual-recognition schemes (kind of evidence; specific frameworks to be attached)",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794255986.8147311,
+    "id": "9e8b370da92facf698c72e8944bccf366498ec89eeabb210d3c11806e0aa28f5"
+  },
+  {
+    "title": "Historical certificate-authority compromises and coerced mis-issuance",
+    "description": "Publicly documented incidents in the web PKI where a trusted root or intermediate CA was compromised or pressured into issuing fraudulent certificates, forcing emergency distrust. These show that a single trusted certifier is a high-value target and that its operator can be coerced \u2014 the weakness Position B attributes to Position A.",
+    "evidence_type": "observation",
+    "source": "Public incident reports and post-mortems on CA compromise and distrust events in the web PKI (kind of evidence; specific reports to be attached)",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794259396.106251,
+    "id": "630e76bed65a92b1906a927a43ceefaaf3cf8295bfbed926b14f145fd8f9f940"
+  },
+  {
+    "title": "Consolidation of browser root programs and app-store gatekeepers",
+    "description": "Although any party may in principle operate a root store or app distribution channel, in practice a handful of browser vendors' root programs and two mobile app stores determine what is accepted by nearly all relying parties; a CA distrusted by one major program is effectively excluded with limited appeal. This is the oligopoly dynamic the thesis says a plural-root hybrid is exposed to.",
+    "evidence_type": "observation",
+    "source": "Market-structure observations and regulatory/competition analyses of browser root programs and mobile app stores (kind of evidence; specific documents to be attached)",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794259400.25617,
+    "id": "11257c7464eb58a875ddcb8a783c06cd7f21b6d64ff33e23e0a33dc4f0dbf0f5"
+  },
+  {
+    "title": "Sybil and synthetic-identity attacks on open or multi-issuer registration systems",
+    "description": "Systems without a single uniqueness authority (web-of-trust networks, open-registration platforms, airdrop and governance-token schemes) have repeatedly been gamed by one actor creating many identities, and relying parties in such systems struggle to evaluate credentials from unfamiliar issuers. This is the weakness Position A attributes to Position B.",
+    "evidence_type": "observation",
+    "source": "Security literature and incident write-ups on Sybil attacks and synthetic identity fraud in decentralised or multi-issuer systems (kind of evidence; specific sources to be attached)",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794259404.117443,
+    "id": "7486d2f19f1f85495fccd75aff3c33f5d97a9919f52cf256129dddf5937c40c0"
+  },
+  {
+    "title": "Per-application nullifier and deduplication designs in privacy-preserving identity systems",
+    "description": "Several proposed and deployed anonymous-credential and zero-knowledge identity schemes enforce one-vote or one-claim per person using application-scoped nullifiers derived from a secret, so uniqueness is checked per context without a global identifier or shared issuer. This demonstrates that per-application scoping is at least technically available, though it does not show it is adequate where cross-application uniqueness is required.",
+    "evidence_type": "document",
+    "source": "Design documents and specifications for anonymous-credential / ZK identity systems using scoped nullifiers (kind of evidence; specific specifications to be attached)",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794259408.324065,
+    "id": "a04e9c314ccb4859d0b50271c789a6e9b3ca079309f425727627eda5fd3c2105"
+  }
+]

@@ -1,0 +1,582 @@
+[
+  {
+    "subject": "unbundled-identity-trust-architecture",
+    "predicate": "solves",
+    "object": "stranger-accountability-problem",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "e361130322d8b307c4051fa80f6f31e6f4b62e9603add3e8e3fd8155836c2289",
+      "a1590e1161e64c65df96757e0cb6a22edad794a3dc7fafd364796858d5ff6246",
+      "2c22f9515d0c120639b5b0a22a6539b07d06f3b9c99cfccece75c4cb32bda862"
+    ],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "superseded",
+    "killed_by": "4eb93cac5d6e268ddf01bc7e21651dd3bcd9d2d4d371bd7b075d089a543f14a3",
+    "notes": "PROBLEM: A car-share fleet in Lisbon receives a booking from a stranger whose only standing comes from an ecovillage the fleet has never heard of. Within minutes the fleet must decide whether to hand over a car, and it needs two answers: is this one real person (not a bot or synthetic identity), and if the car is damaged or stolen, is there a party it can hold accountable? Today it has two options. (1) Accept only a large certifier everyone recognises: one point that can be breached, pressured, or refuse people with no appeal. (2) Accept only people its own network vouches for: this stranger is turned away, and weakly checked lists let fakes in cheaply. SOLUTION: Split three jobs that both options bundle. (a) Certifying: several independent certifiers each check a person, each is legally liable for its own checks and insured for that liability, and none keeps a shared database of everyone's personal data. (b) Grading: one public scale states how thorough each check was and what inputs it relied on. (c) Accepting: the fleet publishes which certifiers and minimum grade it accepts; the ecovillage keeps its own, different list. SUCCESS TESTS: (i) if one certifier refuses the person, another certifier the fleet accepts can still certify them; (ii) the fleet can accept the stranger at its minimum grade without knowing the ecovillage; (iii) if the car is stolen, the fleet can name a liable party that can actually pay; (iv) no party holds data on people it did not check itself. BUILDABILITY TEST: (v) each of the three jobs names who runs it, who pays for it, and a first real user with a reason to adopt it; any fix that requires a party to act against its own interest, such as a relying party turning away paying customers, fails this test. PRIOR-ART TEST: (vi) the solution must state what it does that eIDAS levels of assurance and trusted lists, NIST SP 800-63 assurance levels, and Osmio's certification do not already do; if nothing, it is a deployment of existing systems rather than a new architecture, and the thesis should say so.",
+    "created_at": 1794261050.412381,
+    "id": "9d8c8ecc12116cb706c0d8d984ed2362671c7c3fbcd781e9c488bb48d01a382b"
+  },
+  {
+    "subject": "plural-liable-certifiers",
+    "predicate": "remove",
+    "object": "single-point-of-refusal-and-breach",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Success test (i): if several independent certifiers each perform their own check and the fleet accepts any of them above its minimum grade, then a refusal (or breach, or political pressure) at one certifier does not block the person; another accepted certifier can still certify them. This holds only if the fleet's accepted list actually contains more than one certifier willing to serve this person.",
+    "created_at": 1794261065.406415,
+    "id": "c2dd57ae7f79e667933d5b76c1a5dd2cafd5a671744b855022d762c3ab3bb9fa"
+  },
+  {
+    "subject": "public-grading-scale",
+    "predicate": "enables",
+    "object": "acceptance-without-knowing-introducer",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Success test (ii): because the grade states how thorough the check was and which inputs it used, the fleet's decision depends only on (certifier in accepted list) AND (grade >= minimum), not on who introduced the person. The ecovillage drops out of the fleet's decision entirely; it only matters that some accepted certifier has graded the stranger.",
+    "created_at": 1794261068.841258,
+    "id": "367e7927058bdb09b22fe1131fedc1f648f744a26baf33653391dde3b76b3c09"
+  },
+  {
+    "subject": "insured-per-certifier-liability",
+    "predicate": "yields",
+    "object": "nameable-party-that-can-pay",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Success test (iii): if the certifier that graded the thief is legally liable for the quality of its check and carries insurance for that liability, then after a theft the fleet can name that certifier (and its insurer) as a party able to pay. Weakness: liability for a faulty check is not the same as liability for the theft; if the check was done correctly and the real person simply stole the car, the certifier may owe nothing and the fleet is back to pursuing the individual.",
+    "created_at": 1794261072.7744489,
+    "id": "674e2a1934a648820c075cc0cc46fdcecdc9d294b9ce83a9a150d8628a8aea06"
+  },
+  {
+    "subject": "no-shared-database",
+    "predicate": "satisfies",
+    "object": "data-held-only-by-checker",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Success test (iv): if each certifier stores only the records of people it checked itself, and the grading body publishes only a scale (not per-person records), and the fleet receives only a certifier identity plus grade, then no party holds personal data on people it did not check. Weakness: the fleet still needs enough identity to pursue a claim, and revocation/duplicate detection across certifiers normally pushes toward some shared index.",
+    "created_at": 1794261076.344165,
+    "id": "2fd48dc9bb5f0d29831de60cbdd94267e009cb49e3bfd05d647467e782782ba0"
+  },
+  {
+    "subject": "each-role",
+    "predicate": "has-self-interested",
+    "object": "operator-payer-and-first-adopter",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Buildability test (v). Certifying: run by existing KYC/ID-verification vendors and notaries; paid per check by the person or by the relying party; first adopter is a vendor that wants to sell checks to fleets it currently cannot reach. Grading: run by an industry body or regulator; paid by certifier membership fees; first adopter is a certifier that wants its thorough checks to be distinguishable from cheap ones. Accepting: run by the fleet itself; paid by the fleet as a cost of avoided fraud; first adopter is a fleet currently turning away paying strangers. The fleet is never asked to turn customers away; it is asked to publish a policy that lets it accept more of them.",
+    "created_at": 1794261081.175297,
+    "id": "04a16c44d46279789330264852b43fd930179d2e5bc99cdbe3e20ebf8412875f"
+  },
+  {
+    "subject": "architecture",
+    "predicate": "adds-beyond",
+    "object": "eidas-nist-osmio-prior-art",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Prior-art test (vi). What is claimed as new: (1) relying-party-published acceptance policies that are per-relying-party and can differ (the fleet and the ecovillage keep different lists), rather than a state-run trusted list; (2) liability and insurance bound to each individual check and reported alongside the grade, so the grade carries an answer to 'who pays' rather than only 'how thorough'; (3) an explicit prohibition on any cross-certifier database. What is NOT new: graded assurance levels (eIDAS LoA, NIST IAL/AAL), lists of approved providers (eIDAS trusted lists), insurance-backed certifiers (eIDAS QTSP requirements, Osmio-style certification). Honest reading: this may be a recombination and deployment pattern of existing systems rather than a new architecture; the thesis must say which.",
+    "created_at": 1794261086.9199429,
+    "id": "1c5539fbe0510539f2299fa8f105aeb79c7e13289a3afcac685d4f4d370f09ec"
+  },
+  {
+    "subject": "enough-certifiers",
+    "predicate": "will-exist-in",
+    "object": "fleet-accepted-list",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the market sustains several independent certifiers at the fleet's minimum grade, so test (i) is not vacuous. If the market consolidates to one or two, the design degrades into option (1).",
+    "created_at": 1794261128.765762,
+    "id": "e361130322d8b307c4051fa80f6f31e6f4b62e9603add3e8e3fd8155836c2289"
+  },
+  {
+    "subject": "insurers",
+    "predicate": "will-underwrite",
+    "object": "per-check-certifier-liability",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: insurers will price and write cover for a certifier's liability on individual checks at a premium low enough that checks remain affordable. Without actuarial data on check-failure rates this may not be available.",
+    "created_at": 1794261131.6061609,
+    "id": "a1590e1161e64c65df96757e0cb6a22edad794a3dc7fafd364796858d5ff6246"
+  },
+  {
+    "subject": "grading-body",
+    "predicate": "stays-neutral-across",
+    "object": "competing-certifiers",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the single public grading scale is governed so that it cannot be captured by the largest certifier or used to exclude rivals, otherwise the grading job recreates the single-point-of-pressure problem one layer up.",
+    "created_at": 1794261134.3020449,
+    "id": "2c22f9515d0c120639b5b0a22a6539b07d06f3b9c99cfccece75c4cb32bda862"
+  },
+  {
+    "subject": "split-certify-grade-accept-architecture",
+    "predicate": "answers",
+    "object": "stranger-identity-and-fraud-accountability",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "f62c323656fed571bbd60c21de65b7e5b7783a1a8984f3d995a3a75c2e9ff340",
+      "94de187939b7a0549e852fa907ab271397606885cab0b1357b139f552371a74a",
+      "ce0e5b6e621abe05c2cfa32543c081472b24efc725326084e8bea274e27991ef"
+    ],
+    "is_root": true,
+    "previous_version": "9d8c8ecc12116cb706c0d8d984ed2362671c7c3fbcd781e9c488bb48d01a382b",
+    "version_meta": {
+      "rationale": "The ATMS status is defeated and all three objections land on real seams in the original. The rebutting objection (tests i and iv contradict) is the sharpest: the original offered no way to distinguish a legitimate second check from fraud-shopping, and any fix seemed to violate iv. The refinement resolves it by narrowing iv from 'no shared data' to 'no shared attribute-level data' and permitting a minimal non-identifying fraud signal, with an explicit failure condition if that signal leaks attributes or query patterns. The undercutting objection (liability covers defective checks, not conduct) is accepted outright: test iii is split into the identity-fraud case (certifier pays) and the genuine-identity case (individual is nameable), and a SCOPE section states that conduct guarantees are a separate product. This shrinks the claim but makes it defensible. The undermining objection (eIDAS already does this) is largely conceded: the refined thesis drops the 'new architecture' framing and states three narrower additions, with an explicit fallback to 'deployment profile' if those too prove pre-existing. The unsupported assumptions about certifier supply and insurer appetite are surfaced in test v as conditions the thesis currently fails rather than silently relied on. The grading-neutrality assumption is addressed by requiring the grading body not to certify. The direction of the thesis \u2014 unbundle certifying, grading, and accepting so a small relying party can accept a stranger \u2014 is preserved throughout."
+    },
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "PROBLEM: A car-share fleet in Lisbon receives a booking from a stranger whose only standing comes from an ecovillage the fleet has never heard of. Within minutes the fleet must decide whether to hand over a car, and it needs two answers: is this one real person (not a bot or synthetic identity), and if the booking turns out to be fraudulent, is there a party it can hold accountable? Today it has two options. (1) Accept only a large certifier everyone recognises: one point that can be breached, pressured, or refuse people with no appeal. (2) Accept only people its own network vouches for: this stranger is turned away, and weakly checked lists let fakes in cheaply. SOLUTION: Split three jobs that both options bundle. (a) Certifying: several independent certifiers each check a person, each is legally liable for its own defective checks (a certified identity that proves synthetic, duplicated, or not the person who presented) and insured for that liability. Certifiers keep no shared store of personal data; they may share only a minimal, non-identifying signal \u2014 a salted hash of a credential or a document-level revocation flag \u2014 sufficient to detect a person re-presenting the same identity after a fraud-based refusal, and that signal carries no attributes, no refusal reason, and no record of who queried it. (b) Grading: one public scale, run by a body that does not itself certify, states how thorough each check was and what inputs it relied on. (c) Accepting: the fleet publishes which certifiers and minimum grade it accepts; the ecovillage keeps its own, different list. SCOPE: The architecture answers the identity question and the accountability question for identity fraud. It does not make a certifier a guarantor of the customer's later conduct; a correctly verified real person who steals the car remains the fleet's problem, to be covered by its existing insurance and deposit and by the fact that a real, accountable individual can now be named. Any certifier that also offers conduct guarantees is selling a separate, priced product on top of certification, not part of this design. SUCCESS TESTS: (i) if one certifier refuses the person for a non-fraud reason (capacity, geography, documents it cannot read), another certifier the fleet accepts can still certify them; a refusal grounded in detected identity fraud is propagated via the minimal signal in (a), so this is a right to a second check, not a second identity; (ii) the fleet can accept the stranger at its minimum grade without knowing the ecovillage; (iii) if the certified identity proves fake or stolen, the fleet can name a liable, insured certifier that can actually pay; if the identity was genuine, the fleet can name the real individual; (iv) no party holds attribute-level personal data on people it did not check itself; the only cross-certifier state is the non-identifying signal in (a), and test (iv) is failed if that signal can be reversed to attributes or used to profile who queried it. BUILDABILITY TEST: (v) each of the three jobs names who runs it, who pays for it, and a first real user with a reason to adopt it; any fix that requires a party to act against its own interest, such as a relying party turning away paying customers, fails this test. This test is currently unmet for two load-bearing assumptions \u2014 that enough certifiers will enter the fleet's accepted list, and that insurers will underwrite per-check liability at a price certifiers can pass on \u2014 and the thesis stands only as a design until both are shown by at least one live instance. PRIOR-ART TEST: (vi) eIDAS trusted lists and levels of assurance, NIST SP 800-63 assurance levels, and Osmio's certification already supply plural providers, assurance tiers, relying-party choice of provider and level, and (for QTSPs) insured liability without a shared database. The thesis therefore does not claim a new trust architecture. What it claims to add is narrower: a single cross-framework grading scale that exposes the inputs behind each check so a small relying party can compare certifiers it has never dealt with; private, per-relying-party acceptance lists that are published as machine-readable policy rather than negotiated bilaterally; and the minimal fraud-signal in (a) that resolves the certifier-shopping gap those frameworks leave open. If, on inspection, each of these is already a deployment option under eIDAS 2.0 or an existing scheme, the correct description is a deployment profile of existing systems, and the thesis should be restated as such.",
+    "created_at": 1794261879.3926542,
+    "id": "4eb93cac5d6e268ddf01bc7e21651dd3bcd9d2d4d371bd7b075d089a543f14a3"
+  },
+  {
+    "subject": "plural-liable-insured-certifiers",
+    "predicate": "provide",
+    "object": "nameable-payable-party-for-identity-fraud",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Several independent certifiers, each legally liable for its own defective checks and insured for that liability, give the fleet a party that can actually pay if a certified identity proves synthetic, duplicated, or stolen (success test iii), while avoiding a single certifier that can be breached, pressured, or refuse without appeal (success test i: right to a second check).",
+    "created_at": 1794261891.335333,
+    "id": "635964fe3e3056522b76fc458a414e345b036013438ea57406a47ef27e38bcfb"
+  },
+  {
+    "subject": "public-cross-framework-grading-scale",
+    "predicate": "enables",
+    "object": "small-relying-party-comparison-of-unknown-certifiers",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "A single public scale, run by a body that does not itself certify, that states how thorough each check was and which inputs it relied on, lets a small relying party like the fleet compare certifiers it has never dealt with across frameworks (eIDAS LoA, NIST IAL, Osmio) without bilateral negotiation.",
+    "created_at": 1794261894.300643,
+    "id": "5087da760ed94eb3583d28a32fa7f3750e133427af0b95f348151dbfa7977266"
+  },
+  {
+    "subject": "machine-readable-per-relying-party-acceptance-policy",
+    "predicate": "lets-fleet-accept",
+    "object": "stranger-without-knowing-the-ecovillage",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "If the fleet publishes which certifiers and minimum grade it accepts, and the stranger holds a credential from an accepted certifier at or above that grade, the fleet's decision depends only on the credential and the published policy, not on the ecovillage or any bilateral trust (success test ii). The ecovillage keeps its own, different list without conflict.",
+    "created_at": 1794261897.5510988,
+    "id": "a63d095eacdb2f497a6618b4226f410b6b95e681e026f70783c7266ac1c1f84c"
+  },
+  {
+    "subject": "minimal-non-identifying-fraud-signal",
+    "predicate": "closes-certifier-shopping-without",
+    "object": "shared-personal-data-store",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "A salted hash of a credential or a document-level revocation flag, carrying no attributes, no refusal reason, and no query log, is sufficient to detect a person re-presenting the same identity after a fraud-based refusal, while keeping test (iv): no party holds attribute-level data on people it did not check itself, and the signal cannot be reversed to attributes or used to profile queriers. This is the component with the most open technical risk (dictionary attacks on low-entropy document numbers, query-pattern leakage).",
+    "created_at": 1794261901.442644,
+    "id": "a8c46b30b6751e94826f65496cf11d0df273729b38f7b677023591d90f60dbf8"
+  },
+  {
+    "subject": "cross-framework-grading-plus-published-policy-plus-fraud-signal",
+    "predicate": "are-not-already",
+    "object": "deployment-options-under-eidas-nist-osmio",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Prior-art test (vi). eIDAS trusted lists/LoA, NIST SP 800-63, and Osmio already supply plural providers, assurance tiers, relying-party choice, and (QTSPs) insured liability. The thesis only survives as more than a deployment profile if the three named additions \u2014 an input-exposing cross-framework grading scale, machine-readable per-relying-party acceptance lists, and the minimal fraud signal \u2014 are genuinely absent as deployment options. This is deliberately held at 0.5: eIDAS 2.0 relying-party registration and wallet-level revocation may already cover parts of it.",
+    "created_at": 1794261906.1664178,
+    "id": "a5aa40b70f66f18732cb7f0c182d23c80439fa97ff9e8c705fc795beaad0515f"
+  },
+  {
+    "subject": "enough-certifiers",
+    "predicate": "will-enter",
+    "object": "fleet-accepted-list",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Load-bearing buildability assumption (test v). The architecture needs at least two or three certifiers the fleet accepts so that a non-fraud refusal by one can be cured by another. No live instance currently shows certifiers entering on these terms; a market with one dominant certifier collapses back to option (1).",
+    "created_at": 1794261928.815861,
+    "id": "f62c323656fed571bbd60c21de65b7e5b7783a1a8984f3d995a3a75c2e9ff340"
+  },
+  {
+    "subject": "insurers",
+    "predicate": "will-underwrite",
+    "object": "per-check-identity-liability-at-passable-price",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Load-bearing buildability assumption (test v). Test (iii) requires a certifier that can actually pay. Per-check liability is a tail-risk product with correlated losses (one compromised document template defeats many checks); insurers may price it above what a small relying party will pay per verification, or exclude exactly the synthetic-identity losses the fleet cares about.",
+    "created_at": 1794261932.651117,
+    "id": "94de187939b7a0549e852fa907ab271397606885cab0b1357b139f552371a74a"
+  },
+  {
+    "subject": "non-certifying-grading-body",
+    "predicate": "can-be-funded-and-kept",
+    "object": "independent-of-certifiers",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The grading body must be paid by someone \u2014 certifiers (capture risk, as with credit-rating agencies), relying parties (free-rider problem for a public scale), or a regulator (then it is likely eIDAS conformity assessment by another name). Test (v) requires naming who runs it, who pays, and a first adopter; none is yet named.",
+    "created_at": 1794261936.205537,
+    "id": "ce0e5b6e621abe05c2cfa32543c081472b24efc725326084e8bea274e27991ef"
+  }
+]

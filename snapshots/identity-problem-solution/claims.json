@@ -1,0 +1,276 @@
+[
+  {
+    "subject": "unbundled-certify-grade-accept-architecture",
+    "predicate": "solves",
+    "object": "stranger-identity-trust-dilemma",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "0a232476aab53c9c5a447ea2516a84fba3771204513680aa96d3913f90388201",
+      "37b0e8941f2579e5abfd811ce44562db4034b2df3ddf1be81a83ceb4e7c66fb7",
+      "9e4ae00ea7bbcdd875911a69182db954abbd4dfe1f1321a7b7541b912d50e013"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "PROBLEM: A relying party that meets a stranger \u2014 an ecovillage offering a bed, a car-share fleet, a hiring platform, a dating app \u2014 must decide whether that person is real, not a bot or synthetic identity, and accountable if they misbehave. Today it must choose between two bad options. (1) Accept one certifier everyone recognises: this creates a single point that can be compromised, coerced, or used to lock people out with no appeal. (2) Accept only the members of its own community or network: strangers from elsewhere cannot use their standing, and fakes can join weakly checked lists cheaply. The Oct 15 call between Wes Kussmaul and Grace Rachmany showed each side naming a real weakness of the other's option, and neither side defending a registry that holds everyone's identity data. SOLUTION: Separate three jobs that both options bundle together. (a) Certifying: several independent certifiers each check that a key belongs to one real person, each is legally liable for its own checks, and none keeps a shared database of everyone's personal data. (b) Grading: one public scale states how thorough each check was, so a relying party can judge a certifier it has never heard of. (c) Accepting: each relying party publishes its own list of which certifiers and minimum grades it accepts, and lists may overlap without matching. SUCCESS TEST: the solution works if (i) one certifier's failure or refusal does not lock a person out of any relying party that accepts another certifier; (ii) a relying party can set a minimum grade and accept a stranger from a community it does not know; (iii) every certifier's mistake traces to a named, liable party; (iv) no party holds identity data about people it did not check itself. FAILURE CONDITION: if relying parties in practice all come to accept the same one or two certifiers, the solution collapses back into option (1).",
+    "created_at": 1794260253.6215198,
+    "id": "d20b887ad6ef2957f1d521b1965acfd614437acec95f10df3876dc25090e46ae"
+  },
+  {
+    "subject": "single-certifier-and-closed-community-options",
+    "predicate": "each-have-structural-weakness",
+    "object": "lockout-risk-or-non-portability-and-cheap-fakes",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Option (1), a single universally recognised certifier, is a single point that can be compromised, coerced, or used to lock people out without appeal. Option (2), accepting only one's own community, means strangers cannot carry standing across communities and weakly checked lists can be joined cheaply by fakes. Both weaknesses were named by the opposing side on the Oct 15 Kussmaul\u2013Rachmany call.",
+    "created_at": 1794260257.300701,
+    "id": "dd9da5af29480810b3d227460b141012f0866f7d5f7ea0ea4713b411a241ca15"
+  },
+  {
+    "subject": "multiple-independent-liable-certifiers",
+    "predicate": "prevent",
+    "object": "single-point-lockout-and-untraceable-error",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "If several independent certifiers exist and a relying party accepts more than one, then one certifier's failure or refusal cannot by itself exclude a person (success test i). If each certifier is legally liable only for its own checks, every certification error traces to a named party (success test iii). If no certifier holds data on people it did not check, no shared honeypot exists (success test iv).",
+    "created_at": 1794260260.646324,
+    "id": "4f5353e803c85e94a320943340a20c32d5dee231a78f07d5a4638121b3885282"
+  },
+  {
+    "subject": "public-grading-scale",
+    "predicate": "enables",
+    "object": "acceptance-of-unknown-certifiers",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "A single public scale describing how thorough each check was (e.g. remote selfie match vs. in-person document inspection vs. vouching by multiple existing members) lets a relying party set a minimum grade and accept a stranger certified by a party it has never heard of (success test ii). This requires the scale to be comprehensible, honestly applied, and resistant to grade inflation.",
+    "created_at": 1794260264.311523,
+    "id": "1df7dc64cfa67810a23821d19e8cdab64ef39ea06751b8de94709f1d83ddeac3"
+  },
+  {
+    "subject": "per-relying-party-acceptance-lists",
+    "predicate": "preserve",
+    "object": "local-autonomy-and-cross-community-portability",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Each relying party publishes which certifiers and minimum grades it accepts. Lists may overlap without matching, so an ecovillage can be strict and a car-share lenient while both still accept a stranger holding a sufficiently graded certification. This is what makes standing portable across communities without any community surrendering its own gate.",
+    "created_at": 1794260267.683866,
+    "id": "68c0e6beb0d3bed77713a2d52bde02de05fa63e1674b089e45f3ec28ad4222bb"
+  },
+  {
+    "subject": "certifier-market",
+    "predicate": "remains-plural-in-practice",
+    "object": "no-collapse-to-one-or-two-dominant-certifiers",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The thesis's own failure condition: the architecture only beats option (1) if relying parties do not, in practice, converge on the same one or two certifiers. Network effects, liability-insurance economics, and relying-party convenience all push toward concentration, so this is the weakest link and is deliberately given low confidence.",
+    "created_at": 1794260271.198289,
+    "id": "661b269ed96ad8f8dd6391f6c37110d7986664cc3fb8aaab81739f0e63e11088"
+  },
+  {
+    "subject": "per-certifier-legal-liability",
+    "predicate": "is-enforceable-across-jurisdictions",
+    "object": "against-small-or-foreign-certifiers",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: success test (iii) only matters if a wronged relying party can actually recover from a named certifier. A small ecovillage-run certifier or one in another jurisdiction may be judgment-proof, making 'liable' nominal.",
+    "created_at": 1794260289.176196,
+    "id": "0a232476aab53c9c5a447ea2516a84fba3771204513680aa96d3913f90388201"
+  },
+  {
+    "subject": "grading-scale-governance",
+    "predicate": "stays-neutral-and-honestly-applied",
+    "object": "without-becoming-new-central-chokepoint",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: 'one public scale' needs someone to define and maintain it. Whoever controls the scale, or audits certifiers' self-reported grades, could become the new single point of coercion the design set out to remove; and certifiers have an incentive to overstate their grade.",
+    "created_at": 1794260292.655741,
+    "id": "37b0e8941f2579e5abfd811ce44562db4034b2df3ddf1be81a83ceb4e7c66fb7"
+  },
+  {
+    "subject": "relying-parties",
+    "predicate": "will-maintain-multi-certifier-acceptance-lists",
+    "object": "rather-than-defaulting-to-the-most-common",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the design relies on relying parties doing real work \u2014 evaluating grades, listing multiple certifiers, updating lists. Small relying parties (an ecovillage, a dating app startup) have little capacity for this and will tend to copy whatever list is common, which is exactly the failure condition.",
+    "created_at": 1794260296.198747,
+    "id": "9e4ae00ea7bbcdd875911a69182db954abbd4dfe1f1321a7b7541b912d50e013"
+  }
+]

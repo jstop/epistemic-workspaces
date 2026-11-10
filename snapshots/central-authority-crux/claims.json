@@ -1,0 +1,276 @@
+[
+  {
+    "subject": "root-vs-trust-list-dispute",
+    "predicate": "is-resolved-by",
+    "object": "hybrid-architecture-with-three-residual-cruxes",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "42e7a28e8c6c41c4c08349e31900c943ea47a8a9b82d503819cd6cc8486763da",
+      "2444df95625e2a4db1ca0e8a7c1df7fc27825d60fe2d129c11cffb6fa06df64c",
+      "b84ac45b689ff891db15daa165cd6d1877d28585b87faec9c3cc03bf3b258569"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The dispute between a single no-PII certification root (Position A) and plural, overlapping trust lists (Position B) is largely a misunderstanding over what \"central authority\" means: each side's objection targets a real, specific weakness of the other \u2014 A is exposed to root compromise, operator coercion, and unappealable exclusion; B to Sybil/synthetic identities and relying parties being unable to judge unfamiliar credentials \u2014 and a hybrid architecture (plural roots that relying parties choose among, one shared assurance-level vocabulary, append-only transparency logs for admission/issuance/revocation, PII held by the person or community with pairwise pseudonyms, and credential portability) satisfies both sides' core requirements, leaving as genuine residual cruxes only (1) whether enrollment/proofing data is pooled anywhere, (2) whether a large high-assurance root is acceptable when it is not exclusive, and (3) who governs the shared assurance vocabulary and log format.",
+    "created_at": 1794253569.599776,
+    "id": "6378209cb54a6476ef592a44765e6476317d759b6c4a4e857693684379506076"
+  },
+  {
+    "subject": "position-a-objections",
+    "predicate": "target",
+    "object": "real-weaknesses-of-plural-lists",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Position A's objections to plural trust lists identify genuine failure modes: without a single root, Sybil/synthetic identities can be minted by any admitted issuer, and relying parties lacking a shared frame cannot evaluate credentials from unfamiliar issuers.",
+    "created_at": 1794253574.103132,
+    "id": "46e5994ad2482d624d8ad3ed72cfe8f67a3b7ea499ca7cb8b71a7b1494c724ff"
+  },
+  {
+    "subject": "position-b-objections",
+    "predicate": "target",
+    "object": "real-weaknesses-of-single-root",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Position B's objections to a single certification root identify genuine failure modes: a single root is a single point of compromise, its operator is a single point of legal/political coercion, and exclusion decisions by a sole root have no alternative path of appeal.",
+    "created_at": 1794253576.648696,
+    "id": "bc19da30af3538945c7bfd655b379bc2580a3d6764dee4c18c5f057aeb41b67a"
+  },
+  {
+    "subject": "central-authority",
+    "predicate": "is-equivocated-between",
+    "object": "exclusive-gatekeeper-and-shared-reference-frame",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The two sides use \"central authority\" to mean different things: A means a shared reference frame (common assurance vocabulary, auditable admission), while B hears an exclusive gatekeeper (one operator who can deny participation). Much of the disagreement is therefore terminological rather than substantive.",
+    "created_at": 1794253580.0318642,
+    "id": "e370a5b7063e9142f3a02e32c1aca633f0a8052719099883054a938b1303c9ea"
+  },
+  {
+    "subject": "hybrid-architecture",
+    "predicate": "satisfies",
+    "object": "core-requirements-of-both-positions",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "A hybrid of plural relying-party-chosen roots, one shared assurance-level vocabulary, append-only transparency logs for admission/issuance/revocation, PII held locally with pairwise pseudonyms, and credential portability addresses each named weakness: plural roots + portability answer compromise, coercion and exclusion; shared vocabulary + logs answer unfamiliar-credential evaluation and give Sybil resistance a verifiable basis.",
+    "created_at": 1794253583.4962912,
+    "id": "7f33f2e5864624ee53182d475a1a9ace8b1e128b82521724a895f0563e55c2d8"
+  },
+  {
+    "subject": "residual-cruxes",
+    "predicate": "are-limited-to",
+    "object": "data-pooling-large-root-acceptability-and-governance",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "After the hybrid is adopted, what remains genuinely contested is: (1) whether enrollment/proofing data is pooled anywhere (a privacy vs. Sybil-resistance trade-off the architecture does not dissolve), (2) whether a large high-assurance root is acceptable when non-exclusive (a question about de facto vs. de jure centralization), and (3) who governs the shared vocabulary and log format (the hybrid reintroduces a thin coordination point).",
+    "created_at": 1794253587.334443,
+    "id": "f12ef5050b7f1634dea2470c9a89491d74e0cd9bc599f5ee1ff596a959170ded"
+  },
+  {
+    "subject": "core-requirements",
+    "predicate": "are-fairly-stated-by",
+    "object": "the-thesis-author",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the \"core requirements\" attributed to each side (A: Sybil resistance and legibility of credentials; B: no single point of compromise, coercion, or exclusion) are actually what partisans of each position would endorse as their non-negotiables, rather than a reconstruction convenient to the hybrid.",
+    "created_at": 1794253605.072543,
+    "id": "42e7a28e8c6c41c4c08349e31900c943ea47a8a9b82d503819cd6cc8486763da"
+  },
+  {
+    "subject": "relying-parties",
+    "predicate": "can-meaningfully-choose-among",
+    "object": "plural-roots",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: relying parties have the capacity and incentive to actually select among roots, rather than defaulting to a bundled list set by a platform or vendor, which would recreate de facto single-root dynamics.",
+    "created_at": 1794253607.742784,
+    "id": "2444df95625e2a4db1ca0e8a7c1df7fc27825d60fe2d129c11cffb6fa06df64c"
+  },
+  {
+    "subject": "pairwise-pseudonyms",
+    "predicate": "are-compatible-with",
+    "object": "adequate-sybil-resistance",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: holding PII locally and presenting pairwise pseudonyms does not undermine the uniqueness guarantees Sybil resistance needs; i.e., one-person-one-credential can be enforced at the issuer without cross-relying-party linkability. If this fails, crux (1) is not residual but central.",
+    "created_at": 1794253611.3788779,
+    "id": "b84ac45b689ff891db15daa165cd6d1877d28585b87faec9c3cc03bf3b258569"
+  }
+]

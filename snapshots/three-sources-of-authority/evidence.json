@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Regulatory capture of single-locus offices",
+    "description": "The political-economy literature on regulatory capture documents repeated cases in which a legally constituted regulator (a single office with formal sanction power) came to serve the regulated industry or appointing faction, with its internal abuse-sanctions going unused. The pattern is that capture is reversed, when it is reversed, by external pressure: constituents exiting to alternative providers or jurisdictions, press/academic challenge, or litigation in a separate forum. Supports the claim that office alone is a capturable single point and that exit and contestability are the repair.",
+    "evidence_type": "observation",
+    "source": "General body of political-economy and public-choice scholarship on regulatory capture; specific case studies would need to be attached via attach_source.",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275259.7533681,
+    "id": "009322f57a2add4c609c48c3bbf0aede1a554519b9c81c5b2f82af9f09c8f9c3"
+  },
+  {
+    "title": "Community reputation systems do not scale to strangers without institutional backing",
+    "description": "Historical and economic studies of community-enforced trust (merchant guilds, ethnic trading diasporas, informal credit networks) find that trust grounded in group membership and reputation works within the group but breaks down with outsiders, and that long-distance trade expanded when community reputation was supplemented by enforceable legal recourse and shared dispute-resolution procedures (merchant courts, arbitration regimes). Supports the claim that community authority alone does not carry to distant strangers and that office plus shared dispute settlement extends it.",
+    "evidence_type": "observation",
+    "source": "Economic-history and institutional-economics work on long-distance trade, guilds and diaspora networks; particular studies should be attached via attach_source.",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275264.749449,
+    "id": "7b342f857e5b0c559639f44c4da1f5047326ef0b2666f0988a05ce1d1dd24c43"
+  },
+  {
+    "title": "Open-challenge systems degrade when participants are anonymous or unaccountable",
+    "description": "Documented episodes in scientific publishing (paper mills, fabricated peer review, citation rings) and in open online knowledge systems (sock-puppet editing, coordinated brigading) show that \"it survived challenge\" ceases to be informative when challengers can be fake, costless, or coordinated. Correction in these cases came through identity-verification and accountability measures (institutional affiliation, named reviewers, sanction for misconduct) and through independent communities able to publish dissent outside the compromised venue. Supports the claim that open challenge needs office for accountability and communities for protected dissent.",
+    "evidence_type": "observation",
+    "source": "Meta-research on research integrity and studies of manipulation in open collaborative platforms; specific reports should be attached via attach_source.",
+    "reliability": 0.65,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275270.6525629,
+    "id": "b3c4ad02a8029b302d373614d3091bd64c7336b06677a48a2304f1482f5e4093"
+  },
+  {
+    "title": "Existing cross-border trust regimes operate without a coercive global authority",
+    "description": "Several functioning global trust arrangements (international technical standards bodies, the web certificate-authority ecosystem with browser root programs, international commercial arbitration, cross-border scientific consensus bodies) combine national legal offices, voluntary adherence by user communities, and open technical/scholarly challenge, yet none possess power to compel; their standing rests on being believed and relied upon. Supports the sufficiency claim by showing instances of the three-source pattern working at scale without a new coercive office.",
+    "evidence_type": "observation",
+    "source": "Descriptive accounts of transnational standard-setting, PKI governance, and international arbitration; specific documentation should be attached via attach_source.",
+    "reliability": 0.6,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794275274.9566982,
+    "id": "2d848cedce88d78d047497fdea42d25e6a9a05243ba666e2a09bbd74c4aad53a"
+  }
+]

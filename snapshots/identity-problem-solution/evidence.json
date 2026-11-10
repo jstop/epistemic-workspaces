@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Oct 15 Kussmaul\u2013Rachmany call: each side identifies the other's weakness",
+    "description": "On the Oct 15 call, the proponent of a single recognised certifier and the proponent of community-membership trust each named a real weakness of the other's option, and neither defended a central registry holding everyone's identity data. This is testimony that both bundled options are regarded as inadequate by informed advocates of each.",
+    "evidence_type": "testimony",
+    "source": "Call between Wes Kussmaul and Grace Rachmany on Oct 15, as described in the thesis text; recording or notes not independently consulted.",
+    "reliability": 0.6,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794260274.5757,
+    "id": "789424e8e835ff6bcdd3cd9e0f8275e83f937d951de6f1b970bfcc61e901caf8"
+  },
+  {
+    "title": "Historical failures and coercion of centralised certificate authorities and national ID gatekeepers",
+    "description": "Documented cases in which a single trusted certifier was compromised (fraudulent certificates issued after a CA breach), coerced by a state, or used to deny service to individuals without appeal (e.g. deactivated national digital IDs cutting people off from benefits). These illustrate the single-point risk of option (1).",
+    "evidence_type": "document",
+    "source": "Public incident reports and journalism on certificate-authority breaches and national digital-ID lockouts; specific reports not consulted for this graph and should be attached.",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794260278.331268,
+    "id": "99b146e9991c991119c2607641781b36a73b91000cedcbaa490d2f7d1493e9d3"
+  },
+  {
+    "title": "Existing tiered assurance-level frameworks for identity proofing",
+    "description": "Government and industry identity-assurance frameworks already define graded levels of identity-proofing thoroughness (e.g. remote self-asserted, remote with document check, in-person with document verification), and relying parties routinely specify a minimum level rather than a specific provider. This shows a public grading scale for check thoroughness is feasible and already used in practice.",
+    "evidence_type": "document",
+    "source": "Published identity-assurance-level guidance from national standards bodies and trust frameworks; specific documents not consulted for this graph and should be attached.",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794260282.172966,
+    "id": "1b56492b1d8b394c43d826916313eabeb907fc395ee1cb31d1227a8c94af745e"
+  },
+  {
+    "title": "Market concentration in nominally plural trust ecosystems",
+    "description": "In ecosystems designed to be plural \u2014 web certificate authorities, social-login identity providers, payment-card networks \u2014 a handful of providers end up carrying the overwhelming majority of relying-party trust, because relying parties default to whatever most users already hold. This is observational evidence that the thesis's failure condition is the default outcome absent countervailing design.",
+    "evidence_type": "statistical",
+    "source": "Market-share surveys of certificate authorities and third-party login providers; specific surveys not consulted for this graph and should be attached.",
+    "reliability": 0.65,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794260286.017049,
+    "id": "3aaa254149a803a1582964705c34982703da23df4aa0bd6de9da9c14e6b02783"
+  }
+]

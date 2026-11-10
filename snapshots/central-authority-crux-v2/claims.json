@@ -1,0 +1,642 @@
+[
+  {
+    "subject": "single-root-vs-plural-trust-lists-dispute",
+    "predicate": "is-only-partly",
+    "object": "a-misunderstanding-with-uniqueness-as-substantive-core",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "dbb7482f68c96ec7e9cbcb31b09a09518fa8123b770628c45d6f880d40c58cd9",
+      "7472a67831140f945a804d35b33106a9f7341201945293990cf7b45835d4a18c",
+      "20c9b5522a87f66e384b683f33c46cc8635c516e8ea5cd4fcc9b2abe7c275d58"
+    ],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": "superseded",
+    "killed_by": "24fc762d4c992430438df7536ba04eab176ae1ddfaba03ea5d7a8380ee296c75",
+    "notes": "The dispute between a single no-PII certification root (Position A) and plural, overlapping trust lists (Position B) is only partly a misunderstanding. The misunderstood part: both reject a registry that holds everyone's identity data, and each side's objection targets a real weakness of the other \u2014 A is exposed to root compromise, operator coercion and unappealable exclusion; B to Sybil/synthetic identities and relying parties being unable to judge unfamiliar credentials. The substantive core is uniqueness: whether one-person-one-identity requires a single issuing authority, and its mirror image, whether a revocation by one root must bind all others. A hybrid architecture (plural roots that relying parties choose among, a shared assurance-level vocabulary, append-only transparency logs, PII held by the person or community with pairwise pseudonyms, and credential portability) resolves the misunderstood part but not this core: it can at best make the uniqueness/revocation trade-off explicit, for example a shared auditable uniqueness check without a shared issuer, and its log-based guarantees hold only if some party \u2014 not necessarily a single one \u2014 enforces log compliance.",
+    "created_at": 1794255949.269759,
+    "id": "8eb9239975b69e10b2ff384bf5335e98b3318dd22f9ddbed505e99458c1a9c32"
+  },
+  {
+    "subject": "positions-A-and-B",
+    "predicate": "share-rejection-of",
+    "object": "central-PII-registry",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Both a no-PII certification root and plural trust lists are explicitly designed so that no single operator holds everyone's identity data. The disagreement is therefore not about centralised data custody, which is the thing each side often accuses the other of.",
+    "created_at": 1794255953.52069,
+    "id": "b8606e6292bf76721dc0d0ae8a8c23490ab3b0b77fc4dc144cb3f14cedff3588"
+  },
+  {
+    "subject": "each-side's-objection",
+    "predicate": "targets",
+    "object": "a-real-weakness-of-the-other",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "A's single root is exposed to key compromise, operator coercion (legal or political), and exclusion with no appeal path outside the root. B's plural lists are exposed to Sybil/synthetic identities (no cross-list uniqueness) and to relying parties being unable to assess credentials from issuers they do not know. These are structural, not rhetorical, weaknesses.",
+    "created_at": 1794255956.801357,
+    "id": "5ba575719d83387305cfde9c37eee2202b79f2a99457ddda3f9b81407bcc5b12"
+  },
+  {
+    "subject": "uniqueness-and-revocation-binding",
+    "predicate": "constitute",
+    "object": "the-substantive-irreducible-disagreement",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Whether one-person-one-identity requires a single issuing authority, and whether a revocation by one root must bind all others, are the same question viewed from enrolment and from exit. Both reduce to: is there a single point whose decision about a person is globally authoritative? A says yes, B says no. This is a genuine value/design choice, not a confusion.",
+    "created_at": 1794255960.4026198,
+    "id": "5548f94e64b2dfd4734bb735ad97daf73ea6a86af91121eddc23f7b611d0338e"
+  },
+  {
+    "subject": "hybrid-architecture",
+    "predicate": "resolves",
+    "object": "the-misunderstood-part-of-the-dispute",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Plural roots chosen by relying parties remove root compromise/coercion/exclusion as single points of failure; a shared assurance-level vocabulary lets relying parties judge unfamiliar credentials; append-only transparency logs make issuer behaviour auditable; pairwise pseudonyms with PII held by the person/community keep the no-registry property; portability prevents issuer lock-in. Each hybrid component maps to one of the objections in the misunderstood part.",
+    "created_at": 1794255963.8532832,
+    "id": "eec4348476d3e7c458d1df8cb771f6c2d256bf8dae21f911fc4a4783f0baa1d5"
+  },
+  {
+    "subject": "hybrid-architecture",
+    "predicate": "does-not-resolve",
+    "object": "the-uniqueness-revocation-core",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "A shared auditable uniqueness check without a shared issuer still requires a shared uniqueness oracle, which is a single point of authority over \"is this a duplicate\" even if it holds no PII; and cross-root revocation binding is a policy choice no architecture can make for you. Transparency logs only detect misbehaviour; they do not prevent it unless some party (gossip network, auditors, relying parties refusing non-logged credentials) actually enforces log compliance. So the hybrid makes the trade-off explicit rather than dissolving it.",
+    "created_at": 1794255968.150107,
+    "id": "0d557177e917da94e11499a0d65001c9ee8ba3eee6af68671ed89e5896220bfc"
+  },
+  {
+    "subject": "the-dispute",
+    "predicate": "has",
+    "object": "a-genuinely-misunderstood-part",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Intermediate claim: because both sides reject a central PII registry and each side's objection targets a real but architecturally addressable weakness, part of the disagreement is mutual misattribution of goals rather than conflicting goals.",
+    "created_at": 1794255989.5373492,
+    "id": "de7414810219227da9edaae97f6ac38d6ad64f80cd2cff9830acd244b248d969"
+  },
+  {
+    "subject": "the-dispute",
+    "predicate": "has",
+    "object": "a-substantive-core-no-architecture-dissolves",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Intermediate claim: the uniqueness/revocation-binding question is a real design choice, and the best hybrid available only makes that choice explicit (e.g. a shared auditable uniqueness check without a shared issuer) and conditions its guarantees on some party enforcing log compliance.",
+    "created_at": 1794255992.365171,
+    "id": "f63bf2afdfc1a33a7e0213e6e9e0d42b10e967a2c85a55b6f526c2578be45e4c"
+  },
+  {
+    "subject": "one-person-one-identity",
+    "predicate": "is-a-required-property-for",
+    "object": "the-relevant-use-cases",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the thesis treats uniqueness as the substantive core only because the use cases in question (voting, benefits, one-vote governance, anti-fraud) need it. For many use cases (age attestation, membership, reputation within a community) uniqueness is unnecessary and the \"core\" disappears.",
+    "created_at": 1794255995.5067651,
+    "id": "dbb7482f68c96ec7e9cbcb31b09a09518fa8123b770628c45d6f880d40c58cd9"
+  },
+  {
+    "subject": "position-A-and-position-B",
+    "predicate": "are-accurately-characterised-as",
+    "object": "no-PII-root-and-overlapping-lists",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the thesis's reconstruction of the two positions is faithful. If real proponents of A actually want a root that does hold PII (for uniqueness), or if B's proponents accept a shared uniqueness oracle, the \"misunderstanding\" diagnosis changes shape.",
+    "created_at": 1794255998.731871,
+    "id": "7472a67831140f945a804d35b33106a9f7341201945293990cf7b45835d4a18c"
+  },
+  {
+    "subject": "uniqueness-check-without-shared-issuer",
+    "predicate": "is-technically-feasible-at-scale",
+    "object": "without-becoming-a-de-facto-root",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: a shared auditable uniqueness check (e.g. privacy-preserving biometric or social-graph dedup, MPC across issuers) can exist without PII centralisation and without itself becoming the single authority Position B objects to. If it cannot, the hybrid's \"make the trade-off explicit\" offer collapses into choosing A.",
+    "created_at": 1794256002.0904121,
+    "id": "20c9b5522a87f66e384b683f33c46cc8635c516e8ea5cd4fcc9b2abe7c275d58"
+  },
+  {
+    "subject": "pii-root-vs-plural-trust-lists-dispute",
+    "predicate": "is-only-partly",
+    "object": "a-misunderstanding",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "3bdc7abbcee6091448c66481f35634f7b44f03fbde53a96b85b53b75092fec66",
+      "9d71bc9fac8f874863357ac9e48d7201fca958b9bd0ed9a4a9aebff48bd42e15",
+      "aab8051a78603c873ffd297de97f97b059f08ab3e5dba4731a07eccf759d4015"
+    ],
+    "is_root": true,
+    "previous_version": "8eb9239975b69e10b2ff384bf5335e98b3318dd22f9ddbed505e99458c1a9c32",
+    "version_meta": {
+      "rationale": "The analysis shows the thesis defeated by two active objections and resting on four unsupported, high-risk assumptions. The undercutting objection (oligopoly collapse) attacks the claim that the hybrid neutralises coercion and exclusion; the enhanced thesis concedes this by making the resolution conditional and splitting the objections the hybrid does neutralise (compromise, Sybil, unfamiliar credentials) from those it only relocates absent anti-consolidation measures. The rebutting objection (scope misunderstanding) attacks the existence of the core itself; rather than ignoring it, the enhanced thesis names it as the live escape route and relocates the residual disagreement to a sharper question \u2014 whether cross-application uniqueness is a genuine requirement for the relevant use cases \u2014 which also surfaces the previously silent assumption 'one-person-one-identity is required'. The unsupported characterisation and shared-rejection assumptions are made explicit as a 'provided that' condition; the feasibility-at-scale assumption for a shared uniqueness check is stated inline. The core direction (partly a misunderstanding, uniqueness/revocation as the substantive residue, hybrid resolves the periphery not the center) is preserved, but the claim is now defensible against the two defeaters rather than defeated by them."
+    },
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The dispute between a single no-PII certification root (Position A) and plural, overlapping trust lists (Position B) is only partly a misunderstanding \u2014 provided the positions are fairly characterised as sharing a rejection of any registry that holds everyone's identity data. The misunderstood part: each side's objection targets a real weakness of the other \u2014 A is exposed to root compromise, operator coercion and unappealable exclusion; B to Sybil/synthetic identities and to relying parties being unable to judge unfamiliar credentials. The substantive core is uniqueness: whether one-person-one-identity, where a use case genuinely requires it, needs a single issuing authority, and its mirror image, whether a revocation by one root must bind all others. A hybrid architecture (plural roots that relying parties choose among, a shared assurance-level vocabulary, append-only transparency logs, PII held by the person or community with pairwise pseudonyms, and credential portability) resolves the misunderstood part only conditionally: it neutralises root compromise and the Sybil/unfamiliar-credential objections, but it removes coercion and unappealable exclusion only to the extent that the plural roots do not consolidate into a de-facto oligopoly of widely accepted lists, as browser root programs and app stores have \u2014 and a shared assurance vocabulary creates the same pull toward a few recognised certifiers. The hybrid does not resolve the core: it can at best make the uniqueness/revocation trade-off explicit, for example through a shared auditable uniqueness check without a shared issuer, and this requires that such a check be feasible at scale without itself becoming a root; its log-based guarantees hold only if some party \u2014 not necessarily a single one \u2014 enforces log compliance. One genuine escape remains open: if uniqueness and revocation can be scoped per application (per-election nullifiers, per-program deduplication, relying-party-local revocation) rather than demanded of the identity layer, then much of the core is a disagreement about scope rather than substance, and the dispute is more nearly a misunderstanding than claimed here. Whether that scoping is adequate \u2014 in particular for use cases where cross-application uniqueness is itself the requirement \u2014 is the open question on which the residual disagreement turns.",
+    "created_at": 1794259369.6212978,
+    "id": "24fc762d4c992430438df7536ba04eab176ae1ddfaba03ea5d7a8380ee296c75"
+  },
+  {
+    "subject": "each-sides-objection",
+    "predicate": "targets",
+    "object": "a-real-weakness-of-the-other",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The misunderstood part of the dispute: A (single no-PII root) is genuinely exposed to root compromise, operator coercion and unappealable exclusion; B (plural overlapping trust lists) is genuinely exposed to Sybil/synthetic identities and to relying parties being unable to judge unfamiliar credentials. Each side's critique lands on a real property of the other design, not a caricature.",
+    "created_at": 1794259374.379688,
+    "id": "90c99b13af3875f66f945bd818f665bad9e794e5d9158adc6643629660285921"
+  },
+  {
+    "subject": "uniqueness-and-cross-root-revocation",
+    "predicate": "constitute",
+    "object": "the-substantive-core-of-the-dispute",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The residual, non-misunderstood disagreement is whether one-person-one-identity (where a use case genuinely requires it) needs a single issuing authority, and its mirror image, whether a revocation by one root must bind all others. These are structural questions that no re-description of the positions dissolves.",
+    "created_at": 1794259377.455373,
+    "id": "b786c685ec9f99a8b94231958fd348c84930788491599187eca0717b4c9af697"
+  },
+  {
+    "subject": "hybrid-architecture",
+    "predicate": "conditionally-resolves",
+    "object": "the-misunderstood-part",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "A hybrid (plural roots relying parties choose among, shared assurance-level vocabulary, append-only transparency logs, PII held by person/community with pairwise pseudonyms, credential portability) neutralises root compromise and the Sybil/unfamiliar-credential objections, but removes coercion and unappealable exclusion only to the extent that plural roots do not consolidate into a de-facto oligopoly of widely accepted lists.",
+    "created_at": 1794259380.394166,
+    "id": "b4b307d13412ac9b57eeca4cf42b4c6895a5c3c34c303b21167e52a11e6c249b"
+  },
+  {
+    "subject": "plural-trust-roots",
+    "predicate": "tend-to-consolidate-into",
+    "object": "a-de-facto-oligopoly",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Browser root programs and app stores began as (or could in principle be) plural but converged on a few widely accepted lists; a shared assurance vocabulary creates the same pull toward a few recognised certifiers, since relying parties economise on evaluation by deferring to the lists everyone else accepts.",
+    "created_at": 1794259383.475225,
+    "id": "5d40fd16adde01f2a93254162e02aebb4514b5164a9e5bc192f12e5f609d2a15"
+  },
+  {
+    "subject": "hybrid-architecture",
+    "predicate": "does-not-resolve",
+    "object": "the-uniqueness-revocation-core",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "At best the hybrid makes the uniqueness/revocation trade-off explicit, e.g. via a shared auditable uniqueness check without a shared issuer. This requires such a check to be feasible at scale without itself becoming a root; and its log-based guarantees hold only if some party (not necessarily a single one) enforces log compliance.",
+    "created_at": 1794259386.1442409,
+    "id": "9cd540ab22e20fbcf1457d5cf9d145d17d1c280ae582ce04fe6d99788464e7ea"
+  },
+  {
+    "subject": "per-application-scoping",
+    "predicate": "could-reduce-the-core-to",
+    "object": "a-disagreement-about-scope",
+    "confidence": {
+      "level": 0.6,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "If uniqueness and revocation can be scoped per application (per-election nullifiers, per-program deduplication, relying-party-local revocation) rather than demanded of the identity layer, then much of the core becomes a disagreement about scope rather than substance, and the dispute is more nearly a misunderstanding. Whether such scoping is adequate \u2014 especially where cross-application uniqueness is itself the requirement \u2014 is the open question.",
+    "created_at": 1794259389.034281,
+    "id": "e3e65846ba3b6fa87fa68b163e595dcbd47b9e2e02fc04935f0e194c859f903c"
+  },
+  {
+    "subject": "positions-a-and-b",
+    "predicate": "both-reject",
+    "object": "a-universal-pii-registry",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the thesis holds only if the positions are fairly characterised as sharing a rejection of any registry that holds everyone's identity data. If a real proponent of A actually wants a PII-holding root, the dispute is substantive on privacy grounds too, not merely on uniqueness.",
+    "created_at": 1794259411.2277188,
+    "id": "3bdc7abbcee6091448c66481f35634f7b44f03fbde53a96b85b53b75092fec66"
+  },
+  {
+    "subject": "shared-auditable-uniqueness-check",
+    "predicate": "is-feasible-at-scale-without",
+    "object": "becoming-a-root",
+    "confidence": {
+      "level": 0.45,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: a shared uniqueness check across plural issuers can operate at population scale without the party running it acquiring root-like power (to exclude, coerce or be compromised). If false, the hybrid's 'explicit trade-off' collapses back into Position A under another name.",
+    "created_at": 1794259414.372752,
+    "id": "9d71bc9fac8f874863357ac9e48d7201fca958b9bd0ed9a4a9aebff48bd42e15"
+  },
+  {
+    "subject": "some-party",
+    "predicate": "enforces",
+    "object": "transparency-log-compliance",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: append-only transparency logs only provide guarantees if some party (not necessarily a single one) monitors and enforces compliance \u2014 rejecting credentials not logged, acting on misbehaviour. Without enforcement the logs are advisory and the hybrid's accountability claims do not hold.",
+    "created_at": 1794259417.027223,
+    "id": "aab8051a78603c873ffd297de97f97b059f08ab3e5dba4731a07eccf759d4015"
+  }
+]

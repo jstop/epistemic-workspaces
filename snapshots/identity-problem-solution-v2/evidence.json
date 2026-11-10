@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Centralised identity-holder breaches",
+    "description": "Documented large-scale breaches at centralised holders of identity data (credit bureaus, national ID databases, large identity providers) show that a single recognised certifier concentrating everyone's data is a single point of compromise affecting people who never chose that provider.",
+    "evidence_type": "observation",
+    "source": "Public breach disclosures and regulator reports on centralised identity/credit data breaches; specific incidents to be attached via attach_source.",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261090.3786418,
+    "id": "f84da0a7ed0821c2d2f2f09fde15f35c048ceb62ce6625825a4c7ae270fee25f"
+  },
+  {
+    "title": "Existing graded assurance frameworks",
+    "description": "eIDAS defines levels of assurance (low/substantial/high) and member-state trusted lists of supervised providers; NIST SP 800-63 defines identity/authenticator/federation assurance levels and expects the relying party to choose required levels by its own risk assessment. This shows that public grading scales and relying-party-chosen minimums already exist, which both supports the feasibility of grading and weakens the novelty claim.",
+    "evidence_type": "document",
+    "source": "The eIDAS regulation and implementing acts on assurance levels and trusted lists; NIST SP 800-63 digital identity guidelines. Exact editions/sections to be attached via attach_source.",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_7a482b939c5e4c438253a5e5b35b8aea",
+      "url": "https://eur-lex.europa.eu/eli/reg_impl/2015/1502/oj/eng",
+      "quote": "Assurance levels low, substantial and high for electronic identification means issued under a notified electronic identification scheme shall be determined with reference to the specifications and procedures set out in the Annex.",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261094.314832,
+    "id": "7e62c78d66e70aa0b1f97e92882a78ab290f848756e51999ac1d56d24a1098a3"
+  },
+  {
+    "title": "Insurance-backed liability for trust providers already required",
+    "description": "Qualified trust service providers under eIDAS are required to maintain sufficient financial resources or liability insurance to cover damages from their services, and commercial identity-certification schemes (e.g. Osmio-style) similarly tie certification to a liable, insured certifier. This supports feasibility of per-certifier insured liability but shows it is prior art.",
+    "evidence_type": "document",
+    "source": "eIDAS provisions on QTSP liability and financial resources; public descriptions of Osmio's certification model. To be verified and attached via attach_source.",
+    "reliability": 0.75,
+    "provenance": {
+      "kind": "recorded",
+      "evidence_id": "evd_f90ad3c20fb74c37a797c93144a5e5d4",
+      "url": "https://eur-lex.europa.eu/eli/reg/2014/910/oj",
+      "quote": "Regulation (EU) No 910/2014 (eIDAS): Article 13 sets liability of trust service providers; Article 24(2)(c) requires qualified trust service providers to maintain sufficient financial resources and/or obtain appropriate liability insurance.",
+      "retrieved_at": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261097.678863,
+    "id": "e1e5fcfa5c3a13b4079f79a5505c5327048733853a7f7736d9fa39399a582d3d"
+  },
+  {
+    "title": "Car-share and P2P platforms already buy per-check identity verification",
+    "description": "Peer-to-peer car-sharing and mobility platforms already pay third-party verification vendors per customer check and rely on third-party insurance for theft and damage, and report fraud losses from synthetic identities. This shows a relying party with an existing budget and a motive to accept more verified strangers, supporting buildability.",
+    "evidence_type": "testimony",
+    "source": "Industry descriptions of verification and insurance arrangements by car-sharing platforms and their vendors; fraud-loss statements. To be attached via attach_source.",
+    "reliability": 0.65,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261101.482427,
+    "id": "005e0ceb633146fb12dc560e6762273e0fb74ee16c58d84e60df78634293efb1"
+  },
+  {
+    "title": "eIDAS trust-service regime: plural qualified providers with liability and insurance",
+    "description": "The EU eIDAS framework establishes member-state trusted lists of qualified trust service providers (QTSPs), assigns them liability for damage caused by failure to meet obligations, and requires financial capacity (typically insurance) to cover that liability \u2014 without a shared cross-provider store of personal data. This shows the liable, insured, plural-certifier model is legally and commercially operable, though liability there attaches to the trust service, not explicitly to per-check identity outcomes.",
+    "evidence_type": "document",
+    "source": "EU eIDAS regulation and its implementing trusted-list regime, as generally described in public regulatory summaries; specific articles not consulted here and must be attached via attach_source.",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261911.09994,
+    "id": "836a62d75dc487cccd1fcd34c3343ec3fe51ee3191c4075586b3f8185c5d03c6"
+  },
+  {
+    "title": "NIST SP 800-63 identity assurance levels tier checks by inputs and process",
+    "description": "NIST's digital identity guidelines define identity assurance levels (IAL1\u20133) distinguished by what evidence was collected, how it was validated, and whether proofing was remote or in person. This demonstrates that a public, input-based scale of check thoroughness is a well-understood, already-published construct \u2014 which both supports the feasibility of a grading scale and raises the prior-art question of whether a new one is needed.",
+    "evidence_type": "document",
+    "source": "NIST Special Publication 800-63 series (Digital Identity Guidelines), known from general familiarity; the exact revision and sections were not consulted for this graph.",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261915.429923,
+    "id": "0b5e01f2ffeb2f35af6a27a3ed8fdd7624f0509694522c08746c7fe418e04b4d"
+  },
+  {
+    "title": "Hashed-lookup and revocation-flag designs in deployed privacy-preserving systems",
+    "description": "Deployed systems use hashed or k-anonymised lookups to check whether a value (e.g., a compromised password, a revoked certificate serial) appears on a list without disclosing the value or attributes about it. Certificate revocation lists and status-list credentials carry a document-level 'revoked' bit with no reason or attributes. These are the kind of mechanism the minimal fraud signal relies on; they also illustrate the known weakness that low-entropy inputs (document numbers) can be dictionary-attacked and that query patterns can leak unless the lookup is designed to prevent it.",
+    "evidence_type": "observation",
+    "source": "General knowledge of breached-password range-query services, X.509 CRL/OCSP, and W3C-style status-list credential designs; no specific specification consulted for this graph.",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261920.844574,
+    "id": "eedd7e4b42b3f9277e9ace5729123245771f2b71b7fe3f147b3ae146eb67f1b8"
+  },
+  {
+    "title": "Industry reports of synthetic and stolen-identity fraud in vehicle rental and car-sharing",
+    "description": "Mobility and rental operators report that vehicle theft via fraudulent bookings is commonly executed with stolen or synthetic identities and forged driving licences, and that operators relying on in-house document checks or closed member networks either lose vehicles or reject legitimate out-of-network customers. This is the kind of evidence that establishes the problem the thesis addresses and the cost of options (1) and (2).",
+    "evidence_type": "testimony",
+    "source": "Trade-press and operator statements on car-share/rental identity fraud, described from general familiarity; a specific report should be attached via attach_source before this is relied on.",
+    "reliability": 0.6,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794261925.737517,
+    "id": "045bda9fd362c79f7cb10ebd9c31d25eba2c099dc6fe0213d60462c4db1a2285"
+  }
+]

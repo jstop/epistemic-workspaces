@@ -1,0 +1,276 @@
+[
+  {
+    "subject": "trust-across-borders",
+    "predicate": "requires",
+    "object": "separation-of-office-community-and-forum",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "d35ea2fe586ed0b595f8a4c292f15d70734db06299e41180e3b4bb48d22de94a",
+      "18af37488a038536f500f320b44b7c713093057d7499705f8b4e3ec690995472",
+      "b9cb7f1951fa0030d1105250924d5bfd52bf0d2e93c745752f813d32072d7eb3"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "People rely on others' word on three grounds: office (formally constituted and sanctionable), community (chosen by those relying, who can leave), and open challenge (a claim stands because anyone could contest it and it held). An arrangement for relying on others' word is trustworthy to the extent that these three are held by different parties, so that each can check the others. When one party holds all three, its authority is unchecked: a large online platform writes the rules (office), its users are the community, and it hosts the forum where complaints are aired; a state that controls courts, press and exit is the same. Therefore the practical aim for trust across borders is not a new global authority but a separation, like the separation of powers: whoever holds the office should not own the forum, and people should be able to belong to a community that neither controls. This concerns credibility only; it does not make parties keep agreements when breaking them pays, and it serves only people who have access to all three.",
+    "created_at": 1794275950.131552,
+    "id": "b8a38cbad3bd097cc52fa812bcbedaf337f94e9c8bce52819f7894d2bb9db7a3"
+  },
+  {
+    "subject": "reliance-on-others-word",
+    "predicate": "rests-on",
+    "object": "three-grounds-office-community-open-challenge",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Taxonomy claim: the grounds on which people accept another's word reduce to (1) office \u2014 a formally constituted, sanctionable role; (2) community \u2014 a group the relying party chose and can exit; (3) open challenge \u2014 the claim stood exposed to contestation by anyone and survived. The thesis treats this as exhaustive, or at least as covering the cases that matter.",
+    "created_at": 1794275958.594342,
+    "id": "0a4c0182bc6124ccbe2fdc6524094d5c5963eca4a789a4334486a45439b26e84"
+  },
+  {
+    "subject": "trustworthiness-of-arrangement",
+    "predicate": "increases-with",
+    "object": "separation-of-grounds-among-parties",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "The core mechanism claim: an arrangement for relying on others' word is trustworthy to the extent that office, community, and forum are held by different parties, because each holder can then check the others (the office-holder can be challenged in a forum it does not own; the community can leave; the forum can expose the office).",
+    "created_at": 1794275961.90592,
+    "id": "2bcf8c9324885a71cf70c9f18039e10164d11affcda376968cc98f1197ef4137"
+  },
+  {
+    "subject": "single-party-holding-all-three-grounds",
+    "predicate": "produces",
+    "object": "unchecked-authority",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "When one party writes the rules, constitutes the community, and hosts the only forum for complaint, no external check remains on its word. Illustrated by large online platforms (terms of service = office; user base = community; platform-hosted appeals/feeds = forum) and by states that control courts, press, and exit.",
+    "created_at": 1794275965.2017999,
+    "id": "1c54f635ed45daa8ae47e8f4173732c4e797aba1375addbf3b87970bbc8fde33"
+  },
+  {
+    "subject": "new-global-authority",
+    "predicate": "would-concentrate",
+    "object": "all-three-grounds",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "A single global body for cross-border trust would itself hold office, define its own membership, and host its own complaint forum \u2014 reproducing the unchecked configuration at a larger scale. Therefore it cannot be the remedy for the problem the thesis identifies; separation is the alternative.",
+    "created_at": 1794275968.746572,
+    "id": "d751f61cd525d34107733a33c23d1870e40b15e3675c958effac6f36fdece482"
+  },
+  {
+    "subject": "separation-prescription",
+    "predicate": "is-limited-to",
+    "object": "credibility-not-compliance-or-access",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Scope-limiting claim: separation bears on whether someone's word can be believed, not on whether they will keep agreements when defection pays (enforcement is a distinct problem), and it offers nothing to those who lack access to one or more of the three grounds (e.g., people who cannot exit, or who have no forum reachable to them).",
+    "created_at": 1794275973.0068889,
+    "id": "633634913d66bb5a0c7c0b8b3b5a7ed9f108100ce80af61ac777085c2a762198"
+  },
+  {
+    "subject": "separation-of-powers-analogy",
+    "predicate": "transfers-to",
+    "object": "epistemic-trust-arrangements",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "ASSUMPTION: the logic that makes dividing legislative/executive/judicial power protective against abuse also applies to dividing the grounds of credibility. This is a structural analogy, not a demonstrated identity; constitutional separation works partly through coercive enforcement that epistemic arrangements lack.",
+    "created_at": 1794275976.3860369,
+    "id": "d35ea2fe586ed0b595f8a4c292f15d70734db06299e41180e3b4bb48d22de94a"
+  },
+  {
+    "subject": "three-grounds",
+    "predicate": "are-practically-separable",
+    "object": "without-collapsing-into-one-holder",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "ASSUMPTION: office, community, and forum can in fact be held apart under real economic and network conditions. Platforms tend to integrate because the forum is where the community is and whoever runs it ends up writing rules; separation may be unstable without something that enforces it.",
+    "created_at": 1794275980.6476622,
+    "id": "18af37488a038536f500f320b44b7c713093057d7499705f8b4e3ec690995472"
+  },
+  {
+    "subject": "exit-from-community",
+    "predicate": "is-a-genuine-check",
+    "object": "on-office-and-forum",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "ASSUMPTION: the ability of the relying community to leave actually disciplines office-holders and forum-owners. Where switching costs or network effects are high, nominal freedom to leave may exert little pressure.",
+    "created_at": 1794275983.327301,
+    "id": "b9cb7f1951fa0030d1105250924d5bfd52bf0d2e93c745752f813d32072d7eb3"
+  }
+]
