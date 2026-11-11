@@ -1,0 +1,156 @@
+[
+  {
+    "conclusion": "438684e2bcd42d77592fa2af7495de88d01c6f6d93b1fd926415d03cf1968818",
+    "premises": [
+      "eee4471aab82e4debca5acb14ecf25ea2f219c2f7c9a9fb06bbe51a90c8447db"
+    ],
+    "pattern": "induction",
+    "label": "Historical federated systems show rootless recognition suffices for membership at scale",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794404477.400526,
+    "id": "70280d496ba92283917d595fc82dfe63418622fb6b8b2aaa6ff10ee1f0c0d10f"
+  },
+  {
+    "conclusion": "5fab0895507bfeab2ddb33285b735fa70f1d1083d1f913e265105c5f41ac02a9",
+    "premises": [
+      "31eceb8567a8a1b92ce6457990b1742a5a271624c0ebc34521948eba7bba549a",
+      "7ffe92789b9c45a62beb496ed01e2db9a557f50b3895ba54d5d46647508152cc"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Counting each person once is a global predicate that peer vouching and local dedup cannot establish",
+    "confidence": {
+      "level": 0.85,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794404486.144999,
+    "id": "22bd7cfb12da93ae2c35345846b628232a46fb60d5c0a9038b8c20b0c6a1e626"
+  },
+  {
+    "conclusion": "d2cd4f0b6ea1004d487df1cc966ff2e8937f8b0dba0ef74c8649dd9d876ee6cf",
+    "premises": [
+      "804dc75fd02aa5046f89036e1f6a5f3e04611f573d4aebef9463d70fde1a7d4c",
+      "71dafbea6ddb8f544c1196daa0e2c0c3a0e9899eb2ceeafab331acffdd9919cf"
+    ],
+    "pattern": "abduction",
+    "label": "Observed concentration of dedup operators is best explained by network effects and fixed costs of uniqueness verification",
+    "confidence": {
+      "level": 0.65,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "The observed concentration may reflect an immature market rather than structural necessity. Threshold/multi-anchor designs (a credential counts as unique only if k-of-n independent anchors attest, or verifiers accept any of many locally-run pseudonym parties with cross-event collision checks) and social-graph Sybil bounds that need only a local honest region could support many small anchors. If anchor count can stay large and no single anchor's attestation is sufficient, the abduction from \"few operators today\" to \"forced convergence\" fails.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794404494.242136,
+    "id": "56aa5907985cfbffb6ccddac5066994a8a5bd90bdea7f987f7918ee6d90b5440"
+  },
+  {
+    "conclusion": "22720a6868f10dfdc5b650ae63e85e41ac7042a12f1e5e1991d6809e459dfc4a",
+    "premises": [
+      "d2cd4f0b6ea1004d487df1cc966ff2e8937f8b0dba0ef74c8649dd9d876ee6cf",
+      "fcf86fa176aff5326dd6510e16b05c3785283af0ec23ab3dd326ba1988ba6bf3"
+    ],
+    "pattern": "analogy",
+    "label": "Anchors hold admission power and are single points of compromise \u2014 the defining properties of a root",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "rebutting",
+        "description": "Anchors are disanalogous to roots in ways that matter: a root in a hierarchical PKI is mandatory and sits above every credential, whereas an anchor is opt-in per use case \u2014 the same credential remains fully valid for membership without it, verifiers choose which anchors to honor, and users can re-anchor if one misbehaves. Compromise of an anchor taints only the verifiers that elected it, not the network. Calling that a \"root\" stretches the term so far that any trusted third party in any protocol would count, which drains the thesis of content.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794404499.394463,
+    "id": "5e708ae643a8403b7efcb33c8f86e4a53079b5facc935c031c55ca5e5e89893a"
+  },
+  {
+    "conclusion": "68e605b80570a03580fe94e049e7e5b79f11fcf88e7e2d3aebee1fb493dbb3ef",
+    "premises": [
+      "2eee70d29efe46bf50a9bbcc11e2a18e17960cc6ee9c4a96196e1653599c5679"
+    ],
+    "pattern": "modus_ponens",
+    "label": "ZK soundness is relative to the anchor's set; it relocates trust rather than removing it",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "defeaters": [
+      {
+        "type": "undercutting",
+        "description": "Privacy layers remove a specific root-like power rather than merely hiding it: with unlinkable proofs the anchor cannot observe where or how often a credential is used, cannot selectively revoke on the basis of usage, and cannot correlate across verifiers. Combined with MPC or threshold enrollment in which no single party holds the deduplication set, the anchor loses both surveillance and unilateral exclusion power. The argument's inference from \"soundness is relative to the set\" to \"the anchor retains root authority\" therefore overstates what remains \u2014 admission power survives, but much of what makes a root dangerous does not.",
+        "status": "active",
+        "response": null
+      }
+    ],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794404506.095016,
+    "id": "3e9a7b222c13e3222538110c4850157a7ce505954e6fc0805c2ca1974249d010"
+  },
+  {
+    "conclusion": "9cfc4867365f954b0574c45ff497e52cef9a22841f2562ab0093e5455010279a",
+    "premises": [
+      "438684e2bcd42d77592fa2af7495de88d01c6f6d93b1fd926415d03cf1968818",
+      "5fab0895507bfeab2ddb33285b735fa70f1d1083d1f913e265105c5f41ac02a9",
+      "d2cd4f0b6ea1004d487df1cc966ff2e8937f8b0dba0ef74c8649dd9d876ee6cf",
+      "22720a6868f10dfdc5b650ae63e85e41ac7042a12f1e5e1991d6809e459dfc4a",
+      "68e605b80570a03580fe94e049e7e5b79f11fcf88e7e2d3aebee1fb493dbb3ef"
+    ],
+    "pattern": "modus_ponens",
+    "label": "Membership scales rootlessly, but Sybil resistance needs global uniqueness, which concentrates into anchors that are roots in all but name \u2014 privacy layers notwithstanding",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "defeaters": [],
+    "support_mode": "independent",
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794404512.096944,
+    "id": "daea8ff0ef21f55e689939eaaae7b5cbcacaf713d8b22f3f9fc6e359a58add74"
+  }
+]

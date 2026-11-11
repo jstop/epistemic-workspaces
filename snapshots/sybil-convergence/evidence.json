@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Federated and web-of-trust identity systems operate at global scale without a central root",
+    "description": "Email (SMTP domain federation), the PGP/OpenPGP web of trust, SAML/OIDC federations, and ActivityPub/fediverse instances all let independent operators issue identities and selectively recognize each other, and have served hundreds of millions to billions of users. None of these guarantee one-person-one-identity; all of them provide membership/authentication only. This shows rootless recognition is sufficient for membership at scale.",
+    "evidence_type": "observation",
+    "source": "Publicly observable deployment history of federated identity and web-of-trust protocols; would be strengthened by citing adoption statistics from protocol operators or standards bodies.",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794404426.972899,
+    "id": "eee4471aab82e4debca5acb14ecf25ea2f219c2f7c9a9fb06bbe51a90c8447db"
+  },
+  {
+    "title": "Sybil-attack literature: uniqueness cannot be established from peer vouching alone",
+    "description": "The foundational Sybil-attack analysis argues that without a trusted certifying authority (or a scarce, non-forgeable resource bound to identity), an entity can present arbitrarily many identities, and that peer vouching does not help because colluding or fabricated identities can vouch for each other. Later social-graph-based Sybil defenses only bound the number of Sybils relative to attack edges and assume an honest region of the graph, i.e., they still rely on some externally trusted anchor set.",
+    "evidence_type": "document",
+    "source": "Peer-reviewed distributed-systems and security literature on Sybil attacks and social-graph Sybil defenses (not consulted directly here; a specific citation should be attached via attach_source).",
+    "reliability": 0.8,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794404433.121569,
+    "id": "31eceb8567a8a1b92ce6457990b1742a5a271624c0ebc34521948eba7bba549a"
+  },
+  {
+    "title": "Deployed proof-of-personhood systems rely on a small number of deduplication operators",
+    "description": "Observed Sybil-resistant identity deployments cluster into a few anchor types, each run by a small number of operators: biometric iris/face enrollment networks with operator-controlled hardware; national eID / digital-ID programs; phone-number verification backed by a handful of carriers and SMS gateways; and proof-of-personhood protocols (pseudonym parties, video-verified registries) whose uniqueness set is maintained by one protocol. In each case verifiers accept the operator's dedup set; nobody re-verifies uniqueness independently.",
+    "evidence_type": "observation",
+    "source": "Observation of publicly described architectures of biometric, governmental, carrier-based, and crypto-native proof-of-personhood systems; a survey or system whitepapers should be attached as sources.",
+    "reliability": 0.7,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794404439.149954,
+    "id": "804dc75fd02aa5046f89036e1f6a5f3e04611f573d4aebef9463d70fde1a7d4c"
+  },
+  {
+    "title": "ZK uniqueness proofs are sound only relative to an issuer-controlled set",
+    "description": "Anonymous-credential and nullifier-based schemes (e.g., Merkle-membership plus nullifier constructions) prove \"I hold an unrevealed leaf in set S and have not used it before in scope X.\" Soundness guarantees the prover holds some leaf; it does not and cannot guarantee that S contains one leaf per human. S's contents and its root are fixed by whoever administers enrollment. Thus the trust assumption moves from the verifier to the set administrator rather than disappearing.",
+    "evidence_type": "document",
+    "source": "Security models stated in anonymous-credential and ZK-nullifier protocol specifications; attach the specific protocol documentation via attach_source.",
+    "reliability": 0.85,
+    "provenance": {
+      "kind": "asserted"
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "notes": "",
+    "created_at": 1794404444.175101,
+    "id": "2eee70d29efe46bf50a9bbcc11e2a18e17960cc6ee9c4a96196e1653599c5679"
+  }
+]

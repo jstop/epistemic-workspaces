@@ -1,0 +1,276 @@
+[
+  {
+    "subject": "rootless-peer-credential-networks",
+    "predicate": "force-convergence-on-root-like-uniqueness-anchors-when",
+    "object": "sybil-resistance-is-required",
+    "confidence": {
+      "level": 0.72,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [
+      "7ffe92789b9c45a62beb496ed01e2db9a557f50b3895ba54d5d46647508152cc",
+      "71dafbea6ddb8f544c1196daa0e2c0c3a0e9899eb2ceeafab331acffdd9919cf",
+      "fcf86fa176aff5326dd6510e16b05c3785283af0ec23ab3dd326ba1988ba6bf3"
+    ],
+    "is_root": true,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Peer-recognition credential networks with no central root (communities issuing their own credentials and recognizing each other) can support membership at global scale, but any use that requires one person, one voice (Sybil resistance, e.g. voting or allocating scarce resources) forces convergence on a small number of uniqueness anchors that vouch each credential belongs to one real person \u2014 and those anchors behave like roots even when privacy-preserving proofs are layered on top.",
+    "created_at": 1794404389.069587,
+    "id": "9cfc4867365f954b0574c45ff497e52cef9a22841f2562ab0093e5455010279a"
+  },
+  {
+    "subject": "rootless-peer-credential-networks",
+    "predicate": "scale-globally-for",
+    "object": "membership-use-cases",
+    "confidence": {
+      "level": 0.8,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Membership (\"is this key a recognized member of community X, or of a community X recognizes?\") only requires local trust paths. Communities can issue and cross-recognize credentials without any global coordinator, and such federated/web-of-trust systems have historically operated at very large scale (email federation, PGP web of trust, ActivityPub, federated identity). Duplicate identities don't break membership semantics \u2014 a person holding two credentials is still a member.",
+    "created_at": 1794404397.717986,
+    "id": "438684e2bcd42d77592fa2af7495de88d01c6f6d93b1fd926415d03cf1968818"
+  },
+  {
+    "subject": "one-person-one-voice-uses",
+    "predicate": "require",
+    "object": "global-uniqueness-guarantee",
+    "confidence": {
+      "level": 0.9,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Voting, quadratic funding, UBI-style allocation, and airdrops are only meaningful if each real person controls at most one counted identity. This is a global property: it is not enough that each community locally believes its members are distinct; the same person must not appear once in community A and once in community B and be counted twice. Local recognition cannot establish a global non-duplication predicate.",
+    "created_at": 1794404401.7612312,
+    "id": "5fab0895507bfeab2ddb33285b735fa70f1d1083d1f913e265105c5f41ac02a9"
+  },
+  {
+    "subject": "global-uniqueness-attestation",
+    "predicate": "concentrates-into",
+    "object": "few-uniqueness-anchors",
+    "confidence": {
+      "level": 0.7,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Attesting uniqueness across the whole population requires a deduplication set (biometric templates, government-ID registries, pseudonym-party attendance, or a canonical social graph). Deduplication is only meaningful against one shared set, so verifiers want everyone checked against the same set; this is a strong network effect plus high fixed costs (hardware, liability, legal compliance), both of which drive consolidation. Observed Sybil-resistance deployments (biometric iris networks, government eID, phone/SMS verification via a handful of carriers, a few proof-of-personhood protocols) are consistent with a small-N anchor landscape.",
+    "created_at": 1794404407.662546,
+    "id": "d2cd4f0b6ea1004d487df1cc966ff2e8937f8b0dba0ef74c8649dd9d876ee6cf"
+  },
+  {
+    "subject": "uniqueness-anchors",
+    "predicate": "function-as",
+    "object": "trust-roots",
+    "confidence": {
+      "level": 0.75,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "A root is a party whose assertions downstream verifiers accept without independent recourse and whose compromise or policy change invalidates or excludes credentials at scale. A uniqueness anchor has exactly this profile: it decides who may enter the deduplication set (admission/exclusion power), it can be compromised to mint fake-unique identities (single point of failure), and its revocation or policy decisions propagate to every verifier relying on it. Whether the network calls it a root or not, structurally it is one.",
+    "created_at": 1794404412.813344,
+    "id": "22720a6868f10dfdc5b650ae63e85e41ac7042a12f1e5e1991d6809e459dfc4a"
+  },
+  {
+    "subject": "privacy-preserving-proofs",
+    "predicate": "do-not-remove",
+    "object": "anchor-root-authority",
+    "confidence": {
+      "level": 0.78,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Zero-knowledge proofs, semaphore-style nullifiers, and anonymous credentials change what the verifier learns (unlinkability, selective disclosure) but not whom the verifier must trust. Every ZK proof of uniqueness is a proof relative to an issuer public key or a Merkle root maintained by the anchor; the soundness of the proof says nothing about whether the anchor admitted only real, distinct humans. Privacy layers protect users from the verifier, not from the anchor.",
+    "created_at": 1794404416.65217,
+    "id": "68e605b80570a03580fe94e049e7e5b79f11fcf88e7e2d3aebee1fb493dbb3ef"
+  },
+  {
+    "subject": "community-level-deduplication",
+    "predicate": "does-not-compose-into",
+    "object": "global-deduplication",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "analytic",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: even if every community perfectly deduplicates its own members, cross-community duplicates persist unless communities share a common identifier or dedup set \u2014 which itself becomes the anchor. If some privacy-preserving cross-community dedup protocol (e.g., private set intersection over biometric hashes with no trusted coordinator) proved practical, this assumption would weaken.",
+    "created_at": 1794404448.526112,
+    "id": "7ffe92789b9c45a62beb496ed01e2db9a557f50b3895ba54d5d46647508152cc"
+  },
+  {
+    "subject": "uniqueness-verification",
+    "predicate": "has",
+    "object": "strong-economies-of-scale-and-network-effects",
+    "confidence": {
+      "level": 0.5,
+      "decomposition": null
+    },
+    "modality": "empirical",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: the fixed costs (biometric hardware, legal liability, fraud ops) and the value of checking against the largest possible set push toward few anchors. This is an economic assumption about market structure; cheap, commodity dedup methods or regulatory fragmentation could keep anchor count high.",
+    "created_at": 1794404451.926411,
+    "id": "71dafbea6ddb8f544c1196daa0e2c0c3a0e9899eb2ceeafab331acffdd9919cf"
+  },
+  {
+    "subject": "root-status",
+    "predicate": "is-defined-by",
+    "object": "structural-power-not-protocol-labeling",
+    "confidence": {
+      "level": 0.55,
+      "decomposition": null
+    },
+    "modality": "normative",
+    "scope": {
+      "domain": "general",
+      "temporal_bounds": null,
+      "geographic_bounds": null,
+      "population": null
+    },
+    "identity": {
+      "author": "local",
+      "signed": false
+    },
+    "assumes": [],
+    "is_root": false,
+    "previous_version": null,
+    "version_meta": null,
+    "node_type": "claim",
+    "status": null,
+    "killed_by": null,
+    "notes": "Assumption: \"behaves like a root\" means having admission/exclusion power and being a single point of compromise for dependent verifiers, regardless of whether the protocol designates the party as a root. Someone could reasonably insist that rootlessness is about the absence of a mandatory hierarchy, and that an optional, pluggable anchor is categorically different from a root.",
+    "created_at": 1794404455.41221,
+    "id": "fcf86fa176aff5326dd6510e16b05c3785283af0ec23ab3dd326ba1988ba6bf3"
+  }
+]
